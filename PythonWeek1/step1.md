@@ -54,5 +54,4 @@ In the above code, we are combining the text 'Your name is ' with the string sto
 
 Try it yourself!
 
-`%%html
-<marquee style='width: 30%; color: blue;'><b>Whee!</b></marquee>`{{execute}}
+<marquee style='width: 30%; color: blue;'><b>Almost there!</b></marquee>
