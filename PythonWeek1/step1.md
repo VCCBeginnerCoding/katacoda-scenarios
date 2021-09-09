@@ -54,4 +54,13 @@ In the above code, we are combining the text 'Your name is ' with the string sto
 
 Try it yourself!
 
+# Comparison
+```=``` is an assignment operator. ```a = 2``` assigns ```a``` with the value of ```2```.
+```==``` instead asks the question *are the values equal*?
+
+`100 == 100`{{execute}}
+`100 == 200`{{execute}}
+`a = 100
+a == 100`{{execute}}
+
 <marquee style='color: blue;'><b>Almost there!</b></marquee>
