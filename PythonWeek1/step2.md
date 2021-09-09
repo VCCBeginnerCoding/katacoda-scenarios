@@ -1,5 +1,7 @@
+# Initialise Python
+If you refreshed the page, let's initialise Python again: `python`{{execute}}
+
 # Input
-Let's initialise Python again: `python`{{execute}}
 We can obtain user input using a special Python keyword/method called input(). Let's say we want to obtain the user's name, in Python we do the following:
 
 `username = input('What is your name? ')`{{execute}}
