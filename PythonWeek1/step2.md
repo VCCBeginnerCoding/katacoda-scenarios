@@ -1,6 +1,3 @@
-# Initialise Python
-If you refreshed the page, let's initialise Python again: `python`{{execute}}
-
 # Input
 We can obtain user input using a special Python keyword/method called input(). Let's say we want to obtain the user's name, in Python we do the following:
 
@@ -37,3 +34,13 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 `100 >= 100`{{execute}}
 `100 < 100`{{execute}}
 `100 <= 100`{{execute}}
+
+# More about variables
+You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc.
+
+`print(2+3)`{{execute}}
+`print(2-3)`{{execute}}
+`print(2*3)`{{execute}}
+`print(2/3)`{{execute}}
+`print(2//3)`{{execute}}
+`print(2%3)`{{execute}}

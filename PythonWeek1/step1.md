@@ -1,6 +1,3 @@
-# Initialise Python
-First things first let's initialise Python by clicking on this here: `python`{{execute}}
-
 # Basics
 ![Variables](./assets/variables.png)
 

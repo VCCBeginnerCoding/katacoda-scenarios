@@ -12,7 +12,8 @@
       },
       {
         "title": "Variables #2",
-        "text": "step2.md"
+        "text": "step2.md",
+        "foreground": "startup.sh"
       },
       {
         "title": "Step 3",
