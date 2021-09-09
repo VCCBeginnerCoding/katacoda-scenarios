@@ -8,7 +8,7 @@
       {
         "title": "Variables",
         "text": "step1.md",
-        "background": "startup.sh"
+        "foreground": "startup.sh"
       },
       {
         "title": "Variables #2",
