@@ -1,4 +1,6 @@
 You can store any value in a variable, then use it or change its value later on in the program. For example:
+`myCardPin = 1234
+a = 2`{{execute}}
 ```python
 myCardPin = 1234
 a = 2
