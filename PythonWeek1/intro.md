@@ -1,3 +1,4 @@
 # Welcome to Vodafone Coding Club - Crash Course
 ## Python Week 1
-Why is Python important? Watch this 4 minute video to find out! https://www.youtube.com/watch?v=Y8Tko2YC5hA
+Why is Python important? Watch this 4 minute video to find out!
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y8Tko2YC5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
