@@ -45,10 +45,19 @@ print(b)`{{execute}}
 `b += 2
 print(b)`{{execute}}
 
-Integers do not have a decimal point, while floats do.
+Python support three types of numbers – int, float, and complex. Integers do not have a decimal point, while floats do. Complex is mostly used in the geometry and scientific calculations.
+
 `a = 4
 b = 4.0
 print(a+b)`{{execute}}
+
+`a = 4
+print(a)
+print(float(a))`{{execute}}
+
+`a = 4.0
+print(a)
+print(int(a))`{{execute}}
 
 You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp)
 
