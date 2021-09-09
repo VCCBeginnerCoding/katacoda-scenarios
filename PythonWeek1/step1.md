@@ -53,3 +53,6 @@ In the above code, we are combining the text 'Your name is ' with the string sto
  `print("Hello " + username + ", nice to meet you!")`{{execute}}
 
 Try it yourself!
+
+`%%html
+<marquee style='width: 30%; color: blue;'><b>Whee!</b></marquee>`{{execute}}
