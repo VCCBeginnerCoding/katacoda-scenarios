@@ -36,6 +36,14 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 `100 <= 100`{{execute}}
 
 # More about variables
+Try these commands.
+`b = 4
+print(b)`{{execute}}
+`b = b+2
+print(b)`{{execute}}
+`b += 2
+print(b)`{{execute}}
+
 You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp)
 
 `print(2+3)`{{execute}}
