@@ -1,6 +1,8 @@
-# Basics
+# Initialise Python
 First things first let's initialise Python by clicking on this here: `python`{{execute}}
 
+# Basics
+![Variables](./assets/variables.png)
 You can store any value in a variable, then use it or change its value later on in the program. For example:
 
 `myCardPin = 1234`{{execute}}
