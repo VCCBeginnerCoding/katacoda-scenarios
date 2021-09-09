@@ -60,7 +60,20 @@ Try it yourself!
 
 `100 == 100`{{execute}}
 `100 == 200`{{execute}}
+
 `a = 100
 a == 100`{{execute}}
+
+You can also use the ```!=``` not equal to operator.
+
+`100 != 100`{{execute}}
+`100 != 200`{{execute}}
+
+Other operators include ```>``` greater than, ```>=``` greater than or equal to, ```<``` less than, and ```<=``` less than or equal to.
+
+`100 >= 100`{{execute}}
+`100 >= 100`{{execute}}
+`100 < 100`{{execute}}
+`100 <= 100`{{execute}}
 
 <marquee style='color: blue;'><b>Almost there!</b></marquee>
