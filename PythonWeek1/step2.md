@@ -51,13 +51,13 @@ Python support three types of numbers – int, float, and complex. Integers do n
 b = 4.0
 print(a+b)`{{execute}}
 
+`a = 4.2
+print(a)
+print(int(a))`{{execute}}
+
 `a = 4
 print(a)
 print(float(a))`{{execute}}
-
-`a = 4.0
-print(a)
-print(int(a))`{{execute}}
 
 You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp)
 
