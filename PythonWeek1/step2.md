@@ -37,12 +37,18 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 
 # More about variables
 Try these commands.
+
 `b = 4
 print(b)`{{execute}}
 `b = b+2
 print(b)`{{execute}}
 `b += 2
 print(b)`{{execute}}
+
+Integers do not have a decimal point, while floats do.
+`a = 4
+b = 4.0
+print(a+b)`{{execute}}
 
 You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp)
 
