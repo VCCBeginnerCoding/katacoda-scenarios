@@ -15,5 +15,9 @@ We can print out the variables.
 `print("Hello my name is Sarah")`{{execute}}
 
 We can change the variables.
+
 `myCardPin = 2222`{{execute}}
+`myCardPin = 5555`{{execute}}
+`myCardPin = 1382929292`{{execute}}
+
 `print(myCardPin)`{{execute}}
