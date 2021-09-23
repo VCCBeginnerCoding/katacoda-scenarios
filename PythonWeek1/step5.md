@@ -1,17 +1,29 @@
-<pre class="file" data-filename="helloword.py" data-target="replace"># This is a comment
-# Python will not run this
-# But it's good to comment your code so you remember what does what
+break
+https://edube.org/learn/pe-1/loop-control-in-python-break-and-continue-7
 
-x = 10
+and or not
+https://edube.org/learn/pe-1/logic-and-bit-operations-in-python-and-or-not-7
 
-if x > 5: # condition one
-    print("x is greater than 5")  # Executed if condition one is True.
+comment
 
-if x < 10: # condition two
-    print("x is less than 10")  # Executed if condition two is True.
+lists
+https://edube.org/learn/pe-1/lists-collections-of-data-indexing-6
+slices/pop/etc/append
 
-if x == 10: # condition three
-    print("x is equal to 10")  # Executed if condition three is True. </pre>
+functions
+https://edube.org/learn/pe-1/lists-collections-of-data-functions-and-methods-3
 
-`helloworld.py`{{open}}
-Copy and paste the code snippet over to the editor and play around with it!
+summary
+https://edube.org/learn/pe-1/section-summary-79
+
+sort
+https://www.w3schools.com/python/ref_list_sort.asp
+
+summary
+https://edube.org/learn/pe-1/section-summary-81
+
+functions
+
+tuple/dictionary
+
+modules
