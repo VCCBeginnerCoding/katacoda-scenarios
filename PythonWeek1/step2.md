@@ -45,7 +45,7 @@ print(b)`{{execute}}
 `b += 2
 print(b)`{{execute}}
 
-Python supports three types of numbers – int, float, and complex. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations.
+Python supports three types of numbers – int, float, and complex. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations. You can also convert numbers into strings, which Python will treat as text (so no more multiplications afterwards).
 
 `a = 4
 b = 4.0
