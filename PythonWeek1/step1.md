@@ -1,7 +1,7 @@
 # Basics
 ![Variables](./assets/variables.png)
 
-You can store any value in a variable, then use it or change its value later on in the program. For example:
+You can store any value in a variable, then use it or change its value later on in the program. Click on the code snippets below and they will run automatically in the terminal (bottom right).
 
 `myCardPin = 1234`{{execute}}
 `a = 2`{{execute}}
