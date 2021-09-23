@@ -41,13 +41,10 @@ if x == 10: # condition three
 ```
 
 `x = 10
-
 if x > 5:
     print("x is greater than 5")  # Executed if condition one is True.
-
 if x < 10:
     print("x is less than 10")  # Executed if condition two is True.
-
 if x == 10:
     print("x is equal to 10")  # Executed if condition three is True.`{{execute}}
 
