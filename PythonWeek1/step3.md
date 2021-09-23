@@ -23,7 +23,7 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 # if statements
 Below you can see a series of ```if``` statements, and how it might be used in real life.
 
-<pre class="file" data-filename="app.js" data-target="replace"># This is a comment
+<pre class="file" data-filename="helloword.py" data-target="replace"># This is a comment
 # Python will not run this
 # But it's good to comment your code so you remember what does what
 
