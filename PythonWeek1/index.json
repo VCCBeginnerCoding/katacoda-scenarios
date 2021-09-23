@@ -11,13 +11,14 @@
         "foreground": "startup.sh"
       },
       {
-        "title": "Variables #2",
+        "title": "Strings & Input",
         "text": "step2.md",
         "foreground": "startup.sh"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Conditionals",
+        "text": "step3.md",
+        "foreground": "startup.sh"
       },
       {
         "title": "Step 4",

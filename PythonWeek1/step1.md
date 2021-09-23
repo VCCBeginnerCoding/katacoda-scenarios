@@ -27,26 +27,37 @@ We can assign a new value to an existing variable.
 
 Python also has a list of [reserved words](https://www.w3schools.com/python/python_ref_keywords.asp) that cannot be used as variable names.
 
-# Strings
-Strings are text in code. They can be declared in Python like so:
+# More about variables
+Try these commands.
 
-`foo = 'this is an example of a string'
-email = "donotreply@vodafone.com"
-`{{execute}}
+`b = 4
+print(b)`{{execute}}
+`b = b+2
+print(b)`{{execute}}
+`b += 2
+print(b)`{{execute}}
 
-The code above declares the variable 'foo' and assigns it the string 'this is an example of a string'. We can print foo out in python like so:
+Python supports three types of numbers – int, float, and complex. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations. You can also convert numbers into strings, which Python will treat as text (so no more multiplications afterwards).
 
-`print(foo)`{{execute}}
-`print(email)`{{execute}}
+`a = 4
+b = 4.0
+print(a+b)`{{execute}}
 
-We can also print out strings directly like so:
+`a = 4.2
+print(a)
+print(int(a))`{{execute}}
 
-`print("I like trains!")`{{execute}}
+`a = 4
+print(a)
+print(float(a))`{{execute}}
 
-You can print a new line using ```\n```.
+You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp)
 
-`print("I like\ntrains!")`{{execute}}
-
-Try it yourself using the terminal on the right.
+`print(2+3)`{{execute}}
+`print(2-3)`{{execute}}
+`print(2*3)`{{execute}}
+`print(2/3)`{{execute}}
+`print(2//3)`{{execute}}
+`print(2%3)`{{execute}}
 
 <marquee style='color: blue;'><b>Yay you've completed part 1!</b></marquee>

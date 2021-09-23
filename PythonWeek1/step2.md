@@ -1,3 +1,25 @@
+# Strings
+Strings are text in code. They can be declared in Python like so:
+
+`foo = 'this is an example of a string'
+email = "donotreply@vodafone.com"
+`{{execute}}
+
+The code above declares the variable 'foo' and assigns it the string 'this is an example of a string'. We can print foo out in python like so:
+
+`print(foo)`{{execute}}
+`print(email)`{{execute}}
+
+We can also print out strings directly like so:
+
+`print("I like trains!")`{{execute}}
+
+You can print a new line using ```\n```.
+
+`print("I like\ntrains!")`{{execute}}
+
+Try it yourself using the terminal on the right.
+
 # Input
 We can obtain user input using a special Python keyword/method called input(). Let's say we want to obtain the user's name, in Python we do the following:
 
@@ -12,58 +34,3 @@ In the above code, we are combining the text 'Your name is ' with the string sto
  `print("Hello " + username + ", nice to meet you!")`{{execute}}
 
 Try it yourself!
-
-# Comparison
-```=``` is an assignment operator. ```a = 2``` assigns ```a``` with the value of ```2```.
-```==``` instead asks the question *are the values equal*?
-
-`100 == 100`{{execute}}
-`100 == 200`{{execute}}
-
-`a = 100
-a == 100`{{execute}}
-
-You can also use the ```!=``` not equal to operator.
-
-`100 != 100`{{execute}}
-`100 != 200`{{execute}}
-
-Other operators include ```>``` greater than, ```>=``` greater than or equal to, ```<``` less than, and ```<=``` less than or equal to.
-
-`100 > 100`{{execute}}
-`100 >= 100`{{execute}}
-`100 < 100`{{execute}}
-`100 <= 100`{{execute}}
-
-# More about variables
-Try these commands.
-
-`b = 4
-print(b)`{{execute}}
-`b = b+2
-print(b)`{{execute}}
-`b += 2
-print(b)`{{execute}}
-
-Python supports three types of numbers – int, float, and complex. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations. You can also convert numbers into strings, which Python will treat as text (so no more multiplications afterwards).
-
-`a = 4
-b = 4.0
-print(a+b)`{{execute}}
-
-`a = 4.2
-print(a)
-print(int(a))`{{execute}}
-
-`a = 4
-print(a)
-print(float(a))`{{execute}}
-
-You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp)
-
-`print(2+3)`{{execute}}
-`print(2-3)`{{execute}}
-`print(2*3)`{{execute}}
-`print(2/3)`{{execute}}
-`print(2//3)`{{execute}}
-`print(2%3)`{{execute}}
