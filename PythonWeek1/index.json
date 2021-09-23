@@ -21,13 +21,18 @@
         "foreground": "startup.sh"
       },
       {
-        "title": "Loops",
+        "title": "If Statements",
         "text": "step4.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Step 5",
+        "title": "Loops",
         "text": "step5.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "aaaaaaaa",
+        "text": "step6.md",
         "foreground": "clear.sh"
       }
     ],

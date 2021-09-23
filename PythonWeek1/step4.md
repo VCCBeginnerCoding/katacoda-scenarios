@@ -1,58 +1,56 @@
-# while
-```
-while there is something to do
-    do it
-```
+# if
+Previously we added code to automatically initialise Python within the terminal. You don't want to write actual code there since it gets messy very quickly, especially for longer code functions. We have now exited Python mode for you. If the terminal gets messy clear it with `clear`{{execute}}.
 
-As you can see, ```while``` and ```if``` work similarly.
+`ifstatements.py`{{open}}
 
-Open new Python file: `loops.py`{{open}}
+Click on the above to create a new Python file *ifstatements.py* in the editor (top right), and then copy the code below over to the new file.
 
-<pre class="file" data-filename="loops.py" data-target="replace">
-# Store the current largest number here.
-largest_number = -999999999
+<pre class="file" data-filename="ifstatements.py" data-target="replace"># This is a comment
+# Python will not run this
+# But it's good to comment your code so you remember what does what
 
-# Input the first value.
-number = int(input("Enter a number or type -1 to stop: "))
+x = 10
 
-# If the number is not equal to -1, continue.
-while number != -1:
-    # Is number larger than largest_number?
-    if number > largest_number:
-        # Yes, update largest_number.
-        largest_number = number
-    # Input the next number.
-    number = int(input("Enter a number or type -1 to stop: "))
+if x > 5: # condition one
+    print("x is greater than 5")  # Executed if condition one is True.
 
-# Print the largest number.
-print("The largest number is:", largest_number)
+if x < 10: # condition two
+    print("x is less than 10")  # Executed if condition two is True.
 
-# Click here and then press enter on the terminal to run this code.
+if x == 10: # condition three
+    print("x is equal to 10")  # Executed if condition three is True. </pre>
+
+You can see that the ```print``` statements are indented, like they are nested under the ```if``` statements. These will only run if the conditions above are met. You can indent by pressing <kbd>TAB</kbd> once, <kbd>SPACE</kbd> four times or <kbd>SPACE</kbd> two times. Find something you're comfortable with and stick with it. For this course we'll be using tabs or 4 spaces.
+
+To run the Python file, go to the terminal and execute this. `python ifstatements.py`{{execute}}
+
+# elif
+Else if ```elif``` is Python's way of saying if the previous conditions were not true, then try this condition.
+
+<pre class="file" data-filename="ifstatements.py" data-target="replace">
+a = 33
+b = 33
+if b > a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
 </pre>
 
-`python loops.py`{{execute}}
+`python ifstatements.py`{{execute}}
 
-If you're stuck in an infinite loop and want it to stop you can press <kbd>CONTROL</kbd><kbd>C</kbd>, <kbd>CONTROL</kbd><kbd>BREAK</kbd> or <kbd>COMMAND</kbd><kbd>C</kbd> depending on your computer.
+# else
+The ```else``` keyword catches anything which isn't caught by the preceding conditions.
 
-# for
-
-Try to guess what this does before running it.
-
-<pre class="file" data-filename="loops.py" data-target="replace">
-for i in range(10):
-    print("The value of i is currently", i)
+<pre class="file" data-filename="ifstatements.py" data-target="replace">
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
 </pre>
 
-`python loops.py`{{execute}}
-
-<pre class="file" data-filename="loops.py" data-target="replace">
-for i in range(2, 8): # start at 2, stop BEFORE 8
-    print("The value of i is currently", i)
-</pre>
-
-`python loops.py`{{execute}}
-
-# break
-
-# continue
+`python ifstatements.py`{{execute}}
 
