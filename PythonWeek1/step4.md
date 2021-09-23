@@ -6,7 +6,9 @@ while there is something to do
 
 As you can see, ```while``` and ```if``` work similarly.
 
-```
+Open new Python file: `loops.py`{{open}}
+
+<pre class="file" data-filename="loops.py" data-target="replace">
 # Store the current largest number here.
 largest_number = -999999999
 
@@ -26,19 +28,29 @@ while number != -1:
 print("The largest number is:", largest_number)
 
 # Click here and then press enter on the terminal to run this code.
-```{{execute}}
+</pre>
 
-If you want the loop to stop running you can press <kbd>CONTROL</kbd><kbd>C</kbd>, <kbd>CONTROL</kbd><kbd>BREAK</kbd> or <kbd>COMMAND</kbd><kbd>C</kbd> depending on your computer.
+`python loops.py`{{execute}}
+
+If you're stuck in an infinite loop and want it to stop you can press <kbd>CONTROL</kbd><kbd>C</kbd>, <kbd>CONTROL</kbd><kbd>BREAK</kbd> or <kbd>COMMAND</kbd><kbd>C</kbd> depending on your computer.
 
 # for
 
 Try to guess what this does before running it.
 
-`for i in range(10):
-    print("The value of i is currently", i)`{{execute}}
+<pre class="file" data-filename="loops.py" data-target="replace">
+for i in range(10):
+    print("The value of i is currently", i)
+</pre>
 
-`for i in range(2, 8):
-    print("The value of i is currently", i)`{{execute}}
+`python loops.py`{{execute}}
+
+<pre class="file" data-filename="loops.py" data-target="replace">
+for i in range(2, 8):
+    print("The value of i is currently", i)
+</pre>
+
+`python loops.py`{{execute}}
 
 # break
 
