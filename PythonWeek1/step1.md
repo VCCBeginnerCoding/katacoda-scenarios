@@ -45,7 +45,7 @@ We can also print out strings directly like so:
 
 You can print a new line using ```\n```.
 
-`print("I like" + \n + "trains!")`{{execute}}
+`print("I like \n trains!")`{{execute}}
 
 Try it yourself using the terminal on the right.
 
