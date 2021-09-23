@@ -43,6 +43,7 @@ if x == 10: # condition three
 
 You can see that the ```print``` statements are indented, like they are nested under the ```if``` statements. These will only run if the conditions above are met. You can indent by tabbing once, typing 4 spaces or typing 2 spaces. Find something you're comfortable with and stick with it. For this course we'll be using tabs or 4 spaces.
 
+`helloworld.py`{{open}}
 Copy and paste the code snippet over to the terminal and play around with it!
 
 # elif
