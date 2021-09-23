@@ -67,3 +67,5 @@ You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**```
 `print(2/3)`{{execute}}
 `print(2//3)`{{execute}}
 `print(2%3)`{{execute}}
+
+💡 Python follows the hierarchy of priorities. i.e. multiplications precede additions.
