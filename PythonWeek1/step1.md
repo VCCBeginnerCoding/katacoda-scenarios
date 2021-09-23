@@ -13,7 +13,7 @@ We can print out the variables.
 `print(myCardPin)`{{execute}}
 `print(a)`{{execute}}
 
-We can change the variables.
+We can assign a new value to an existing variable.
 
 `myCardPin = 2222`{{execute}}
 `myCardPin = 5555`{{execute}}
@@ -21,12 +21,11 @@ We can change the variables.
 
 `print(myCardPin)`{{execute}}
 
-`¯\_(ツ)_/¯ = 2`{{execute}}
-`print(¯\_(ツ)_/¯)`{{execute}}
-
 ✓ Valid variable names: ```_``` ```days_to_christmas``` ```Adiós_Señora```
 
 ✗ Invalid variable names: ```10t``` must begin with a letter ```Exchange Rate``` must not contain a space
+
+Python also has a list of [reserved words](https://www.w3schools.com/python/python_ref_keywords.asp) that cannot be used as variable names.
 
 # Strings
 Strings are text in code. They can be declared in Python like so:
