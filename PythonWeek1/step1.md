@@ -23,7 +23,7 @@ We can assign a new value to an existing variable.
 
 ✓ Valid variable names: ```_``` ```days_to_christmas``` ```Adiós_Señora```
 
-✗ Invalid variable names: ```10t``` <span style="color:red">must begin with a letter</p> ```Exchange Rate``` <span style="color:red">must not contain a space</p>
+✗ Invalid variable names: ```10t``` <span style="color:red">must begin with a letter</span> ```Exchange Rate``` <span style="color:red">must not contain a space</span>
 
 Python also has a list of [reserved words](https://www.w3schools.com/python/python_ref_keywords.asp) that cannot be used as variable names.
 
