@@ -56,16 +56,8 @@ if x < 10: # condition two
 if x == 10: # condition three
     print("x is equal to 10")  # Executed if condition three is True.
 
-#Click me and then press enter in the terminal to run this code.
-```{{execute}}
 
-`x = 10
-if x > 5:
-    print("x is greater than 5")  # Executed if condition one is True.
-if x < 10:
-    print("x is less than 10")  # Executed if condition two is True.
-if x == 10:
-    print("x is equal to 10")  # Executed if condition three is True.`{{execute}}
+```{{execute}}
 
 <pre class="file" data-filename="helloword.py" data-target="replace"># This is a comment
 # Python will not run this
