@@ -25,7 +25,7 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 Returns ```True``` if both statements are true.
 
 `x = 5
-x < 5 and  x < 10`{{execute}}
+x < 5 and x < 10`{{execute}}
 
 # or
 

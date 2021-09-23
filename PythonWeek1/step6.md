@@ -1,28 +1,135 @@
+# Lots of Variables
 
+Imagine you want to store 100 values. Do you do this?
 
-and or not
-https://edube.org/learn/pe-1/logic-and-bit-operations-in-python-and-or-not-7
+```
+var1 = int(input())
+var2 = int(input())
+var3 = int(input())
+var4 = int(input())
+var5 = int(input())
+var6 = int(input())
+:
+:
+```
 
+Of course not! There's where lists come in.
 
+Open new Python file: `lists.py`{{open}}
 
-lists
-https://edube.org/learn/pe-1/lists-collections-of-data-indexing-6
-slices/pop/etc/append
+<pre class="file" data-filename="lists.py" data-target="replace">
+myNumbers = [10, 5, 7, 2, 1]
+print(myNumbers)
+</pre>
 
-functions
-https://edube.org/learn/pe-1/lists-collections-of-data-functions-and-methods-3
+`python lists.py`{{execute}}
 
-summary
-https://edube.org/learn/pe-1/section-summary-79
+# Counting from Zero
 
-sort
-https://www.w3schools.com/python/ref_list_sort.asp
+That's right, we count from zero! If we want to change the first value ```10``` within ```myNumbers``` we do this:
 
-summary
-https://edube.org/learn/pe-1/section-summary-81
+<pre class="file" data-filename="lists.py" data-target="replace">
+myNumbers = [10, 5, 7, 2, 1]
+print("Original list content:", myNumbers)
 
-functions
+# Change item 0 on the list from the value 10 to the new value 9999
+myNumbers[0] = 9999
+print("New list content: ", myNumbers)
+</pre>
 
-tuple/dictionary
+`python lists.py`{{execute}}
 
-modules
+# len
+
+Want to know the length of this list? Use ```len```.
+
+<pre class="file" data-filename="lists.py" data-target="replace">
+myNumbers = [10, 5, 7, 2, 1]
+print("List length:", len(myNumbers))
+</pre>
+
+`python lists.py`{{execute}}
+
+# del
+
+For deleting your mistakes.
+
+<pre class="file" data-filename="lists.py" data-target="replace">
+myNumbers = [10, 5, 7, 2, 1]
+print("List length:", len(myNumbers))
+print(myNumbers)
+
+del myNumbers[1]
+print("List length:", len(myNumbers))
+print(myNumbers)
+</pre>
+
+`python lists.py`{{execute}}
+
+# -1
+
+<pre class="file" data-filename="lists.py" data-target="replace">
+myNumbers = [10, 5, 7, 2, 1]
+print(myNumbers[-1]) # last number
+print(myNumbers[-2]) # second to last
+</pre>
+
+`python lists.py`{{execute}}
+
+# append
+
+Add an element to the list.
+
+<pre class="file" data-filename="lists.py" data-target="replace">
+fruits = ['apple', 'banana', 'cherry']
+print(fruits)
+fruits.append("orange")
+print(fruits)
+</pre>
+
+`python lists.py`{{execute}}
+
+# insert
+
+Insert new value as the second element of the list.
+
+<pre class="file" data-filename="lists.py" data-target="replace">
+fruits = ['apple', 'banana', 'cherry']
+print(fruits)
+
+fruits.insert(1, "orange")
+print(fruits)
+</pre>
+
+`python lists.py`{{execute}}
+
+# pop
+
+Remove the second element of the list.
+
+<pre class="file" data-filename="lists.py" data-target="replace">
+fruits = ['apple', 'banana', 'cherry']
+print(fruits)
+
+fruits.pop(1)
+print(fruits)
+</pre>
+
+`python lists.py`{{execute}}
+
+# remove
+
+Remove a specific element of the list.
+
+<pre class="file" data-filename="lists.py" data-target="replace">
+fruits = ['apple', 'banana', 'cherry']
+print(fruits)
+
+fruits.remove("banana")
+print(fruits)
+</pre>
+
+`python lists.py`{{execute}}
+
+# Others
+[Read more](https://www.w3schools.com/python/python_ref_list.asp) about the list methods, including ```sort```, ```clear```, ```reverse``` and ```copy```. Also, [read more](https://www.w3schools.com/python/python_strings_slicing.asp) on ```slicing``` and try to use it for lists!
