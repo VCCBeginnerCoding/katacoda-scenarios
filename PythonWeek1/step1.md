@@ -6,7 +6,7 @@ You can store any value in a variable, then use it or change its value later on 
 `myCardPin = 1234`{{execute}}
 `a = 2`{{execute}}
 
-Note: Variables are case sensitive.
+Note: Variables are case sensitive, so *myCardPin* and *MyCaRdPiN* are two separate variables.
 
 We can print out the variables.
 
@@ -23,7 +23,7 @@ We can assign a new value to an existing variable.
 
 ✓ Valid variable names: ```_``` ```days_to_christmas``` ```Adiós_Señora```
 
-✗ Invalid variable names: ```10t``` must begin with a letter ```Exchange Rate``` must not contain a space
+✗ Invalid variable names: ```10t``` <p style="color:red">must begin with a letter</p> ```Exchange Rate``` must not contain a space
 
 Python also has a list of [reserved words](https://www.w3schools.com/python/python_ref_keywords.asp) that cannot be used as variable names.
 
