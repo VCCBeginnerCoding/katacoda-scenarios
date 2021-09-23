@@ -22,9 +22,7 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 
 # if statements
 Below you can see a series of ```if``` statements, and how it might be used in real life.
-
-```
-# This is a comment
+`# This is a comment
 # Python will not run this
 # But it's good to comment your code so you remember what does what
 
@@ -37,9 +35,7 @@ if x < 10: # condition two
     print("x is less than 10")  # Executed if condition two is True.
 
 if x == 10: # condition three
-    print("x is equal to 10")  # Executed if condition three is True.
-
-```
+    print("x is equal to 10")  # Executed if condition three is True.`{{copy}}
 
 You can see that the ```print``` statements are indented, like they are nested under the ```if``` statements. These will only run if the conditions above are met. You can indent by tabbing once, typing 4 spaces or typing 2 spaces. Find something you're comfortable with and stick with it. For this course we'll be using tabs or 4 spaces.
 
