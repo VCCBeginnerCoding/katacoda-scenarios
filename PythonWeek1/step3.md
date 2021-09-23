@@ -21,9 +21,9 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 `100 <= 100`{{execute}}
 
 # if statements
-Below you can see a series of ```if``` statements, and how it might be used in real life.
+We added code to automatically initialise Python within the terminal. You don't want to write actual code there since it gets messy very quickly. So let's quit Python. `exit()`{{execute}}
 
-`ifstatements.py`{{open}} Click on this to create a new file in the editor, and then copy the code below over to the new file.
+`ifstatements.py`{{open}} Click on this to create a new file in the editor (top right), and then copy the code below over to the new file.
 
 <pre class="file" data-filename="ifstatements.py" data-target="replace"># This is a comment
 # Python will not run this
@@ -40,8 +40,9 @@ if x < 10: # condition two
 if x == 10: # condition three
     print("x is equal to 10")  # Executed if condition three is True. </pre>
 
-
 You can see that the ```print``` statements are indented, like they are nested under the ```if``` statements. These will only run if the conditions above are met. You can indent by pressing <kbd>TAB</kbd> once, <kbd>SPACE</kbd> four times or <kbd>SPACE</kbd> two times. Find something you're comfortable with and stick with it. For this course we'll be using tabs or 4 spaces.
+
+To run the Python file, go to the terminal and execute this `python ifstatements.py`{{execute}}
 
 # elif
 Else if ```elif``` is Python's way of saying if the previous conditions were not true, then try this condition.
