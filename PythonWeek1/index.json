@@ -23,11 +23,12 @@
       {
         "title": "Loops",
         "text": "step4.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "Step 5",
-        "text": "step5.md"
+        "text": "step5.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {

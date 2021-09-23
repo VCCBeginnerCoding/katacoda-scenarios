@@ -46,7 +46,7 @@ for i in range(10):
 `python loops.py`{{execute}}
 
 <pre class="file" data-filename="loops.py" data-target="replace">
-for i in range(2, 8):
+for i in range(2, 8): # start at 2, stop BEFORE 8
     print("The value of i is currently", i)
 </pre>
 
