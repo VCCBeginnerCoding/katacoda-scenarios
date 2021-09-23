@@ -25,7 +25,7 @@ We added code to automatically initialise Python within the terminal. You don't 
 
 `ifstatements.py`{{open}}
 
-Click on the above to create a new Python file in the editor (top right), and then copy the code below over to the new file.
+Click on the above to create a new Python file *ifstatements.py* in the editor (top right), and then copy the code below over to the new file.
 
 <pre class="file" data-filename="ifstatements.py" data-target="replace"># This is a comment
 # Python will not run this
