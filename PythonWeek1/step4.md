@@ -24,7 +24,9 @@ while number != -1:
 
 # Print the largest number.
 print("The largest number is:", largest_number)
-```
+
+# Click here and then press enter on the terminal to run this code.
+```{{execute}}
 
 If you want the loop to stop running you can press <kbd>CONTROL</kbd><kbd>C</kbd>, <kbd>CONTROL</kbd><kbd>BREAK</kbd> or <kbd>COMMAND</kbd><kbd>C</kbd> depending on your computer.
 
