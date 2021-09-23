@@ -6,7 +6,7 @@ You can store any value in a variable, then use it or change its value later on 
 `myCardPin = 1234`{{execute}}
 `a = 2`{{execute}}
 
-Note: Variables are case sensitive, so *myCardPin* and *MyCaRdPiN* are two separate variables.
+Note: Variables are case sensitive, so ```myCardPin``` and ```MyCaRdPiN``` are two separate variables.
 
 We can print out the variables.
 
@@ -37,7 +37,7 @@ print(b)`{{execute}}
 `b += 2
 print(b)`{{execute}}
 
-You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp)
+You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
 
 `print(2+3)`{{execute}}
 `print(2-3)`{{execute}}

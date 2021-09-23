@@ -21,7 +21,7 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 `100 <= 100`{{execute}}
 
 # if statements
-We added code to automatically initialise Python within the terminal. You don't want to write actual code there since it gets messy very quickly. So let's quit Python. `exit()`{{execute}}
+We added code to automatically initialise Python within the terminal. You don't want to write actual code there since it gets messy very quickly. So let's quit Python `exit()`{{execute}} and clear the terminal to remove any previous lines `clear`{{execute}}.
 
 `ifstatements.py`{{open}}
 
