@@ -37,6 +37,15 @@ print(b)`{{execute}}
 `b += 2
 print(b)`{{execute}}
 
+You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp)
+
+`print(2+3)`{{execute}}
+`print(2-3)`{{execute}}
+`print(2*3)`{{execute}}
+`print(2/3)`{{execute}}
+`print(2//3)`{{execute}}
+`print(2%3)`{{execute}}
+
 Python supports three types of numbers – int, float, and complex. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations. You can also convert numbers into strings, which Python will treat as text (so no more multiplications afterwards).
 
 `a = 4
@@ -50,14 +59,5 @@ print(int(a))`{{execute}}
 `a = 4
 print(a)
 print(float(a))`{{execute}}
-
-You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp)
-
-`print(2+3)`{{execute}}
-`print(2-3)`{{execute}}
-`print(2*3)`{{execute}}
-`print(2/3)`{{execute}}
-`print(2//3)`{{execute}}
-`print(2%3)`{{execute}}
 
 <marquee style='color: blue;'><b>Yay you've completed part 1!</b></marquee>

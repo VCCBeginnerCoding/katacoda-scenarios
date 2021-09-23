@@ -27,3 +27,9 @@ print("The largest number is:", largest_number)
 ```
 
 If you want the loop to stop running you can press *Control-C*, *Control-Break* or *Command-C* depending on your computer.
+
+# for
+
+Try to guess what this does before running it.
+`for i in range(10):
+    print("The value of i is currently", i)`{{execute}}
