@@ -23,10 +23,10 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 # if statements
 Below you can see a series of ```if``` statements, and how it might be used in real life.
 
-```
-# This is a comment
+`
+<!-- # This is a comment
 # Python will not run this
-# But it's good to comment your code so you remember what does what
+# But it's good to comment your code so you remember what does what -->
 
 x = 10
 
@@ -39,8 +39,8 @@ if x < 10: # condition two
 if x == 10: # condition three
     print("x is equal to 10")  # Executed if condition three is True.
 
-# Click here and then press enter on the terminal to run this code.
-```{{execute}}
+<!-- # Click here and then press enter on the terminal to run this code. -->
+`{{execute}}
 
 You can see that the ```print``` statements are indented, like they are nested under the ```if``` statements. These will only run if the conditions above are met. You can indent by pressing <kbd>TAB</kbd> once, <kbd>SPACE</kbd> four times or <kbd>SPACE</kbd> two times. Find something you're comfortable with and stick with it. For this course we'll be using tabs or 4 spaces.
 
