@@ -43,7 +43,7 @@ We can also print out strings directly like so:
 
 `print("I like trains!")`{{execute}}
 
-You can print a new line using ```\n```
+You can print a new line using ```\n```.
 
 `print("I like" + \n + "trains!")`{{execute}}
 
