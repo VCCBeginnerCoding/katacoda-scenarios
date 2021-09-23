@@ -34,3 +34,11 @@ In the above code, we are combining the text 'Your name is ' with the string sto
  `print("Hello " + username + ", nice to meet you!")`{{execute}}
 
 Try it yourself!
+
+Remember int and float from the last section? If you want a user to enter a number that you can then manipulate in Python (for example, multiplying the user's input by 5) you'll want to make sure that Python understands it's a number instead of a string.
+
+```input()``` will return it what Python "thinks" is best, but you can tell Python exactly what you want by doing the following:
+
+```
+number = int(input("Enter a number"))
+```

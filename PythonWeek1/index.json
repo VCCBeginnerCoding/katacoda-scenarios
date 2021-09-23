@@ -21,8 +21,9 @@
         "foreground": "startup.sh"
       },
       {
-        "title": "Step 4",
-        "text": "step4.md"
+        "title": "Loops",
+        "text": "step4.md",
+        "foreground": "startup.sh"
       },
       {
         "title": "Step 5",
