@@ -22,6 +22,7 @@ We can change the variables.
 `print(myCardPin)`{{execute}}
 
 ✓ Valid variable names: ```_``` ```days_to_christmas``` ```Adiós_Señora```
+
 ✗ Invalid variable names: ```10t``` must begin with a letter ```Exchange Rate``` must not contain a space
 
 # Strings
