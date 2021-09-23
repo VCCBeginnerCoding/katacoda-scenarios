@@ -24,16 +24,19 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 
 Returns ```True``` if both statements are true.
 
-`x < 5 and  x < 10`{{execute}}
+`x = 5
+x < 5 and  x < 10`{{execute}}
 
 # or
 
 Returns ```True``` if one of the statements is true.
 
-`x < 5 or x < 4`{{execute}}
+`x = 4
+x < 5 or x < 4`{{execute}}
 
 # not
 
 Reverse the result, returns ```False``` if the result is true.
 
-`not(x < 5 and x < 10)`{{execute}}
+`x = 999
+not(x < 5 and x < 10)`{{execute}}
