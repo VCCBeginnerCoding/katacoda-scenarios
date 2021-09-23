@@ -49,20 +49,21 @@ To run the Python file, go to the terminal and execute this. `python ifstatement
 # elif
 Else if ```elif``` is Python's way of saying if the previous conditions were not true, then try this condition.
 
-```
+<pre class="file" data-filename="ifstatements.py" data-target="replace">
 a = 33
 b = 33
 if b > a:
     print("b is greater than a")
 elif a == b:
     print("a and b are equal")
+</pre>
 
-```
+`python ifstatements.py`{{execute}}
 
 # else
 The ```else``` keyword catches anything which isn't caught by the preceding conditions.
 
-```
+<pre class="file" data-filename="ifstatements.py" data-target="replace">
 a = 200
 b = 33
 if b > a:
@@ -71,4 +72,6 @@ elif a == b:
   print("a and b are equal")
 else:
   print("a is greater than b")
-```
+</pre>
+
+`python ifstatements.py`{{execute}}
