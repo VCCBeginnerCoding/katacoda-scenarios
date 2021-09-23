@@ -23,8 +23,7 @@ Other operators include ```>``` greater than, ```>=``` greater than or equal to,
 # if statements
 Below you can see a series of ```if``` statements, and how it might be used in real life.
 
-`ifstatements.py`{{open}}
-Click on this to create a new file in the editor.
+`ifstatements.py`{{open}} Click on this to create a new file in the editor, and then copy the code below over to the new file.
 
 <pre class="file" data-filename="ifstatements.py" data-target="replace"># This is a comment
 # Python will not run this
