@@ -1,12 +1,12 @@
 {
-  "title": "VCC Crash Course - Python Week 3",
-  "description": "VCC Crash Course - Python Week 3",
+  "title": "VCC Crash Course - Python Week 1",
+  "description": "VCC Crash Course - Python Week 1",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Loops",
+        "title": "Variables",
         "text": "step1.md",
         "foreground": "startup.sh"
       },
@@ -30,6 +30,11 @@
         "text": "step5.md",
         "foreground": "clear.sh"
       },
+      {
+        "title": "Lists",
+        "text": "step6.md",
+        "foreground": "clear.sh"
+      }
     ],
     "intro": {
       "text": "intro.md"
