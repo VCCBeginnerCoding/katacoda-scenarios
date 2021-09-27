@@ -15,7 +15,7 @@ while i < 6:
 A for loop is used to iterate over a sequence:
 
 `fruits = ["apple", "banana", "cherry"]
- for x in fruits:
+for x in fruits:
  print(x)`{{execute}}
 
 You can also use loops to iterate through a string:
