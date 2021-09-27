@@ -30,11 +30,6 @@
         "text": "step5.md",
         "foreground": "clear.sh"
       },
-      {
-        "title": "Lists",
-        "text": "step6.md",
-        "foreground": "clear.sh"
-      }
     ],
     "intro": {
       "text": "intro.md"
