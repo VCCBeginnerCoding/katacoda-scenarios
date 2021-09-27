@@ -26,10 +26,10 @@ You can also use loops to iterate through a string:
 Breaks can be used to stop the loop:
 
 `fruits = ["apple", "banana", "cherry"]
- for x in fruits:
-  print(x)
-  if x == "banana":
-    break`{{execute}}
+for x in fruits:
+ print(x)
+ if x == "banana":
+  break`{{execute}}
 
 Continue statement can be used (breaks the current iteration and moves to the next one)
 
