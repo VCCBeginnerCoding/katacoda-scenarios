@@ -1,5 +1,6 @@
-# Strings
-Strings are text in code. They can be declared in Python like so:
+## Functions!
+
+To define a function in python, we use the <mark>def</mark> keytag
 
 `foo = 'this is an example of a string'
 email = "donotreply@vodafone.com"
