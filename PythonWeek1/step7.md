@@ -1,44 +1,59 @@
-# Practical Python
+# A list, but different
 
-As your project gets more and more complicated you may soon come across a need to reuse code in different parts of your project. That's where functions come in.
+Remember to clear your terminal with `clear`{{execute}} if it's too messy!
 
-Open new Python file: `functions.py`{{open}}
+Tuples are fixed size in nature whereas lists are dynamic.
 
-<pre class="file" data-filename="functions.py" data-target="replace">
-def my_function(): # creates a function called my_function()
-    print("Hello from a function") # the function itself prints the string "Hello from a function"
+* You can't add elements to a tuple. Tuples have no append or extend method.
+* You can't remove elements from a tuple. Tuples have no remove or pop method.
+* You can find elements in a tuple, since this doesn’t change the tuple.
+* You can also use the in operator to check if an element exists in the tuple.
 
-my_function() # calls, or runs, the function my_function()
+Tuples are faster than lists, and it makes your code safer if you “write-protect” data that does not need to be changed. [Read more](https://www.w3schools.com/python/python_tuples.asp).
+
+```
+tuple1 = ("apple", "banana", "cherry")
+tuple2 = (1, 5, 7, 9, 3)
+tuple3 = (True, False, False)
+```
+
+# Dictionaries
+
+Dictionaries are used to store data values in key:value pairs.
+
+A dictionary is a collection which is ordered, changeable and does not allow duplicates.
+
+Open new Python file: `dictionaries.py`{{open}}
+
+<pre class="file" data-filename="dictionaries.py" data-target="replace">
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+print(thisdict)
 </pre>
 
-`python functions.py`{{execute}}
+`python dictionaries.py`{{execute}}
 
-# Arguments
-
-The function above isn't actually very useful, since it'd be faster to just type ```print("Hello from a function")``` whenever you need that to run. Luckily, we can pass information into functions, called ```arguments```.
-
-<pre class="file" data-filename="functions.py" data-target="replace">
-def my_function(fname): # defines a function called my_function() where you pass in an argument called fname
-    print(fname + " Refsnes") # as you can see the argument fname is used within the function
-
-my_function("Emil")
-my_function("Tobias")
-my_function("Linus")
+<pre class="file" data-filename="dictionaries.py" data-target="replace">
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+print(thisdict["brand"])
 </pre>
 
-`python functions.py`{{execute}}
+`python dictionaries.py`{{execute}}
 
-# Multiple Arguments
+As you can see below a dictionary can hold any data type.
 
-<pre class="file" data-filename="functions.py" data-target="replace">
-def my_function(fname, lname):
-  print(fname + " " + lname)
-
-my_function("Emil", "Refsnes")
-</pre>
-
-`python functions.py`{{execute}}
-
-# Others
-
-[Read more](https://www.w3schools.com/python/python_functions.asp) about passing arguments into functions, such as ```*args``` and ```keyword arguments```.
+```
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+```

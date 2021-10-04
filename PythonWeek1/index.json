@@ -36,8 +36,13 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Functions",
+        "title": "Dictionaries & Tuples",
         "text": "step7.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Functions",
+        "text": "step8.md",
         "foreground": "clear.sh"
       }
     ],
