@@ -1,5 +1,5 @@
 # Messy Terminal?
-Previously we added code to automatically initialise Python within the terminal. You don't want to write actual code there since it gets messy very quickly, especially for longer code functions. We have now exited Python mode for you. If the terminal gets messy clear it with `clear`{{execute}}.
+Previously we added code to automatically initialise Python within the terminal. You don't want to write actual code there since it gets messy very quickly, especially for longer code functions. We have now exited Python mode for you. If the terminal gets messy clear it with `clear`{{execute}}. You can type that in the terminal (bottom right) for all subsequent sections too.
 
 # if
 
@@ -55,4 +55,6 @@ else:
 </pre>
 
 `python ifstatements.py`{{execute}}
+
+Change the variables via the editor and play around with it!
 

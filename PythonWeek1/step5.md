@@ -52,7 +52,7 @@ for i in range(2, 8):
 `python loops.py`{{execute}}
 
 <pre class="file" data-filename="loops.py" data-target="replace">
-# start at 2, stop BEFORE 8, increase in increments of 3
+# start at 2, stop BEFORE 30, increase in increments of 3
 for x in range(2, 30, 3):
     print(x)
 </pre>

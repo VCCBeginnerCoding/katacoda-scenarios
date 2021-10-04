@@ -34,6 +34,11 @@
         "title": "Lists",
         "text": "step6.md",
         "foreground": "clear.sh"
+      },
+      {
+        "title": "Functions",
+        "text": "step7.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {
