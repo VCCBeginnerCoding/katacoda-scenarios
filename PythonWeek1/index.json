@@ -44,6 +44,11 @@
         "title": "Functions",
         "text": "step8.md",
         "foreground": "clear.sh"
+      },
+      {
+        "title": "Modules",
+        "text": "step9.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {
