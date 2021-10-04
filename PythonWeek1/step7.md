@@ -27,3 +27,18 @@ my_function("Linus")
 </pre>
 
 `python functions.py`{{execute}}
+
+# Multiple Arguments
+
+<pre class="file" data-filename="functions.py" data-target="replace">
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Emil", "Refsnes")
+</pre>
+
+`python functions.py`{{execute}}
+
+# Others
+
+[Read more](https://www.w3schools.com/python/python_functions.asp) about passing arguments into functions, such as ```*args``` and ```keyword arguments```.

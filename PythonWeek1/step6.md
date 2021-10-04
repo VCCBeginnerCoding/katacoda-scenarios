@@ -1,5 +1,7 @@
 # Lots of Variables
 
+Remember to clear your terminal with `clear`{{execute}} if it's too messy!
+
 Imagine you want to store 100 values. Do you do this?
 
 ```
@@ -38,6 +40,17 @@ print("New list content: ", myNumbers)
 </pre>
 
 `python lists.py`{{execute}}
+
+# List Mayhem
+
+Lists can contain a mix of data types.
+
+```my_list = [1, None, True, "I am a string", 256, 0]```
+
+Lists can also be nested inside of lists.
+
+
+```my_list = [1, 'a', ["list", 64, [0, 1], False]]```
 
 # len
 
@@ -130,6 +143,17 @@ print(fruits)
 </pre>
 
 `python lists.py`{{execute}}
+
+# Tuples
+
+You don't have to worry about tuples for now, but just know that tuples are fixed size in nature whereas lists are dynamic.
+
+* You can't add elements to a tuple. Tuples have no append or extend method.
+* You can't remove elements from a tuple. Tuples have no remove or pop method.
+* You can find elements in a tuple, since this doesn’t change the tuple.
+* You can also use the in operator to check if an element exists in the tuple.
+
+Tuples are faster than lists, and it makes your code safer if you “write-protect” data that does not need to be changed.
 
 # Others
 [Read more](https://www.w3schools.com/python/python_ref_list.asp) about the list methods, including ```sort```, ```clear```, ```reverse``` and ```copy```. Also, [read more](https://www.w3schools.com/python/python_strings_slicing.asp) on ```slicing``` and try to use it for lists!
