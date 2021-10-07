@@ -3,30 +3,8 @@
   "description": "VCC Crash Course - Python Week 4",
   "difficulty": "Beginner",
   "time": "60 minutes",
-  "details": {
-    "steps": [
-      {
-        "title": "Variables",
-        "text": "step1.md",
-        "courseData": "setup.sh",
-        "code": "foreground.sh"
-      }
-    ],
-    "intro": {
-      "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
-  },
-  "environment": {
-    "hideintro": true,
-    "uilayout": "terminal",
-    "uieditorpath": "/root/Week4Data",
-    "showide": true,
-    "ide": "ssh host01 '/opt/start-vscode.sh /root/Week4Data'"
-  },
+  "type": "jupyter@0.1",
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "python:3.8"
   }
 }
