@@ -1,74 +1,34 @@
-# Comparison
-```=``` is an assignment operator. ```a = 2``` assigns ```a``` with the value of ```2```.
-```==``` instead asks the question *are the values equal*?
+# Now it's your turn!
 
-`100 == 100`{{execute}}
-`100 == 200`{{execute}}
+Open new Python file: functions.py{{open}}
 
-`a = 100
-a == 100`{{execute}}
+## Task 1:
 
-You can also use the ```!=``` not equal to operator.
+To begin, open a new python file by clicking the link above.
 
-`100 != 100`{{execute}}
-`100 != 200`{{execute}}
+From there, create a list of all the things on your desk and use the correct loop to iterate through this list and print the values out.
 
-Other operators include ```>``` greater than, ```>=``` greater than or equal to, ```<``` less than, and ```<=``` less than or equal to.
+## Task 2:
 
-`100 > 100`{{execute}}
-`100 >= 100`{{execute}}
-`100 < 100`{{execute}}
-`100 <= 100`{{execute}}
+With your previous list, use create some logic so that you break the loop on a certain item.
 
-# if statements
-We added code to automatically initialise Python within the terminal. You don't want to write actual code there since it gets messy very quickly. So let's quit Python. `exit()`{{execute}}
+## Task 3 - Fizz Buzz
 
-`ifstatements.py`{{open}}
+Create a function that takes a maximum value, and with that cycles from 0 through to the maximum value. It should then do the following:
 
-Click on the above to create a new Python file in the editor (top right), and then copy the code below over to the new file.
+1. If the current number is divisible by 3, it should print “Fizz”.
+2. If it is divisible by 5, it should print “Buzz”.
+3. If it is divisible by both 3 and 5, it should print “FizzBuzz”.
+4. Otherwise, it should print the same number.
 
-<pre class="file" data-filename="ifstatements.py" data-target="replace"># This is a comment
-# Python will not run this
-# But it's good to comment your code so you remember what does what
+Can you use default values here?
+Can you set a lower parameter and use keyword values?
 
-x = 10
+## Task 4 - Tuples
 
-if x > 5: # condition one
-    print("x is greater than 5")  # Executed if condition one is True.
+Through the use of a tuple, create a list of car manufactures and use a loop within a function to print these.
 
-if x < 10: # condition two
-    print("x is less than 10")  # Executed if condition two is True.
+Extra task: Can you use a nested tuple to also include the name of a car model?
 
-if x == 10: # condition three
-    print("x is equal to 10")  # Executed if condition three is True. </pre>
 
-You can see that the ```print``` statements are indented, like they are nested under the ```if``` statements. These will only run if the conditions above are met. You can indent by pressing <kbd>TAB</kbd> once, <kbd>SPACE</kbd> four times or <kbd>SPACE</kbd> two times. Find something you're comfortable with and stick with it. For this course we'll be using tabs or 4 spaces.
-
-To run the Python file, go to the terminal and execute this. `python ifstatements.py`{{execute}}
-
-# elif
-Else if ```elif``` is Python's way of saying if the previous conditions were not true, then try this condition.
-
-```
-a = 33
-b = 33
-if b > a:
-    print("b is greater than a")
-elif a == b:
-    print("a and b are equal")
-
-```
-
-# else
-The ```else``` keyword catches anything which isn't caught by the preceding conditions.
-
-```
-a = 200
-b = 33
-if b > a:
-  print("b is greater than a")
-elif a == b:
-  print("a and b are equal")
-else:
-  print("a is greater than b")
-```
+<marquee style='color: blue;'><b>Yay you've completed part 3!</b></marquee>

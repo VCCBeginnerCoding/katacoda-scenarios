@@ -15,8 +15,8 @@ while i < 6:
 A for loop is used to iterate over a sequence:
 
 `fruits = ["apple", "banana", "cherry"]
-for x in fruits:
- print(x)`{{execute}}
+ for x in fruits:
+  print(x)`{{execute}}
 
 You can also use loops to iterate through a string:
 
@@ -26,10 +26,10 @@ You can also use loops to iterate through a string:
 Breaks can be used to stop the loop:
 
 `fruits = ["apple", "banana", "cherry"]
-for x in fruits:
- print(x)
- if x == "banana":
-  break`{{execute}}
+ for x in fruits:
+  print(x)
+  if x == "banana":
+    break`{{execute}}
 
 Continue statement can be used (breaks the current iteration and moves to the next one)
 
@@ -39,5 +39,12 @@ while i < 6:
   if i == 3:
     continue
   print(i)`{{execute}}
+
+  ## Try it yourself!
+  Step 1: Create an array
+  Step 2: Loop through the array
+  Step 3: Print all values in the array
+  Step 4: Create a break statement to break the statement after reading a certain value.
+
 
 <marquee style='color: blue;'><b>Yay you've completed part 1!</b></marquee>
