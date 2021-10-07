@@ -12,5 +12,9 @@
       "title": "Variables",
       "text": "step1.md"
     }
-  ]
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uisettings": "python"
+  }
 }
