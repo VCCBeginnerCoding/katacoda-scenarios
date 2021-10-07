@@ -22,9 +22,9 @@
   "environment": {
     "hideintro": true,
     "uilayout": "terminal",
-    "uieditorpath": "/root/assets",
+    "uieditorpath": "/root/Week4Data",
     "showide": true,
-    "ide": "ssh host01 '/opt/start-vscode.sh /root/example'"
+    "ide": "ssh host01 '/opt/start-vscode.sh /root/Week4Data'"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
