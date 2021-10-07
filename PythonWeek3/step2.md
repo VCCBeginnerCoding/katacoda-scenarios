@@ -43,11 +43,11 @@ Functions can take more than one argument:
 `def print_car_details(make,model):
     print("The car is " +make + " " + model)
 
-print_name("ford, fiesta")
-print_name("Skoda, Octavia")
-print_name("Citroen, C1")`{{execute}}
+    print_name("ford, fiesta")
+    print_name("Skoda, Octavia")
+    print_name("Citroen, C1")`{{execute}}
 
-<mark:> But it can go wrong! </mark>
+### But it can go wrong!
 
 If the code expects two arguments and you give it one (or vise versa) it will throw an error:
 
