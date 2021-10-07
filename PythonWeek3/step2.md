@@ -24,7 +24,7 @@ To call a function, use the name of the function and add parentesis at the end:
 `def my_function():
   print("Hello from a function")
 
-my_function()
+  my_function()
 `{{execute}}
 
 ## Passing data to the function
@@ -34,9 +34,10 @@ We can also pass data to the function, by adding it inside the parentheses:
 `def print_name(name):
     print("My name is " +name)
 
-print_name("Dan")
-print_name("Justin")
-print_name("Ellie")`{{execute}}
+    print_name("Dan")
+    print_name("Justin")
+    print_name("Ellie")
+    `{{execute}}
 
 Functions can take more than one argument:
 `def print_car_details(make,model):
