@@ -1,45 +1,152 @@
-## Functions!
+# Functions!
+
+## What are functions?
+
+A function is a relationship between one or more inputs and a set of outputs. In mathamatics, a function is normally represented as:
+
+z = f(x,y)
+
+Here, f is a function that operates on the input *x* and *y*. The output of the function is *z*. However, in programming, functions are much more generalised and versatile.
+
+In programming, a function is a defined block of code that encapuslates a specific task or related group of tasks.
+## Defining a function
 
 To define a function in python, we use the <mark>def</mark> keytag
 
-`foo = 'this is an example of a string'
-email = "donotreply@vodafone.com"
+`def my_function():
+  print("Hello from a function")
 `{{execute}}
 
-The code above declares the variable 'foo' and assigns it the string 'this is an example of a string'. We can print foo out in python like so:
+## Calling a function
 
-`print(foo)`{{execute}}
-`print(email)`{{execute}}
+To call a function, use the name of the function and add parentesis at the end:
 
-We can also print out strings directly like so:
+`def my_function():
+  print("Hello from a function")
 
-`print("I like trains!")`{{execute}}
+my_function()
+`{{execute}}
 
-You can print a new line using ```\n```.
+## Passing data to the function
 
-`print("I like\ntrains!")`{{execute}}
+We can also pass data to the function, by adding it inside the parentheses:
 
-Try it yourself using the terminal on the right.
+`def print_name(name):
+    print("My name is " +name)
 
-# Input
-We can obtain user input using a special Python keyword/method called input(). Let's say we want to obtain the user's name, in Python we do the following:
+print_name("Dan")
+print_name("Justin")
+print_name("Ellie")`{{execute}}
 
-`username = input('What is your name? ')`{{execute}}
+Functions can take more than one argument:
+`def print_car_details(make,model):
+    print("The car is " +make + " " + model)
 
- When we run this code, the program will wait for the user to enter a name before continuing. In the above example, the user's name is stored in a variable 'username'. We can print out the user's name like so:
+print_name("ford, fiesta")
+print_name("Skoda, Octavia")
+print_name("Citroen, C1")`{{execute}}
 
- `print("Your name is " + username)`{{execute}}
+<mark:> But it can go wrong! </mark>
 
-In the above code, we are combining the text 'Your name is ' with the string stored in username. This is known as String Concatenation; joining two strings together.
+If the code expects two arguments and you give it one (or vise versa) it will throw an error:
 
- `print("Hello " + username + ", nice to meet you!")`{{execute}}
+Functions can take more than one argument:
+`def print_car_details(make,model):
+    print("The car is " +make + " " + model)
 
-Try it yourself!
+print_name("ford")
+`{{execute}}
 
-Remember int and float from the last section? If you want a user to enter a number that you can then manipulate in Python (for example, multiplying the user's input by 5) you'll want to make sure that Python understands it's a number instead of a string.
+## Tuples
+In python, tuples are used to store muliple items in a single variable. 
 
-```input()``` will return what Python "thinks" is best, but you can tell Python exactly what you want by doing the following:
+For example:
 
-```
-number = int(input("Enter a number"))
-```
+`thistuple = ("apple", "banana", "cherry")
+print(thistuple)`{{execute}}
+
+When creating functions, if you don't know the number of arguements to be passed, you can use a tuple:
+
+`def my_dog_list(*dogs)
+    print("The youngest dog is " + dogs[2])
+
+my_dog_list("Toby", "Max", "Bob")
+`{{execute}}
+
+
+## Keyword arguments
+
+Arguments can also be sent with the <mark>key = value syntax</mark>. The order does not matter in this case.
+
+`def my_cat_list(cat1, cat2, cat3)
+    print("The smallest cat is " +cat3)
+
+my_cat_list(cat3="fido", cat2="sophie", cat1="felix")
+`{{execute}}
+
+If the number of keyword arguments that will be passed the function at two asterisk: <mark>**</mark> before the parameter name in the function definition
+This way the function will receive a dictionary of arguments, and can access the items accordingly:
+
+`def my_function(**kid):
+  print("His last name is " + kid["lname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")`{{execute}}
+
+
+## Default values
+A default value can be set, which will be placed if no value is passed:
+
+`def fav_TVShow(show = "Lucifer")
+
+my_function("American horror story")
+my_function("Money heist")
+my_function()
+my_function("Brooklyn Nine-Nine")`{{execute}}
+
+## Lists
+You can pass any data type to the function (string, number, list, dictionary etc.), and will be treated as the same data type by the function.
+
+For example, if you pass a list to the function, it will be treated as a list by the function:
+
+`def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)`{{execute}}
+
+## Return
+We can use the <mark>return</mark> keyword to return a value:
+
+`def calculator(value)
+    return value * 10
+
+print(calculator(3))
+print(calculator(5))
+print(calculator(9))`{{execute}}
+
+## The Pass statement
+You cannot have a blank function, but in the very unlikely event that you do, you can use the pass statement to avoid an error
+
+`def myFunction()
+    pass
+`{{execute}}
+
+## Recursion!
+Python accepts python recursion (a function that calls itself). This is a common mathamatical and programming concept. It has the benefit of meaning you can loop through the data to reach a result.
+
+`def factorial(x):
+    """This is a recursive function
+    to find the factorial of an integer"""
+
+    if x == 1:
+        return 1
+    else:
+        return (x * factorial(x-1))
+
+
+num = 3
+print("The factorial of", num, "is", factorial(num))`{{execute}}
+
+<marquee style='color: blue;'><b>Yay you've completed part 2!</b></marquee>
