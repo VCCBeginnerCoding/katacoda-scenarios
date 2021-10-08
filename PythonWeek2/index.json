@@ -8,7 +8,7 @@
       {
         "title": "Conditional Statements",
         "text": "step1.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "If/Else statements with Operators",
