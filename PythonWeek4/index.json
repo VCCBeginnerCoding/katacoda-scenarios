@@ -6,15 +6,5 @@
   "type": "jupyter@0.1",
   "backend": {
     "imageid": "python:3.8"
-  },
-  "steps": [
-    {
-      "title": "Variables",
-      "text": "step1.md"
-    }
-  ],
-  "environment": {
-    "uilayout": "editor-terminal",
-    "uisettings": "python"
   }
 }
