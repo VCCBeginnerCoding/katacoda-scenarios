@@ -1,53 +1,58 @@
 {
-  "title": "VCC Crash Course - Python Week 1",
-  "description": "VCC Crash Course - Python Week 1",
+  "title": "VCC Crash Course - Python Week 2",
+  "description": "VCC Crash Course - Python Week 2",
   "difficulty": "Beginner",
   "time": "180 minutes",
   "details": {
     "steps": [
       {
-        "title": "Variables",
+        "title": "Conditional Statements",
         "text": "step1.md",
         "foreground": "startup.sh"
       },
       {
-        "title": "Strings & Input",
+        "title": "If/Else statements with Operators",
         "text": "step2.md",
         "foreground": "startup.sh"
       },
       {
-        "title": "Conditionals",
+        "title": "If/Else Exercises",
         "text": "step3.md",
         "foreground": "startup.sh"
       },
       {
-        "title": "If Statements",
+        "title": "Lists",
         "text": "step4.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Loops",
+        "title": "Indexing Lists and changing values",
         "text": "step5.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Lists",
+        "title": "Manipulating Lists",
         "text": "step6.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Dictionaries & Tuples",
+        "title": "Adding to a List",
         "text": "step7.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Functions",
+        "title": "Removing from a List",
         "text": "step8.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Modules",
+        "title": "Nested Lists",
         "text": "step9.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Lists Exercises",
+        "text": "step10.md",
         "foreground": "clear.sh"
       }
     ],
