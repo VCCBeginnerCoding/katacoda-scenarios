@@ -6,8 +6,7 @@ One of the fundamental parts of programming are conditional statements, which is
 
 An If/Else statement is one of the simpler conditional statements in Python, which we will be exploring today. You are most likely to use If/Else statements in Python when you wish for code to execute only if something else is True or False, such as the example below:
 
-`
-colour = "Green"
+`colour = "Green"
 
 if colour == "Green":
     print("The Colour is Green!")
@@ -22,8 +21,7 @@ In the above example, the code checks if the **colour variable** is set to the s
 
 There are also **Else If** statements to check for secondary conditions after you have checked for the first condition, for example, checking if the colour is yellow after you have checked if it is green, as shown below:
 
-`
-colour = "Yellow"
+`colour = "Yellow"
 
 if colour == "Green":
     print("The Colour is Green!")
