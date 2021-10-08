@@ -15,9 +15,17 @@ if colour == "Green":
     print("The Colour is Green!")
 else:
     print("The Colour is not Green!")
+
+
+colour = "Yellow"
+
+if colour == "Green":
+    print("The Colour is Green!")
+else:
+    print("The Colour is not Green!")
 </pre>
 
-Copy the code above over to the editor and then press the text below
+Copy the code above over to the editor and then press
 `colour.py`{{execute}}
 
 If the terminal gets messy clear it with `clear`{{execute}}.
@@ -32,6 +40,16 @@ Replace the old code in the colour.py file with this code
 
 <pre class="file" data-filename="colour.py" data-target="replace">
 colour = "Yellow"
+
+if colour == "Green":
+    print("The Colour is Green!")
+elif colour == "Yellow":
+    print("The Colour is Yellow!")
+else:
+    print("The Colour is not Green or Yellow!")
+
+
+colour = "Blue"
 
 if colour == "Green":
     print("The Colour is Green!")
