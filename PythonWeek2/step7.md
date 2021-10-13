@@ -1,4 +1,4 @@
-Lists can grow to any length you wish them to be (have as many elements as you want), can be added to at any point and any element can be changed at any point in time, as you saw earlier in this session. Methods for adding elements to a list are important to know as you should use them regulalry. Below we will explore two different methods you can do so, one being the default method most people use and another being a more specialised approach. We will also explore a method which allows you to add more than one element to a list at once.
+Lists can grow to any length you wish them to be (have as many elements as you want), can be added to at any point and any element can be changed at any point in time, as you saw earlier in this session. Methods for adding elements to a list are important to know as you should use them regulalry. Below we will explore some different methods you can use to do so.
 
 </br>
 
@@ -16,14 +16,14 @@ When you run the code you should see that the variable "Max" has now been added 
 </br>
 
 ## **Insert**
-The insert method allows you to state where in the list you would like the new element to be placed, by providing the method with an index. This may be more useful for specific circumstances, such as adding to a sorted list without having to re-sort it, so it is used less often but still good to know about. For this example the names list has already been sorted and we assume that the program knows the name "Max" fits between "Justin" and "Perry" in alphabetical order:
+The insert method allows you to state where in the list you would like the new element to be placed, by providing the method with an index. For this example the names list has already been sorted and we assume that the program knows the name "Max" fits between "Justin" and "Perry" in alphabetical order:
 
 `
     sorted_names = ["Dan", "Ellie", "Justin", "Perry"]
     sorted_names.insert(3, "Max")
     print(sorted_names)`{{execute}}
 
-As you can see the insert method is provided two arguments, the index which it has to insert the element before and the element it is inserting. The order of these arguments is important, as if you get them the wrong way around the function will not work correctly.
+As you can see the insert method is provided two arguments, the index which it has to insert the element before and the element it is inserting. 
 
 When you run the code you should be able to see that the element "Max" has been inserted in the list between "Justin" and "Perry" as expected. This method also increases the length of the list just as the previous did, since we are adding another element.
 
