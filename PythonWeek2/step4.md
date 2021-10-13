@@ -1,4 +1,3 @@
-# Lists:
 Now let's move onto something new, Lists. Lists are a new type of Data Type which you haven't met yet, they are a structure which allows us to store multiple variables within them. 
 
 **Why do we need to store multiple variables?** In some programs there are many variables that the program has to work with, sometimes up to the hundreds or thousands, having a list to store these in and handle them saves a lot of time and makes the code a lot more efficient.
@@ -11,7 +10,7 @@ Lists are multi-value variables which can have variables within them all of the 
 
 `
     names = ["Ellie", "Dan", "Perry", "Justin"]
-    food = ["Apple", 3, "Chocolate", 3, "Sandwhich", 4, "Cake", 1]`{{execute}}
+food = ["Apple", 3, "Chocolate", 3, "Sandwhich", 4, "Cake", 1]`{{execute}}
 
 As you can see, there are some similarities to how you declare a variable, you need to:
 - Give a name for the list
@@ -27,5 +26,5 @@ You can also declare a list using pre-existing variables as shown below:
 
 `
     name1 = "Ellie"
-    name2 = "Dan"
-    names = [name1, name2]`{{execute}}
+name2 = "Dan"
+names = [name1, name2]`{{execute}}

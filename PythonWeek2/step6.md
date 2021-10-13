@@ -1,4 +1,3 @@
-# Manipulating Lists 
 You were just introduced in the previous step to one of the methods you can use on a list, called index(), which just lets you retrieve the index of a variable within a list. 
 
 Now we're going to explore some more of the functions and methods which can be used on lists that you will find useful. Functions get data, manipulate data and generally return a result. Methods do all of these things and are a specific kind of function, as they belong to the data that they are being called on. A method is owned by the data it works for, while a function is owned by the whole code. This is why with the index method we call it by typing the lists name and then call the function on that list by putting a period. Whereas with other functions below such as the min and max functions, you call the function by passing the list in to the function via the brackets. 

@@ -1,4 +1,3 @@
-# **Removing from a list**
 Elements can also be removed from a list at any point in time, there are multiple ways of doing this depending on the knowledge you have of the list and how many variables you wish to remove, each method has its differences and reasons why you may want to use it in place of others in certain situations. We will explore each of the apporaches below.
 
 </br>

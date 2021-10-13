@@ -1,5 +1,3 @@
-# Lists Exercises
-
 ## **Exercise 2a:**
 You've learnt a lot about lists already, so let's solidify that learning by doing some exercises. We're going to start simple though first, you're going to write a list that contains some strings, you are going to edit one of the strings, add another string, sort the list and then delete an element. Below is a list of instructions to follow like you did in the previous exercise:
 
