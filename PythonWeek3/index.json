@@ -13,7 +13,7 @@
       {
         "title": "Strings & Input",
         "text": "step2.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "Conditionals",
