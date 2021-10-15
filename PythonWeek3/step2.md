@@ -13,19 +13,18 @@ In programming, a function is a defined block of code that encapuslates a specif
 
 To define a function in python, we use the <mark>def</mark> keytag
 
-`def my_function():
+```def my_function():
   print("Hello from a function")
-`{{execute}}
+```
 
 ## Calling a function
 
 To call a function, use the name of the function and add parentesis at the end:
 
 `def my_function():
-  print("Hello from a function")
+    print("Hello from a function")
 
-my_function()
-`{{execute}}
+my_function()`{{execute}}
 
 ## Passing data to the function
 

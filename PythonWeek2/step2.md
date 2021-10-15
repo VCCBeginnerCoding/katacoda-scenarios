@@ -39,7 +39,7 @@ Copy the code above over to the editor and then press
 </br>
 </br>
 
-### **Example 3:**
+### **Example 2:**
 
 <pre class="file" data-filename="greaterthan.py" data-target="replace">
     x = 3
