@@ -34,9 +34,8 @@ This final method extends the list by adding multiple elements to it, it does th
 
 `
     names = ["Ellie", "Dan", "Perry", "Justin"]
-    numbers = [10, 90, 23, 46, -20]
+numbers = [10, 90, 23, 46, -20]
+names.extend(numbers)
+print(names)`{{execute}}
 
-    names.extend(numbers)
-    print(names)`{{execute}}
-
-As you can see all the numbers list elements are added to the end of the names list and the length of the list is increased to 9. This method can be very useful when you are working with multiple lists and want to merge them. 
+As you can see all the numbers list elements are added to the end of the names list and the length of the list is increased to 9.
