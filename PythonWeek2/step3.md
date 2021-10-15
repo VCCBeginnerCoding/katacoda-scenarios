@@ -11,4 +11,4 @@ You've learnt the basics of If and Else statements now, so lets see if you can w
 To write your own code simply create a new Python file: `ifexercise.py`{{open}}
 
 Write your code in the editor that has now opened and when you are ready, execute it with
-`ifexercise.py`{{execute}}
+`python ifexercise.py`{{execute}}

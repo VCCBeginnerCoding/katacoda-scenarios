@@ -13,17 +13,17 @@
       {
         "title": "If/Else statements with Operators",
         "text": "step2.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "If/Else Exercises",
         "text": "step3.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "Lists",
         "text": "step4.md",
-        "foreground": "clear.sh"
+        "foreground": "startup.sh"
       },
       {
         "title": "Indexing Lists and changing values",

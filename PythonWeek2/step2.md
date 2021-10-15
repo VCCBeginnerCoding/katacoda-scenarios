@@ -34,7 +34,7 @@ Below are a few examples of Comparison operators being used in Python to have di
 Open new Python file: `ifelif.py`{{open}}
 
 Copy the code above over to the editor and then press
-`ifelif.py`{{execute}}
+`python ifelif.py`{{execute}}
 
 </br>
 </br>
@@ -66,7 +66,7 @@ Copy the code above over to the editor and then press
 Open new Python file: `greaterthan.py`{{open}}
 
 Copy the code above over to the editor and then press
-`greaterthan.py`{{execute}}
+`python greaterthan.py`{{execute}}
 
 </br>
 </br>

@@ -7,12 +7,12 @@ As a quick recap, below are some videos of the subjects we covered last week, ju
 </br>
 
 ### **Variables:**
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=cQT33yu9pY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cQT33yu9pY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </br>
 
 ### **Operators:** 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Pm9FOpOwhlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Pm9FOpOwhlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For this video we only covered the first 14 minutes of it in the previous session, so you do not have to watch the full video since it is quite long.
 
