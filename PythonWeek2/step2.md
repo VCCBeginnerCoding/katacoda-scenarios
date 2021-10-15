@@ -7,22 +7,22 @@ Below are a few examples of Comparison operators being used in Python to have di
 ### **Example 1:**
 
 <pre class="file" data-filename="ifelif.py" data-target="replace">
-    a = "Lisa"
-    b = "Sandy"
-    c = "lisa"
-    d = "Sandy"
+a = "Lisa"
+b = "Sandy"
+c = "lisa"
+d = "Sandy"
 
-    if(a == b):
-        print("Lisa is equal to Sandy")
-    elif(a == c):
-        print("Lisa is equal to lisa")
-    elif(b == d):
-        print("Sandy is equal to Sandy")
-    else:
-        print("None of the above are equal")
+if(a == b):
+    print("Lisa is equal to Sandy")
+elif(a == c):
+    print("Lisa is equal to lisa")
+elif(b == d):
+    print("Sandy is equal to Sandy")
+else:
+    print("None of the above are equal")
 
-    if a != b:
-        print("Lisa is not equal to Sandy)
+if a != b:
+    print("Lisa is not equal to Sandy)
 </pre>
 
 *Hint: Lower and Upper case matters in string equality*
@@ -42,19 +42,19 @@ Copy the code above over to the editor and then press
 ### **Example 2:**
 
 <pre class="file" data-filename="greaterthan.py" data-target="replace">
-    x = 3
-    y = 20
+x = 3
+y = 20
 
-    if x > y:
-        print("x is a bigger number than y")
-    elif x >= y:
-        print("x is the same number as y or bigger")
-    elif y < x:
-        print("Y is a smaller number than x")
-    elif x <= y:
-        print("x is the same number as y or smaller than it")
-    else:
-        print("x is an unknown number")
+if x > y:
+    print("x is a bigger number than y")
+elif x >= y:
+    print("x is the same number as y or bigger")
+elif y < x:
+    print("Y is a smaller number than x")
+elif x <= y:
+    print("x is the same number as y or smaller than it")
+else:
+    print("x is an unknown number")
 </pre>
 
 *Hint: Remember how the greater than/less than and equal to operators work in combination and pay attention to which side of the operators x and y are on.*
