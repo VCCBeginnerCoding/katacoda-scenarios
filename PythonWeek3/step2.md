@@ -22,9 +22,10 @@ def my_function():
 
 To call a function, use the name of the function and add parentesis at the end:
 
-`def my_function():
-    print("Hello from a function")
-my_function()
+`def my_function(): # creates a function called my_function()
+    print("Hello from a function") # the function itself prints the string "Hello from a function"
+
+my_function() # calls, or runs, the function my_function()
 `{{execute}}
 
 ## Passing data to the function
