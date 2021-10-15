@@ -1,5 +1,5 @@
 # Loops
-![Variables](./assets/variables.png) // This can be changed
+![Variables](./assets/variables.png)
 
 There are two main form of loops in Python. The For loop and the While loop!
 
