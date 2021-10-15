@@ -18,7 +18,7 @@
       {
         "title": "Conditionals",
         "text": "step3.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "If Statements",
@@ -28,6 +28,11 @@
       {
         "title": "Loops",
         "text": "step5.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Loops",
+        "text": "step6.md",
         "foreground": "clear.sh"
       }
     ],

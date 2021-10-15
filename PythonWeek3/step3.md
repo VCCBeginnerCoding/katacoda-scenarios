@@ -2,6 +2,8 @@
 
 Open new Python file: functions.py{{open}}
 
+Run Python file: `python functions.py`{{execute}}
+
 ## Task 1:
 
 To begin, open a new python file by clicking the link above.

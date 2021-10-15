@@ -124,47 +124,63 @@ my_function(fname = "Tobias", lname = "Refsnes")`{{execute}}
 ## Default values
 A default value can be set, which will be placed if no value is passed:
 
-`def fav_TVShow(show = "Lucifer")
+<pre class="file" data-filename="functions.py" data-target="replace">
+def fav_TVShow(show = "Lucifer")
 
 my_function("American horror story")
 my_function("Money heist")
 my_function()
-my_function("Brooklyn Nine-Nine")`{{execute}}
+my_function("Brooklyn Nine-Nine")
+</pre>
+
+`python functions.py`{{execute}}
 
 ## Lists
 You can pass any data type to the function (string, number, list, dictionary etc.), and will be treated as the same data type by the function.
 
 For example, if you pass a list to the function, it will be treated as a list by the function:
 
-`def my_function(food):
-  for x in food:
-    print(x)
+<pre class="file" data-filename="functions.py" data-target="replace">
+def my_function(food):
+    for x in food:
+        print(x)
 
 fruits = ["apple", "banana", "cherry"]
 
-my_function(fruits)`{{execute}}
+my_function(fruits)
+</pre>
+
+`python functions.py`{{execute}}
 
 ## Return
 We can use the <mark>return</mark> keyword to return a value:
 
-`def calculator(value)
+<pre class="file" data-filename="functions.py" data-target="replace">
+def calculator(value)
     return value * 10
 
 print(calculator(3))
 print(calculator(5))
-print(calculator(9))`{{execute}}
+print(calculator(9))
+</pre>
+
+`python functions.py`{{execute}}
 
 ## The Pass statement
 You cannot have a blank function, but in the very unlikely event that you do, you can use the pass statement to avoid an error
 
-`def myFunction()
+<pre class="file" data-filename="functions.py" data-target="replace">
+def myFunction()
     pass
-`{{execute}}
+</pre>
+
+`python functions.py`{{execute}}
 
 ## Recursion!
 Python accepts python recursion (a function that calls itself). This is a common mathamatical and programming concept. It has the benefit of meaning you can loop through the data to reach a result.
 
-`def factorial(x):
+<pre class="file" data-filename="functions.py" data-target="replace">
+def factorial(x):
     """This is a recursive function
     to find the factorial of an integer"""
 
@@ -175,6 +191,9 @@ Python accepts python recursion (a function that calls itself). This is a common
 
 
 num = 3
-print("The factorial of", num, "is", factorial(num))`{{execute}}
+print("The factorial of", num, "is", factorial(num))
+</pre>
+
+`python functions.py`{{execute}}
 
 <marquee style='color: blue;'><b>Yay you've completed part 2!</b></marquee>
