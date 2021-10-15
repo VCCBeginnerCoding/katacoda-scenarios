@@ -1,5 +1,3 @@
-## **Exercise 2:**
-
 Now we're going to create some nested lists and work with them as practice. Below is some shopping lists data that we are going to work with.
 
 
@@ -24,4 +22,4 @@ At this point you will have made a triple nested list, you can see how quickly t
 As further work you can do the following steps to explore nested lists:
 - Retrieve the cost of Mike's Paninis
 - Edit the cost of Tom's Milk to £1 instead
-- Delete the Eggs array from Lily's shopping list
+- Delete the Eggs and their cost from Lily's shopping list
