@@ -46,7 +46,14 @@ You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**```
 `print(2//3)`{{execute}}
 `print(2%3)`{{execute}}
 
+# Quick Exercise
+- Type your code line by line into the Terminal (don't forget to press <kbd>ENTER</kbd>)
+- Save your age as a variable
+- Save the current year (2021 as of writing) as a second variable
+- Use maths to figure out your birth year (assume you're born on 1st Jan to make the maths simpler)
+- Save the answer as a third variable and print it
+
 # Practical Uses
-Want a global setting that can change everything
+The calculator app on your phone remembers every number as you type it, as well as your previous calculations, thanks to variables. Microsoft Teams remembers your user settings and stores them as variables. Your phone stores your password as a variable too. (Okay, there's a few more steps involved in real life, but you get the idea.)
 
 <marquee style='color: blue;'><b>Yay you've completed part 1!</b></marquee>

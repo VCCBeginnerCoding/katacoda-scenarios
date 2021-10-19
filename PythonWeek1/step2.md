@@ -31,7 +31,12 @@ In the above code, we are combining the text *'Your name is '* with the string s
 
  `print("Hello " + username + ", nice to meet you!")`{{execute}}
 
-Try it yourself by typing in the Terminal!
+# Quick Exercise
+- Type your code line by line into the Terminal (don't forget to press <kbd>ENTER</kbd>)
+- Ask the user to input their age and save it as a variable
+- Ask the user to input the current year (2021 as of writing) as a second variable
+- Use maths to figure out their birth year (assume they're born on 1st Jan to make the maths simpler)
+- Save the answer as a third variable and print it
 
 # Practical Uses
 A lot of software require user input of some sort, be it a mouse click, a finger tap, via your keyboard or something else entirely. Instagram can only load your feed if you login and tell Instagram what your username/password is. Minecraft can only move your character if you tell it to, via mouse and keyboard.

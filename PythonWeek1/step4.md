@@ -42,5 +42,8 @@ Reverse the result, returns ```False``` if the result is true.
 `x = 999
 not(x < 5 and x < 10)`{{execute}}
 
+# Quick Exercise
+- Make a funny face on camera
+
 # Practical Uses
-stuff
+Is the password that you typed the same as the password that's associated with your account? Comparisions can help. If a project deadline on your database has been missed, we can use comparisions to identify that and then sound the alarm.
