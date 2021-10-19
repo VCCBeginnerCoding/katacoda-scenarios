@@ -1,5 +1,5 @@
 {
-  "title": "VCC Crash Course - Python Week 1",
+  "title": "IGNORE",
   "description": "VCC Crash Course - Python Week 1",
   "difficulty": "Beginner",
   "time": "60 minutes",
@@ -16,24 +16,39 @@
         "foreground": "startup.sh"
       },
       {
-        "title": "Variable Types",
+        "title": "Conditionals",
         "text": "step3.md",
         "foreground": "startup.sh"
       },
       {
-        "title": "Comparision",
+        "title": "If Statements",
         "text": "step4.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
-        "title": "Optional Reading: Why am I doing this?",
+        "title": "Loops",
         "text": "step5.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
-        "title": "Optional Reading: So how does this actually work?",
+        "title": "Lists",
         "text": "step6.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Dictionaries & Tuples",
+        "text": "step7.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Functions",
+        "text": "step8.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Modules",
+        "text": "step9.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {

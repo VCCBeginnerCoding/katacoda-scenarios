@@ -1,6 +1,5 @@
 # Comparison
 ```=``` is an assignment operator. ```a = 2``` assigns ```a``` with the value of ```2```.
-
 ```==``` instead asks the question *are the values equal*?
 
 `100 == 100`{{execute}}
@@ -41,6 +40,3 @@ Reverse the result, returns ```False``` if the result is true.
 
 `x = 999
 not(x < 5 and x < 10)`{{execute}}
-
-# Practical Uses
-stuff
