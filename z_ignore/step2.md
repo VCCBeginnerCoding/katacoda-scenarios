@@ -1,11 +1,13 @@
 # Strings
 Strings are text in code. They can be declared in Python like so:
 
-`email = "donotreply@vodafone.com"
+`foo = 'this is an example of a string'
+email = "donotreply@vodafone.com"
 `{{execute}}
 
-The code above declares the variable ```email``` and assigns it the string 'donotreply@vodafone.com'. We can print it out in Python like so:
+The code above declares the variable ```foo``` and assigns it the string 'this is an example of a string'. We can print foo out in Python like so:
 
+`print(foo)`{{execute}}
 `print(email)`{{execute}}
 
 We can also print out strings directly like so:
@@ -19,7 +21,7 @@ You can print a new line using ```\n```.
 Try it yourself using the terminal on the right.
 
 # Input
-We can obtain user input using a special Python keyword/method called ```input()```. Let's say we want to obtain the user's name, in Python we do the following:
+We can obtain user input using a special Python keyword/method called input(). Let's say we want to obtain the user's name, in Python we do the following:
 
 `username = input('What is your name? ')`{{execute}}
 
@@ -31,4 +33,12 @@ In the above code, we are combining the text *'Your name is '* with the string s
 
  `print("Hello " + username + ", nice to meet you!")`{{execute}}
 
-Try it yourself by typing in the Terminal!
+Try it yourself!
+
+Remember int and float from the last section? If you want a user to enter a number that you can then manipulate in Python (for example, multiplying the user's age by 5) you'll want to make sure that Python understands it's a number instead of a string.
+
+```input()``` will return what Python "thinks" is best, but you can tell Python exactly what you want by doing the following:
+
+```
+number = int(input("Enter a number"))
+```

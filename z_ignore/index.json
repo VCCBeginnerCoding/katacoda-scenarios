@@ -1,5 +1,5 @@
 {
-  "title": "VCC Crash Course - Python Week 1",
+  "title": "IGNORE",
   "description": "VCC Crash Course - Python Week 1",
   "difficulty": "Beginner",
   "time": "60 minutes",
@@ -16,19 +16,19 @@
         "foreground": "startup.sh"
       },
       {
-        "title": "Variable Types",
+        "title": "Conditionals",
         "text": "step3.md",
         "foreground": "startup.sh"
       },
       {
-        "title": "Comparision",
+        "title": "If Statements",
         "text": "step4.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
-        "title": "Why am I doing this?",
+        "title": "Loops",
         "text": "step5.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "Lists",
