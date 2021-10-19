@@ -46,4 +46,7 @@ You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**```
 `print(2//3)`{{execute}}
 `print(2%3)`{{execute}}
 
+# Practical Uses
+Want a global setting that can change everything
+
 <marquee style='color: blue;'><b>Yay you've completed part 1!</b></marquee>
