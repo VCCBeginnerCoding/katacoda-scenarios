@@ -6,12 +6,12 @@ Python supports three types of numbers – ```int```, ```float```, and ```comple
 b = 4.0
 print(a+b)`{{execute}}
 
-*Float printed out as an integer*
+*Float printed out as an integer*<br>
 `a = 4.2
 print(a)
 print(int(a))`{{execute}}
 
-*Integer printed out as a float*
+*Integer printed out as a float*<br>
 `a = 4
 print(a)
 print(float(a))`{{execute}}
