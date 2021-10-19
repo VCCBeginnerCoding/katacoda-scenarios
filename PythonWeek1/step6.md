@@ -1,9 +1,17 @@
-# Practical Uses
-Now you might be wondering: *What can I do with this knowledge?*
+# .py files
+You now know the very basics of Python, hurray! *But how do I write and run Python code outside this course?*
 
-In future lessons, we'll be using the knowledge from this session to work on practical day to day problems.
+# Let's explain the File Editor and Terminal
+stuff
 
-Need to process and analyse lots of financial data? Python. Want to merge and manipulate multiple spreadsheets at the same time? Python. Looking to make video games? You can do that in Python! Always forget when bin day is? Create [bin day indicators](https://www.youtube.com/watch?v=YSBioki_03g) that light up with corresponding colours on the day!
+# Online Python Editors
+stuff
 
-If you haven't already, you can also watch this 4 minute video to find out why Python is important.
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y8Tko2YC5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# Running Python on your work laptop (Windows)
+stuff
+
+# Running Python on your personal computer (Windows)
+stuff
+
+# Running Python on your personal computer (MacOS)
+stuff

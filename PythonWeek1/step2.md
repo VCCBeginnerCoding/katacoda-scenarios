@@ -32,3 +32,6 @@ In the above code, we are combining the text *'Your name is '* with the string s
  `print("Hello " + username + ", nice to meet you!")`{{execute}}
 
 Try it yourself by typing in the Terminal!
+
+# Practical Uses
+A lot of software require user input of some sort, be it a mouse click, a finger tap, via your keyboard or something else entirely. Instagram can only load your feed if you login and tell Instagram what your username/password is. Minecraft can only move your character if you tell it to, via mouse and keyboard.

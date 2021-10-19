@@ -42,3 +42,5 @@ Reverse the result, returns ```False``` if the result is true.
 `x = 999
 not(x < 5 and x < 10)`{{execute}}
 
+# Practical Uses
+stuff
