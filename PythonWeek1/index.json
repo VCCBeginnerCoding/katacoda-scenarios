@@ -26,8 +26,13 @@
         "foreground": "startup.sh"
       },
       {
-        "title": "Why am I doing this?",
+        "title": "Optional Reading: So how does this actually work?",
         "text": "step5.md",
+        "foreground": "startup.sh"
+      },
+      {
+        "title": "Optional Reading: Why am I doing this?",
+        "text": "step6.md",
         "foreground": "startup.sh"
       }
     ],
