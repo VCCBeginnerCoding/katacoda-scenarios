@@ -21,7 +21,7 @@ Try it yourself using the terminal on the right.
 # Input
 We can obtain user input using a special Python keyword/method called ```input()```. Let's say we want to obtain the user's name, in Python we do the following:
 
-`username = input('What is your name? ')`{{execute}}
+`username = input("What is your name?")`{{execute}}
 
  When we run this code, the program will wait for the user to enter a name before continuing. Please go to the terminal, type your name, and then press <kbd>ENTER</kbd>. In the above example, the user's name is stored in a variable ```username```. We can print out the user's name like so:
 
