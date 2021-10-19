@@ -29,26 +29,6 @@
         "title": "Why am I doing this?",
         "text": "step5.md",
         "foreground": "startup.sh"
-      },
-      {
-        "title": "Lists",
-        "text": "step6.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Dictionaries & Tuples",
-        "text": "step7.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Functions",
-        "text": "step8.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Modules",
-        "text": "step9.md",
-        "foreground": "clear.sh"
       }
     ],
     "intro": {
