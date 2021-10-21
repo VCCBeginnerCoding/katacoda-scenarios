@@ -17,7 +17,7 @@ In future weeks we'll be creating Python files within the File Editor where we c
 # Online Python Editors
 Want to quickly write and run simple Python code but not install Python on your computer? Try some of these online options!
 - [Google Colab](https://colab.research.google.com/)
-- [w3schools](https://www.w3schools.com/python/trypython.asp?filename=demo_compiler)
+- [W3Schools](https://www.w3schools.com/python/trypython.asp?filename=demo_compiler)
 - [replit](https://replit.com/languages/python3)
 - [Visual Studio Code - Browser Version](https://vscode.dev/) (can edit but not run code)
 
