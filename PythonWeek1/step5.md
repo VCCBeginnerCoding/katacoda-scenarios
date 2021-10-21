@@ -1,4 +1,4 @@
-# Practical Uses
+# Practical Uses for Python
 Now you might be wondering: *What can I do with this knowledge?*
 
 In future lessons, we'll be using the knowledge from this session to work on practical day to day problems.
