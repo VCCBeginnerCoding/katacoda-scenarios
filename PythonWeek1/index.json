@@ -24,6 +24,11 @@
         "title": "Comparision",
         "text": "step4.md",
         "foreground": "startup.sh"
+      },
+      {
+        "title": "Optional Reading: Why am I doing this?",
+        "text": "step5.md",
+        "foreground": "startup.sh"
       }
     ],
     "intro": {
