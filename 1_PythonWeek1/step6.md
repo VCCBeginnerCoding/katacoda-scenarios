@@ -28,7 +28,7 @@ If you need help setting this up, don't hesistate to reach out to anyone at VCC,
 Simply head over to [Python.org](https://www.python.org/) and download Python. <span style="color:red">*The newer 3.x versions of Python may not be widely supported just yet, as of November 2021. Ask a member of VCC for advice or download an older version such as 3.8.5.*</span> Afterwards, open up *Command Prompt* and enter the following to see if Python has been installed: ```python --version```, in which case it will tell you the current version of Python installed, such as ```Python 3.8.5```.
 
 **1. Installing on Windows without Admin Access**<br>
-Option A: Go through the same process as above, but when the installer reachers the relevant step uncheck the *install for all users* option.
+Option A: Go through the same process as above, but when the installer reaches the relevant step uncheck the *install for all users* option. This should install without requiring admin access.
 
 Option B: Install [Anaconda](https://www.anaconda.com/), which by default should install without requiring admin access.
 
