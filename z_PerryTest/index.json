@@ -11,17 +11,17 @@
         "foreground": "startup.sh"
       },
       {
-        "title": "If/Else statements with Operators",
+        "title": "Strings & Input",
         "text": "step2.md",
-        "foreground": "clear.sh"
+        "foreground": "startup.sh"
       },
       {
-        "title": "If/Else Exercises",
+        "title": "Variable Type",
         "text": "step3.md",
-        "foreground": "clear.sh"
+        "foreground": "startup.sh"
       },
       {
-        "title": "Lists",
+        "title": "Comparision",
         "text": "step4.md",
         "foreground": "startup.sh"
       },

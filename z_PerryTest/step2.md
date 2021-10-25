@@ -1,80 +1,42 @@
-In the previous step you may have noticed we used the **equal to** operator as part of the conditional checks, you can use all of the other Comparison operators we learnt last week as well to ensure your conditional is only executing when you want it to. 
+# Strings
+Strings are text in code. They can be declared in Python like so:
 
-Below are a few examples of Comparison operators being used in Python to have different bits of code run, can you guess what will be printed?
+`email = "donotreply@vodafone.com"
+`{{execute}}
 
-</br>
+The code above declares the variable ```email``` and assigns it the string 'donotreply@vodafone.com'. We can print it out in Python like so:
 
-### **Example 1:**
+`print(email)`{{execute}}
 
-<pre class="file" data-filename="ifelif.py" data-target="replace">
-a = "Lisa"
-b = "Sandy"
-c = "lisa"
-d = "Sandy"
+We can also print out strings directly like so:
 
-if(a == b):
-    print("Lisa is equal to Sandy")
-elif(a == c):
-    print("Lisa is equal to lisa")
-elif(b == d):
-    print("Sandy is equal to Sandy")
-else:
-    print("None of the above are equal")
+`print("I like trains!")`{{execute}}
 
-if a != b:
-    print("Lisa is not equal to Sandy)
-</pre>
+You can print a new line using ```\n```.
 
-*Hint: Lower and Upper case matters in string equality*
+`print("I like\ntrains!")`{{execute}}
 
-</br>
+Try it yourself using the terminal on the right.
 
-**Now try running the code and seeing which print statement is executed.**
+# Input
+We can obtain user input using a special Python keyword/method called ```input()```. Let's say we want to obtain the user's name, in Python we do the following:
 
-Open new Python file: `ifelif.py`{{open}}
+`username = input("What is your name?")`{{execute}}
 
-Copy the code above over to the editor and then press
-`python ifelif.py`{{execute}}
+ When we run this code, the program will wait for the user to enter a name before continuing. Please go to the terminal, type your name, and then press <kbd>ENTER</kbd>. In the above example, the user's name is stored in a variable ```username```. We can print out the user's name like so:
 
-</br>
-</br>
+ `print("Your name is " + username)`{{execute}}
 
-### **Example 2:**
+In the above code, we are combining the text *'Your name is '* with the string stored in ```username```. This is known as String Concatenation; joining two strings together.
 
-<pre class="file" data-filename="greaterthan.py" data-target="replace">
-x = 3
-y = 20
+ `print("Hello " + username + ", nice to meet you!")`{{execute}}
 
-if x > y:
-    print("x is a bigger number than y")
-elif x >= y:
-    print("x is the same number as y or bigger")
-elif y < x:
-    print("Y is a smaller number than x")
-elif x <= y:
-    print("x is the same number as y or smaller than it")
-else:
-    print("x is an unknown number")
-</pre>
+# Quick Exercise
+- Type your code line by line into the Terminal (don't forget to press <kbd>ENTER</kbd>)
+- Ask the user to input their age and save it as a variable
+- Ask the user to input the current year (2021 as of writing) as a second variable
+- Use maths to figure out their birth year (assume they're born on 1st Jan to make the maths simpler)
+- Save the answer as a third variable and print it
 
-*Hint: Remember how the greater than/less than and equal to operators work in combination and pay attention to which side of the operators x and y are on.*
-
-</br>
-
-**Now try running the code and seeing which print statement is executed.**
-
-Open new Python file: `greaterthan.py`{{open}}
-
-Copy the code above over to the editor and then press
-`python greaterthan.py`{{execute}}
-
-</br>
-</br>
-
-### **Answers:**
-
-For the first set of code, you should have seen the statement **"Sandy is equal to Sandy"** printed. You may have thought the statement "Lisa is equal to to lisa" would print, but in fact you would be incorrect in that assumption, since the strings have different capatilisation on the 'L' in them, so they are not seen as equal in Python. However the two versions of 'Sandy' both have the same capitalisation and spelling so are treated as equal.
-
-Now for the final set of code, the statement **"x is the same number as y or smaller than it"** should have been printed. This is simply because all the other statements relied on x being larger than y, which it is not, whereas the final statement checked if x was lesser than or equal to y, which  it is, so a condition was finally met. 
-
-
+# Practical Uses
+A lot of software require user input of some sort, be it a mouse click, a finger tap, via your keyboard or something else entirely. Instagram can only load your feed if you login and tell Instagram what your username/password is. Minecraft can only move your character if you tell it to, via mouse and keyboard.

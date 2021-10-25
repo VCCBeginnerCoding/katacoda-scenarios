@@ -1,28 +1,49 @@
-Now let's move onto something new, Lists. Lists are a new type of Data Type which you haven't met yet, they are a structure which allows us to store multiple variables within them. 
+# Comparison
+```=``` is an assignment operator. ```a = 2``` assigns ```a``` with the value of ```2```.
 
-**Why do we need to store multiple variables?** In some programs there are many variables that the program has to work with, sometimes up to the hundreds or thousands, having a list to store these in and handle them saves a lot of time and makes the code a lot more efficient.
+```==``` instead asks the question *are the values equal*?
 
-</br>
+`100 == 100`{{execute}}
+`100 == 200`{{execute}}
 
-## Initialising Lists
+`a = 100
+a == 100`{{execute}}
 
-Lists are multi-value variables which can have variables within them all of the same type or of different types. Some of them may be integers, strings, booleans or even other lists (this is called nested listing, we will come back to this). Below is an example of how to declare a list, in this instance we are declaring a list of strings and a list of strings and numbers:
+You can also use the ```!=``` not equal to operator.
 
-`
-    names = ["Ellie", "Dan", "Perry", "Justin"]
-food = ["Apple", 3, "Chocolate", 3, "Sandwhich", 4, "Cake", 1]`{{execute}}
+`100 != 100`{{execute}}
+`100 != 200`{{execute}}
 
-As you can see, there are some similarities to how you declare a variable, you need to:
-- Give a name for the list
-- Have an equals sign which declares it is a variable and sets it to the values you put on the right side of the equals sign
+Other operators include ```>``` greater than, ```>=``` greater than or equal to, ```<``` less than, and ```<=``` less than or equal to.
 
-But you also need to seperate each invidivual variable with a comma within the square brackets.
+`100 > 100`{{execute}}
+`100 >= 100`{{execute}}
+`100 < 100`{{execute}}
+`100 <= 100`{{execute}}
 
-You can also declare a list using pre-existing variables as shown below:
+# and
 
-`
-    name1 = "Ellie"
-name2 = "Dan"
-names = [name1, name2]`{{execute}}
+Returns ```True``` if both statements are true.
 
-*It is important to remember for the future that elements in a list are always **numbered starting from zero**, so in our previous 'names' example "Ellie" is the first element and is in position 0 of the list. The final element is "Justin" and is in position 3 of the list.*
+`x = 5
+x < 5 and x < 10`{{execute}}
+
+# or
+
+Returns ```True``` if one of the statements is true.
+
+`x = 4
+x < 5 or x < 4`{{execute}}
+
+# not
+
+Reverse the result, returns ```False``` if the result is true.
+
+`x = 999
+not(x < 5 and x < 10)`{{execute}}
+
+# Quick Exercise
+- Make a funny face on camera
+
+# Practical Uses
+Is the password that you typed the same as the password that's associated with your account? Comparisions can help. If a project deadline on your database has been missed, we can use comparisions to identify that and then sound the alarm.
