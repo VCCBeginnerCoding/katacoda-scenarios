@@ -1,3 +1,6 @@
+# VCC Notes
+The courses are sorted alphabetically by folder name, so if you create a new course for let's say JS, name the folder 2_name etc to have it come after the Python stuff.
+
 # Interactive Katacoda Scenarios
 
 [![](http://shields.katacoda.com/katacoda/vcc-crashcourse/count.svg)](https://katacoda.com/vcc-crashcourse "Get your profile on Katacoda.com")

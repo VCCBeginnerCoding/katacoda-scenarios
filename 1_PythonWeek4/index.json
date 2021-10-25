@@ -1,10 +1,13 @@
 {
-  "title": "VCC Crash Course - Python Week 4",
+  "title": "Python Week 4",
   "description": "Working with spreadsheet data in Python",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "type": "jupyter@0.1",
   "backend": {
     "imageid": "python:3.8"
+  },
+  "intro": {
+    "text": "intro.md"
   }
 }
