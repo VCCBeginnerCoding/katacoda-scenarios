@@ -14,7 +14,7 @@ So what's the alternative? The File Editor is a bit like your computer. You can 
 
 In future weeks we'll be creating Python files within the File Editor where we can write much longer code and actually save it. We can then run the Python code via the Terminal.
 
-**Online Python Editors**<br>
+# Online Python Editors
 Want to quickly write and run simple Python code but not install Python on your computer? Try some of these online options!
 - [Google Colab](https://colab.research.google.com/)
 - [W3Schools](https://www.w3schools.com/python/trypython.asp?filename=demo_compiler)
@@ -24,17 +24,17 @@ Want to quickly write and run simple Python code but not install Python on your 
 # Python on Computers
 If you need help setting this up, don't hesistate to reach out to anyone at VCC, message the Support Channel on Teams, or join our monthly Support Session!
 
-**Installing on Windows**<br>
+**1. Installing on Windows**<br>
 a
 
-**Installing on MacOS**<br>
+**1. Installing on MacOS**<br>
 a
 
-**Editing**<br>
+**2. Editing**<br>
 You can edit Python code using anything ranging from the pre-installed *Notepad* on Windows or *TextEdit* on MacOS to code editors such as [Visual Studio Code](https://code.visualstudio.com) or [Sublime Text](https://www.sublimetext.com/download). It's ultimately down to personal preference, so ask VCC! <span style="color:red">*For work laptops, please install approved software via the company IT Shop. VCC does not support any installations that may be against company security rules.*</span>
 
-**Running on Windows**<br>
+**3. Running on Windows**<br>
 a
 
-**Running on MacOS**<br>
+**3. Running on MacOS**<br>
 a
