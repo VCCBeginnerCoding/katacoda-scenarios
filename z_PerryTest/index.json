@@ -28,12 +28,12 @@
       {
         "title": "Optional Reading: Why am I doing this?",
         "text": "step5.md",
-        "foreground": "clear.sh"
+        "foreground": "startup.sh"
       },
       {
-        "title": "Manipulating Lists",
+        "title": "Optional Reading: So how does this actually work?",
         "text": "step6.md",
-        "foreground": "clear.sh"
+        "foreground": "startup.sh"
       },
       {
         "title": "Adding to a List",

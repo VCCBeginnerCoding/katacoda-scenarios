@@ -1,69 +1,37 @@
-You were just introduced in the previous step to one of the methods you can use on a list, called index(), which just lets you retrieve the index of a variable within a list. 
+# .py files
+You now know the very basics of Python, hurray! *But how do I write and run Python code outside this course?*
 
-Now we're going to explore some more of the functions and methods which can be used on lists that you will find useful. You will learn more about function and methods in next weeks session.
+# Let's explain the File Editor and Terminal on Katacoda
+## Terminal
+The Terminal is like the Command Prompt on your Windows computer. Using that, you can do everything that you can achieve via mouser and keyboard and more, from creating folders to changing computer settings.
 
-***Note:** In the future we will call variables within lists 'elements', as this helps remove any confusion that could occur as to what variable is being referred to.*
+For Week 1 we configured the Terminal to run Python. Katacoda has Python pre-installed within the system and we initialised Python within the Terminal for you by typing either ```python``` or ```py``` depending on the system. Now you can type and run Python code directly from the Terminal!
 
+This will quickly become impractical as your code grows, so let's quit Python by typing this in the Terminal: `exit()`{{execute}}. If you want Python back refresh the page or type this: `python`{{execute}}
 
-</br>
+## File Editor
+So what's the alternative? The File Editor is a bit like your computer. You can have folders and then files inside of those folders. These files are just like files on your computer - images, videos etc. Pictures might be named ```dog.png``` or ```cutebunnies.jpg``` for example, while we name Python files as ```example.py```. Python files are essentially text files, and we simply name the file extensions as ```.py``` so that programmes know it's a Python file.
 
-## **Max and Min**
+In future weeks we'll be creating Python files within the File Editor where we can write much longer code and actually save it. We can then run the Python code via the Terminal.
 
-Two such functions will likely seem familiar, max() and min(). As you can probably guess, max() finds the largest number in an list and min() finds the smallest, as shown below:
+# Online Python Editors
+Want to quickly write and run simple Python code but not install Python on your computer? Try some of these online options!
+- [Google Colab](https://colab.research.google.com/)
+- [W3Schools](https://www.w3schools.com/python/trypython.asp?filename=demo_compiler)
+- [replit](https://replit.com/languages/python3)
+- [Visual Studio Code - Browser Version](https://vscode.dev/) (can edit but not run code)
 
-`
-    numbers = [10, 90, 23, 46, -20]
-
-    smallest_number = min(numbers)
-    largest_number = max(numbers)
-
-    print(smallest_number) 
-    print(largest_number)`{{execute}}
-
-</br>
-
-## **Len**
-
-Another function which you will likely use quite regularly is the len() function. This function takes the list's name as an argument, and returns the number of elements currently stored inside the list (i.e. the length of the list). Below is an example of using the len() method:
-
-`
-    numbers = [10, 90, 23, 46, -20]
-    length = len(numbers)
-
-    print(length)`{{execute}}
-
-If you run this code you will see the number 5 is printed. You may have thought it would be 4 because of the indexing we explained to you earlier, however the length function does not care about indexes, it only counts how many elements are in a list.
-
-</br>
-
-## **Sort**
-
-Another method you should know about is the sort() method. This method sorts a list into either ascending or descending order. Below is an example of the sort function being used on a list of numbers:
-
-`
-    numbers = [10, 90, 23, 46, -20]
-    numbers.sort()
-    print(numbers)`{{execute}}
-
-As you can see in the above code, the original numbers array is manipulated by the sort, it does not create a copy. When you run the code you should see that by default the sort function sorts by ascending order. You can tell it to sort by descending order by passing in the argument "reverse = True" as shown below:
-
-`
-    names = ["Ellie", "Dan", "Perry", "Justin"]
-    sorted_names = names.sort(reverse=True)
-
-    print(sorted_names)`{{execute}}
-
-</br>
-
-## **Copy**
-
-For lists there is a copy() method which lets you make a new version of a list and change that version without altering the original version. Below is an example of it being used:
-
-`
-    numbers = [10, 90, 23, 46, -20]
-    numbers_copy = numbers.copy()
-    numbers_copy[1] = "Changing"
-    print(numbers)
-    print(numbers_copy)`{{execute}}
-
-When you run the code you can see that the original numbers list has not been altered, however the numbers_copy list has the value "Changing" as the second element instead of 90. This is how we approach copying and manipulating versions of strings without altering the original if you do not wish to.
+# Python on Computers
+If you need help setting this up, don't hesistate to reach out to anyone at VCC, message the Support Channel on Teams, or join our monthly Support Session!
+## Installing
+### Windows
+a
+### MacOS
+a
+## Editing
+You can edit Python code using anything ranging from the pre-installed *Notepad* on Windows or *TextEdit* on MacOS to code editors such as [Visual Studio Code](https://code.visualstudio.com) or [Sublime Text](https://www.sublimetext.com/download). It's ultimately down to personal preference, so ask VCC! <span style="color:red">*For work laptops, please install approved software via the company IT Shop. VCC does not support any installations that may be against company security rules.*</span>
+## Running
+### Windows
+a
+### MacOS
+a
