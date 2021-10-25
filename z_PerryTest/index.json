@@ -6,9 +6,9 @@
   "details": {
     "steps": [
       {
-        "title": "Conditional Statements",
+        "title": "Variables",
         "text": "step1.md",
-        "foreground": "clear.sh"
+        "foreground": "startup.sh"
       },
       {
         "title": "If/Else statements with Operators",

@@ -1,66 +1,59 @@
-<p align="center">
-    <img src="./assets/ifelse.png" alt="If-else Statement" width="250" class="center"/>
-</p>
+# Basics
+![Variables](./assets/variables.png)
 
-One of the fundamental parts of programming are conditional statements, which is when a set of actions are taken if a condition is met. As an example of this in real life, if two people are playing catch, the first person will check that the second is paying attention to them (the condition) before they throw them the ball (set of actions). 
+You can store any value in a variable, then use it or change its value later on in the program. Click on the code snippets below and they will run automatically in the terminal (bottom right). You can also type it yourself and then press <kbd>ENTER</kbd> to execute it.
 
-An If/Else statement is one of the simpler conditional statements in Python, which we will be exploring today. You are most likely to use If/Else statements in Python when you wish for code to execute only if something else is True or False, such as the example below:
+`myCardPin = 1234`{{execute}}
+`a = 2`{{execute}}
 
-Open new Python file: `colour.py`{{open}}
+Note: Variables are case sensitive, so ```myCardPin``` and ```MyCaRdPiN``` are two separate variables.
 
-<pre class="file" data-filename="colour.py" data-target="replace">
-colour = "Green"
+We can print out the variables.
 
-if colour == "Green":
-    print("The Colour is Green!")
-else:
-    print("The Colour is not Green!")
+`print(myCardPin)`{{execute}}
+`print(a)`{{execute}}
 
+We can assign a new value to an existing variable.
 
-colour = "Yellow"
+`myCardPin = 2222`{{execute}}
+`myCardPin = 5555`{{execute}}
+`myCardPin = 1382929292`{{execute}}
 
-if colour == "Green":
-    print("The Colour is Green!")
-else:
-    print("The Colour is not Green!")
-</pre>
+`print(myCardPin)`{{execute}}
 
-Copy the code above over to the editor and then press
-`python colour.py`{{execute}}
+<span style="color:green">✓</span> Valid variable names: ```_``` ```days_to_christmas``` ```Adiós_Señora```
 
-If the terminal gets messy clear it with `clear`{{execute}}.
+<span style="color:red">✗</span> Invalid variable names: ```10t``` *<span style="color:red">must begin with a letter</span>* ```Exchange Rate``` *<span style="color:red">must not contain a space</span>*
 
-In the above example, the code checks if the **colour variable** is set to the string Green or not  by using the 'if colour == "Green"' line. If it is "Green" then the print statement stating "The Colour is Green!" is executed, otherwise the 'else' line is executed meaning the print statement stating "The Colour is not Green" is executed. This is just a simple example of what an If/Else statement can do.
+Python also has a list of [reserved words](https://www.w3schools.com/python/python_ref_keywords.asp) that cannot be used as variable names.
 
-</br>
+# More about variables
+Try these commands.
 
-There are also **Else If** statements to check for secondary conditions after you have checked for the first condition, for example, checking if the colour is yellow after you have checked if it is green, as shown below:
+`b = 4
+print(b)`{{execute}}
+`b = b+2
+print(b)`{{execute}}
+`b += 2
+print(b)`{{execute}}
 
-Replace the old code in the colour.py file with this code
+You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
 
-<pre class="file" data-filename="colour.py" data-target="replace">
-colour = "Yellow"
+`print(2+3)`{{execute}}
+`print(2-3)`{{execute}}
+`print(2*3)`{{execute}}
+`print(2/3)`{{execute}}
+`print(2//3)`{{execute}}
+`print(2%3)`{{execute}}
 
-if colour == "Green":
-    print("The Colour is Green!")
-elif colour == "Yellow":
-    print("The Colour is Yellow!")
-else:
-    print("The Colour is not Green or Yellow!")
+# Quick Exercise
+- Type your code line by line into the Terminal (don't forget to press <kbd>ENTER</kbd>)
+- Save your age as a variable
+- Save the current year (2021 as of writing) as a second variable
+- Use maths to figure out your birth year (assume you're born on 1st Jan to make the maths simpler)
+- Save the answer as a third variable and print it
 
+# Practical Uses
+The calculator app on your phone remembers every number as you type it, as well as your previous calculations, thanks to variables. Microsoft Teams remembers your user settings and stores them as variables. Your phone stores your password as a variable too. (Okay, there's a few more steps involved in real life, but you get the idea.)
 
-colour = "Blue"
-
-if colour == "Green":
-    print("The Colour is Green!")
-elif colour == "Yellow":
-    print("The Colour is Yellow!")
-else:
-    print("The Colour is not Green or Yellow!")
-</pre>
-
-`python colour.py`{{execute}}
-
-In the above example, the code checks to see if the **colour variable** is set to the string Green or not as usual, then it moves to the 'elif colour == "Yellow"' line, which checks if the colour is yellow instead, if it is then it executes the print statement "The Colour is Yellow!". In Python Else If statements are abbreviated to 'elif'. Again, if the colour is not green or yellow, it will move to the else statement and print "The Colour is not Green or Yellow!". As you have probably already gathered, the 'else' statement just means, if none of the other conditionals are met (i.e. it's not green or yellow) then execute these steps. **Elif** is used to check more than just one condition, and to stop when the first statement which is true is found. Multiple Elif statements after each other are sometimes called a **cascade**.
-
-Note: else is always the last branch of a cascade, regardless of whether you've used elif or not. Else is optional and may be omitted, but as stated, must always be at the end of the cascade if it is included.
+<marquee style='color: blue;'><b>Yay you've completed part 1!</b></marquee>
