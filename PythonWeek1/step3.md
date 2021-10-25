@@ -35,4 +35,4 @@ There are many more data types that you'll learn about in future lessons, many o
 - Come on, it's awkward here when I'm the only one with my camera on :P
 
 # Practical Uses
-Floating-point real numbers can't be represented with exact precision due to hardware limitations, so ```print(0.1 + 0.2)``` gives ```0.30000000000000004```, which is obviously not entirely correct. That's where integers or number rounding can come in handy in certain scenarios.
+Floating-point real numbers can't be represented with exact precision due to hardware limitations, so `print(0.1 + 0.2)`{{execute}} gives ```0.30000000000000004```, which is obviously not entirely correct. That's where integers or number rounding can come in handy in certain scenarios.

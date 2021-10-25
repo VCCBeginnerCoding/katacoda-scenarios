@@ -44,6 +44,7 @@ not(x < 5 and x < 10)`{{execute}}
 
 # Quick Exercise
 - Make a funny face on camera
+- Show us your pets on camera, bonus points for bunnies
 
 # Practical Uses
-Is the password that you typed the same as the password that's associated with your account? Comparisions can help. If a project deadline on your database has been missed, we can use comparisions to identify that and then sound the alarm.
+Is the password that you typed the same as the password that's associated with your account? Comparisions can help. If a project deadline on your database has been missed, we can use comparisions to identify that and then sound the alarm. (Again, there's a few more steps involved in real life, but you get the idea.)
