@@ -27,10 +27,13 @@ else:
 
 Copy the code above over to the editor and then press
 `python colour.py`{{execute}}
-
-If the terminal gets messy clear it with `clear`{{execute}}.
+*Note: Sometimes for the code blocks to execute you may have to press this button more than once*
 
 In the above example, the code checks if the **colour variable** is set to the string Green or not  by using the 'if colour == "Green"' line. If it is "Green" then the print statement stating "The Colour is Green!" is executed, otherwise the 'else' line is executed meaning the print statement stating "The Colour is not Green" is executed. This is just a simple example of what an If/Else statement can do.
+
+In the future if the terminal gets messy clear it with `clear`{{execute}}.
+
+
 
 </br>
 

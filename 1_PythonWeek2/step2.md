@@ -22,7 +22,7 @@ else:
     print("None of the above are equal")
 
 if a != b:
-    print("Lisa is not equal to Sandy)
+    print("Lisa is not equal to Sandy")
 </pre>
 
 *Hint: Lower and Upper case matters in string equality*
@@ -73,7 +73,7 @@ Copy the code above over to the editor and then press
 
 ### **Answers:**
 
-For the first set of code, you should have seen the statement **"Sandy is equal to Sandy"** printed. You may have thought the statement "Lisa is equal to to lisa" would print, but in fact you would be incorrect in that assumption, since the strings have different capatilisation on the 'L' in them, so they are not seen as equal in Python. However the two versions of 'Sandy' both have the same capitalisation and spelling so are treated as equal.
+For the first set of code, you should have seen the statement **"Sandy is equal to Sandy"** printed. You may have thought the statement "Lisa is equal to to lisa" would print, but in fact you would be incorrect in that assumption, since the strings have different capatilisation on the 'L' in them, so they are not seen as equal in Python. However the two versions of 'Sandy' both have the same capitalisation and spelling so are treated as equal. The string **"Lisa is not equal to Sandy"** should also have been printed due to the final not equals to operator check.
 
 Now for the final set of code, the statement **"x is the same number as y or smaller than it"** should have been printed. This is simply because all the other statements relied on x being larger than y, which it is not, whereas the final statement checked if x was lesser than or equal to y, which  it is, so a condition was finally met. 
 

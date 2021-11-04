@@ -28,7 +28,7 @@
       {
         "title": "Indexing Lists and changing values",
         "text": "step5.md",
-        "foreground": "clear.sh"
+        "foreground": "startup.sh"
       },
       {
         "title": "Manipulating Lists",

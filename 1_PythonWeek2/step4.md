@@ -25,4 +25,4 @@ You can also declare a list using pre-existing variables as shown below:
 name2 = "Dan"
 names = [name1, name2]`{{execute}}
 
-*It is important to remember for the future that elements in a list are always **numbered starting from zero**, so in our previous 'names' example "Ellie" is the first element and is in position 0 of the list. The final element is "Justin" and is in position 3 of the list.*
+*It is important to remember for the future that elements in a list are always **numbered starting from zero**, so in our first 'names' example "Ellie" is the first element and is in position 0 of the list. The final element is "Justin" and is in position 3 of the list.*
