@@ -1,4 +1,4 @@
-Lists can grow to any length you wish them to be (have as many elements as you want), can be added to at any point and any element can be changed at any point in time, as you saw earlier in this session. Methods for adding elements to a list are important to know as you should use them regulalry. Below we will explore some different methods you can use to do so.
+Lists can grow to any length you wish them to be (have as many elements as you want), can be added to at any point and any element can be changed at any point in time, as you saw earlier in this session. Methods for adding elements to a list are important to know as you will be using them regulalry. Below we will explore some different methods you can use to do so.
 
 </br>
 

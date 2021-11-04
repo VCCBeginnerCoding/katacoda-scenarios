@@ -40,7 +40,7 @@ You can change the value of elements and full lists in nested lists in the same 
 
 <pre class="file" data-filename="names.py" data-target="replace">
 allTheNames = [['Crash courses', ['Ellie', 'Perry', 'Dan', 'Justin']], ['Challenge centres', ['Domas', 'Alex', 'Raphael', 'Hugo']]]
-allTheNames[0][1] = 'Max'
+allTheNames[0][1] = ['Max', 'Dan']
 print(allTheNames)
 </pre>
 

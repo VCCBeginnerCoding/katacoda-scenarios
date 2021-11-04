@@ -1,4 +1,4 @@
-Hurray! You now know about Conditial Statements in Python and about Lists, you have even more knowledge know to work on other projects including your own if you wish to do so.
+Hurray! You now know about Conditial Statements in Python and about Lists, you have even more knowledge now to work on other projects including your own if you wish to do so.
 
 </br>
 
