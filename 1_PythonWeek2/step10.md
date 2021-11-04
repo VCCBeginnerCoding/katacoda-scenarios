@@ -17,6 +17,11 @@ Now do the following steps using the shopping list data provided and the knowled
 
 At this point you will have made a triple nested list, you can see how quickly things can become nested when you want to store associated data.
 
+To write your own code simply create a new Python file: `listsexercise.py`{{open}}
+
+Write your code in the editor that has now opened and when you are ready, execute it with
+`python listsexercise.py`{{execute}}
+
 </br>
 
 As further work you can do the following steps to explore nested lists:
