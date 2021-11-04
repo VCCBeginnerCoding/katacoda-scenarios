@@ -12,13 +12,13 @@ Now we're going to explore some more of the functions and methods which can be u
 Two such functions will likely seem familiar, max() and min(). As you can probably guess, max() finds the largest number in an list and min() finds the smallest, as shown below:
 
 <pre class="file" data-filename="minmax.py" data-target="replace">
-    numbers = [10, 90, 23, 46, -20]
+numbers = [10, 90, 23, 46, -20]
 
-    smallest_number = min(numbers)
-    largest_number = max(numbers)
+smallest_number = min(numbers)
+largest_number = max(numbers)
 
-    print(smallest_number) 
-    print(largest_number)
+print(smallest_number) 
+print(largest_number)
 </pre>
 
 Copy the code above over to the editor and then press
@@ -31,10 +31,10 @@ Copy the code above over to the editor and then press
 Another function which you will likely use quite regularly is the len() function. This function takes the list's name as an argument, and returns the number of elements currently stored inside the list (i.e. the length of the list). Below is an example of using the len() method:
 
 <pre class="file" data-filename="len.py" data-target="replace">
-    numbers = [10, 90, 23, 46, -20]
-    length = len(numbers)
+numbers = [10, 90, 23, 46, -20]
+length = len(numbers)
 
-    print(length)
+print(length)
 </pre>
 
 Copy the code above over to the editor and then press
@@ -49,9 +49,9 @@ If you run this code you will see the number 5 is printed. You may have thought 
 Another method you should know about is the sort() method. This method sorts a list into either ascending or descending order. Below is an example of the sort function being used on a list of numbers:
 
 <pre class="file" data-filename="sort.py" data-target="replace">
-    numbers = [10, 90, 23, 46, -20]
-    numbers.sort()
-    print(numbers)
+numbers = [10, 90, 23, 46, -20]
+numbers.sort()
+print(numbers)
 </pre>
 
 Copy the code above over to the editor and then press
@@ -60,10 +60,10 @@ Copy the code above over to the editor and then press
 As you can see in the above code, the original numbers array is manipulated by the sort, it does not create a copy. When you run the code you should see that by default the sort function sorts by ascending order. You can tell it to sort by descending order by passing in the argument "reverse = True" as shown below:
 
 <pre class="file" data-filename="sort.py" data-target="replace">
-    names = ["Ellie", "Dan", "Perry", "Justin"]
-    sorted_names = names.sort(reverse=True)
+names = ["Ellie", "Dan", "Perry", "Justin"]
+sorted_names = names.sort(reverse=True)
 
-    print(sorted_names)
+print(sorted_names)
 </pre>
 
 Copy the code above over to the editor and then press
@@ -76,11 +76,11 @@ Copy the code above over to the editor and then press
 For lists there is a copy() method which lets you make a new version of a list and change that version without altering the original version. Below is an example of it being used:
 
 <pre class="file" data-filename="copy.py" data-target="replace">
-    numbers = [10, 90, 23, 46, -20]
-    numbers_copy = numbers.copy()
-    numbers_copy[1] = "Changing"
-    print(numbers)
-    print(numbers_copy)
+numbers = [10, 90, 23, 46, -20]
+numbers_copy = numbers.copy()
+numbers_copy[1] = "Changing"
+print(numbers)
+print(numbers_copy)
 </pre>
 
 Copy the code above over to the editor and then press
