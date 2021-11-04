@@ -27,7 +27,8 @@ else:
 
 Copy the code above over to the editor and then press
 `python colour.py`{{execute}}
-*Note: Sometimes for the code blocks to execute you may have to press this button more than once*
+
+*__Note:__ Sometimes for the code blocks to execute you may have to press this button more than once*
 
 In the above example, the code checks if the **colour variable** is set to the string Green or not  by using the 'if colour == "Green"' line. If it is "Green" then the print statement stating "The Colour is Green!" is executed, otherwise the 'else' line is executed meaning the print statement stating "The Colour is not Green" is executed. This is just a simple example of what an If/Else statement can do.
 
@@ -66,4 +67,4 @@ else:
 
 In the above example, the code checks to see if the **colour variable** is set to the string Green or not as usual, then it moves to the 'elif colour == "Yellow"' line, which checks if the colour is yellow instead, if it is then it executes the print statement "The Colour is Yellow!". In Python Else If statements are abbreviated to 'elif'. Again, if the colour is not green or yellow, it will move to the else statement and print "The Colour is not Green or Yellow!". As you have probably already gathered, the 'else' statement just means, if none of the other conditionals are met (i.e. it's not green or yellow) then execute these steps. **Elif** is used to check more than just one condition, and to stop when the first statement which is true is found. Multiple Elif statements after each other are sometimes called a **cascade**.
 
-Note: else is always the last branch of a cascade, regardless of whether you've used elif or not. Else is optional and may be omitted, but as stated, must always be at the end of the cascade if it is included.
+*__Note:__ else is always the last branch of a cascade, regardless of whether you've used elif or not. Else is optional and may be omitted, but as stated, must always be at the end of the cascade if it is included.*

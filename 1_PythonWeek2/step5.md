@@ -21,7 +21,7 @@ You are probably wondering at this point how you get the position (index) of a v
 `
     names = ["Ellie", "Dan", "Perry", "Justin"]
 index_of_perry = names.index("Perry")
-print(index_of_perry)`{{execute}}
+print("Perry's index is: " + str(index_of_perry))`{{execute}}
 
 Something which you may find helpful is that when you try and retrieve a variable from the list by putting the index -1, you will retrieve the last variable in the list. This is very useful when working with large lists. Try running the piece of code below and see what variable is retrieved:
 

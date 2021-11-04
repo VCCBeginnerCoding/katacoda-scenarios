@@ -10,7 +10,8 @@ Lists are multi-value variables which can have variables within them all of the 
 
 `
     names = ["Ellie", "Dan", "Perry", "Justin"]
-food = ["Apple", 3, "Chocolate", 3, "Sandwhich", 4, "Cake", 1]`{{execute}}
+food = ["Apple", 3, "Chocolate", 3, "Sandwhich", 4, "Cake", 1]print(names)
+print(food)`{{execute}}
 
 As you can see, there are some similarities to how you declare a variable, you need to:
 - Give a name for the list
@@ -23,6 +24,7 @@ You can also declare a list using pre-existing variables as shown below:
 `
     name1 = "Ellie"
 name2 = "Dan"
-names = [name1, name2]`{{execute}}
+names = [name1, name2]
+print(names)`{{execute}}
 
 *It is important to remember for the future that elements in a list are always **numbered starting from zero**, so in our first 'names' example "Ellie" is the first element and is in position 0 of the list. The final element is "Justin" and is in position 3 of the list.*
