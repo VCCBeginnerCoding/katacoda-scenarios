@@ -1,5 +1,8 @@
 # Trainer Notes For Week 3
 
+# !Important user/lecturer needs to copy to editor and then press the python execute script button for each code block!
+
+
 This document is to provide trainer details for the Week 3 content of the Crash Course. The topics covered are: Loops, Functions, Classes and recusion. There are multiple interactive elements in this course.
 
 ## Step 1: Loops
