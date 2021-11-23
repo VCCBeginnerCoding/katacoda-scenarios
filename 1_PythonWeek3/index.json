@@ -6,32 +6,32 @@
   "details": {
     "steps": [
       {
-        "title": "Variables",
+        "title": "Loops",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Strings & Input",
+        "title": "Functions",
         "text": "step2.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Conditionals",
+        "title": "Try it yourself!",
         "text": "step3.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "If Statements",
+        "title": "Classes",
         "text": "step4.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Loops",
+        "title": "Challenge task",
         "text": "step5.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Loops",
+        "title": "Read further",
         "text": "step6.md",
         "foreground": "clear.sh"
       }

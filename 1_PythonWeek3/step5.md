@@ -1,29 +1,15 @@
-## The big task - Recursion!
+## The big task - Classes!
 
-Open new Python file: recursion.py{{open}}
+Open new Python file: classes.py{{open}}
 
 ### Instructions:
 
-Lets say, we need to create a countdown function.
+This task is split into two:
 
-We could do this by repeating the code over and over again, like so:
+1. Create a Class called Pet and give it some variables (name, age, favourie food etc)
+2. Create a new class called Dog and inherit from the Pet class 
+3. Add some extra variables that are more specific to dogs - for example favorite toy or walk
 
-<pre class="file" data-filename="recursion.py" data-target="replace">
-def countdown_fun(value):
-  print(value)
-  value--
-    print(value)
-  value--
-    print(value)
-  value--
-    print(value)
-  value--
+Can you create some methods for each class?
 
-  countdown_fun(50)
-</pre>
-
-`python recursion.py`{{execute}}
-
-However, this is really inefficient. Your task is to build this same system, but recursivley (where the function calls itself) to countdown from the inputted value to 0.
-  
 <marquee style='color: blue;'><b>Yay you've completed part 4!</b></marquee>
