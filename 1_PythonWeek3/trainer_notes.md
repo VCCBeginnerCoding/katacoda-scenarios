@@ -9,11 +9,13 @@ The student is asked to try it for themselves. The task is to create through an 
 
 For example:
 
+```
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
   if x == "banana":
     break
+```
 
 ## Step 2: Functions
 This section gives a brief overview of what a function is, then explains how to define it, how to call it, how to pass data to it, what happens when only one argument is passed when more is expected, how tuples work, what keyword arguments are, how default values work, how to pass a list to a function, how the return statement works, how the pass statement works and the basics of recursion.
@@ -30,6 +32,7 @@ Otherwise, it should print the same number.
 
 Example code:
 
+```
 def fizzBuzzFunc(maxValue):
     fizzbuzz = 0
     while fizzbuzz < maxValue:
@@ -46,6 +49,7 @@ def fizzBuzzFunc(maxValue):
 
 maximumValue = input("please enter max value")
 fizzBuzzFunc(maximumValue)
+```
 
 The additional tasks are as follows:
 Using default value: def fizzBuzzFunc(maxValue = 100):
@@ -56,9 +60,11 @@ Using keyword value: fizzBuzzFunc(maxValue = 50, lowerValue = 20)
 
 Example code:
 
+```
 carManufactures = ("BMW", "Ford", "Skoda", "Citroen")
 for x in carManufactures
     print(carManufactures)
+```
 
 The extra tasks if they can use a nested tuple to also include car models. For example: 
 my_tuple = ("Skoda, Fabia, Kodiaq", ("Peugeot, 208, 308"))
@@ -72,6 +78,7 @@ This task asks the student to create a class called pet, and then create a class
 
 For example:
 
+```
 class Pet:
     def __init__(self,name,age,fav_food):
         self.petName = name
@@ -88,6 +95,7 @@ class Dog(Pet):
     
 x = Dog("Fido", "5" , "Dry food", "Ball")
 x.printdetails()
+```
 
 
 
