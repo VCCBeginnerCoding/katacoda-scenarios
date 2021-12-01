@@ -18,3 +18,6 @@ Variable comparision.
 
 ## 5. Practical Uses
 Talk about Python uses in daily life/ work.
+
+## Optional Reading
+Try to find time to go through these two sections with the group. It's essential we convey the practical reasons as to why we're learning Python and to tell them what they can achieve.
