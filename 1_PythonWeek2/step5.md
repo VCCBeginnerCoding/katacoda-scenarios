@@ -26,5 +26,5 @@ print("Perry's index is: " + str(index_of_perry))`{{execute}}
 Something which you may find helpful is that when you try and retrieve a variable from the list by putting the index -1, you will retrieve the last variable in the list. This is very useful when working with large lists. Try running the piece of code below and see what variable is retrieved:
 
 `
-    food = ["Apple", 3, "Chocolate", 3, "Sandwhich", 4, "Cake", 1]
+    food = ["Apple", 3, "Chocolate", 3, "Sandwich", 4, "Cake", 1]
 print(food[-1])`{{execute}}

@@ -10,7 +10,8 @@ Lists are multi-value variables which can have variables within them all of the 
 
 `
     names = ["Ellie", "Dan", "Perry", "Justin"]
-food = ["Apple", 3, "Chocolate", 3, "Sandwhich", 4, "Cake", 1]print(names)
+food = ["Apple", 3, "Chocolate", 3, "Sandwich", 4, "Cake", 1]
+print(names)
 print(food)`{{execute}}
 
 As you can see, there are some similarities to how you declare a variable, you need to:
