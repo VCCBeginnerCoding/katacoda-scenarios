@@ -76,13 +76,13 @@ For lists there is a copy() method which lets you make a new version of a list a
 
 <pre class="file" data-filename="copy.py" data-target="replace">
 numbers = [10, 90, 23, 46, -20]
-numbers_copy = numbers.copy()
-numbers_copy[1] = "Changing"
+numbers2 = numbers.copy()
+numbers2[1] = "Changing"
 print(numbers)
-print(numbers_copy)
+print(numbers2)
 </pre>
 
 Copy the code above over to the editor and then press
 `python copy.py`{{execute}}
 
-When you run the code you can see that the original numbers list has not been altered, however the numbers_copy list has the value "Changing" as the second element instead of 90. This is how we approach copying and manipulating versions of lists without altering the original if you do not wish to.
+When you run the code you can see that the original numbers list has not been altered, however the numbers2 list has the value "Changing" as the second element instead of 90. This is how we approach copying and manipulating versions of lists without altering the original if you do not wish to.
