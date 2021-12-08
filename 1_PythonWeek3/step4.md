@@ -25,9 +25,9 @@ We can now use the class "blueprint" to create an object
 
 <pre class="file" data-filename="classes.py" data-target="replace">
 class LinkedIn:
-userName = "Bob Cratchit"
-totalLikes = 622
-lastPostDate = "14-10-2021"
+    userName = "Bob Cratchit"
+    totalLikes = 622
+    lastPostDate = "14-10-2021"
 
 myClass = LinkedIn()
 print(myClass.totalLikes)
