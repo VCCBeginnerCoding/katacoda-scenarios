@@ -15,6 +15,8 @@ The following code block shows how to read spreadsheets and csv into python via 
 ### Your turn! : Pandas
 Get the participants to try and load the file "data.csv" into the variable "data_df" using the technique seen in the above code block. 
 
+The following line prints out the data frame to show the participants what the data has
+
 
 ## Subtopic 2: Processing data in Pandas
 In this subtopic, the idea is for the participants to discover what some key functions in pandas do. There are 4 functions, head, tail, describe and value counts. 
@@ -24,6 +26,11 @@ Possible ideas;
 2. Get them to write all them at once and then go through each function and discuss what the function does
 
 It is important that the participants think about where this functionality would be useful and how they might use it in a data analysis environment. 
+
+This is also important to get the participants to understand the data. Ask them questions about what the data is. The data is fake financial data CAPEX (capital expenditure), 
+OPEX (operational expenditure) and Total Expenditure (CAPEX + OPEX). 
+
+After the participants have written all the functions, they should have a better idea with what our data shows.
 
 
 ## Subtopic 2: Visualizing data in Pandas
