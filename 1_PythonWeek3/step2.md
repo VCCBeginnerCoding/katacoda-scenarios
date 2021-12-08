@@ -115,11 +115,12 @@ my_cat_list(cat3="fido", cat2="sophie", cat1="felix")
 If the number of keyword arguments that will be passed the function at two asterisk: <mark>**</mark> before the parameter name in the function definition
 This way the function will receive a dictionary of arguments, and can access the items accordingly:
 
-`def my_function(**kid):
+<pre class="file" data-filename="functions.py" data-target="replace">
+def my_function(**kid):
   print("His last name is " + kid["lname"])
 
-my_function(fname = "Tobias", lname = "Refsnes")`{{execute}}
-
+my_function(fname = "Tobias", lname = "Refsnes"))
+</pre>
 
 ## Default values
 A default value can be set, which will be placed if no value is passed:
