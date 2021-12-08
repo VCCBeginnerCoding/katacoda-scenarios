@@ -77,7 +77,7 @@ print_name("ford")
 `python functions.py`{{execute}}
 
 ## Tuples
-In python, tuples are used to store muliple items in a single variable. 
+In python, tuples are used to store multiple items in a single variable. 
 
 For example:
 
