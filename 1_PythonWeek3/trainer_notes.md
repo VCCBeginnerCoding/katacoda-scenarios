@@ -54,6 +54,31 @@ maximumValue = input("please enter max value")
 fizzBuzzFunc(maximumValue)
 ```
 
+Perry here, that solution above doesn't work
+
+```
+def fizzBuzzFunc(maxValue):
+    fizzbuzz = 0
+    while fizzbuzz < maxValue:
+        if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
+            print("fizzbuzz")
+            fizzbuzz +=1
+            continue
+        elif fizzbuzz % 3 == 0:
+            print("fizz")
+            fizzbuzz +=1
+            continue
+        elif fizzbuzz % 5 == 0:
+            print("buzz")
+            fizzbuzz +=1
+            continue
+        print(fizzbuzz)
+        fizzbuzz +=1
+        
+maximumValue = int(input("please enter max value"))
+fizzBuzzFunc(maximumValue)
+```
+
 The additional tasks are as follows:
 Using default value: def fizzBuzzFunc(maxValue = 100):
 Adding lower parameter: def fizzBuzzFunc(maxValue = 100, lowerValue = 0):

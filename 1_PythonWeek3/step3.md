@@ -1,6 +1,6 @@
 # Now it's your turn!
 
-Open new Python file: `functions.py{{open}}
+Open new Python file: `functions.py`{{open}}
 
 Run Python file: `python functions.py`{{execute}}
 

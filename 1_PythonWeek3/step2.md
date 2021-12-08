@@ -157,7 +157,7 @@ my_function(fruits)
 We can use the <mark>return</mark> keyword to return a value:
 
 <pre class="file" data-filename="functions.py" data-target="replace">
-def calculator(value)
+def calculator(value):
     return value * 10
 
 print(calculator(3))

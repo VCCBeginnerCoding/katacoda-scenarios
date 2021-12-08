@@ -10,9 +10,9 @@ For example:
 
 <pre class="file" data-filename="classes.py" data-target="replace">
 class LinkedIn:
-userName = "Bob Cratchit"
-totalLikes = 622
-lastPostDate = "14-10-2021"
+    userName = "Bob Cratchit"
+    totalLikes = 622
+    lastPostDate = "14-10-2021"
 
 print(LinkedIn)
 </pre>
