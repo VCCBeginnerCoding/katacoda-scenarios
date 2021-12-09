@@ -15,7 +15,9 @@ The following code block shows how to read spreadsheets and csv into python via 
 ### Your turn! : Pandas
 Get the participants to try and load the file "data.csv" into the variable "data_df" using the technique seen in the above code block. 
 
-The following line prints out the data frame to show the participants what the data has
+The following line prints out the data frame to show the participants what the data has. 
+
+The data contains random expenditure data. It contains the CAPEX and OPEX data as well as the total amount.  
 
 
 ## Subtopic 2: Processing data in Pandas
@@ -53,7 +55,7 @@ The idea of this mini project is the challenge the participants. If the particip
 
 If participants don't manage to finish the mini project take it away for homework , try complete it in the free time. For those that do manage to finish the mini project, there are extension topics which involve filtering and processing. The extension is designed to challenge the participants and to ask questions about their data. 
 
-
+The data in this project is taken from Kaggle and is a dataset of people's age, education level, income and how much wine they buy. 
 
 
 
