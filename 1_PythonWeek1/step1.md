@@ -13,6 +13,8 @@ We can print out the variables.
 `print(myCardPin)`{{execute}}
 `print(a)`{{execute}}
 
+![Variables](./assets/components1.png)
+
 We can assign a new value to an existing variable.
 
 `myCardPin = 2222`{{execute}}
