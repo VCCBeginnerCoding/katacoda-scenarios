@@ -13,7 +13,7 @@ We can print out the variables.
 `print(myCardPin)`{{execute}}
 `print(a)`{{execute}}
 
-![Components1](./assets/components1.PNG)
+![Components1](./assets/components1.png)
 
 We can assign a new value to an existing variable.
 
