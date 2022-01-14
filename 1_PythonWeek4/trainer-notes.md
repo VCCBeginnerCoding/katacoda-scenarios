@@ -1,14 +1,16 @@
 # Trainer Notes for Week 4:
 This document is to help you lead the Week 4 session. This week's content is more hands on and practical so make sure you are familiar with the content and the code should a participant ask you questions regarding the content. 
 
+I would also recommend just trying the course yourself as you'll pick up problems along the way. By doing so, you'll be more prepared for any questions participants might have.
+
+Try to make use of Teams' integration of Microsoft Forms to get people's input during the session. This can be something as simple as "Are you ready to move on" and "Is everyone following so far" etc. 
+
+## General 
 Ask the students if they use spreadsheets in their roles or if processing spreadsheets in code is something that they are interested in. If yes: this is perfect, if no: this is a 
 good introduction to learn about how to process spreadsheet files but you can extend the basics of this lesson to learn how to process any file.
 
 Another reason: you might not be processing spreadsheets now, but you might need to process spreadsheets in the future
 
-I would also recommend just trying the course yourself as you'll pick up problems along the way. By doing so, you'll be more prepared for any questions participants might have. 
-
-## General 
 Let the students know that if they ever get stuck or confused you are welcome to ask for help, as an instructor say we get stuck all the time and use google. 
 
 Talk about the difference between csv and xlsx. The markdown on the notebook is there to help you explain what the difference is.
