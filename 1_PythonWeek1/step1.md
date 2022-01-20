@@ -13,7 +13,9 @@ We can print out the variables.
 `print(myCardPin)`{{execute}}
 `print(a)`{{execute}}
 
-![Components1](./assets/components1.png)
+<div><span style="color:green">print(</span><span style="color:blue">"Hello World!"</span><span style="color:green">)</span></div>
+
+```output: Hello World```
 
 We can assign a new value to an existing variable.
 

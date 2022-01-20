@@ -23,12 +23,12 @@
       {
         "title": "Lists",
         "text": "step4.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "Indexing Lists and Changing Values",
         "text": "step5.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "Manipulating Lists",

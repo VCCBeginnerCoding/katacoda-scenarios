@@ -38,5 +38,10 @@ In the above code, we are combining the text *'Your name is '* with the string s
 - Use maths to figure out their birth year (assume they're born on 1st Jan to make the maths simpler)
 - Save the answer as a third variable and print it
 
+<div><span style="color:green">greeting = </span><span style="color:blue">"Good morning!"</span></div>
+<div><span style="color:green">question = </span><span style="color:orange">input(</span><span style="color:green">greeting</span><span style="color:orange">+</span><span style="color:blue">" What's your name?"</span><span style="color:orange">)</span></div>
+
+```output: Good morning! What's your name?```
+
 # Practical Uses
 A lot of software require user input of some sort, be it a mouse click, a finger tap, via your keyboard or something else entirely. Instagram can only load your feed if you login and tell Instagram what your username/password is. Minecraft can only move your character if you tell it to, via mouse and keyboard. (Again, there's a few more steps involved in real life, but you get the idea.)
