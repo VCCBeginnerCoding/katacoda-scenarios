@@ -11,7 +11,7 @@ Click here to create new Python file: `week1.py`{{open}}
 <pre class="file" data-filename="week1.py" data-target="replace">
 # This is a comment
 # Python will not run this
-# Use comments so you remmeber what the code does
+# Use comments so you remember what the code does
 myCardPin = 1234
 a = 2
 print(myCardPin)
