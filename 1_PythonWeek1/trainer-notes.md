@@ -1,11 +1,28 @@
 # Week 1 notes
 
 ## Intro
-Don't hesistate to ask us for help. Google is your friend - emphasise that coders Google all the time so it's normal.
+- Use this as backup in case Katacoda dies on the day https://replit.com/languages/python3
+
+- Don't hesistate to ask us for help. Google is your friend - emphasise that coders Google all the time so it's normal.
+
+- Why we are teaching Python and what you can do with it, add examples of our own work. Show people how flexible Python can be.
+
+- Have a quick summary of the 4 weeks, what we will be covering and what it leads up to.
+
+- If attendees provide an answer, give them the opportunity to explain as well if they want to make it more interactive.
+
+
+
+
 
 ## 1. Variables
-To your right you can see a Terminal. For week 1 we'll be running code here. Simply type code into the Terminal and press enter, or click on one of the many dark grey code blocks to your left.
-You'll be creating variables and manipulating it. Emphasise the practical uses part.
+- <div style="color:red">Imagine it's a folder on your computer, where you can create new folders or files. Simply type code into our .py file (like how image files end in .png or .jpg) and then run it via the Terminal.</div>
+- <div style="color:red">Explain print(), the square brackets, and adding variables in between those brackets.</div>
+- <div style="color:red">Emphasise the practical uses of variables.</div>
+- <div style="color:red"># Explain code comments.</div>
+- <div style="color:red">Explain the page that walks people through how to install and run Python outside of Katacoda.</div>
+
+
 
 ## 2. Strings
 You'll be assigning strings to variables and using input(). Emphasise the practical uses part.
