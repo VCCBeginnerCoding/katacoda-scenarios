@@ -4,11 +4,11 @@
 ```==``` instead asks the question *are the values equal*?
 
 <pre class="file" data-filename="week1.py" data-target="replace">
-100 == 100
-100 == 200
+print(100 == 100)
+print(100 == 200)
 
 a = 100
-a == 100
+print(a == 100)
 </pre>
 
 `python week1.py`{{execute}}
@@ -16,8 +16,8 @@ a == 100
 You can also use the ```!=``` not equal to operator.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
-100 != 100
-100 != 200
+print(100 != 100)
+print(100 != 200)
 </pre>
 
 `python week1.py`{{execute}}
@@ -25,10 +25,10 @@ You can also use the ```!=``` not equal to operator.
 Other operators include ```>``` greater than, ```>=``` greater than or equal to, ```<``` less than, and ```<=``` less than or equal to.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
-100 > 100
-100 >= 100
-100 < 100
-100 <= 100
+print(100 > 100)
+print(100 >= 100)
+print(100 < 100)
+print(100 <= 100)
 </pre>
 
 `python week1.py`{{execute}}
@@ -39,10 +39,12 @@ Returns ```True``` if both statements are true.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 x = 5
-x < 5 and x < 10
+print(x < 5 and x < 10)
 </pre>
 
 `python week1.py`{{execute}}
+
+<div><span style="color:green">print(</span><span style="color:blue">x < 5</span><span style="color:orange"> and </span><span style="color:blue">x < 10</span><span style="color:green">)</span></div>
 
 # or
 
@@ -50,10 +52,12 @@ Returns ```True``` if one of the statements is true.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 x = 4
-x < 5 or x < 4
+print(x < 5 or x < 4)
 </pre>
 
 `python week1.py`{{execute}}
+
+<div><span style="color:green">print(</span><span style="color:blue">x < 5</span><span style="color:orange"> or </span><span style="color:blue">x < 4</span><span style="color:green">)</span></div>
 
 # not
 
@@ -61,14 +65,20 @@ Reverse the result, returns ```False``` if the result is true.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 x = 999
-not(x < 5 and x < 10)
+print(not(x < 5 and x < 10))
 </pre>
 
 `python week1.py`{{execute}}
 
+<div><span style="color:green">print( </span><span style="color:orange">not (</span><span style="color:blue">x < 5</span><span style="color:orange"> and </span><span style="color:blue">x < 10</span><span style="color:orange">)</span><span style="color:green">)</span></div>
+
+<hr>
+
 # Quick Exercise
 - Make a funny face on camera
 - Show us your pets on camera, bonus points for bunnies
+
+<hr>
 
 # Practical Uses
 Is the password that you typed the same as the password that's associated with your account? Comparisions can help. If a project deadline on your database has been missed, we can use comparisions to identify that and then sound the alarm. (Again, there's a few more steps involved in real life, but you get the idea.)

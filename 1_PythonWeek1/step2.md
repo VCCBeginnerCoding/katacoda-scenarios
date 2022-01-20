@@ -2,7 +2,7 @@
 Strings are text in code. They can be declared in Python like so:
 
 <pre class="file" data-filename="week1.py" data-target="replace">
-email = "donotreply@vodafone.com
+email = "donotreply@vodafone.com"
 print(email)
 </pre>
 

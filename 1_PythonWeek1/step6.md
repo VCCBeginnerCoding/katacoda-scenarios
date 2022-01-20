@@ -1,18 +1,9 @@
-# .py files
-You now know the very basics of Python, hurray! *But how do I write and run Python code outside this course?*
+# Practical Uses for Python
+Now you might be wondering: *What can I do with this knowledge?*
 
-# Let's explain the File Editor and Terminal on Katacoda
-**Terminal**<br>
-The Terminal is like the Command Prompt on your Windows computer. Using that, you can do everything that you can achieve via mouse and keyboard and more, from creating folders to changing computer settings.
+In future lessons, we'll be using the knowledge from this session to work on practical day to day problems.
 
-Katacoda has Python pre-installed within the system which allows us to run ```python week1.py```. What that does is ask the installed Python module to run a file called *week1.py*.
+Need to process and analyse lots of financial data? Python. Want to merge and manipulate multiple spreadsheets at the same time? Python. Looking to make video games? You can do that in Python! Always forget when bin day is? Create [bin day indicators](https://www.youtube.com/watch?v=YSBioki_03g) that light up with corresponding colours on the day! Build [your own robot](https://thepihut.com/collections/raspberry-pi-kits-and-bundles/products/camjam-edukit-3-robotics)! Create a super cool [smart mirror](https://www.youtube.com/watch?v=WQR0fv9C5dU)! Make a [burglar alarm](https://thepihut.com/products/camjam-edukit-2-sensors) for your bedroom! Switch on an LED when it gets dark!
 
-**File Editor**<br>
-The File Editor is a bit like your computer. You can have folders and then files inside of those folders. These files are just like files on your computer - images, videos etc. Pictures might be named ```dog.png``` or ```cutebunnies.jpg``` for example, while we name Python files as ```example.py```. Python files are essentially text files, and we simply name the file extensions as ```.py``` so that programmes know it's a Python file.
-
-# Online Python Editors
-Want to quickly write and run simple Python code but not install Python on your computer? Try some of these online options!
-- [Google Colab](https://colab.research.google.com/)
-- [W3Schools](https://www.w3schools.com/python/trypython.asp?filename=demo_compiler)
-- [replit](https://replit.com/languages/python3)
-- [Visual Studio Code - Browser Version](https://vscode.dev/) (can edit but not run code)
+If you haven't already, you can also watch this 4 minute video to find out why Python is important.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y8Tko2YC5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
