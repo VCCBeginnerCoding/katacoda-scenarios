@@ -6,9 +6,9 @@ Hover over the code snippets below and click *Copy to Editor* to copy the code t
 
 You can store any value in a variable, then use it or change its value later on in the program. We can also print out the variables using ```print()```. <span style="color:green">print(</span><span style="color:blue">"Hello World!"</span><span style="color:green">)</span> <span style="color:green">print(</span><span style="color:blue">variable</span><span style="color:green">)</span>
 
-Click here to create new Python file: `Week1.py`{{open}}
+Click here to create new Python file: `week1.py`{{open}}
 
-<pre class="file" data-filename="Week1.py" data-target="replace">
+<pre class="file" data-filename="week1.py" data-target="replace">
 # This is a comment
 # Python will not run this
 # Use comments so you remmeber what the code does
@@ -19,7 +19,7 @@ print(a)
 </pre>
 
 Copy the code above over to the editor and then press
-`python Week1.py`{{execute}}. You can also type that yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
+`python week1.py`{{execute}}. You can also type that yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
 
 Note: Variables are case sensitive, so ```myCardPin``` and ```MyCaRdPiN``` are two separate variables.
 
@@ -27,7 +27,7 @@ Note: Variables are case sensitive, so ```myCardPin``` and ```MyCaRdPiN``` are t
 
 We can assign a new value to an existing variable.
 
-<pre class="file" data-filename="Week1.py" data-target="replace">
+<pre class="file" data-filename="week1.py" data-target="replace">
 myCardPin = 2222
 print(myCardPin)
 myCardPin = 5555
@@ -36,7 +36,7 @@ myCardPin = 1382929292
 print(myCardPin)
 </pre>
 
-`python Week1.py`{{execute}}
+`python week1.py`{{execute}}
 
 <hr>
 
@@ -51,7 +51,7 @@ Python also has a list of [reserved words](https://www.w3schools.com/python/pyth
 # More about variables
 Try these commands.
 
-<pre class="file" data-filename="Week1.py" data-target="replace">
+<pre class="file" data-filename="week1.py" data-target="replace">
 b = 4
 print(b)
 b = b+2
@@ -60,11 +60,11 @@ b += 2
 print(b)
 </pre>
 
-`python Week1.py`{{execute}}
+`python week1.py`{{execute}}
 
 You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
 
-<pre class="file" data-filename="Week1.py" data-target="replace">
+<pre class="file" data-filename="week1.py" data-target="replace">
 print(2+3)
 print(2-3)
 print(2*3)
@@ -73,7 +73,7 @@ print(2//3)
 print(2%3)
 </pre>
 
-`python Week1.py`{{execute}}
+`python week1.py`{{execute}}
 
 <hr>
 
