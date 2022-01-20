@@ -1,5 +1,5 @@
 # Basics
-Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right). It's the same as creating a file on your computer and then adding text to it.
+Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
 <hr>
 
 ![Variables](./assets/variables.png)

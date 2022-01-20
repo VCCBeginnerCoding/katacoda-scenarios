@@ -3,44 +3,68 @@
 
 ```==``` instead asks the question *are the values equal*?
 
-`100 == 100`{{execute}}
-`100 == 200`{{execute}}
+<pre class="file" data-filename="week1.py" data-target="replace">
+100 == 100
+100 == 200
 
-`a = 100
-a == 100`{{execute}}
+a = 100
+a == 100
+</pre>
+
+`python week1.py`{{execute}}
 
 You can also use the ```!=``` not equal to operator.
 
-`100 != 100`{{execute}}
-`100 != 200`{{execute}}
+<pre class="file" data-filename="week1.py" data-target="replace">
+100 != 100
+100 != 200
+</pre>
+
+`python week1.py`{{execute}}
 
 Other operators include ```>``` greater than, ```>=``` greater than or equal to, ```<``` less than, and ```<=``` less than or equal to.
 
-`100 > 100`{{execute}}
-`100 >= 100`{{execute}}
-`100 < 100`{{execute}}
-`100 <= 100`{{execute}}
+<pre class="file" data-filename="week1.py" data-target="replace">
+100 > 100
+100 >= 100
+100 < 100
+100 <= 100
+</pre>
+
+`python week1.py`{{execute}}
 
 # and
 
 Returns ```True``` if both statements are true.
 
-`x = 5
-x < 5 and x < 10`{{execute}}
+<pre class="file" data-filename="week1.py" data-target="replace">
+x = 5
+x < 5 and x < 10
+</pre>
+
+`python week1.py`{{execute}}
 
 # or
 
 Returns ```True``` if one of the statements is true.
 
-`x = 4
-x < 5 or x < 4`{{execute}}
+<pre class="file" data-filename="week1.py" data-target="replace">
+x = 4
+x < 5 or x < 4
+</pre>
+
+`python week1.py`{{execute}}
 
 # not
 
 Reverse the result, returns ```False``` if the result is true.
 
-`x = 999
-not(x < 5 and x < 10)`{{execute}}
+<pre class="file" data-filename="week1.py" data-target="replace">
+x = 999
+not(x < 5 and x < 10)
+</pre>
+
+`python week1.py`{{execute}}
 
 # Quick Exercise
 - Make a funny face on camera

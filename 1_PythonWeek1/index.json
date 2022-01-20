@@ -26,13 +26,18 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Optional Reading: Why am I doing this?",
+        "title": "Why am I doing this?",
         "text": "step5.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Optional Reading: So how does this actually work?",
+        "title": "So how does this actually work?",
         "text": "step6.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Optional Reading: Installing and Running Python",
+        "text": "step7.md",
         "foreground": "clear.sh"
       }
     ],
