@@ -91,7 +91,7 @@ print(2%3)
 - Print out the third variable
 - You've found your age! (We're assuming you were born on 1st January to keep this task simple.)
 
-[Click here for solutions.](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md)
 
 <hr>
 

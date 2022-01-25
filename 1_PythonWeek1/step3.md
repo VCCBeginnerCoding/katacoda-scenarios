@@ -62,6 +62,8 @@ There are many more data types that you'll learn about in future lessons, many o
 - There's a chance that it results in an error.
 - So let's convert the input into an integer before subtracting 1 and printing.
 
+[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md)
+
 <hr>
 
 # Practical Uses

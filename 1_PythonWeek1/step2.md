@@ -74,7 +74,7 @@ print("Hello " + username + ", nice to meet you!")
 - Print that variable.
 - Optional: Chain it by putting ```input()``` inside of ```print()``` so you only need 1 line of code
 
-[Click here for solutions.](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md)
 
 <hr>
 
