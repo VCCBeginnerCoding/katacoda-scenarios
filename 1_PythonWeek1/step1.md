@@ -1,5 +1,7 @@
 # Basics
 Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
+
+Messy Terminal? `clear`{{execute}} it.
 <hr>
 
 ![Variables](./assets/variables.png)
@@ -13,8 +15,9 @@ Click here to create new Python file: `week1.py`{{open}}
 # Python will not run this
 # Use comments so you remember what the code does
 myCardPin = 1234
-a = 2
 print(myCardPin)
+
+a = 2
 print(a)
 </pre>
 
@@ -30,8 +33,10 @@ We can assign a new value to an existing variable.
 <pre class="file" data-filename="week1.py" data-target="replace">
 myCardPin = 2222
 print(myCardPin)
+
 myCardPin = 5555
 print(myCardPin)
+
 myCardPin = 1382929292
 print(myCardPin)
 </pre>
@@ -42,7 +47,7 @@ print(myCardPin)
 
 <span style="color:green">✓</span> Valid variable names: ```_``` ```days_to_christmas``` ```Adiós_Señora```
 
-<span style="color:red">✗</span> Invalid variable names: ```10t``` *<span style="color:red">must begin with a letter</span>* ```Exchange Rate``` *<span style="color:red">must not contain a space</span>*
+<span style="color:red">✗</span> Invalid variable names: ```10t``` *<span style="color:red">must begin with a letter</span>* ```Exchange Rate``` *<span style="color:red">must not contain a space</span>* ```?``` *<span style="color:red">must not be punctuation</span>*
 
 Python also has a list of [reserved words](https://www.w3schools.com/python/python_ref_keywords.asp) that cannot be used as variable names.
 
@@ -54,8 +59,10 @@ Try these commands.
 <pre class="file" data-filename="week1.py" data-target="replace">
 b = 4
 print(b)
+
 b = b+2
 print(b)
+
 b += 2
 print(b)
 </pre>
@@ -79,10 +86,12 @@ print(2%3)
 
 # Quick Exercise
 - Save your age as a variable
-- Save the current year (2021 as of writing) as a second variable
+- Save the current year (2022 as of writing) as a second variable
 - Subtract the current year by your age (using the variables) and save that as a third variable
 - Print out the third variable
 - You've found your age! (We're assuming you were born on 1st January to keep this task simple.)
+
+[Click here for solutions.](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 <hr>
 

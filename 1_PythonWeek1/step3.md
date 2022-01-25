@@ -1,4 +1,9 @@
 # Numbers
+Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
+
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 Python supports three types of numbers – ```int```, ```float```, and ```complex```. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations (so ignore them for now). You can also convert numbers into strings, which Python will treat as text (so no more multiplications afterwards).
 
 *Integer and float*
@@ -52,10 +57,18 @@ There are many more data types that you'll learn about in future lessons, many o
 <hr>
 
 # Quick Exercise
-- Turn on your camera
-- Come on, it's awkward here when I'm the only one with my camera on :P
+- Use ```input``` to ask a user for their age.
+- Subtract 1 from that and print it.
+- There's a chance that it results in an error.
+- So let's convert the input into an integer before subtracting 1 and printing.
 
 <hr>
 
 # Practical Uses
-Floating-point real numbers can't be represented with exact precision due to hardware limitations, so `print(0.1 + 0.2)`{{execute}} gives ```0.30000000000000004```, which is obviously not entirely correct. That's where integers or number rounding can come in handy in certain scenarios.
+Floating-point real numbers can't be represented with exact precision due to hardware limitations, so ```print(0.1 + 0.2)``` gives ```0.30000000000000004```, which is obviously not entirely correct. That's where integers or number rounding can come in handy in certain scenarios.
+<pre class="file" data-filename="week1.py" data-target="replace">
+print(0.1 + 0.2)
+print(round(0.1 + 0.2))
+</pre>
+
+`python week1.py`{{execute}}

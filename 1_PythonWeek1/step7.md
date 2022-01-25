@@ -14,7 +14,7 @@ The File Editor is a bit like your computer. You can have folders and then files
 
 # Online Python Editors
 Want to quickly write and run simple Python code but not install Python on your computer? Try some of these online options!
+- [replit](https://replit.com/languages/python3)
 - [Google Colab](https://colab.research.google.com/)
 - [W3Schools](https://www.w3schools.com/python/trypython.asp?filename=demo_compiler)
-- [replit](https://replit.com/languages/python3)
 - [Visual Studio Code - Browser Version](https://vscode.dev/) (can edit but not run code)

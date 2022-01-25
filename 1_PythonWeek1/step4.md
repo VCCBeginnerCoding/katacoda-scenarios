@@ -1,4 +1,9 @@
 # Comparison
+Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
+
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 ```=``` is an assignment operator. ```a = 2``` assigns ```a``` with the value of ```2```.
 
 ```==``` instead asks the question *are the values equal*?
@@ -41,10 +46,8 @@ Returns ```True``` if both statements are true.
 x = 5
 print(x < 5 and x < 10)
 </pre>
-
-`python week1.py`{{execute}}
-
 <div><span style="color:green">print(</span><span style="color:blue">x < 5</span><span style="color:orange"> and </span><span style="color:blue">x < 10</span><span style="color:green">)</span></div>
+`python week1.py`{{execute}}
 
 # or
 
@@ -54,10 +57,8 @@ Returns ```True``` if one of the statements is true.
 x = 4
 print(x < 5 or x < 4)
 </pre>
-
-`python week1.py`{{execute}}
-
 <div><span style="color:green">print(</span><span style="color:blue">x < 5</span><span style="color:orange"> or </span><span style="color:blue">x < 4</span><span style="color:green">)</span></div>
+`python week1.py`{{execute}}
 
 # not
 
@@ -67,15 +68,14 @@ Reverse the result, returns ```False``` if the result is true.
 x = 999
 print(not(x < 5 and x < 10))
 </pre>
-
-`python week1.py`{{execute}}
-
 <div><span style="color:green">print( </span><span style="color:orange">not (</span><span style="color:blue">x < 5</span><span style="color:orange"> and </span><span style="color:blue">x < 10</span><span style="color:orange">)</span><span style="color:green">)</span></div>
+`python week1.py`{{execute}}
 
 <hr>
 
 # Quick Exercise
 - Make a funny face on camera
+- Come on, it's awkward here when I'm the only one with my camera on :P
 - Show us your pets on camera, bonus points for bunnies
 
 <hr>
