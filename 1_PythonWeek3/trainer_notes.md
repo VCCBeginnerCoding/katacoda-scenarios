@@ -23,6 +23,10 @@ for x in fruits:
 ## Step 2: Functions
 This section gives a brief overview of what a function is, then explains how to define it, how to call it, how to pass data to it, what happens when only one argument is passed when more is expected, how tuples work, what keyword arguments are, how default values work, how to pass a list to a function, how the return statement works, how the pass statement works and the basics of recursion.
 
+Here, please discuss why we use function: Code reusability, quicker etc
+
+Also mention that parameters can have any name and that functions can be called multiple times in a row with different parameters being passed
+
 ## Step 3: Have a go section.
 Here the user is presented with two tasks to work through.
 

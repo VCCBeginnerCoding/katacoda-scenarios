@@ -1,9 +1,35 @@
-# Practical Uses for Python
-Now you might be wondering: *What can I do with this knowledge?*
+# Using Comparisions
+Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
 
-In future lessons, we'll be using the knowledge from this session to work on practical day to day problems.
+Messy Terminal? `clear`{{execute}} it.
+<hr>
 
-Need to process and analyse lots of financial data? Python. Want to merge and manipulate multiple spreadsheets at the same time? Python. Looking to make video games? You can do that in Python! Always forget when bin day is? Create [bin day indicators](https://www.youtube.com/watch?v=YSBioki_03g) that light up with corresponding colours on the day! Build [your own robot](https://thepihut.com/collections/raspberry-pi-kits-and-bundles/products/camjam-edukit-3-robotics)! Create a super cool [smart mirror](https://www.youtube.com/watch?v=WQR0fv9C5dU)! Make a [burglar alarm](https://thepihut.com/products/camjam-edukit-2-sensors) for your bedroom! Switch on an LED when it gets dark!
+![Variables](./assets/ifelse.png)<br>
 
-If you haven't already, you can also watch this 4 minute video to find out why Python is important.
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y8Tko2YC5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You don't have to understand ```if``` statements right now - we'll cover those next week. But here's why comparisions can come in handy, and why Python can be a versatile language.
+
+<pre class="file" data-filename="week1.py" data-target="replace">
+age = 17
+
+if age < 18: 
+    print("You're too young to buy scissors.")
+
+if age < 0: 
+    print("You haven't been born yet.")
+</pre>
+
+`python week1.py`{{execute}}
+
+<hr>
+
+# Indentation
+
+See how the ```print``` statement above is indented? It means it sits under the ```if``` statement, and will only run if the conditions of that ```if``` statement is true.
+
+To indent a line, you have a few options. Choose one and then start a fight with the others over which one is superior:
+
+- press <kbd>SPACE</kbd> 4 times
+- press <kbd>SPACE</kbd> 2 times
+- press <kbd>TAB</kbd> once
+
+Indentation is very important. While other programming languages allow you to write horrifyingly unindented code and wrap them in ```{}``` brackets, Python relies on your indentation to know when to run what code. Remember this!

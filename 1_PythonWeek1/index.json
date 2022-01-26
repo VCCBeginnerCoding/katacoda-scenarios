@@ -8,32 +8,42 @@
       {
         "title": "Variables",
         "text": "step1.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "Strings & Input",
         "text": "step2.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "Variable Types",
         "text": "step3.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
         "title": "Comparision",
         "text": "step4.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
-        "title": "Optional Reading: Why am I doing this?",
+        "title": "If Statements",
         "text": "step5.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
       },
       {
-        "title": "Optional Reading: So how does this actually work?",
+        "title": "Why am I doing this?",
         "text": "step6.md",
-        "foreground": "startup.sh"
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "So how does this actually work?",
+        "text": "step7.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Optional Reading: Installing and Running Python",
+        "text": "step8.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {
