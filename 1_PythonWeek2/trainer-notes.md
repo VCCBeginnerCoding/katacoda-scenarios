@@ -23,9 +23,13 @@ For these If/Else statements in this step we do not mention the other operators 
 
 Again like the previous step, just go through each line of the code for some of the examples and discuss why each line does or does not execute. But this time let them guess what will be printed first and run the code to see the result, before explaining why the result is that value.
 
+After doing a practice run through, it was noted that for the first if example you should probably just run through that one line for line, explaining how it works and then for the next if example, let them see if they can give you the answer themselves or explain themselves how it works. For the future if statements that are similar, you do not need to explain each line.
+
 </br>
 
 ## Step 3 - If/Else Exercises
+You should not skip this step, you should let them do this themselves if you can, do not lead through this normally like the previous examples as this is an exercise which you want them to complete so it reinforces their learning. 
+
 Maybe break out into break out rooms with one instructor in each room, who can instruct by either:
 - Sharing their screen and asking each person what they think the steps are to approaching the problem and what lines of code they should right next. Then after they have completed the problem getting them to write it up themselves
 - Having an attendee share their screen and the group help them write the code all together
@@ -66,9 +70,7 @@ For the min-max function you may want to mention that min max can be used in a v
 
 For the len function, it may be good to mention that it is used regularly to find out the size of very large arrays and used to easily loop through them using range loops.
 
-For the sort function, this generally is very useful and shouldn't need much explanation as to why it is so. However a good example would be sorting a group of names into alphabetical order so it can be displayed effectively to the user.
-
-For the copy function, you should make it clear again that simply using an equals sign i.e. new_array = old_array does not create a new array which is seperate and does not affect the original, it is passing by reference so will change the original array if you change the new one. Therefore using the copy method is essential if you wish to create a copy of an array and edit it without altering the original. 
+For the sort function, this generally is very useful and shouldn't need much explanation as to why it is so. However a good example would be sorting a group of names into alphabetical order so it can be displayed effectively to the user. Make it clear for this function that sorting a list of strings sorts them alphabetically, also give context as to why you may want to sort a list of strings in reverse.
 
 </br>
 

@@ -1,4 +1,4 @@
-Now we're going to create some nested lists and work with them as practice. Below is some shopping lists data that we are going to work with.
+Now we're going to create some lists and work with them as practice. Below is some shopping lists data that we are going to work with.
 
 
 <p align="center">
@@ -10,12 +10,9 @@ Now do the following steps using the shopping list data provided and the knowled
 
 - Create a list that contains all of Lily's items 
 - Sort the list of her items (in ascending order)
-- Make the list nested by adding the price of each item (i.e. have each item and its price in its own array)
-- Add this food item to Lily's shopping list: Chocolate - £1.50
-- Create the same kind of nested list for Mike and for Tom
-- Create an overall shoppingLists list with all 3 people's list within it
-
-At this point you will have made a triple nested list, you can see how quickly things can become nested when you want to store associated data.
+- Add three food items to Lily's shopping list: Chocolate, Marshmallows and Strawberry jam
+- Remove the Ice cream from Lily's shopping list 
+- Create the same kind of list for Mike and for Tom
 
 To write your own code simply create a new Python file: `listsexercise.py`{{open}}
 
@@ -25,6 +22,8 @@ Write your code in the editor that has now opened and when you are ready, execut
 </br>
 
 As further work you can do the following steps to explore nested lists:
+- Make the Shopping lists nested by adding the price of each item next to the item name (i.e. [Salsa, 2.50]). For the items that do not have a price, you can make one up
+- Create an overall shoppingLists list with all 3 people's list within it
 - Retrieve the cost of Mike's Paninis
 - Edit the cost of Tom's Milk to £1 instead
 - Delete the Eggs and their cost from Lily's shopping list
