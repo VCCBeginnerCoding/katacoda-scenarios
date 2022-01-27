@@ -8,11 +8,22 @@ Now let's move onto something new, Lists. Lists are a new type of Data Type whic
 
 Lists are multi-value variables which can have variables within them all of the same type or of different types. Some of them may be integers, strings, booleans or even other lists (this is called nested listing, we will come back to this). Below is an example of how to declare a list, in this instance we are declaring a list of strings and a list of strings and numbers:
 
-`
-    names = ["Ellie", "Dan", "Perry", "Justin"]
+
+<pre class="file" data-filename="listsexample.py" data-target="replace">
+names = ["Ellie", "Dan", "Perry", "Justin"]
 food = ["Apple", 3, "Chocolate", 3, "Sandwich", 4, "Cake", 1]
 print(names)
-print(food)`{{execute}}
+print(food)
+</pre>
+
+*Hint: Lower and Upper case matters in string equality*
+
+</br>
+
+**Now try running the code and see which print statement is executed.**
+
+Copy the code above over to the editor and then press
+`python listsexample.py`{{execute}}
 
 As you can see, there are some similarities to how you declare a variable, you need to:
 - Give a name for the list
@@ -22,10 +33,16 @@ But you also need to seperate each invidivual variable with a comma within the s
 
 You can also declare a list using pre-existing variables as shown below:
 
-`
-    name1 = "Ellie"
+<pre class="file" data-filename="listsexample.py" data-target="replace">
+name1 = "Ellie"
 name2 = "Dan"
 names = [name1, name2]
-print(names)`{{execute}}
+print(names)
+</pre>
+
+If you want to see what is printed, you can copy the code above over to the editor and then press
+`python listsexample.py`{{execute}}
+
+</br>
 
 *It is important to remember for the future that elements in a list are always **numbered starting from zero**, so in our first 'names' example "Ellie" is the first element and is in position 0 of the list. The final element is "Justin" and is in position 3 of the list.*

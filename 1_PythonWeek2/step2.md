@@ -6,7 +6,7 @@ Below are a few examples of Comparison operators being used in Python to have di
 
 ### **Example 1:**
 
-<pre class="file" data-filename="ifelif.py" data-target="replace">
+<pre class="file" data-filename="ifelseexample.py" data-target="replace">
 a = "Lisa"
 b = "Sandy"
 c = "lisa"
@@ -31,17 +31,15 @@ if a != b:
 
 **Now try running the code and seeing which print statement is executed.**
 
-Open new Python file: `ifelif.py`{{open}}
-
 Copy the code above over to the editor and then press
-`python ifelif.py`{{execute}}
+`python ifelseexample.py`{{execute}}
 
 </br>
 </br>
 
 ### **Example 2:**
 
-<pre class="file" data-filename="greaterthan.py" data-target="replace">
+<pre class="file" data-filename="ifelseexample.py" data-target="replace">
 x = 3
 y = 20
 
@@ -63,10 +61,8 @@ else:
 
 **Now try running the code and seeing which print statement is executed.**
 
-Open new Python file: `greaterthan.py`{{open}}
-
 Copy the code above over to the editor and then press
-`python greaterthan.py`{{execute}}
+`python ifelseexample.py`{{execute}}
 
 </br>
 </br>
