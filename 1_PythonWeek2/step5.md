@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 To change the value of an item in a list, you need to first know it's position in the list (known as its index in the list). For instance, if we wanted to change the name of "Jusin" in the below list to "Justin" we would need to know that their name is in position 3 of the list as we previously stated. Knowing this we can assign the value of "Justin" to that position in the list (index), overwriting the variable already in that position, as shown below:
 
 <pre class="file" data-filename="listsexample.py" data-target="replace">

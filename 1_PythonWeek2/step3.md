@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 ## **Exercise 1a:**
 You've learnt the basics of If and Else statements now, so lets see if you can write one yourself. Write a program that uses If, else and elif statements to tell the user it wants a certain number as input. Below is a list of things the program should do:
 - print the sentence "No, I want a bigger number!" on the screen if the inputted number is less than 5
