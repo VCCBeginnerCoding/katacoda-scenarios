@@ -62,9 +62,9 @@ while i < 6:
 `python loops.py`{{execute}}
 
   ## Try it yourself!
-  - Step 1: Create an array
-  - Step 2: Loop through the array
-  - Step 3: Print all values in the array
+  - Step 1: Create a list
+  - Step 2: Loop through the list
+  - Step 3: Print all values in the list
   - Step 4: Create a break statement to break the statement after reading a certain value.
 
 
