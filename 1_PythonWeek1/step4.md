@@ -74,9 +74,8 @@ print(not(x < 5 and x < 10))
 <hr>
 
 # Quick Exercise
-- Make a funny face on camera
-- Come on, it's awkward here when I'm the only one with my camera on :P
-- Show us your pets on camera, bonus points for bunnies
+- You have made it half way lets see how much you have learnt 
+- Go back to teams and answer the questions on the screen!
 
 <hr>
 
