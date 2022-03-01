@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 Elements can also be removed from a list at any point in time, we will explore some of the apporaches you can use to remove elements from a list below.
 
 </br>

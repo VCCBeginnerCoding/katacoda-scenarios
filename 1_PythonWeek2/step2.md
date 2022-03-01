@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 In the previous step you may have noticed we used the **equal to** operator as part of the conditional checks, you can use all of the other Comparison operators we learnt last week as well to ensure your conditional is only executing when you want it to. 
 
 Below are a few examples of Comparison operators being used in Python to have different bits of code run, can you guess what will be printed?

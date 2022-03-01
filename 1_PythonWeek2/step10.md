@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 Now we're going to create some lists and work with them as practice. Below is some shopping lists data that we are going to work with.
 
 

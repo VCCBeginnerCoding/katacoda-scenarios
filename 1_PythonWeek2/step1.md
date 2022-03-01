@@ -2,6 +2,9 @@
     <img src="./assets/ifelse.png" alt="If-else Statement" width="250" class="center"/>
 </p>
 
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 One of the fundamental parts of programming are conditional statements, which is when a set of actions are taken if a condition is met. As an example of this in real life, if two people are playing catch, the first person will check that the second is paying attention to them (the condition) before they throw them the ball (set of actions). 
 
 An If/Else statement is one of the simpler conditional statements in Python, which we will be exploring today. You are most likely to use If/Else statements in Python when you wish for code to execute only if something else is True or False, such as the example below:

@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 Now let's move onto something new, Lists. Lists are a new type of Data Type which you haven't met yet, they are a structure which allows us to store multiple variables within them. 
 
 **Why do we need to store multiple variables?** In some programs there are many variables that the program has to work with, sometimes up to the hundreds or thousands, having a list to store these in and handle them saves a lot of time and makes the code a lot more efficient.

@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 We mentioned this previously, but lists can also be put as elements of a list, this is called nested lists. You can declare them just like you do with normal lists, however you will have another set of square brackets within your list which contains the list element, as shown in the example below:
 
 <pre class="file" data-filename="nestedlist.py" data-target="replace">

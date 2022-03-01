@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 You were just introduced in the previous step to one of the methods you can use on a list, called index(), which just lets you retrieve the index of a variable within a list. 
 
 Now we're going to explore some more of the functions and methods which can be used on lists that you will find useful. You will learn more about function and methods in next weeks session.
