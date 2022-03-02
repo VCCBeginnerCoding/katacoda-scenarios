@@ -23,7 +23,7 @@ def my_function():
 my_function() 
 </pre>
 
-`python functions.py`{{execute}}
+`python functionCall.py`{{execute}}
 
 ## Passing data to the function
 
@@ -39,7 +39,7 @@ print_name("Sandra")
 print_name("Yasmin")
 </pre>
 
-`python functions.py`{{execute}}
+`python passingData.py`{{execute}}
 
 Functions can take more than one argument, and when you call them you must pass in the amount specified:
 
@@ -52,7 +52,7 @@ print_car_details("Skoda", "Octavia")
 print_car_details("Citroen", "C1")
 </pre>
 
-`python functions.py`{{execute}}
+`python moreArugments.py`{{execute}}
 
 ## Tuples
 In python, tuples are used to store multiple items in a single variable. 
@@ -64,7 +64,7 @@ thistuple = ("apple", "banana", "cherry")
 print(thistuple)
 </pre>
 
-`python functions.py`{{execute}}
+`python tuples.py`{{execute}}
 
 If you have varying lengths of variables to pass, you can use the <mark>*args</mark> annotation to pass in your arguments.
 
@@ -77,7 +77,7 @@ def my_dog_tuple(*dogs):
 my_dog_tuple("Toby", "Max", "Bob")
 </pre>
 
-`python functions.py`{{execute}}
+`python tupleAnnotation.py`{{execute}}
 
 ## Keyword arguments
 
@@ -91,7 +91,7 @@ def my_cat_values(cat3, cat1, cat2):
 my_cat_values(cat1="fido", cat2="sophie", cat3="felix")
 </pre>
 
-`python functions.py`{{execute}}
+`python keywordArguments.py`{{execute}}
 
 If the argument passed in has <mark>**args</mark> these are known as 'kwargs' (keyword arguments), and allow us to pass in varying lengths of key-value pairs.
 We can then access each argument based on its key.
@@ -102,6 +102,8 @@ def kwargs(**kid):
 
 kwargs(fname = "Tobias", lname = "Refsnes")
 </pre>
+
+`python keywordAnnotation.py`{{execute}}
 
 ## Default values
 A default value can be set, which will be used if no value is passed:
@@ -114,14 +116,14 @@ favourite_show("American horror story")
 favourite_show()
 </pre>
 
-`python functions.py`{{execute}}
+`python defaultValues.py`{{execute}}
 
 ## Passing in different data types
 Python allows for different data types (Strings, Lists, Tuples...) to be passed in and treated as that data type.
 
 This means a function could accept different data types:
 
-<pre class="file" data-filename="functions.py" data-target="replace">
+<pre class="file" data-filename="passingDifferentData.py" data-target="replace">
 def print_argument(data):
   for x in food:
     print(x)
@@ -133,7 +135,7 @@ print_argument(fruits)
 print_argument(sentance)
 </pre>
 
-`python functions.py`{{execute}}
+`python passingDifferentData.py`{{execute}}
 
 ## Return
 We can use the <mark>return</mark> keyword to return a value:
@@ -147,7 +149,7 @@ print(calculator(5))
 print(calculator(9))
 </pre>
 
-`python functions.py`{{execute}}
+`python return.py`{{execute}}
 
 ## The Pass statement
 You cannot have a blank function, but if you need to have a function as a placeholder (eg. for future code), you can use the <mark>pass</mark> keyword
@@ -159,13 +161,13 @@ def placeholder():
 placeholder()
 </pre>
 
-`python functions.py`{{execute}}
+`python pass.py`{{execute}}
 
 ## Recursion!
 Recursion is a mathematical and computing concept that allows us to loop through data without using for or while. This has the benefit of making the code more efficient, and works by having a function return a call to itself. 
 For example, we can pass in a counter to a recursive function and increment it until it reaches a desired value, then simply return the end amount:
 
-<pre class="file" data-filename="functions.py" data-target="replace">
+<pre class="file" data-filename="recursiveCall.py" data-target="replace">
 # This is a recursive functuon that returns the addition
 # of 5 decreasing numbers
 def recursive(number, count, answer):
@@ -198,6 +200,6 @@ print ("LOOP")
 print(loop(10,0,0))
 </pre>
 
-`python functions.py`{{execute}}
+`python recursiveCall.py`{{execute}}
 
 <marquee style='color: blue;'><b>Yay you've completed part 2!</b></marquee>
