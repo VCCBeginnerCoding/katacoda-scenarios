@@ -1,4 +1,3 @@
-# Functions!
 
 ## Defining and calling a function
 
