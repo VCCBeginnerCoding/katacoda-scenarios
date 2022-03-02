@@ -178,7 +178,7 @@ def recursive(number, count, answer):
     # decreasing the value added using number-1
     # increasing the count of numbers used using count+1
     # calculating the addition of the next number using answer+number
-    return add_five_values(number-1, count+1, answer+number)
+    return recursive(number-1, count+1, answer+number)
 
 # For reference, this is what the recursive call would look like in a while loop:
 
