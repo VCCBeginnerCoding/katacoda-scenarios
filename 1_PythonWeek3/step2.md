@@ -125,7 +125,7 @@ This means a function could accept different data types:
 
 <pre class="file" data-filename="passingDifferentData.py" data-target="replace">
 def print_argument(data):
-  for x in food:
+  for x in data:
     print(x)
 
 fruits = ["apple", "banana", "cherry"]
