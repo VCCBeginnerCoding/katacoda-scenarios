@@ -2,10 +2,10 @@
 
 There are two main form of loops in Python. The For loop and the While loop!
 
-`loops.py`{{open}}
+`whileLoops.py`{{open}}
 
 ## While Loops
-While loops execute a set of statements as long as a condition is true
+While loops execute a set of statements as long as a condition(s) is met:
 
 <pre class="file" data-filename="loops.py" data-target="replace">
 i = 1
@@ -14,7 +14,7 @@ while i < 6:
   i += 1
 </pre>
 
-`python loops.py`{{execute}}
+`python whileLoops.py`{{execute}}
 
 ## For Loops
 A for loop is used to iterate over a sequence:
@@ -25,7 +25,7 @@ for x in fruits:
   print(x)
 </pre>
 
-`python loops.py`{{execute}}
+`python forLoops.py`{{execute}}
 
 You can also use loops to iterate through a string:
 
@@ -34,7 +34,7 @@ for x in "banana":
   print(x)
 </pre>
 
-`python loops.py`{{execute}}
+`python string.py`{{execute}}
 
 Breaks can be used to stop the loop:
 
@@ -46,7 +46,7 @@ for x in fruits:
     break
 </pre>
 
-`python loops.py`{{execute}}
+`python breakLoops.py`{{execute}}
 
 Continue statement can be used (breaks the current iteration and moves to the next one)
 
@@ -59,7 +59,7 @@ while i < 6:
   print(i)
 </pre>
 
-`python loops.py`{{execute}}
+`python continueLoops.py`{{execute}}
 
   ## Try it yourself!
   - Step 1: Create a list
