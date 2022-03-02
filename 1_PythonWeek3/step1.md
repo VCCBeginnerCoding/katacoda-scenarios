@@ -7,7 +7,7 @@ There are two main form of loops in Python. The For loop and the While loop!
 ## While Loops
 While loops execute a set of statements as long as a condition(s) is met:
 
-<pre class="file" data-filename="loops.py" data-target="replace">
+<pre class="file" data-filename="whileLoops.py" data-target="replace">
 i = 1
 while i < 6:
   print(i)
@@ -19,7 +19,7 @@ while i < 6:
 ## For Loops
 A for loop is used to iterate over a sequence:
 
-<pre class="file" data-filename="loops.py" data-target="replace">
+<pre class="file" data-filename="forLoops.py" data-target="replace">
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
@@ -29,7 +29,7 @@ for x in fruits:
 
 You can also use loops to iterate through a string:
 
-<pre class="file" data-filename="loops.py" data-target="replace">
+<pre class="file" data-filename="string.py" data-target="replace">
 for x in "banana":
   print(x)
 </pre>
@@ -38,7 +38,7 @@ for x in "banana":
 
 Breaks can be used to stop the loop:
 
-<pre class="file" data-filename="loops.py" data-target="replace">
+<pre class="file" data-filename="breakLoops.py" data-target="replace">
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
@@ -50,7 +50,7 @@ for x in fruits:
 
 Continue statement can be used (breaks the current iteration and moves to the next one)
 
-<pre class="file" data-filename="loops.py" data-target="replace">
+<pre class="file" data-filename="continueLoops.py" data-target="replace">
 i = 0
 while i < 6:
   i += 1
