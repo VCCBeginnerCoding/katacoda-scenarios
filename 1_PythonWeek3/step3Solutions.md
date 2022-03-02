@@ -23,10 +23,9 @@ print_tuple(friends)
 
 <pre class="file" data-filename="ET1.py" data-target="replace">
 def print_last_name(**friends):
-  print(Aymen's last name is + " " + friends["Aymen"])
+  print("Aymen's last name is " +  " "  + friends["Aymen"])
   
-friends = (Aymen = "Benylles", Emma = "Eady", Sandra = "Neeliyara", Yasmin = "Cooper")
-print_last_name(friends)
+print_last_name(Aymen = "Benylles", Emma = "Eady", Sandra = "Neeliyara", Yasmin = "Cooper")
 
 </pre>
 
