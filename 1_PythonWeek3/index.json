@@ -21,6 +21,11 @@
         "foreground": "clear.sh"
       },
       {
+        "title": "Solutions to Step 3",
+        "text": "step3Solutions.md",
+        "foreground": "clear.sh"
+      },
+      {
         "title": "Classes",
         "text": "step4.md",
         "foreground": "clear.sh"
