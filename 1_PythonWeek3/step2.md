@@ -1,31 +1,19 @@
 # Functions!
 
-## What are functions?
+## Defining and calling a function
 
-A function is a relationship between one or more inputs and a set of outputs. In mathamatics, a function is normally represented as:
+A function is a named section of a code that performs a specific task. 
+This typically involves taking some input, manipulating the input and returning an output.
 
-z = f(x, y)
+To call a function, use the name of the function and add parenthesis () at the end.
 
-Here, f is a function that operates on the input *x* and *y*. The output of the function is *z*. However, in programming, functions are much more generalised and versatile.
+You will see how there are indentations (tabs or spaces - up to the programmer!) underneath any colons (functions, loops, if statements...).
+This tells Python that the code underneath is part of the same block, and without the correct indents Python will not work.
 
-In programming, a function is a defined block of code that encapuslates a specific task or related group of tasks.
-## Defining a function
+In calling a function at the bottom, there are no indents as this is considered the 'main' function, where the code runs outside of a function 
+and executes the rest of our script.
 
-To define a function in python, we use the <mark>def</mark> keytag
-
-<pre class="file" data-filename="functions.py" data-target="replace">
-def my_function():
-  print("Hello from a function")
-</pre>
-
-`python functions.py`{{execute}}
-
-
-## Calling a function
-
-To call a function, use the name of the function and add parentesis at the end:
-
-<pre class="file" data-filename="functions.py" data-target="replace">
+<pre class="file" data-filename="functionCall.py" data-target="replace">
 # Creating a function called my_function()
 def my_function(): 
   # The function will then print this string
@@ -39,22 +27,23 @@ my_function()
 
 ## Passing data to the function
 
-We can also pass data to the function, by adding it inside the parentheses:
+We can also pass data to the function, by adding it inside the parentheses as <mark>arguments</mark>:
 
-<pre class="file" data-filename="functions.py" data-target="replace">
+<pre class="file" data-filename="passingData.py" data-target="replace">
 def print_name(name):
   print("My name is " + name)
 
-print_name("Dan")
-print_name("Justin")
-print_name("Ellie")
+print_name("Aymen")
+print_name("Emma")
+print_name("Sandra")
+print_name("Yasmin")
 </pre>
 
 `python functions.py`{{execute}}
 
-Functions can take more than one argument:
+Functions can take more than one argument, and when you call them you must pass in the amount specified:
 
-<pre class="file" data-filename="functions.py" data-target="replace">
+<pre class="file" data-filename="moreArugments.py" data-target="replace">
 def print_car_details(make, model):
   print("The car is " + make + " " + model)
 
@@ -65,93 +54,83 @@ print_car_details("Citroen", "C1")
 
 `python functions.py`{{execute}}
 
-### But it can go wrong! 
-
-If the code expects two arguments and you give it one (or vise versa) it will throw an error:
-
-Functions can take more than one argument:
-
-<pre class="file" data-filename="functions.py" data-target="replace">
-def print_car_details(make, model):
-  print("The car is " + make + " " + model)
-
-print_name("ford")
-</pre>
-
-`python functions.py`{{execute}}
-
 ## Tuples
 In python, tuples are used to store multiple items in a single variable. 
 
 For example:
 
-<pre class="file" data-filename="functions.py" data-target="replace">
+<pre class="file" data-filename="tuples.py" data-target="replace">
 thistuple = ("apple", "banana", "cherry")
 print(thistuple)
 </pre>
 
 `python functions.py`{{execute}}
 
-When creating functions, if you don't know the number of arguements to be passed, you can use a tuple:
+If you have varying lengths of variables to pass, you can use the <mark>*args</mark> annotation to pass in your arguments.
 
-<pre class="file" data-filename="functions.py" data-target="replace">
-def my_dog_list(*dogs):
+This denotes a tuple.
+
+<pre class="file" data-filename="tupleAnnotation.py" data-target="replace">
+def my_dog_tuple(*dogs):
   print("The youngest dog is " + dogs[2])
 
-my_dog_list("Toby", "Max", "Bob")
+my_dog_tuple("Toby", "Max", "Bob")
 </pre>
 
 `python functions.py`{{execute}}
 
 ## Keyword arguments
 
-Arguments can also be sent with the <mark>key = value syntax</mark>. The order does not matter in this case.
+Arguments can also be sent with the <mark>key = value syntax</mark>. The order it is passed in does not matter in this case.
 
-<pre class="file" data-filename="functions.py" data-target="replace">
-def my_cat_list(cat1, cat2, cat3):
+<pre class="file" data-filename="keywordArguments.py" data-target="replace">
+def my_cat_values(cat3, cat1, cat2):
   print("The smallest cat is " + cat3)
 
-my_cat_list(cat3="fido", cat2="sophie", cat1="felix")
+# Note that the order of the variables is different to the arguments in the function
+my_cat_values(cat1="fido", cat2="sophie", cat3="felix")
 </pre>
 
 `python functions.py`{{execute}}
 
-If the number of keyword arguments that will be passed the function at two asterisk: <mark>**</mark> before the parameter name in the function definition
-This way the function will receive a dictionary of arguments, and can access the items accordingly:
+If the argument passed in has <mark>**args</mark> these are known as 'kwargs' (keyword arguments), and allow us to pass in varying lengths of key-value pairs.
+We can then access each argument based on its key.
 
-<pre class="file" data-filename="functions.py" data-target="replace">
-def my_function(**kid):
+<pre class="file" data-filename="keywordAnnotation.py" data-target="replace">
+def kwargs(**kid):
   print("His last name is " + kid["lname"])
 
-my_function(fname = "Tobias", lname = "Refsnes"))
+kwargs(fname = "Tobias", lname = "Refsnes")
 </pre>
 
 ## Default values
-A default value can be set, which will be placed if no value is passed:
+A default value can be set, which will be used if no value is passed:
 
-<pre class="file" data-filename="functions.py" data-target="replace">
+<pre class="file" data-filename="defaultValues.py" data-target="replace">
 def favourite_show(show = "Lucifer"):
   print(show)
 
 favourite_show("American horror story")
-my_function()
+favourite_show()
 </pre>
 
 `python functions.py`{{execute}}
 
-## Lists
-You can pass any data type to the function (string, number, list, dictionary etc.), and will be treated as the same data type by the function.
+## Passing in different data types
+Python allows for different data types (Strings, Lists, Tuples...) to be passed in and treated as that data type.
 
-For example, if you pass a list to the function, it will be treated as a list by the function:
+This means a function could accept different data types:
 
 <pre class="file" data-filename="functions.py" data-target="replace">
-def print_food(food):
+def print_argument(data):
   for x in food:
     print(x)
 
 fruits = ["apple", "banana", "cherry"]
+sentance = "Hello world"
 
-print_food(fruits)
+print_argument(fruits)
+print_argument(sentance)
 </pre>
 
 `python functions.py`{{execute}}
@@ -159,7 +138,7 @@ print_food(fruits)
 ## Return
 We can use the <mark>return</mark> keyword to return a value:
 
-<pre class="file" data-filename="functions.py" data-target="replace">
+<pre class="file" data-filename="return.py" data-target="replace">
 def calculator(value):
   return value * 10
 
@@ -173,7 +152,7 @@ print(calculator(9))
 ## The Pass statement
 You cannot have a blank function, but if you need to have a function as a placeholder (eg. for future code), you can use the <mark>pass</mark> keyword
 
-<pre class="file" data-filename="functions.py" data-target="replace">
+<pre class="file" data-filename="pass.py" data-target="replace">
 def placeholder():
   pass
     
@@ -183,20 +162,40 @@ placeholder()
 `python functions.py`{{execute}}
 
 ## Recursion!
-Python accepts python recursion (a function that calls itself). This is a common mathamatical and programming concept. It has the benefit of meaning you can loop through the data to reach a result.
+Recursion is a mathematical and computing concept that allows us to loop through data without using for or while. This has the benefit of making the code more efficient, and works by having a function return a call to itself. 
+For example, we can pass in a counter to a recursive function and increment it until it reaches a desired value, then simply return the end amount:
 
 <pre class="file" data-filename="functions.py" data-target="replace">
 # This is a recursive functuon that returns the addition
 # of 5 decreasing numbers
-def add_five_values(number, count, answer):
+def recursive(number, count, answer):
   
   if count == 5:
     return answer
   else:
+    # decreasing the value added using number-1
+    # increasing the count of numbers used using count+1
+    # calculating the addition of the next number using answer+number
     return add_five_values(number-1, count+1, answer+number)
 
-added = add_five_values(10, 0,  0)
-print(added)
+# For reference, this is what the recursive call would look like in a while loop:
+
+def loop(number, count, answer):
+
+  while count < 5:
+    answer += number
+    number -= 1
+    count += 1
+  
+  return answer
+
+# We need (start val, number of values already added, total addition) to pass into the functions
+# in this case, the last two numbers are 0 as we are at the start of the loop
+
+print("RECURSIVE")
+print(recursive(10,0,0))
+print ("LOOP")
+print(loop(10,0,0))
 </pre>
 
 `python functions.py`{{execute}}
