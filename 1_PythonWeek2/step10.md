@@ -1,13 +1,23 @@
 Messy Terminal? `clear`{{execute}} it.
 <hr>
 
-Now we're going to create some lists and work with them as practice. Below is some shopping lists data that we are going to work with.
+Now we're going to create some lists and work with them as practice.
+Tom, Mike and Lily all go shopping at different supermarkets and want to compare their weekly shop. Below is each of their shopping lists:
 
+Tom's Sainsburys shopping list:
+- Milk - £0.80
+- Fajita kit - £2.00
+- Salsa - £2.50
 
-<p align="center">
-    <img src="./assets/ShoppingLists.png" alt="Shopping Lists" width="600" class="center"/>
-</p>
+Mike's Asda hopping list:
+- Strawberries - £2.00
+- Paninis - £0.99
+- Coronation chicken spread - £1.40
 
+Lily's Aldi shopping list:
+- Eggs - £0.75
+- Ice Cream - £1.99
+- Cake Mix - £1.25
 
 Now do the following steps using the shopping list data provided and the knowledge you have gained about nested lists:
 
