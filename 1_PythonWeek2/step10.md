@@ -32,7 +32,13 @@ To write your own code simply create a new Python file: `listsexercise.py`{{open
 Write your code in the editor that has now opened and when you are ready, execute it with
 `python listsexercise.py`{{execute}}
 
-</br>
+<hr>
+Hints:
+- the format for a list is list = ['a', 2, 2.5]
+- .sort() sorts the list 
+- .append() saves to list 
+- .remove() removes from list 
+<hr>
 
 As further work you can do the following steps to explore nested lists:
 - Make the Shopping lists nested by adding the price of each item next to the item name (i.e. [Salsa, 2.50]). For the items that do not have a price, you can make one up
