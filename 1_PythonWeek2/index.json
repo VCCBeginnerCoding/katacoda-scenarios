@@ -44,16 +44,6 @@
         "title": "Removing from a List",
         "text": "step8.md",
         "foreground": "clear.sh"
-      },
-      {
-        "title": "Nested Lists",
-        "text": "step9.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Lists Exercises",
-        "text": "step10.md",
-        "foreground": "clear.sh"
       }
     ],
     "intro": {
