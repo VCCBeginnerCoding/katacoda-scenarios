@@ -34,10 +34,12 @@ Write your code in the editor that has now opened and when you are ready, execut
 
 <hr>
 Hints:
+- print statements can be helpful to understand what's going on inside your lists and if you're getting expected outputs. To print a list the syntax is print(list_name)
 - the format for a list is list = ['a', 2, 2.5]
 - .sort() sorts the list 
 - .append() saves to list 
 - .remove() removes from list 
+- index of a list starts at 0 
 <hr>
 
 As further work you can do the following steps to explore nested lists:
