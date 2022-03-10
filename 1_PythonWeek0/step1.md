@@ -7,7 +7,7 @@ Messy Terminal? `clear`{{execute}} it.
 
 ![Terminal](./assets/HelloWorld.png)
 
-You can store any value in a variable, then use it or change its value later on in the program. We can also print out the variables using ```print()```. <span style="color:green">print(</span><span style="color:blue">"Hello World!"</span><span style="color:green">)</span> <span style="color:green">print(</span>
+The print() function prints the specified message to the screen, or other standard output device ```print()```. <span style="color:green">print(</span><span style="color:blue">"Hello World!"</span>
 
 Click here to create new Python file: `week0.py`{{open}}
 
@@ -16,7 +16,7 @@ print("Hello World")
 </pre>
 
 Copy the code above over to the editor and then press
-`python week0.py`{{execute}}. You can also type that yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
+`python week0.py`{{execute}}. You can also type <span style="color:blue">'python week0.py'</span> yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
 
 
 # What Should Happen
