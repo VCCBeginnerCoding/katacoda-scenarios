@@ -44,6 +44,11 @@
         "title": "List Exercises",
         "text": "step8.md",
         "foreground": "clear.sh"
+      },
+      {
+        "title": "Solutions to Step 8",
+        "text": "step8Solutions.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {
