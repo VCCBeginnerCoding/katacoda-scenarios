@@ -25,17 +25,17 @@
 Quiz Solution:
 https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md
 ```
-# Save your year of birth as a variable
-birthYear = 1990
+# Save your age as a variable
+age = 22
 
 # Save the current year (2022 as of writing) as a second variable
 year = 2022
 
-# Subtract the current year by your birth year (using the variables) and save that as a third variable
-age = year - birthYear
+# Subtract your age from the current year (using the variables) and save that as a third variable
+birthYear = currentYear - age
 
 # Print out the third variable
-print(age)
+print(birthYear)
 ```
 
 ## 2. Strings & Input
