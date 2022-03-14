@@ -17,9 +17,9 @@ There are many examples to what an object can be, your imagination is the limit!
 ## Why Use Classes?
 <p align="left">
   <img width="308"  align="right" alt="image" src="https://user-images.githubusercontent.com/60058170/158228047-221b9b1b-2bfc-4ecf-83b9-e4f15d9b1782.png">
-  Classes are useful because they allow you too keep track of objects you create.<br>You can easily store the basic components and adjust them; this ultimately reduces <br>
-  the amount of code you have to write and allows other people to better understand your code. <br> This is absolutely vital in a working environment. Even 
-  outside of work, when creating certain <br> applications/games, using classes makes your code cleaner and easier to understand <br> when returning to it after a longer period
+  Classes are useful because they allow you too keep track of objects you create.You can easily store the basic components and adjust them; this ultimately reduces 
+  the amount of code you have to write and allows other people to better understand your code. This is absolutely vital in a working environment. Even 
+  outside of work, when creating certain applications/games, using classes makes your code cleaner and easier to understand when returning to it after a longer period
   of time. 
 </p>
 <br><br>
