@@ -24,7 +24,7 @@ There are many examples to what an object can be, your imagination is the limit!
 </p>
 <br>
 
-## Overall Structure
+# Overall Structure
 The basic components to a class are its attributes and methods.
 <p align="center">
   <img width="400" alt="image" src="https://user-images.githubusercontent.com/60058170/158230630-108a4267-3757-4dab-939e-70cd10e5fee2.png">
