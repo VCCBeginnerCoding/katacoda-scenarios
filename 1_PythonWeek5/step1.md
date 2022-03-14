@@ -1,7 +1,7 @@
 # Intro to Classes
 This section will introduce you to what a class is, why they are used and how they are structured. <br>
 Also see below for the skills that you will obtain at the end of this course.
-<br>
+<br><br><br>
 
 ## What Are Classes?
 <b>Definition:</b> In object-oriented programming, a class is a blueprint for creating objects, providing initial values, and implementations of behavior. The user-defined objects are created using the class keyword.
@@ -12,7 +12,7 @@ There are many examples to what an object can be, your imagination is the limit!
   <img width="308"  alt="image" src="https://user-images.githubusercontent.com/60058170/158226471-755f3f6e-e094-4c00-be40-584975cd070e.png">
 </p>
 
-<br>
+<br><br><br>
 
 ## Why Use Classes?
 <p align="left">
@@ -22,7 +22,7 @@ There are many examples to what an object can be, your imagination is the limit!
   outside of work, when creating certain applications/games, using classes makes your code cleaner and easier to understand when returning to it after a longer period
   of time. 
 </p>
-<br><br>
+<br><br><br>
 
 ## Overall Structure
 The basic components to a class are its attributes and methods.
@@ -30,7 +30,7 @@ The basic components to a class are its attributes and methods.
   <img width="400" alt="image" src="https://user-images.githubusercontent.com/60058170/158230630-108a4267-3757-4dab-939e-70cd10e5fee2.png">
 </p>
 
-<br>
+<br><br><br>
 
 ## What Will Be Covered:
 <ul>
