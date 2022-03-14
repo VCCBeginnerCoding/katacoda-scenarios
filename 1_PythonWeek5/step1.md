@@ -20,7 +20,7 @@ Classes are useful because they allow you too keep track of objects you create.<
 the amount of code you have to write and allows other people to better understand your code. This is absolutely vital in a working environment. <br>Even 
 outside of work, when creating certain applications/games, using classes makes your code cleaner and easier to understand when returning to it after a longer period
 of time. 
-<br>
+<br><br>
 
 # Overall Structure
 The basic components to a class are its attributes and methods.
