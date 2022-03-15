@@ -33,7 +33,7 @@ _Note that the class name starts with a captital letter. This is a standard conv
 # The "self" parameter
 One of the most important elements of classes in Python is the "self" parameter. It is difficult to see its use with a simple code example, but essentially it means that each object that was created from a given class template has its own attributes and methods. The "self" parameter is where the object name is passed into when an object is created. 
 
-It is worth noting that you do not need to use the word "self" (Python will just use the first argurment in the "init" function) but software engineers will typically stick to using "self" as a convention.
+_It is worth noting that you do not need to use the word "self" (Python will just use the first argurment in the "init" function) but software engineers will typically stick to using "self" as a convention._
 
 https://www.w3schools.com/python/python_classes.asp
 
