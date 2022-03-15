@@ -11,18 +11,24 @@ class Person:
     self.name = name
     self.age = age
     self.height = height
+    
+    # Print person's name automaticall when object is created 
+    print(self.name)
 
 # Create an object which is an instance of the "Person" class
 newPerson = Person("Aymen", 24, 186)
 
 # Print the attributes associated with this object
-print(newPerson.name)
 print(newPerson.age)
 print(newPerson.height)
 
 </pre>
 
 `python constructor.py`{{execute}}
+
+This constructor initialises the variables associated with that class and prints the name passed into the constructor.
+
+_Note that the class name starts with a captital letter. This is a standard convention for creating classes and makes it easier for yourself (and others) to read._
 
 # The "self" parameter
 One of the most important elements of classes in Python is the "self" parameter. It is difficult to see its use with a simple code example, but essentially it means that each object that was created from a given class template has its own attributes and methods. The "self" parameter is where the object name is passed into when an object is created. 
@@ -46,9 +52,9 @@ class Person:
     self.height = height
     
   def printDetails(self):
-    print(name)
-    print(age)
-    print(height)
+    print(self.name)
+    print(self.age)
+    print(self.height)
 
 # Create an object which is an instance of the "Person" class
 newPerson = Person("Aymen", 24, 186)
