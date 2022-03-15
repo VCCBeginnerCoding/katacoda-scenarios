@@ -30,6 +30,7 @@ One of the most important elements of classes in Python is the "self" parameter.
 It is worth noting that you do not need to use the word "self" (Python will just use the first argurment in the "init" function) but software engineers will typically stick to using "self" as a convention.
 
 https://www.w3schools.com/python/python_classes.asp
+
 https://stackoverflow.com/questions/2709821/what-is-the-purpose-of-the-word-self
 
 # Methods
@@ -59,4 +60,4 @@ newPerson.printDetails()
 
 `python methods.py`{{execute}}
 
-
+You now have all the information you need to write some classes and you will have the chance to do this in the next step!
