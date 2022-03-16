@@ -6,8 +6,8 @@ Who here is a pokemon fan???
 **If you are:** tough because I am. <br>
 **If you aren't:** you're awesome.
 
-<img width="215" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158645120-488f50c3-3d06-477c-a1e5-a30b9e2aaf50.png">
-<img width="215" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158645318-0e381115-ac28-4ebb-a433-1b5cbd7480fc.png">
+<img width="210" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158645120-488f50c3-3d06-477c-a1e5-a30b9e2aaf50.png">
+<img width="210" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158645318-0e381115-ac28-4ebb-a433-1b5cbd7480fc.png">
 
 <br>
 
