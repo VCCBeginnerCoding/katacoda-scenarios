@@ -1,4 +1,5 @@
 <br>
+
 ## Classes and attributes
 Attributes are the variables you define for every obeject. In other words, ever object that you create from a class will adopt those variables. The values for the variables are not constant for each object.
 
