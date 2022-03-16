@@ -26,33 +26,28 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Indexing Lists and Changing Values",
+        "title": "Adding to a List",
         "text": "step5.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Manipulating Lists",
+        "title": "Removing from a List",
         "text": "step6.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Adding to a List",
+        "title": "Nested Lists",
         "text": "step7.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Removing from a List",
+        "title": "List Exercises",
         "text": "step8.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Nested Lists",
-        "text": "step9.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Lists Exercises",
-        "text": "step10.md",
+        "title": "Solutions to Step 8",
+        "text": "step8Solutions.md",
         "foreground": "clear.sh"
       }
     ],
