@@ -9,6 +9,11 @@
         "title": "Hello World",
         "text": "step1.md",
         "foreground": "clear.sh"
+      },
+      {
+        "title": "Writing Your Own Code",
+        "text": "step2.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {
