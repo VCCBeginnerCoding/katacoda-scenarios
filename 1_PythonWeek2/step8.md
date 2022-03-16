@@ -1,60 +1,50 @@
 Messy Terminal? `clear`{{execute}} it.
 <hr>
 
-Elements can also be removed from a list at any point in time, we will explore some of the apporaches you can use to remove elements from a list below.
+Now we're going to create some lists and work with them as practice.
+Tom, Mike and Lily all go shopping at different supermarkets and want to compare their weekly shop. Below is each of their shopping lists:
 
-</br>
+Tom's Sainsburys shopping list:
+- Milk - £0.80
+- Fajita kit - £2.00
+- Salsa - £2.50
 
-## **The delete instruction**
-The delete instruction **del** is an instruction, not a function, which takes the index of the element being removed in the list and removes that element completely. When this method is used the element will vanish from the list and the lists length will be reduced by one, as shown below:
+Mike's Asda hopping list:
+- Strawberries - £2.00
+- Paninis - £0.99
+- Coronation chicken spread - £1.40
 
-<pre class="file" data-filename="del.py" data-target="replace">
-numbers = [10, 90, 23, 46, -20]
-del numbers[1]
-print(numbers)
-print(len(numbers))
-</pre>
+Lily's Aldi shopping list:
+- Eggs - £0.75
+- Ice Cream - £1.99
+- Cake Mix - £1.25
 
-Copy the code above over to the editor and then press
-`python del.py`{{execute}}
+Now do the following steps using the shopping list data provided and the knowledge you have gained about nested lists:
 
-When you run the code you will see that the number 90 (the element with an index of 1 in the original numbers list) is no longer in the list and that the length of the list has now decreased by one. 
+- Create a list that contains all of Lily's items 
+- Sort the list of her items (in ascending order)
+- Add three food items to Lily's shopping list: Chocolate, Marshmallows and Strawberry jam
+- Remove the Ice cream from Lily's shopping list 
+- Create the same kind of list for Mike and for Tom
 
-</br>
+To write your own code simply create a new Python file: `listsexercise.py`{{open}}
 
-## **Remove**
-The remove method allows you to specify the value you want to remove from the list rather than using the index of the variable. Below is an exmample of us removing a number from the same list using the remove() method:
+Write your code in the editor that has now opened and when you are ready, execute it with
+`python listsexercise.py`{{execute}}
 
-<pre class="file" data-filename="remove.py" data-target="replace">
-numbers = [10, 90, 23, 46, -20]
-numbers.remove(90)
-print(numbers)
-print(len(numbers))
-</pre>
+<hr>
+Hints:
+- print statements can be helpful to understand what's going on inside your lists and if you're getting expected outputs. To print a list the syntax is print(list_name)
+- the format for a list is list = ['a', 2, 2.5]
+- .sort() sorts the list 
+- .append() saves to list 
+- .remove() removes from list 
+- index of a list starts at 0 
+<hr>
 
-Copy the code above over to the editor and then press
-`python remove.py`{{execute}}
-
-As you can see it removes the element 90 from the list and reduces the length of the list by one. An issue with this method is if there are multiple instances of 90, what will happen? Try and run some code with two 90s in the list and see. 
-
-</br>
-
-## **Pop**
-Finally, there is the pop method. This method does not require you to know the index of the element either (though the method does allow you to pass in an element's index if you wish to remove a specific element). By default, this method removes (pops) the last element in the list and reduces the list length by one. However it also returns the removed element so that you can then use that element elsewhere if you wish, without losing it. Below is an example of the pop method being used: 
-
-<pre class="file" data-filename="pop.py" data-target="replace">
-numbers = [10, 90, 23, 46, -20]
-removed_number = numbers.pop()
-print(numbers)
-print(len(numbers))
-print(removed_number)
-</pre>
-
-Copy the code above over to the editor and then press
-`python pop.py`{{execute}}
-
-As you can see when running the code, the numbers list is updated and no longer has the -20 element, the length is also down to 4 now. However, the removed number variable contains the -20 variable rather than it just being lost. 
-
-</br>
-
-As you  may have noticed when removing any element from a list, all the other elements that come after that element in the list change position, therefore have different indexes. This is important as it means you could accidentally delete the wrong element if you try and delete elements concurrently (one after the other), or you may end up retrieving the wrong element as its index may have changed. This is something that you should always keep in mind and adjust your code to. The same issue can occur when you add elements to a list via insertion, since all the elements after the inserted element will have a different index. 
+As further work you can do the following steps to explore nested lists:
+- Make the Shopping lists nested by adding the price of each item next to the item name (i.e. [Salsa, 2.50]). For the items that do not have a price, you can make one up
+- Create an overall shoppingLists list with all 3 people's list within it
+- Retrieve the cost of Mike's Paninis
+- Edit the cost of Tom's Milk to £1 instead
+- Delete the Eggs and their cost from Lily's shopping list
