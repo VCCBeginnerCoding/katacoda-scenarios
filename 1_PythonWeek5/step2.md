@@ -1,5 +1,3 @@
-# **Creating Classes**
-
 ## Classes and attributes
 Attributes are the variables you define for every obeject. In other words, ever object that you create from a class will adopt those variables. The values for the variables are not constant for each object.
 
@@ -15,9 +13,6 @@ class className():
   number = 0
 
 </pre>
-
-Copy the code above over to the editor and then press
-`python createClass1.py`{{execute}}. You can also type that yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
 
 <br>
 
@@ -39,15 +34,11 @@ class className():
 
 <br>
 
-**Please note:** _this code format is more common so majority of example code will use this format. Whenever you're stuck and look for examples online, it will use this alternative format._
-
-<br>
-
 # DIY: Create your own class
 Have a go at creating your own class with attributes and methods. If you like, you can use the scenario below for inspiration.
 
 **Scenario:**
-Define a class for a car. Think of all of the features a car has for the attributes and any method calculations you could perform, e.g. acceleration.
+Define a class for a car. Think of all of the features a car has for the attributes (model, colour etc.) and any method calculations (accelaration, tax etc.) you could perform.
 
 [Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Week%205)
 
