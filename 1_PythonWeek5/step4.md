@@ -26,11 +26,7 @@ Who here is a pokemon fan???
 
 _Feel free to add more. These are just to start you off._
 
-<br>
-
 <img width="180" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158644727-08e26840-b106-4238-9ca2-de1d643876be.png">
-
-<br>
 
 You are going to create classes for a pokedex. Once your code is finished the user should be able to view details of a pokemon that they choose. They should also be able to pick a pokemon to be their partner (they are only allowed one). At any point they can also view who their partner is, any previous partners that they have had and the number of times they've released a pokemon.
 
