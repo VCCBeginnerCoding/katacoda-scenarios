@@ -11,13 +11,23 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Creating a Class",
+        "title": "Creating Classes",
         "text": "step2.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Try it yourself!",
+        "title": "Creating Objects From A Class",
         "text": "step3.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "DIY Task Using Our New Skills",
+        "text": "step4.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Extension: Learning Inheritance",
+        "text": "step5.md",
         "foreground": "clear.sh"
       }
     ],
