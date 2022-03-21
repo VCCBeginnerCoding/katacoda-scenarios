@@ -8,7 +8,7 @@ Messy Terminal? `clear`{{execute}} it.
 
 Variables are containers for storing data values. You can store any value in a variable, then use it or change its value later on in the program. We can also print out the variables using ```print()```. <span style="color:green">print(</span><span style="color:blue">"Hello World!"</span><span style="color:green">)</span> <span style="color:green">print(</span><span style="color:blue">variable</span><span style="color:green">)</span>
 
-You can store different types of data in variables as shown below. Text is stored as strings, numbers can be stored as integers (whole numbers) or floats (with decimals). There is also boonleans that act as a true/false and can only store these values. 
+You can store different types of data in variables as shown below. Text is stored as strings, numbers can be stored as integers (whole numbers) or floats (with decimals). There is also booleans that act as a true/false and can only store these values. 
 ![DataTypes](./assets/data-types.png)
 
 Click here to create new Python file: `week1.py`{{open}}

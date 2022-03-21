@@ -7,7 +7,7 @@ Messy Terminal? `clear`{{execute}} it.
 
 ![Terminal](./assets/HelloWorld.png)
 
-The print() function prints the specified message to the screen, or other standard output device ```print()```. <span style="color:green">print(</span><span style="color:blue">"Hello World!"</span>
+The print() function prints the specified message to the screen, or other standard output device ```print()```. <span style="color:green">print</span><span style="color:blue">("Hello World!")</span>
 
 Click here to create new Python file: `week0.py`{{open}}
 
