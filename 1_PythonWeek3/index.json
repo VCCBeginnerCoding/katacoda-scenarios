@@ -26,16 +26,6 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Classes",
-        "text": "step4.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Challenge task",
-        "text": "step5.md",
-        "foreground": "clear.sh"
-      },
-      {
         "title": "Read further",
         "text": "step6.md",
         "foreground": "clear.sh"
