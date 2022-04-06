@@ -1,5 +1,5 @@
 ## Create an object
-Creating an object is simplier than you think. All this does is make you classes useful - now you'll finally see some results from that spunky terminal of yours!
+Creating an object is simplier than you think. All this does is make you classes useful - now you'll finally see some results from the terminal!
 
 <br>
 
