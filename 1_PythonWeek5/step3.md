@@ -32,7 +32,7 @@ example = Calculator(24, 391)
 print("Storage: Value 1 = ", example.int1, ", Value 2 = ", example.int2)
 </pre>
 
-`python objectAttribute.py` {{execute}}
+`python objectAttribute.py`{{execute}}
 
 <br>
 
@@ -99,7 +99,7 @@ example2.calcUse()
 example3.calcUse()
 </pre>
 
-`python objectMethod.py` {{execute}}
+`python objectMethod.py`{{execute}}
 
 <br>
 
@@ -123,7 +123,7 @@ example.int2 = 391
 print("Storage: Value 1 = ", example.int1, ", Value 2 = ", example.int2)
 </pre>
 
-`python ex1.py` {{execute}}
+`python ex1.py`{{execute}}
 
 <br>
 
@@ -178,7 +178,7 @@ example2.calcUse()
 example3.calcUse()
 </pre>
 
-`python ex2.py` {{execute}}
+`python ex2.py`{{execute}}
 
 <br>
 
