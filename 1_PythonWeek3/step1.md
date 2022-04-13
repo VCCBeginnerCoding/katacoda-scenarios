@@ -3,8 +3,6 @@
 
 There are two main form of loops in Python. The For loop and the While loop!
 
-`whileLoops.py`{{open}}
-
 ## While Loops
 While loops execute a set of statements as long as a condition(s) is met:
 
