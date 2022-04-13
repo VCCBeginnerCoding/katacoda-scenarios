@@ -3,32 +3,32 @@ This section will introduce you to what a class is, why they are used and how th
 Also see below for the skills that you will obtain at the end of this course.
 <br><br>
 
-## What Are Classes?
-<b>Definition:</b> In object-oriented programming, a class is a blueprint for creating objects, providing initial values, and implementations of behavior. The user-defined objects are created using the class keyword.
+## Object-Oriented Programming and Classes
+Before we cover classes, it is important to first understand what object-oriented programming. 
 <br><br>
-There are many examples to what an object can be, your imagination is the limit! To help better understad, see the image below.
-
+<b>Definition:</b> Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+<br><br>
+The structure of OOP then includes:
+<ul>
+  <li><b>Classes</b> are user-defined blueprints for objects, attributes and methods</li>
+  <li><b>Objects</b> are instances of a class with specific data relating to a real-world item or abstract entity</li>
+  <li><b>Methods</b> are functions defined inside a class that describe the behaviours of an object</li>
+  <li><b>Attributes/Properties</b> represent the state of an object and store its data</li>
+ </ul>
+ 
+ To better understand the structure of OOP, see the image below that uses the example of someone sending an email:
+ <br>
+ 
 <p align="center">
-  <img width="308"  alt="image" src="https://user-images.githubusercontent.com/60058170/158226471-755f3f6e-e094-4c00-be40-584975cd070e.png">
+  <img width="308"  alt="image" src="https://cdn.ttgtmedia.com/rms/onlineimages/whatis-object_oriented_programming.png">
 </p>
 
 <br>
 
 ## Why Use Classes?
-<img width="308"  align="right" alt="image" src="https://user-images.githubusercontent.com/60058170/158228047-221b9b1b-2bfc-4ecf-83b9-e4f15d9b1782.png">
-Classes are useful because they allow you too keep track of objects you create.<br>You can easily store the basic components and adjust them; this ultimately reduces 
-the amount of code you have to write and allows other people to better understand your code. This is absolutely vital in a working environment. <br>Even 
-outside of work, when creating certain applications/games, using classes makes your code cleaner and easier to understand when returning to it after a longer period
-of time. 
+Classes are useful because they allow you too keep track of objects you create.<br>You can easily store the basic components and adjust them; this ultimately reduces the amount of code you have to write and allows other people to better understand your code. This is absolutely vital in a working environment.
 <br><br>
 
-# Overall Structure
-The basic components to a class are its attributes and methods.
-<p align="center">
-  <img width="400" alt="image" src="https://user-images.githubusercontent.com/60058170/158230630-108a4267-3757-4dab-939e-70cd10e5fee2.png">
-</p>
-
-<br>
 
 ## What Will Be Covered:
 <ul>
