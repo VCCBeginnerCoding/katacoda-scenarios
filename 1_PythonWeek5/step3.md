@@ -15,9 +15,7 @@ Syntax:
 
 The below code is much more professional and widely used. If you can, do classes in the below format. For now, if this is too complicated, then theirs is example code showing how to use the class data in the simpler format previously shown.
 
-Click here to create new Python file: `objectAtt.py`{{open}}
-
-<pre class="file" data-filename="objectAtt.py" data-target="replace">
+<pre class="file" data-filename="objectAttribute.py" data-target="replace">
 class Calculator(object):
     total = 0
     
@@ -34,7 +32,7 @@ example = Calculator(24, 391)
 print("Storage: Value 1 = ", example.int1, ", Value 2 = ", example.int2)
 </pre>
 
-`objectAtt.py`{{execute}}
+`python objectAttribute.py` {{execute}}
 
 <br>
 
@@ -49,9 +47,7 @@ Syntax:
   
 </pre>
 
-Click here to create new Python file: `objectMeth.py`{{open}}
-
-<pre class="file" data-filename="objectMeth.py" data-target="replace">
+<pre class="file" data-filename="objectMethod.py" data-target="replace">
 class Calculator(object):
     calc = 0
     
@@ -103,7 +99,7 @@ example2.calcUse()
 example3.calcUse()
 </pre>
 
-`objectMeth.py`{{execute}}
+`python objectMethod.py` {{execute}}
 
 <br>
 
@@ -112,9 +108,7 @@ I urge you again to only use this structure if you're really struggling understa
 
 ### Attribute Code
 
-Click here to create new Python file: `Simple1.py`{{open}}
-
-<pre class="file" data-filename="Simple1" data-target="replace">
+<pre class="file" data-filename="ex1" data-target="replace">
 class Calculator(object):
     total = 0
     int1 = 0
@@ -129,15 +123,13 @@ example.int2 = 391
 print("Storage: Value 1 = ", example.int1, ", Value 2 = ", example.int2)
 </pre>
 
-`Simple1.py`{{execute}}
+`python ex1.py` {{execute}}
 
 <br>
 
 ### Method Code
 
-Click here to create new Python file: `Simple2.py`{{open}}
-
-<pre class="file" data-filename="Simple2.py" data-target="replace">
+<pre class="file" data-filename="ex2.py" data-target="replace">
 class Calculator(object):
     calc = 0
     name = ""
@@ -186,7 +178,7 @@ example2.calcUse()
 example3.calcUse()
 </pre>
 
-`Simple2.py`{{execute}}
+`python ex2.py` {{execute}}
 
 <br>
 
