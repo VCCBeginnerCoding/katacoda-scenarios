@@ -13,7 +13,7 @@ class className():
 
 </pre>
 
-`python classEx1.py` {{execute}}
+`python classEx1.py`{{execute}}
 
 <br>
 
@@ -31,7 +31,7 @@ class className():
 
 </pre>
 
-`python classEx2.py` {{execute}}
+`python classEx2.py`{{execute}}
 
 <br>
 
