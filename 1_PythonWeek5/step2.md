@@ -2,10 +2,8 @@
 ## Classes and attributes
 Attributes are the variables you define for every obeject. In other words, ever object that you create from a class will adopt those variables. The values for the variables are not constant for each object.
 
-Click here to create new Python file: `createClass1.py`{{open}}
-
 **For example:**
-<pre class="file" data-filename="createClass1.py" data-target="replace">
+<pre class="file" data-filename="classEx1.py" data-target="replace">
 
 # defining code for a class
 class className():
@@ -15,15 +13,15 @@ class className():
 
 </pre>
 
+`python classEx1.py` {{execute}}
+
 <br>
 
 ## Classes and methods
 Methods are functions you define for every obeject. In other words, ever object that you create from a class will adopt those functions. 
 
-Click here to create new Python file: `createClass2.py`{{open}}
-
 **For example:**
-<pre class="file" data-filename="createClass2.py" data-target="replace">
+<pre class="file" data-filename="classEx2.py" data-target="replace">
 
 # defining code for a class
 class className():
@@ -32,6 +30,8 @@ class className():
         return int1 + int2
 
 </pre>
+
+`python classEx2.py` {{execute}}
 
 <br>
 
