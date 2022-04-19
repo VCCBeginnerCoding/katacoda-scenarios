@@ -1,5 +1,5 @@
 # What is Inheritance?
-Inheritance refers to defining a new class with little or no modification to an existing class. The descendant class is a child class which inherits the attributes/methods from the base and/or parent class. See pre-reading for more details.
+Inheritance refers to defining a new class with little or no modification to an existing class. The descendant class is a child class which inherits the attributes/methods from the base and/or parent class. It's used in order to reduce repitition of code. See pre-reading for more details.
 
 <br></br>
 <p align="center">
@@ -40,7 +40,16 @@ car.specs()
 
 ## DIY Inheritance Scenario
 <img width="308"  align="right" alt="image" src="https://ds055uzetaobb.cloudfront.net/brioche/uploads/7vXgCqKOYV-lotr.png?width=2400">
-##############################################<br></br>###############################################################<br></br>##################################### 
+To the right is a class heirarchy diagram for you to practice from.<br></br>Note that dragons and orcs both have a colour, size and an enemies list.<br></br>However, they don't share all of the same characteristics. For instance, Orcs can carry a weapon(s).<br></br>The rest of the features are up to you. Also note that you do not have to include the suggestions above, they are to help you get an idea of what to do.
 <br></br>
+
+**Terminology**
+<ul>
+  <li>Character = Base Class (this is also a parent class)</li>
+  <li>Monster = Child class to 'Character'. Parent class to 'Dragon' and 'Orc'</li>
+  <li>Hero = Child class to 'Character'</li>
+  <li>Dragon = Child class to 'Monster'</li>
+  <li>Orc = Child class to 'Monster'</li>
+</ul>
 
 
