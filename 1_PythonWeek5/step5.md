@@ -1,13 +1,23 @@
 # What is Inheritance?
 Inheritance refers to defining a new class with little or no modification to an existing class. The descendant class is a child class which inherits the attributes/methods from the base and/or parent class. It's used in order to reduce repitition of code. See pre-reading for more details.
 
+<pre class="file" data-filename="inheritExample.py" data-target="replace">
+class Parent(object):
+  pass
+  
+class Child(Parent):
+  pass
+</pre>
+
+`python inheritExample.py`{{execute}}
+
+## How to Code Inheritance
+
 <br></br>
 <p align="center">
   <img width="500"  alt="image" src="https://www.learnbyexample.org/wp-content/uploads/python/Python-Inheritance-Illustration.png">
 </p>
 <br></br>
-
-## How to Code Inheritance
 
 <pre class="file" data-filename="inheritEx1.py" data-target="replace">
 class Vehical(object):       # Parent/Super class
