@@ -29,6 +29,11 @@
         "title": "Extension: Learning Inheritance",
         "text": "step5.md",
         "foreground": "clear.sh"
+      },
+      {
+        "title": "Extension Task: Coding the Eevee Evolutions",
+        "text": "step6.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {
