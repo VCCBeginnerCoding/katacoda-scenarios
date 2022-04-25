@@ -4,7 +4,7 @@ Also see below for the skills that you will obtain at the end of this course.
 <br><br>
 
 ## Object-Oriented Programming and Classes
-Before we cover classes, it is important to first understand what object-oriented programming. 
+Before we cover classes, it is important to first understand what object-oriented programming is. 
 <br><br>
 <b>Definition:</b> Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
 <br><br>
@@ -26,7 +26,7 @@ The structure of OOP then includes:
 <br>
 
 ## Why Use Classes?
-Classes are useful because they allow you too keep track of objects you create.<br>You can easily store the basic components and adjust them; this ultimately reduces the amount of code you have to write and allows other people to better understand your code. This is absolutely vital in a working environment.
+Classes are useful because they allow you to keep track of objects you create.<br>You can easily store the basic components and adjust them; this ultimately reduces the amount of code you have to write and allows other people to better understand your code. This is absolutely vital in a working environment.
 <br><br>
 
 
