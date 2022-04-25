@@ -2,7 +2,8 @@
 
 ## Creating Classes
 ### DIY Task 
-```
+<pre class="file" data-filename="solutionEx1.py" data-target="replace">
+
 class Car():
     model = "BMW"
     passengers = 4
@@ -12,11 +13,16 @@ class Car():
     def calculate_acceleration(self):
         speed = speed + 2
         print(speed)
-```
+
+</pre>
+
+`python solutionEx1.py`{{execute}}
 
 ## Creating objects from a class
 ### DIY Task - Basic (Car)
-```
+
+<pre class="file" data-filename="solutionEx2.py" data-target="replace">
+
 class Car(object):
     def __init__(self, model, passengers, colour, speed):
         self.car_type = model
@@ -31,9 +37,13 @@ class Car(object):
     def calculate_acceleration(self):
         self.speed = self.speed + 2
         print (self.speed)
-```
+
+</pre>
+
+`python solutionEx2.py`{{execute}}
+
 ### DIY Task - Advanced (Car)
-```
+<pre class="file" data-filename="solutionEx3.py" data-target="replace">
 class Car(object):
     def __init__(self, car, ppl, paint, current_speed, max_speed, cost):
         self.car_type = car
@@ -55,3 +65,8 @@ Price: %s""" % (self.car_type, self.max_passengers, self.colour, self.speed, sel
     def calculate_acceleration(self):
         self.speed = self.speed + 2
         print (self.speed)
+
+
+</pre>
+
+`python solutionEx3.py`{{execute}}
