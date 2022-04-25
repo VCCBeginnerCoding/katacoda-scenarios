@@ -11,8 +11,12 @@ class Car():
     speed = 5
 
     def calculate_acceleration(self):
-        speed = speed + 2
+        speed = self.speed + 2
+        print(self.speed)
         print(speed)
+
+C = Car()
+C.calculate_acceleration()
 
 </pre>
 
@@ -22,7 +26,6 @@ class Car():
 ### DIY Task - Basic (Car)
 
 <pre class="file" data-filename="solutionEx2.py" data-target="replace">
-
 class Car(object):
     def __init__(self, model, passengers, colour, speed):
         self.car_type = model
@@ -31,12 +34,16 @@ class Car(object):
         self.speed = speed
 
     def get_car_data(self):
-        list = [self.car_type, self.max_passengers, self.colour, self.speed, self.top_speed]
+        list = [self.car_type, self.max_passengers, self.colour, self.speed]
         return list
 
     def calculate_acceleration(self):
         self.speed = self.speed + 2
         print (self.speed)
+
+C = Car("BMW", 4, "purple", 50)
+print(C.get_car_data())
+C.calculate_acceleration()
 
 </pre>
 
@@ -66,6 +73,9 @@ Price: %s""" % (self.car_type, self.max_passengers, self.colour, self.speed, sel
         self.speed = self.speed + 2
         print (self.speed)
 
+C = Car("farrari", 4, "red", 500, 1000, 999.99)
+C.get_car_data()
+C.calculate_acceleration()
 
 </pre>
 
