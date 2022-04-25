@@ -6,30 +6,30 @@
   "details": {
     "steps": [
       {
-        "title": "Classes and OOP",
+        "title": "Classes and OOP Introduction",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Creating Classes",
+        "title": "Class Structure",
         "text": "step2.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Creating Objects From A Class",
+        "title": "Creating a Class",
         "text": "step3.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "DIY Task Using Our New Skills",
+        "title": "Creating Objects From A Class",
         "text": "step4.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Extension: Learning Inheritance",
+        "title": "DIY Task Using Our New Skills",
         "text": "step5.md",
         "foreground": "clear.sh"
-      }
+      },
     ],
     "intro": {
       "text": "intro.md"
