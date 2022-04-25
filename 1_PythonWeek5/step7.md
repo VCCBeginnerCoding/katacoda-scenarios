@@ -1,5 +1,3 @@
-# Python Week 5 Solutions
-
 ## Creating Classes
 ### DIY Task 
 <pre class="file" data-filename="solutionEx1.py" data-target="replace">
