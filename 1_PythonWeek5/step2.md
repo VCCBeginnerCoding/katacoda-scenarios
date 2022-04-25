@@ -1,54 +1,64 @@
+## Basic Structure
 
-## Classes and attributes
-Attributes are the variables you define for every obeject. In other words, ever object that you create from a class will adopt those variables. The values for the variables are not constant for each object.
+Classes in Python are created using the `class` keyword:
 
-**For example:**
-<pre class="file" data-filename="classEx1.py" data-target="replace">
+<pre class="file" data-filename="snippet.py" data-target="replace">
 
-# defining code for a class
-class className():
-  # variables associated for this class
-  name = "default"
-  number = 0
-
+class exampleOne():
+  number = 5
 </pre>
 
-`python classEx1.py`{{execute}}
-
+Note that the `number` value is an <b>attribute</b> of `example()`
 <br>
 
-## Classes and methods
-Methods are functions you define for every obeject. In other words, ever object that you create from a class will adopt those functions. 
+## Objects
 
-**For example:**
-<pre class="file" data-filename="classEx2.py" data-target="replace">
+In order to use the classes we create, we must create objects of them. These use the class as a blueprint to their creation - for example:
 
-# defining code for a class
-class className():
-    # method for this class - self represents the object that is calling the method (this will be explored more in the next section)
-    def sum(self, int1, int2):
-        return int1 + int2
+<pre class="file" data-filename="objectCreation.py" data-target="replace">
 
+class exampleTwo():
+  number = 5
+  
+val = exampleTwo()
+print(val)
 </pre>
 
-`python classEx2.py`{{execute}}
+`python objectCreation.py`{{execute}}
 
-<br>
+## Self
 
-# DIY: Create your own class
-Have a go at creating your own class with attributes and methods. If you like, you can use the scenario below for inspiration.
+In order to give classes methods that will define an object's functions, we must first look at the `self` keyword in Python.
 
-**Scenario:**
-Define a class for a car. Think of all of the features a car has for the attributes (model, colour etc.) and any method calculations (accelaration, tax etc.) you could perform.
+The `self` parameter is used as a reference to the current instance of the class, and is used to access variables that belong to a particular object that you create. This means that you can create multiple instances of a class, and access each of their attributes independantly. 
 
-[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Week%205)
+You will see this keyword used in examples below.
 
-<br>
+## Methods and Constructors
 
-## Move on once you are confident with the following:
-<ol>
-  <li>Creating a class with attributes</li>
-  <li>Creating a class with methods</li>
-  <li>How a class works and what you could use it for</li>
-  <li>You are able to at least attempt the DIY challenge</li>
-</ol>
+Classes have their own methods inside them, which give an object its functions. Once an object has been created, it can then directly call these methods. 
+
+To access the attributes within a class, it is necessary to have a constructor defining these variables. This is a special method defined by the keyword `__init__`.
+
+When we create an object of a class, we can pass in the unique variables that define that object:
+
+<pre class="file" data-filename="constructors.py" data-target="replace">
+
+class Car():
+  def __init__(self, model, year):
+    self.model = model
+    self.year = year
+
+  def info(self):
+    print("The model of the car is " + self.model + " made in " + self.year)
+
+car1 = Car("Volvo", 2010)
+car2 = Car("Nissan", 2020)
+
+car1.info()
+car2.info()
+</pre>
+
+`python constructors.py`{{execute}}
+
+
