@@ -89,7 +89,9 @@ C.calculate_acceleration()
 `python solutionEx4.py`{{execute}}
 
 
-## DIY Task Using Our New Skills
+## Pokemon!
+
+### DIY Task Using Our New Skills
 
 <pre class="file" data-filename="solutionEx5.py" data-target="replace">
 </pre>
@@ -97,14 +99,16 @@ C.calculate_acceleration()
 `python solutionEx5.py`{{execute}}
 
 
-## DIY Inheretence Scenario
+## Learning Inheretence 
+
+### DIY Inheretence Scenario
 
 <pre class="file" data-filename="solutionEx6.py" data-target="replace">
 </pre>
 
 `python solutionEx6.py`{{execute}}
 
-## Extension Task: Coding the Eevee Evolutions
+### Extension Task: Coding the Eevee Evolutions
 
 
 <pre class="file" data-filename="solutionEx7.py" data-target="replace">
