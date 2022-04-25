@@ -1,5 +1,5 @@
 ## Create an object
-Creating an object is simplier than you think. All this does is make you classes useful - now you'll finally see some results from the terminal!
+Creating an object is simplier than you think. All this does is make your classes useful - now you'll finally see some results from the terminal!
 
 <br>
 
@@ -13,7 +13,7 @@ Syntax:
   
 </pre>
 
-The below code is much more professional and widely used. If you can, do classes in the below format. For now, if this is too complicated, then theirs is example code showing how to use the class data in the simpler format previously shown.
+The code below is much more professional and widely used. If you can, do classes in the format below. For now, if this is too complicated, then there's example code showing how to use the class data in the simpler format previously shown.
 
 <pre class="file" data-filename="objectAttribute.py" data-target="replace">
 class Calculator(object):
@@ -63,16 +63,16 @@ class Calculator(object):
         # return the sum of input
         return int1 + int2
         
-    def numOfTrys(self):
+    def numOfTries(self):
         return self.calc
     
     # method prints a message indicating how many times the calculator was used
     def calcUse(self):
         # if num of times used is more than 1...
-        if (self.numOfTrys() > 1):
-            print(self.name + " has used this calculator " ,self.numOfTrys(), " times")
+        if (self.numOfTries() > 1):
+            print(self.name + " has used this calculator " ,self.numOfTries(), " times")
         # if num equals 1...
-        elif (self.numOfTrys() == 1):
+        elif (self.numOfTries() == 1):
             print(self.name + " has used this calculator once")
         # anything else...
         else:
@@ -141,16 +141,16 @@ class Calculator(object):
         # return the sum of input
         return int1 + int2
         
-    def numOfTrys(self):
+    def numOfTries(self):
         return self.calc
     
     # method prints a message indicating how many times the calculator was used
     def calcUse(self):
         # if num of times used is more than 1...
-        if (self.numOfTrys() > 1):
-            print(self.name + " has used this calculator " ,self.numOfTrys(), " times")
+        if (self.numOfTries() > 1):
+            print(self.name + " has used this calculator " ,self.numOfTries(), " times")
         # if num equals 1...
-        elif (self.numOfTrys() == 1):
+        elif (self.numOfTries() == 1):
             print(self.name + " has used this calculator once")
         # anything else...
         else:
@@ -168,9 +168,11 @@ print(example.sum(23, 184))
 print(example.sum(2, 481))
 
 # More objects
-example2 = Calculator("Cameron")
+example2 = Calculator()
+example2.name = "Cameron"
 example2.sum(1, 1)
-example3 = Calculator("Phillip")
+example3 = Calculator()
+example3.name = "Phillip"
 
 # Calling a method which states how many times the calculator has been used
 example.calcUse()
