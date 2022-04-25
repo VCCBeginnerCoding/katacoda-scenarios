@@ -80,3 +80,37 @@ C.calculate_acceleration()
 </pre>
 
 `python solutionEx3.py`{{execute}}
+
+### DIY Task - Advanced (Ice Cream)
+
+<pre class="file" data-filename="solutionEx4.py" data-target="replace">
+</pre>
+
+`python solutionEx4.py`{{execute}}
+
+
+## DIY Task Using Our New Skills
+
+<pre class="file" data-filename="solutionEx5.py" data-target="replace">
+</pre>
+
+`python solutionEx5.py`{{execute}}
+
+
+## DIY Inheretence Scenario
+
+<pre class="file" data-filename="solutionEx6.py" data-target="replace">
+</pre>
+
+`python solutionEx6.py`{{execute}}
+
+## Extension Task: Coding the Eevee Evolutions
+
+
+<pre class="file" data-filename="solutionEx7.py" data-target="replace">
+</pre>
+
+`python solutionEx7.py`{{execute}}
+
+
+
