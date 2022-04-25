@@ -23,7 +23,7 @@ class Human():
     return True
 
   def sendMail(self):
-    if verify(self):
+    if self.verify():
       print("Sending your email to " + self.address + " from " + self.email)
     else:
       print("Could not send mail!")
