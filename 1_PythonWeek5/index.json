@@ -34,6 +34,11 @@
         "title": "Extension Task: Coding the Eevee Evolutions",
         "text": "step6.md",
         "foreground": "clear.sh"
+      },
+      {
+        "title": "Solutions",
+        "text": "step7.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {
