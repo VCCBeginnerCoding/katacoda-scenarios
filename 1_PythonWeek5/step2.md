@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 ## Basic Structure
 
 Classes in Python are created using the `class` keyword:
