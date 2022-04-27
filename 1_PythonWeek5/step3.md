@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 ## DIY: Create your own class!
 
 Using the image we saw in step 1, we want you to try and create your own class based off the structure shown:
