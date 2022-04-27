@@ -1,3 +1,6 @@
+Messy Terminal? `clear`{{execute}} it.
+<hr>
+
 Below will show an example solution to the previous exercise.
 <br>
 Note that we have included extra code in the methods - don't worry if you only have print statements!
