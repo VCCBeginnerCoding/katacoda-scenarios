@@ -1,5 +1,5 @@
-
-
+Messy Terminal? `clear`{{execute}} it.
+<hr>
 
 There are two main form of loops in Python. The For loop and the While loop!
 
