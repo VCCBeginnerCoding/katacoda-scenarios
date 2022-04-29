@@ -12,6 +12,9 @@
 ### Week 4:
 * Working with data & spreadsheets
 
+### Week 4:
+* Classes
+
 ## Python Week 1
 Why have we chosen python to learn? Python's easy syntax (i.e. its readability) doesn't only make it easy to learn; it also makes Python an excellent 'gateway' language. As a highly abstract language, it is very intuitive for new learners as it allows you to focus less on the code and more on the programming concepts themselves.
 
