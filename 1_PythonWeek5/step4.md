@@ -36,3 +36,8 @@ You are going to create classes for a pokedex. Once your code is finished the us
 
 Are you up for the challenge?
 
+<pre class="file" data-filename="pokemon.py" data-target="replace">
+</pre>
+
+`python pokemon.py`{{execute}}
+
