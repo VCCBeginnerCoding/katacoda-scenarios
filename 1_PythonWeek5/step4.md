@@ -36,4 +36,3 @@ You are going to create classes for a pokedex. Once your code is finished the us
 
 Are you up for the challenge?
 
-[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Week%205)
