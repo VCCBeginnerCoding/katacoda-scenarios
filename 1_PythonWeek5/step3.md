@@ -189,6 +189,10 @@ Have a go at creating more complicated classes. If you like, you can use the sce
   <img width="500" alt="Screenshot 2022-03-16 154138" src="https://user-images.githubusercontent.com/60058170/158629863-99226230-d2a9-4d8e-8865-007fb7ac96d1.png">
 </p>
 
+<pre class="file" data-filename="DIY.py" data-target="replace">
+</pre>
+`python DIY.py`{{execute}}
+
 **Scenario 1:** Use the class you previously created for a car. What useful attributes/methods could you now add to your class? Attempt to redesign your code to be in the more advanced format. What could be usefule for a car dealership? 
 
 After completing this task, create at least 3 objects from this class with different values. Play around with the methods you have created.
