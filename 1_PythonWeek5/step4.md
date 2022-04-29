@@ -3,8 +3,8 @@ Who here is a pokemon fan???
 
 <img width="209" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158644283-b76d6cbf-fd34-4768-b1ef-c6753355936b.png">
 
-**If you are:** tough because I am. <br>
-**If you aren't:** you're awesome.
+**If you are:** you're awesome. <br>
+**If you aren't:** tough because I am.
 
 <img width="210" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158645120-488f50c3-3d06-477c-a1e5-a30b9e2aaf50.png">
 <img width="210" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158645318-0e381115-ac28-4ebb-a433-1b5cbd7480fc.png">
