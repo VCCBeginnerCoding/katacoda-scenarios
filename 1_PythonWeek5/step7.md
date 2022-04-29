@@ -82,6 +82,41 @@ C.calculate_acceleration()
 ### DIY Task - Advanced (Ice Cream)
 
 <pre class="file" data-filename="solutionEx4.py" data-target="replace">
+class Customer(object):
+  name = ""
+  nb_products = 0
+  total_cost = 0.00
+  special = False
+  cost_for_week = 0.00
+  list = ["Roxanne", "Jinx", "Jamal", "Litty", "Trixy"]
+  
+  def create_receipt(self):
+    self.cost_for_week += self.total_cost
+    if (self.special):
+        self.total_cost /= 2
+        
+    print("Receipt Details: \nName: " + self.name + "\nNumber of Products Bought: " + str(self.nb_products) + "\nTotal Cost: £" + str(self.total_cost))
+  
+  def isSpecial(self):
+    if (self.cost_for_week > 30):
+      self.special = True
+      list.add(self.name)
+      
+    if (self.name in self.list):
+      self.special = True
+
+C = Customer()
+flag = True
+while(flag):
+    C.name = input("Customer Name: ")
+    C.nb_products = int(input("Number of Products: "))
+    C.total_cost = C.nb_products * 2
+    C.isSpecial()
+    C.create_receipt()
+    
+    finish = input("More Customers? [y/n] ")
+    if (finish == "n"):
+        flag = False
 </pre>
 
 `python solutionEx4.py`{{execute}}
