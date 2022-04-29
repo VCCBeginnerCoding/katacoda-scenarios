@@ -193,12 +193,8 @@ Have a go at creating more complicated classes. If you like, you can use the sce
 
 After completing this task, create at least 3 objects from this class with different values. Play around with the methods you have created.
 
-[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Week%205)
-
 <br>
 
 **Scenario 2:** Mmmmmm. I don't know about you but I love ice cream! I'd love to use an automatic register but I have no way of keeping track of all of my customers and products! I have all the classics you see, and they love them. Some are regulars that I give special discounts to so I'm scared of switching to an automatic system that logs who my customers are and what they are eating as it's important to me that they still recieve my special treatment! Can you help me?
 
-I would like a system that stores a customer's name, number of products bought and total spending. I need to give each customer the option for a receipt. I have many products you'll easily find online. My special treatment customers are Roxanne, Jinx, Jamal and litty Trixy. But I consider any customer who spends more than £30 a week a special treatment customer. 
-
-[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Week%205)
+I would like a system that stores a customer's name, number of products bought and total spending. I need to give each customer the option for a receipt. I have many products you'll easily find online. My special treatment customers are Roxanne, Jinx, Jamal and litty Trixy. But I consider any customer who spends more than £30 a week a special treatment customer. Every product costs £2.
