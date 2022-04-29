@@ -12,7 +12,7 @@
 ### Week 4:
 * Working with data & spreadsheets
 
-### Week 4:
+### Week 5:
 * Classes
 
 ## Python Week 1
