@@ -45,7 +45,8 @@ To access the attributes within a class, it is necessary to have a constructor d
 
 When we create an object of a class, we have to ensure that we pass in the attributes required in that class's constructor. 
 
-<b>Note:</b> You don't have to pass in `self`, you only need to pass in the variables stated in `__init__`.
+<b>Note for object creation:</b> You don't have to pass in `self` when creating the object, you only need to pass in the variables stated in `__init__`. 
+<b>Note for class methods:</b> You only have to pass in `self` into the method to ensure that it can access the `self.variable` within the class.
 
 <pre class="file" data-filename="constructors.py" data-target="replace">
 
