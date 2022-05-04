@@ -51,12 +51,12 @@ When we create an object of a class, we have to ensure that we pass in the attri
 <pre class="file" data-filename="constructors.py" data-target="replace">
 
 class Car():
-  def __init__(self, model, year):
-    self.model = model
+  def __init__(self, make, year):
+    self.make = make
     self.year = year
 
   def info(self):
-    print("The model of the car is " + self.model + " made in " + self.year)
+    print("The make of the car is " + self.make + " made in " + self.year)
 
 car1 = Car("Volvo", 2010)
 car2 = Car("Nissan", 2020)
