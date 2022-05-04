@@ -43,7 +43,9 @@ Classes have their own methods inside them, which give an object its functions. 
 
 To access the attributes within a class, it is necessary to have a constructor defining these variables. This is a special method defined by the keyword `__init__`.
 
-When we create an object of a class, we can pass in the unique variables that define that object:
+When we create an object of a class, we have to ensure that we pass in the attributes required in that class's constructor. 
+
+<b>Note:</b> You don't have to pass in `self`, you only need to pass in the variables stated in `__init__`.
 
 <pre class="file" data-filename="constructors.py" data-target="replace">
 
