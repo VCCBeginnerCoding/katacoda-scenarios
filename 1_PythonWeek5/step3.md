@@ -133,17 +133,17 @@ print("Storage: Value 1 = ", example.int1, ", Value 2 = ", example.int2)
 class Calculator(object):
     calc = 0
     name = ""
-        
+
     # method for this class - self represents the object that is calling the method
     def sum(self, int1, int2):
         # increase number of times calculator's used
         self.calc += 1
         # return the sum of input
         return int1 + int2
-        
+
     def numOfTrys(self):
         return self.calc
-    
+
     # method prints a message indicating how many times the calculator was used
     def calcUse(self):
         # if num of times used is more than 1...
@@ -168,9 +168,12 @@ print(example.sum(23, 184))
 print(example.sum(2, 481))
 
 # More objects
-example2 = Calculator("Cameron")
+example2 = Calculator()
+example2.name = "Cameron"
 example2.sum(1, 1)
-example3 = Calculator("Phillip")
+
+example3 = Calculator()
+example3.name = "Phillip"
 
 # Calling a method which states how many times the calculator has been used
 example.calcUse()
