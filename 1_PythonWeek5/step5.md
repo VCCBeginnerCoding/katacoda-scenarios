@@ -137,7 +137,9 @@ class Orc(Monster):
     
     def description():
         print("DIE DIE DIE")
+        
 </pre>
+
 `python DIY_Inherit1.py`{{execute}}
 
 **Terminology**
