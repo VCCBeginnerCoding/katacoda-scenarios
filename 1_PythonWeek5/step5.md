@@ -53,6 +53,10 @@ car.specs()
 To the right is a class heirarchy diagram for you to practice from.<br></br>Note that dragons and orcs both have a colour, size and an enemies list.<br></br>However, they don't share all of the same characteristics. For instance, Orcs can carry a weapon(s).<br></br>The rest of the features are up to you. Also note that you do not have to include the suggestions above, they are to help you get an idea of what to do.
 <br></br>
 
+<pre class="file" data-filename="DIY_Inherit1.py" data-target="replace">
+</pre>
+`python DIY_Inherit1.py`{{execute}}
+
 **Terminology**
 <ul>
   <li>Character = Base Class (this is also a parent class)</li>
