@@ -108,7 +108,7 @@ I urge you again to only use this structure if you're really struggling understa
 
 ### Attribute Code
 
-<pre class="file" data-filename="ex1" data-target="replace">
+<pre class="file" data-filename="ex1.py" data-target="replace">
 class Calculator(object):
     total = 0
     int1 = 0
