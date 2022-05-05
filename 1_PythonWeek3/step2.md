@@ -164,43 +164,5 @@ placeholder()
 
 `python pass.py`{{execute}}
 
-## Recursion!
-Recursion is a mathematical and computing concept that allows us to loop through data without using for or while. This has the benefit of making the code more efficient, and works by having a function return a call to itself. 
-For example, we can pass in a counter to a recursive function and increment it until it reaches a desired value, then simply return the end amount:
-
-<pre class="file" data-filename="recursiveCall.py" data-target="replace">
-# This is a recursive functuon that returns the addition
-# of 5 decreasing numbers
-def recursive(number, count, answer):
-  
-  if count == 5:
-    return answer
-  else:
-    # decreasing the value added using number-1
-    # increasing the count of numbers used using count+1
-    # calculating the addition of the next number using answer+number
-    return recursive(number-1, count+1, answer+number)
-
-# For reference, this is what the recursive call would look like in a while loop:
-
-def loop(number, count, answer):
-
-  while count < 5:
-    answer += number
-    number -= 1
-    count += 1
-  
-  return answer
-
-# We need (start val, number of values already added, total addition) to pass into the functions
-# in this case, the last two numbers are 0 as we are at the start of the loop
-
-print("RECURSIVE")
-print(recursive(10,0,0))
-print ("LOOP")
-print(loop(10,0,0))
-</pre>
-
-`python recursiveCall.py`{{execute}}
 
 <marquee style='color: blue;'><b>Yay you've completed part 2!</b></marquee>
