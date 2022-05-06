@@ -19,7 +19,7 @@ print_tuple(friends)
 
 `python TaskSolution.py`{{execute}}
 
-<mark>Extra Task 1:</mark> use key-value pairs of first names and last names, and print off the last name of one of your friends using the key
+<mark>Extra Task:</mark> use key-value pairs of first names and last names, and print off the last name of one of your friends using the key
 
 <pre class="file" data-filename="ET1.py" data-target="replace">
 def print_last_name(**friends):
@@ -31,7 +31,7 @@ print_last_name(Aymen = "Benylles", Emma = "Eady", Sandra = "Neeliyara", Yasmin 
 
 `python ET1.py`{{execute}}
 
-<mark>Extra Task 2:</mark> repeat the original task, but instead of using a loop try to complete it using a recursive function
+<mark>A different method:</mark> repeating the original task, but instead of using a loop, use a recursive function
 
 <pre class="file" data-filename="ET2.py" data-target="replace">
 def recursive_task(friends, count):
