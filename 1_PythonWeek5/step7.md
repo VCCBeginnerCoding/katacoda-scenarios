@@ -230,6 +230,149 @@ while (flag):
 ### DIY Inheretence Scenario
 
 <pre class="file" data-filename="solutionEx6.py" data-target="replace">
+import random
+
+class Character(object):
+    name = ""
+    age = ""
+    weapon = False
+    level = 0
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def description(self):
+        print("Character Features: Name, Age, Weapon, level")
+
+class Hero(Character):
+    weapon = True
+    weapon_vault = ["sword", "shield"]
+    monsters_killed = 0
+    dragons_killed = 0
+    monster_encountered_list = {"Dragon":0, "Orc":0}
+    defeats = 0
+    exp = 0
+
+    def description(self):
+        self.calc_level()
+        print("\n" + self.name + "'s Characteristics: I am " + str(self.age) +" years old and I am at level", self.level)
+        print("Weapons: " + str(self.weapon_vault))
+        print("Kills: " + str(self.monsters_killed))
+        print("Dragons Killed: " + str(self.dragons_killed))
+        print("History: " + str(self.monster_encountered_list))
+        print("Defeats: " + str(self.defeats))
+        print("Experience: " + str(self.exp) + "\n")
+
+
+    def attack(self):
+        options = ["Dragon", "Orc"]
+        opponent = random.choice(options)
+
+        if (opponent == "Dragon"):
+            D = Dragon("","")
+            D.description()
+            if (self.level < 6):
+                print("you have been defeated by a Dragon")
+                self.monster_encountered_list["Dragon"] += 1 
+                self.defeats += 1
+            else:
+                print("you won!")
+                self.dragons_killed += 1
+                self.monsters_killed += 1
+                self.monster_encountered_list["Dragon"] += 1 
+                self.exp += 30
+                if (self.exp >= 100):
+                    self.level += 1
+                    self.exp -= 100
+
+        else:
+            O = Orc("","")
+            O.description()
+            list = ["won", "fail", "fail"]
+            result = random.choice(list)
+            if (result == "fail"):
+                print("you have been defeated by an Orc ")
+                self.monster_encountered_list["Orc"] += 1 
+                self.defeats += 1
+            else:
+                print("you won!")
+                self.monsters_killed += 1
+                self.monster_encountered_list["Orc"] += 1 
+                self.exp += 10
+                if (self.exp >= 100):
+                    self.level += 1
+                    self.exp -= 100
+
+    def calc_level(self):
+        if (self.dragons_killed != 0):
+            if (self.monster_encountered_list["Dragon"] != 0):
+                if (self.dragons_killed % 5 == 0):
+                    if (self.level > 1):
+                        print(self.dragons_killed)
+                        self.level *= self.dragons_killed/5
+                        print("Killing Dragons Have Increased Your Level!")
+
+class Monster(Character):
+    colour = "red"
+    size = 200
+    enemies = ["Hero"]
+    level = 5
+
+class Dragon(Monster):
+    element = ["Fire", "Water", "Air", "Earth"]
+    friendly = [True, False]
+
+    def description(self):
+        f = random.choice(self.friendly)
+        if (f):
+            print("I'm friendly, I swear! Please don't kill me :(")
+        else:
+            print("ROOOOAR!")
+
+class Orc(Monster):
+    weapon = "Dagger"
+
+    def description(self):
+        print("DIE DIE DIE")
+
+
+print("""
+Menu:
+ 1. Create A Hero
+ 2. View Hero Details
+ 3. Attack A Monster
+ 4. Exit
+ """)
+H = ""
+loop = True
+while (loop):
+    try:
+        action = int(input("Select Menu Item: "))
+    except ValueError:
+        continue
+    
+    if (action == 1):
+        name = input("What is your character's name? ")
+        age = int(input("How old is your character? "))
+        H = Hero(name, age)
+        print()
+        
+    elif (action == 2):
+        if (H != ""):
+            H.description()
+        else:
+            print("You need to create a character first\n")
+            
+    elif (action == 3):
+        H.attack()
+
+    elif (action == 4):
+        print("Goodbye")
+        loop = False
+    
+    else:
+        print("That is not a menu option. Please pick 1, 2, 3 or 4.")
 </pre>
 
 `python solutionEx6.py`{{execute}}
