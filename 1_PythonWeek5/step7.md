@@ -1,3 +1,4 @@
+<br></br>
 ## Creating Classes
 ### DIY Task 
 <pre class="file" data-filename="solutionEx1.py" data-target="replace">
@@ -20,6 +21,7 @@ C.calculate_acceleration()
 
 `python solutionEx1.py`{{execute}}
 
+<br></br>
 ## Creating objects from a class
 ### DIY Task - Basic (Car)
 
@@ -47,6 +49,7 @@ C.calculate_acceleration()
 
 `python solutionEx2.py`{{execute}}
 
+<br></br>
 ### DIY Task - Advanced (Car)
 <pre class="file" data-filename="solutionEx3.py" data-target="replace">
 class Car(object):
@@ -79,6 +82,7 @@ C.calculate_acceleration()
 
 `python solutionEx3.py`{{execute}}
 
+<br></br>
 ### DIY Task - Advanced (Ice Cream)
 
 <pre class="file" data-filename="solutionEx4.py" data-target="replace">
@@ -121,7 +125,7 @@ while(flag):
 
 `python solutionEx4.py`{{execute}}
 
-
+<br></br>
 ## Pokemon!
 
 ### DIY Task Using Our New Skills
@@ -224,7 +228,7 @@ while (flag):
 
 `python solutionEx5.py`{{execute}}
 
-
+<br></br>
 ## Learning Inheretence 
 
 ### DIY Inheretence Scenario
@@ -365,7 +369,10 @@ while (loop):
             print("You need to create a character first\n")
             
     elif (action == 3):
-        H.attack()
+        if (H != ""):
+            H.attack()
+        else:
+            print("You need to create a character first\n")
 
     elif (action == 4):
         print("Goodbye")
@@ -377,6 +384,7 @@ while (loop):
 
 `python solutionEx6.py`{{execute}}
 
+<br></br>
 ### Extension Task: Coding the Eevee Evolutions
 
 
