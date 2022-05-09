@@ -389,6 +389,173 @@ while (loop):
 
 
 <pre class="file" data-filename="solutionEx7.py" data-target="replace">
+import random
+
+class Pokemon(object):
+    partner = ""
+    previous_partners = []
+    released = 0
+    level = 0
+
+    def choosePartner(self):
+        empty = False
+        if (self.partner == ""):
+            empty = True
+            print("Your current partner is " + self.partner)
+
+        chosen = int(input("""Select A Partner:
+1. Pikachu
+2. Riolu
+3. Bulbasaur
+4. Charmander
+5. Eevee
+"""))
+
+        if (chosen == 1):
+            if not (empty):
+                self.previous_partners.append(self.partner)
+                self.released += 1
+            self.partner = "Pikachu"
+        elif (chosen == 2):
+            if not (empty):
+                self.previous_partners.append(self.partner)
+                self.released += 1
+            self.partner = "Riolu"
+        elif (chosen == 3):
+            if not (empty):
+                self.previous_partners.append(self.partner)
+                self.released += 1
+            self.partner = "Bulbasaur"
+        elif (chosen == 4):
+            if not (empty):
+                self.previous_partners.append(self.partner)
+                self.released += 1
+            self.partner = "Charmander"
+        elif (chosen == 5):
+            if not (empty):
+                self.previous_partners.append(self.partner)
+                self.released += 1
+            self.partner = "Eevee"
+        else:
+            print("Not an option. Pick again...")
+            self.choosePartner()
+
+    def details(self):
+        if (self.partner == "Pikachu"):
+            print("Pikachu is yellow with red cheeks")
+        elif (self.partner == "Riolu"):
+            print("Riolu is a blue fighter - bestie")
+        elif (self.partner == "Bulbasaur"):
+            print("Bulbasaur is a leafy starter")
+        elif (self.partner == "Charmander"):
+            print("Charmande is fire king")
+        elif (self.partner == "Eevee"):
+            print("Eevee has hidden power")
+        else:
+            print("No Partner")
+
+    def getPartner(self, condition):
+        if (self.partner != "" and not condition):
+            print(self.partner)
+        elif (condition):
+            return self.partner
+        else:
+            print("No Partner")
+
+    def getPrevious(self):
+        print(self.previous_partners)
+        print("You have: ",self.released," pokemon in your pokedex")
+    
+    def returnPrevious(self):
+        return self.previous_partners
+
+class Evolution(Pokemon):
+    evolutions = []
+    partner = ""
+    
+    def levelup(self):
+        options = ["yes", "no", "again"]
+        pick = random.choice(options)
+        if (pick == "yes"):
+            self.level += 1
+            print("Yay, your new level is", self.level)
+        elif(pick == "again" and self.level != 10):
+            print("let's try again...")
+            self.levelup()
+        else:
+            print("No level up today")
+        
+        if(self.level == 10):
+            self.evolve()
+    
+    def evolve(self):
+        pokemon = random.choice(self.evolutions)
+        print("Your pokemon has evolved into a " + pokemon)
+        self.partner = pokemon
+        
+    def getLevel(self):
+        return self.level
+        
+    def getPartner(self):
+        return self.partner
+        
+class Eevee(Evolution):
+    evolutions = ["Jolteon", "Flareon", "Umbreon", "Leafeon", "Sylveon", "Glaceon", "Espeon", "Vaporeon"]
+
+class Riolu(Evolution):
+    evolutions = ["Lucario"]
+
+print("""Choose Option:
+1. View Partner
+2. Choose Partner
+3. View Previous Partners
+4. Level Up Partner
+5. I Think I've Won
+6. Exit
+""")
+
+flag = True
+P = Pokemon()
+E = Eevee()
+R = Riolu()
+while (flag):
+    action = input("Choose Option: ")
+
+    if (action == "1"):
+        P.getPartner(False)
+        if (P.getPartner(True) == "Eevee"):
+            print("Level is", E.getLevel())
+        else:
+            print("Level is", R.getLevel())
+    elif (action == "2"):
+        P.choosePartner()
+        P.details()
+    elif (action == "3"):
+        P.getPrevious()
+    elif (action == "4"):
+        if (P.getPartner(True) == "Eevee"):
+            E.levelup()
+            if (E.getPartner() != ""):
+                P.partner = E.getPartner()
+        elif (P.getPartner(True) == "Riolu"):
+            R.levelup()
+            if (R.getPartner() != ""):
+                P.partner = R.getPartner()
+        else:
+            print("You can only level up Eevee or Riolu")
+
+    elif (action == "5"):
+        ls = P.returnPrevious()
+        if (all(x in ls for x in ["Pikachu", "Riolu", "Lucario", "Bulbasaur", "Charmander", "Eevee", "Jolteon", "Flareon", "Umbreon", "Leafeon", "Sylveon", "Glaceon", "Espeon", "Vaporeon"])):
+            print("\nCongratulation! You have a full pokedex!\n")
+            flag = False
+        else:
+            print("Keep playing, there's more to catch")
+            
+    elif (action == "6"):
+        flag = False
+    else:
+        print("Not an option")
 </pre>
 
 `python solutionEx7.py`{{execute}}
