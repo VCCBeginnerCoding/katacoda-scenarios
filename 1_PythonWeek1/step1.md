@@ -1,7 +1,5 @@
 # Basics
 Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
-
-Messy Terminal? `clear`{{execute}} it.
 <hr>
 
 ![Variables](./assets/variables.png)
@@ -10,8 +8,6 @@ Variables are containers for storing data values. You can store any value in a v
 
 You can store different types of data in variables as shown below. Text is stored as strings, numbers can be stored as integers (whole numbers) or floats (with decimals). There is also boonleans that act as a true/false and can only store these values. 
 ![DataTypes](./assets/data-types.png)
-
-Click here to create new Python file: `week1.py`{{open}}
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 # This is a comment
@@ -24,8 +20,8 @@ a = 2
 print(a)
 </pre>
 
-Copy the code above over to the editor and then press
-`python week1.py`{{execute}}. You can also type that yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
+Copy the code above over to the editor and then type 
+`python week1.py` into the terminal. You can also type that yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
 
 Note: Variables are case sensitive, so ```myCardPin``` and ```MyCaRdPiN``` are two separate variables.
 
@@ -43,8 +39,6 @@ print(myCardPin)
 myCardPin = 1382929292
 print(myCardPin)
 </pre>
-
-`python week1.py`{{execute}}
 
 <hr>
 
@@ -70,8 +64,6 @@ b += 2
 print(b)
 </pre>
 
-`python week1.py`{{execute}}
-
 You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
 
 <pre class="file" data-filename="week1.py" data-target="replace">
@@ -82,8 +74,6 @@ print(2/3)
 print(2//3)
 print(2%3)
 </pre>
-
-`python week1.py`{{execute}}
 
 <hr>
 
