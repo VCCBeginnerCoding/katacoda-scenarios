@@ -1,8 +1,4 @@
 # Using Comparisions
-Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
-
-Messy Terminal? `clear`{{execute}} it.
-<hr>
 
 ![Variables](./assets/ifelse.png)<br>
 
@@ -17,8 +13,6 @@ if age < 18:
 if age < 0: 
     print("You haven't been born yet.")
 </pre>
-
-`python week1.py`{{execute}}
 
 <hr>
 
