@@ -7,11 +7,11 @@ Messy Terminal? Type in `clear` in the terminal to clean it.
 
 ![Terminal](./assets/HelloWorld.png)
 
-The print() function prints the specified message to the screen, or other standard output device ```print()```. <span style="color:green">print(</span><span style="color:blue">"Hello World!"</span>
+The print() function prints the specified message to the screen, or other standard output device ```print()```. <span style="color:green">print(</span><span style="color:blue">"Hello World!")</span>
 
 <pre class="file" data-filename="week0.py" data-target="replace">
-print("Hello World") 
-</pre> {{copy}}
+'print("Hello World")' {{copy}}
+</pre> 
 
 Copy the code above over to the editor and then type in 
 `python week0.py`{{copy}}. You can also type <span style="color:blue">'python week0.py'</span> yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
