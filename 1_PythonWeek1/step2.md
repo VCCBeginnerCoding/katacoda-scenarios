@@ -1,6 +1,4 @@
 # Strings
-Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
-<hr>
 
 Strings are text in code. They can be declared in Python like so:
 
@@ -25,7 +23,6 @@ print("I like \ntrains!")
 
 Try it yourself using the terminal on the right.
 
-<hr>
 
 # Input
 We can obtain user input using a special Python keyword/method called ```input()```. Let's say we want to obtain the user's name, in Python we do the following:
@@ -53,16 +50,12 @@ username = input("What is your name?")
 print("Hello " + username + ", nice to meet you!")
 </pre>
 
-<hr>
-
 # Quick Exercise
 - Ask the user for their favourite colour.
 - Print that variable.
 - Optional: Chain it by putting ```input()``` inside of ```print()``` so you only need 1 line of code
 
 [Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md)
-
-<hr>
 
 # Practical Uses
 A lot of software require user input of some sort, be it a mouse click, a finger tap, via your keyboard or something else entirely. Instagram can only load your feed if you login and tell Instagram what your username/password is. Minecraft can only move your character if you tell it to, via mouse and keyboard. (Again, there's a few more steps involved in real life, but you get the idea.)
