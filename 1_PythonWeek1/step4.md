@@ -1,9 +1,9 @@
 # Comparison
 <hr>
 
-```=``` is an assignment operator. ```a = 2``` assigns ```a``` with the value of ```2```.
+`=` is an assignment operator. `a = 2` assigns `a` with the value of `2`.
 
-```==``` instead asks the question *are the values equal*?
+`==` instead asks the question *are the values equal*?
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 print(100 == 100)
@@ -13,14 +13,14 @@ a = 100
 print(a == 100)
 </pre>
 
-You can also use the ```!=``` not equal to operator.
+You can also use the `!=` not equal to operator.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 print(100 != 100)
 print(100 != 200)
 </pre>
 
-Other operators include ```>``` greater than, ```>=``` greater than or equal to, ```<``` less than, and ```<=``` less than or equal to.
+Other operators include `>` greater than, `>=` greater than or equal to, `<` less than, and `<=` less than or equal to.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 print(100 > 100)
@@ -31,7 +31,7 @@ print(100 <= 100)
 
 # and
 
-Returns ```True``` if both statements are true.
+Returns `True` if both statements are true.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 x = 5
@@ -41,7 +41,7 @@ print(x < 5 and x < 10)
 
 # or
 
-Returns ```True``` if one of the statements is true.
+Returns `True` if one of the statements is true.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 x = 4
@@ -51,7 +51,7 @@ print(x < 5 or x < 4)
 
 # not
 
-Reverse the result, returns ```False``` if the result is true.
+Reverse the result, returns `False` if the result is true.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 x = 999
