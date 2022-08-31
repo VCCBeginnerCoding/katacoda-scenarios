@@ -2,7 +2,7 @@
 
 ![Variables](./assets/ifelse.png)<br>
 
-You don't have to understand ```if``` statements right now - we'll cover those next week. But here's why comparisions can come in handy, and why Python can be a versatile language.
+You don't have to understand `if` statements right now - we'll cover those next week. But here's why comparisions can come in handy, and why Python can be a versatile language.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 age = 17
@@ -18,7 +18,7 @@ if age < 0:
 
 # Indentation
 
-See how the ```print``` statement above is indented? It means it sits under the ```if``` statement, and will only run if the conditions of that ```if``` statement is true.
+See how the `print` statement above is indented? It means it sits under the `if` statement, and will only run if the conditions of that `if` statement is true.
 
 To indent a line, you have a few options. Choose one and then start a fight with the others over which one is superior:
 
