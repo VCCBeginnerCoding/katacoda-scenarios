@@ -2,11 +2,10 @@
 Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
 <hr>
 
-![Variables](./assets/variables.png)
 
-Variables are containers for storing data values. You can store any value in a variable, then use it or change its value later on in the program. We can also print out the variables using ```print()```. <span style="color:green">print(</span><span style="color:blue">"Hello World!"</span><span style="color:green">)</span> <span style="color:green">print(</span><span style="color:blue">variable</span><span style="color:green">)</span>
+Variables are containers for storing data values. You can store any value in a variable, then use it or change its value later on in the program. We can also print out the variables using ```print()```. As you found out from the last session, printing text in Python looks like this: `print("Hello World")`{{copy}}
 
-You can store different types of data in variables as shown below. Text is stored as strings, numbers can be stored as integers (whole numbers) or floats (with decimals). There is also boonleans that act as a true/false and can only store these values. 
+You can store different types of data in variables as shown below. Text is stored as strings, numbers can be stored as integers (whole numbers) or floats (decimals). There is also boonleans that act as a true/false and can only store these values. 
 ![DataTypes](./assets/data-types.png)
 
 <pre class="file" data-filename="week1.py" data-target="replace">
@@ -21,11 +20,9 @@ print(a)
 </pre>
 
 Copy the code above over to the editor and then type 
-`python week1.py` into the terminal. You can also type that yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
+`python week1.py` into the terminal. You can also type that yourself via the Terminal (bottom right) and then press ENTER to execute it.
 
-Note: Variables are case sensitive, so ```myCardPin``` and ```MyCaRdPiN``` are two separate variables.
-
-<hr>
+Note: Variables in Python are case sensitive, so `myCardPin` and `MyCaRdPiN` are two separate variables.
 
 We can assign a new value to an existing variable.
 
@@ -40,15 +37,11 @@ myCardPin = 1382929292
 print(myCardPin)
 </pre>
 
-<hr>
-
 <span style="color:green">✓</span> Valid variable names: ```_``` ```days_to_christmas``` ```Adiós_Señora```
 
-<span style="color:red">✗</span> Invalid variable names: ```10t``` *<span style="color:red">must begin with a letter</span>* ```Exchange Rate``` *<span style="color:red">must not contain a space</span>* ```?``` *<span style="color:red">must not be punctuation</span>*
+<span style="color:red">✗</span> Invalid variable names: `10t` *<span style="color:red">must begin with a letter</span>* `Exchange Rate` *<span style="color:red">must not contain a space</span>* `?` *<span style="color:red">must not be punctuation</span>*
 
 Python also has a list of [reserved words](https://www.w3schools.com/python/python_ref_keywords.asp) that cannot be used as variable names.
-
-<hr>
 
 # More about variables
 Try these commands.
@@ -64,7 +57,7 @@ b += 2
 print(b)
 </pre>
 
-You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
+You can also use `+`, `-`, `*`, `/`, `//`, `%`, `**` etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 print(2+3)
@@ -75,8 +68,6 @@ print(2//3)
 print(2%3)
 </pre>
 
-<hr>
-
 # Quick Exercise
 - Save your age as a variable
 - Save the current year (2022 as of writing) as a second variable
@@ -85,8 +76,6 @@ print(2%3)
 - You've found your birth year! (We're assuming you were born on 1st January to keep this task simple.)
 
 [Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md)
-
-<hr>
 
 # Practical Uses
 The calculator app on your phone remembers every number as you type it, as well as your previous calculations, thanks to variables. Microsoft Teams remembers your user settings and stores them as variables. Your phone stores your password as a variable too. (Okay, there's a few more steps involved in real life, but you get the idea.)

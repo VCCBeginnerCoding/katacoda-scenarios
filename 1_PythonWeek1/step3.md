@@ -3,7 +3,7 @@ Hover over the code snippets below and click *Copy to Editor* to copy the code t
 
 <hr>
 
-Python supports three types of numbers – ```int```, ```float```, and ```complex```. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations (so ignore them for now). You can also convert numbers into strings, which Python will treat as text (so no more multiplications afterwards).
+Python supports three types of numbers – `int`, `float`, and `complex`. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations (so ignore them for now). You can also convert numbers into strings, which Python will treat as text (so no more multiplications afterwards).
 
 *Integer and float*
 <pre class="file" data-filename="week1.py" data-target="replace">
@@ -29,7 +29,7 @@ print(float(a))
 
 If you want a user to enter a number that you can then manipulate in Python (for example, multiplying the user's age by 5) you'll want to make sure that Python understands it's a number instead of a string. After all, you can't do maths on text/string.
 
-```input()``` will return what Python "thinks" is best, but you can tell Python exactly what variable type you want by doing the following:
+`input()` will return what Python "thinks" is best, but you can tell Python exactly what variable type you want by doing the following:
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 number = int(input("Enter a number"))
@@ -39,7 +39,7 @@ print(number)
 <hr>
 
 # Text
-You already know the variable type for text - it's ```string```.
+You already know the variable type for text - it's `string`.
 
 <hr>
 
@@ -49,7 +49,7 @@ There are many more data types that you'll learn about in future lessons, many o
 <hr>
 
 # Quick Exercise
-- Use ```input``` to ask a user for their age.
+- Use `input` to ask a user for their age.
 - Subtract 1 from that and print it.
 - There's a chance that it results in an error.
 - So let's convert the input into an integer before subtracting 1 and printing.
@@ -59,7 +59,7 @@ There are many more data types that you'll learn about in future lessons, many o
 <hr>
 
 # Practical Uses
-Floating-point real numbers can't be represented with exact precision due to hardware limitations, so ```print(0.1 + 0.2)``` gives ```0.30000000000000004```, which is obviously not entirely correct. That's where integers or number rounding can come in handy in certain scenarios.
+Floating-point real numbers can't be represented with exact precision due to hardware limitations, so `print(0.1 + 0.2)` gives `0.30000000000000004`, which is obviously not entirely correct. That's where integers or number rounding can come in handy in certain scenarios.
 <pre class="file" data-filename="week1.py" data-target="replace">
 print(0.1 + 0.2)
 print(round(0.1 + 0.2)) # rounds to no decimal place
