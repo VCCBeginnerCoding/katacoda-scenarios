@@ -22,7 +22,7 @@ print(a)
 Copy the code above over to the editor and then type 
 `python week1.py` into the terminal. You can also type that yourself via the Terminal (bottom right) and then press ENTER to execute it.
 
-Note: Variables in Python are case sensitive, so ```myCardPin``` and ```MyCaRdPiN``` are two separate variables.
+Note: Variables in Python are case sensitive, so `myCardPin` and `MyCaRdPiN` are two separate variables.
 
 We can assign a new value to an existing variable.
 
@@ -39,7 +39,7 @@ print(myCardPin)
 
 <span style="color:green">✓</span> Valid variable names: ```_``` ```days_to_christmas``` ```Adiós_Señora```
 
-<span style="color:red">✗</span> Invalid variable names: ```10t``` *<span style="color:red">must begin with a letter</span>* ```Exchange Rate``` *<span style="color:red">must not contain a space</span>* ```?``` *<span style="color:red">must not be punctuation</span>*
+<span style="color:red">✗</span> Invalid variable names: `10t` *<span style="color:red">must begin with a letter</span>* `Exchange Rate` *<span style="color:red">must not contain a space</span>* `?` *<span style="color:red">must not be punctuation</span>*
 
 Python also has a list of [reserved words](https://www.w3schools.com/python/python_ref_keywords.asp) that cannot be used as variable names.
 
@@ -57,7 +57,7 @@ b += 2
 print(b)
 </pre>
 
-You can also use ```+```, ```-```, ```*```, ```/```, ```//```, ```%```, ```**``` etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
+You can also use `+`, `-`, `*`, `/`, `//`, `%`, `**` etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 print(2+3)
