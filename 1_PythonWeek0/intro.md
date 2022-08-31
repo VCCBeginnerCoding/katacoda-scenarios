@@ -1,6 +1,5 @@
 # Welcome to Vodafone Coding Club - Crash Course
 
-</br>
 ## Python Week 0
 This week we will be learning the katacoda IDE to make sure you are familiar with it and are set up for the first learning session next time.
 
