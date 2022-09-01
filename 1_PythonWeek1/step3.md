@@ -59,7 +59,12 @@ There are many more data types that you'll learn about in future lessons, many o
 <hr>
 
 # Practical Uses
-Floating-point real numbers can't be represented with exact precision due to hardware limitations, so `print(0.1 + 0.2)` gives `0.30000000000000004`, which is obviously not entirely correct. That's where integers or number rounding can come in handy in certain scenarios.
+Floating-point real numbers can't be represented with exact precision due to hardware limitations, so `print(0.1 + 0.2)` gives 
+```
+print(0.1 + 0.2)
+-> 0.30000000000000004
+```
+This is obviously not entirely correct. That's where integers or number rounding can come in handy in certain scenarios.
 <pre class="file" data-filename="week1.py" data-target="replace">
 print(0.1 + 0.2)
 print(round(0.1 + 0.2)) # rounds to no decimal place
