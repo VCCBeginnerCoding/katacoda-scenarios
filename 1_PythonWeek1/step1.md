@@ -3,7 +3,7 @@ Hover over the code snippets below and click *Copy to Editor* to copy the code t
 <hr>
 
 
-Variables are containers for storing data values. You can store any value in a variable, then use it or change its value later on in the program. We can also print out the variables using `print()`. As you found out from the last session, printing text in Python looks like this: `print("Hello World")`
+Variables are containers for storing data values. You can store any value in a variable, then use it or change its value later on in the program. We can also print out the variables using `print()`.
 
 You can store different types of data in variables as shown below. Text is stored as strings, numbers can be stored as integers (whole numbers) or floats (decimals). There is also boonleans that act as a true/false and can only store these values. 
 ![DataTypes](./assets/data-types.png)
