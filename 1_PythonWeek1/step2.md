@@ -53,7 +53,7 @@ print("Hello " + username + ", nice to meet you!")
 # Quick Exercise
 - Ask the user for their favourite colour.
 - Print that variable.
-- Optional: Chain it by putting `input()` inside of `print()` so you only need 1 line of code
+- Optional: Chain it by putting `input()` inside of a print statement so you only need 1 line of code
 
 [Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md)
 
