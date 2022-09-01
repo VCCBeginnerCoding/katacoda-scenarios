@@ -9,7 +9,7 @@ Now that you have managed to copy over some code, why not have a go at writing y
 
 
 Once you have written the code press
-`python week0.py`{{execute}}. You can also type <span style="color:blue">'python week0.py'</span> yourself via the Terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
+`python week0.py`{{execute}}. You can also type `python week0.py` yourself via the terminal (bottom right) and then press <kbd>ENTER</kbd> to execute it.
 
 
 # What Should Happen
