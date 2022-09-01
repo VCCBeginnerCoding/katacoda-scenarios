@@ -1,7 +1,4 @@
 # Numbers
-Hover over the code snippets below and click *Copy to Editor* to copy the code to a Python file in your editor (top right).
-
-<hr>
 
 Python supports three types of numbers – `int`, `float`, and `complex`. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations (so ignore them for now). You can also convert numbers into strings, which Python will treat as text (so no more multiplications afterwards).
 

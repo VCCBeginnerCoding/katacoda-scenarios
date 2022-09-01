@@ -15,7 +15,7 @@ We can also print out strings directly like so:
 print("I like trains!")
 </pre>
 
-You can print a new line using ```\n```.
+You can print a new line using `\n`.
 
 <pre class="file" data-filename="week1.py" data-target="replace">
 print("I like \ntrains!")
