@@ -14,9 +14,14 @@ Each commit should be used anytime something significant changes in your code. W
 During this module, we will cover commits in more detail, as well as branching and pull requests. There are several tools you can use to perform Git version control, with the most popular being GitHub.
 We will show you how to perform Git version control from the GitHub website and the terminal as well to give you a broad idea of what's available.
 
-## Creating a repository
-Creating a repository is very simple in the GitHub website. You simply open the website, log in to your account and select the "new repository" button:
+## Creating a repository in the browser
+Creating a repository is very simple via the GitHub website. You simply open the website, log in to your account and select the "new repository" button:
 ![image](https://user-images.githubusercontent.com/110603725/203100943-dcfb8fd5-061d-408b-bab3-8a162a5a3991.png)
+
 Source: https://docs.github.com/assets/cb-11427/images/help/repository/repo-create.png
 
 Repositories can either be private, public or internal (https://docs.github.com/en/get-started/quickstart/create-a-repo). Whenever you're doing work for Vodafone, it must never be a private repo - speak to your manager about this before creating a repo. When completing hobby projects in your spare time outside of work, make sure you only make it public if you're happy to share it. If you have a unique idea, releasing it into the public domain may prevent you from making money from it in the future! Also, some online tutorials instruct you to write code which contains sensitive infomration like user credentials for paid services (think cloud services such as AWS). Having your credentials visible online leaves you vunerable to people running up large bills for paid services &mdash; not a situation you want to find yourself in!
+
+Of course, naming your repository something meaningful is important &mdash; just like it is for variables and file names. On top of that, it is good to have a short description of what the purpose of the repo is. If you look at repos already on GitHub, you will notice that they typically have README.md files. These are files which contain information about the project and how to use/contribute to the software.
+
+As per the GitHub instructions for setting up a repo, you will be prompted to make a README as you create the repo (https://docs.github.com/en/get-started/quickstart/create-a-repo).
