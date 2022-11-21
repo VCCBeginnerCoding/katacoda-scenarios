@@ -25,12 +25,14 @@ You should always attach messages to each commit you make so you know what chang
 
 When performing Git version control from the command line, the following command would be used to commit these changes to the local copy of your repository:
 
+First, you want to add the desired files to a staging environment (https://www.w3schools.com/git/git_staging_environment.asp?remote=github): 
+```
+git add age_calc.py
+```
 ```
 git commit -m "Documentation added to user age calculation"
 ```
-
 In order to make these changes to the remote copy of your repository (likely hosted in GitHub or Bitbucket), you have to "push" these local changes to the remote repository. Before you do this, it is wise to check the status of your repository:
-
 ```
 git commit status
 ```
