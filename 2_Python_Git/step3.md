@@ -33,3 +33,17 @@ We are now ready to commit and push changes on this branch as we learned how to 
 Creating a branch via the GitHub website is very simple. Just select the branch button then type the branch name, press enter and you're done! Checking out a branch is as simple as clicking on the branch drop-down menu and selecting the branch you want to work on.
 
 For information, take a look at W3Schools' Git exercises: https://www.w3schools.com/git/git_branch.asp?remote=github
+
+## Merging a branch
+Once you have completed all of the work you want to on a branch and all tests have been passed (as per the unit testing module of this course), you then need to merge your branch into the main branch. This will copy the changes you made over to the main branch, that way whatever improvements you made are now in the main branch.
+
+When working in a team, you will usually have to make a "pull request" to merge your branch into the main branch. This gives the other people in your team to review your code and make sure it's up to standard before becoming approving the pull request and merging into main. 
+
+When two people are working on serparate branches simultaneously, merge conflicts can sometimes arise. Resolving merge conflicts is a little bit beyond the difficulty level of this course, but it's something to be aware of when you join more complex Git projects.
+
+Creating a pull request and merging a branch into main is very simple in the GitHub website. 
+
+![image](https://user-images.githubusercontent.com/110603725/203048485-756c6978-d6fb-4123-b750-98a824811967.png)
+Source: https://docs.github.com/assets/cb-13037/images/help/pull_requests/pullrequest-mergebutton.png
+
+GitHub will check your branch for any merge conflicts and allow you to merge automatically if none are present. 
