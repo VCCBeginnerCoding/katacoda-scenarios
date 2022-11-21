@@ -32,4 +32,4 @@ We are now ready to commit and push changes on this branch as we learned how to 
 ## Creating a branch via the GitHub website
 Creating a branch via the GitHub website is very simple. Just select the branch button then type the branch name, press enter and you're done! Checking out a branch is as simple as clicking on the branch drop-down menu and selecting the branch you want to work on.
 
-
+For information, take a look at W3Schools' Git exercises: https://www.w3schools.com/git/git_branch.asp?remote=github
