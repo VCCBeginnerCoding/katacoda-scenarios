@@ -16,6 +16,7 @@ We will show you how to perform Git version control from the GitHub website and 
 
 ## Creating a repository in the browser
 Creating a repository is very simple via the GitHub website. You simply open the website, log in to your account and select the "new repository" button:
+
 ![image](https://user-images.githubusercontent.com/110603725/203100943-dcfb8fd5-061d-408b-bab3-8a162a5a3991.png)
 
 Source: https://docs.github.com/assets/cb-11427/images/help/repository/repo-create.png
@@ -25,3 +26,12 @@ Repositories can either be private, public or internal (https://docs.github.com/
 Of course, naming your repository something meaningful is important &mdash; just like it is for variables and file names. On top of that, it is good to have a short description of what the purpose of the repo is. If you look at repos already on GitHub, you will notice that they typically have README.md files. These are files which contain information about the project and how to use/contribute to the software.
 
 As per the GitHub instructions for setting up a repo, you will be prompted to make a README as you create the repo (https://docs.github.com/en/get-started/quickstart/create-a-repo).
+
+Once this is done, you have officially created your first GitHub repo! You can now use the repo URL to clone the repo and create a local copy of it to work on via the command line, or work directly in that repo via the browser. 
+
+## Creating a repository using a terminal
+You can use the terminal to create a repo with the "init" command (as per https://www.atlassian.com/git/tutorials/setting-up-a-repository):
+```
+git init
+```
+After this step is done, you can clone the repo to make a local copy and you're ready to get going with your project!
