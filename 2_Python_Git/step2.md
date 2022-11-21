@@ -42,6 +42,18 @@ Once we have confirmed that we are on the correct branch, we can push our change
 git push origin
 ```
 
+## Making a commit via the GitHub webpage
+
+It is possible to perform simple Git commnds directly on the GitHub webpage (this is what we do when we write these classes for Beginner Coding). This is useful when you want to quickly perform commits and branching without setting it up on Visual Studio Code (VSC) or a terminal. Performing Git commands in VSC on the terminal gives you much more flexibility, allowing you to perform more advanced commands like reverts; this is the preferred option in professional settings. The main advantage of using the GitHub website is that you can see exactly what you are doing as it happens, so it's harder to make mistakes.
+
+A big difference between the two is that on the GitHub webpage, you are working on the remote version of the repository, so you don't need to push commits once you have made them; this step is already complete when you make a commit.
+
+When you go onto your GitHub repository, you can either select a file and edit it directly on the website (shown below), or you can add a file that was saved on your local machine. Editing markdown files is very simple via the GitHub webpage, so if you ever find yourself doing this on a hobby project, you should consider editing directly on the website since it allows you to preview what the markdown will look like and you can work with the repo really quickly.
+
+![image](https://user-images.githubusercontent.com/110603725/203023515-8f613787-44fc-43b8-8b3a-8d6a40640c3b.png)
+
+As oyu can see in the image above, I have a markdown file open and I am editing it in the GitHub website. I can add a commit message and GitHub allows me to create a new branch with this commit (which I don't want to do since I am already working on the desired branch).
+
 For more information, W3Schools is always a good resource for programming: https://www.w3schools.com/git/git_push_to_remote.asp?remote=github
 
 Tip: One of the many great features of GitHub is that you can link commits to specific issues that have been listed for a project. A comment that links to a specific issue could be: "Algorithm structure changed to eliminate bottleneck. Fixes issue <ins>#5</ins>."
