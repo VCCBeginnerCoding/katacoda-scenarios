@@ -4,7 +4,8 @@ Previously we added code to automatically initialise Python within the terminal.
 exit()
 clear
 python
-```{{exe}}.
+```{{exec}}
+
 You can type that in the terminal (right window) for all subsequent sections too.
 
 Click the editor tab in the right window and create a new file by right clicking on the file explorer.

@@ -42,4 +42,4 @@ Remember int and float from the last section? If you want a user to enter a numb
 
 ```
 number = int(input("Enter a number"))
-```{{exec}}}
+```{{exec}}
