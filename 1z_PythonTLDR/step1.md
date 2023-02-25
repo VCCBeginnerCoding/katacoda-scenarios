@@ -52,12 +52,12 @@ print(b)
 
 You can also use `+`{{}}, `-`{{}}, `*`{{}}, `/`{{}}, `//`{{}}, `%`{{}}, `**`{{}} etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
 
-`print(2+3)`{{exec}}
-`print(2-3)`{{exec}}
-`print(2*3)`{{exec}}
-`print(2/3)`{{exec}}
-`print(2//3)`{{exec}}
-`print(2%3)`{{exec}}
+* `print(2+3)`{{exec}}
+* `print(2-3)`{{exec}}
+* `print(2*3)`{{exec}}
+* `print(2/3)`{{exec}}
+* `print(2//3)`{{exec}}
+* `print(2%3)`{{exec}}
 
 Python supports three types of numbers – int, float, and complex. Integers do not have a decimal point, while floats do. Complex is mostly used in geometry and scientific calculations. You can also convert numbers into strings, which Python will treat as text (so no more multiplications afterwards).
 
