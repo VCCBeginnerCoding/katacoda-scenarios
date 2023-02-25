@@ -1,1 +1,3 @@
+exit()
 clear
+python

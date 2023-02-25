@@ -16,14 +16,16 @@ a = 2
 print(a)
 </pre>
 
-Copy the code above over to the editor and then type 
-`python week1.py` into the terminal. You can also type that yourself via the Terminal (bottom right) and then press ENTER to execute it.
+1. Go to the editor tab on the right hand side
+2. Create a new file called week1.py by right clicking on the file explorer and click new file.
+3. Copy the code above over to the editor
+4. Type `python week1.py`{{exec}} into the terminal. You can also type that yourself via the Terminal (bottom right) and then press ENTER to execute it.
 
 Note: Variables in Python are case sensitive, so `myCardPin` and `MyCaRdPiN` are two separate variables.
 
 We can assign a new value to an existing variable.
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 myCardPin = 2222
 print(myCardPin)
 
@@ -32,38 +34,47 @@ print(myCardPin)
 
 myCardPin = 1382929292
 print(myCardPin)
-</pre>
+```{{exec}}
 
-<span style="color:green">✓</span> Valid variable names: `days_to_christmas` `Currency`
+<span style="color:green">✓</span> Valid variable names:
+* `days_to_christmas`
+* `Currency`
 
-<span style="color:red">✗</span> Invalid variable names: `10t` *<span style="color:red">must begin with a letter</span>* `Exchange Rate` *<span style="color:red">must not contain a space</span>* `?` *<span style="color:red">must not be punctuation</span>*
+<span style="color:red">✗</span> Invalid variable names:
+* `10t` - <span style="color:red">must begin with a letter</span>
+* `Exchange Rate` - <span style="color:red">must not contain a space</span>
+* `?` - <span style="color:red">must not be punctuation</span>*
 
 Python also has a list of [reserved words](https://www.w3schools.com/python/python_ref_keywords.asp) that cannot be used as variable names.
 
 # More about variables
 Try these commands.
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 b = 4
 print(b)
+```{{exec}}
 
+```
 b = b+2
 print(b)
+```{{exec}}
 
+```
 b += 2
 print(b)
-</pre>
+```{{exec}}
 
 You can also use `+`, `-`, `*`, `/`, `//`, `%`, `**` etc. [More Info](https://www.w3schools.com/python/python_operators.asp).
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 print(2+3)
 print(2-3)
 print(2*3)
 print(2/3)
 print(2//3)
 print(2%3)
-</pre>
+```{{exec}}
 
 # Quick Exercise
 - Save your age as a variable
@@ -72,7 +83,7 @@ print(2%3)
 - Print out the third variable
 - You've found your birth year! (We're assuming you were born on 1st January to keep this task simple.)
 
-[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md)
+[Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step1.md)
 
 # Practical Uses
 The calculator app on your phone remembers every number as you type it, as well as your previous calculations, thanks to variables. Microsoft Teams remembers your user settings and stores them as variables. Your phone stores your password as a variable too. (Okay, there's a few more steps involved in real life, but you get the idea.)
