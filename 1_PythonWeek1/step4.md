@@ -5,59 +5,58 @@
 
 `==` instead asks the question *are the values equal*?
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 print(100 == 100)
 print(100 == 200)
+```{{exec}}
 
+```
 a = 100
 print(a == 100)
-</pre>
+```{{exec}}
 
 You can also use the `!=` not equal to operator.
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 print(100 != 100)
 print(100 != 200)
-</pre>
+```{{exec}}
 
 Other operators include `>` greater than, `>=` greater than or equal to, `<` less than, and `<=` less than or equal to.
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 print(100 > 100)
 print(100 >= 100)
 print(100 < 100)
 print(100 <= 100)
-</pre>
+```{{exec}}
 
 # and
 
 Returns `True` if both statements are true.
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 x = 5
 print(x < 5 and x < 10)
-</pre>
-<div><span style="color:green">print(</span><span style="color:blue">x < 5</span><span style="color:orange"> and </span><span style="color:blue">x < 10</span><span style="color:green">)</span></div>
+```{{exec}}
 
 # or
 
 Returns `True` if one of the statements is true.
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 x = 4
 print(x < 5 or x < 4)
-</pre>
-<div><span style="color:green">print(</span><span style="color:blue">x < 5</span><span style="color:orange"> or </span><span style="color:blue">x < 4</span><span style="color:green">)</span></div>
+```{{exec}}
 
 # not
 
 Reverse the result, returns `False` if the result is true.
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 x = 999
 print(not(x < 5 and x < 10))
-</pre>
-<div><span style="color:green">print( </span><span style="color:orange">not (</span><span style="color:blue">x < 5</span><span style="color:orange"> and </span><span style="color:blue">x < 10</span><span style="color:orange">)</span><span style="color:green">)</span></div>
+```{{exec}}
 
 <hr>
 

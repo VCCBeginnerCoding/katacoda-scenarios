@@ -1,5 +1,7 @@
 # Week 1 notes
 
+[Kahoot Quiz](https://create.kahoot.it/details/f3315997-4ece-445c-a751-f096d3726cf2)
+
 ## Intro
 - Use this as backup in case Katacoda dies on the day https://replit.com/languages/python3
 - Go slow - attendees may be beginners

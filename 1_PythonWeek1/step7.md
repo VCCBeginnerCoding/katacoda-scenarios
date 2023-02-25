@@ -10,6 +10,12 @@ Killercoda has Python pre-installed within the system which allows us to run `py
 **File Editor**<br>
 The File Editor is a bit like your computer. You can have folders and then files inside of those folders. These files are just like files on your computer - images, videos etc. Pictures might be named `dog.png` or `cutebunnies.jpg` for example, while we name Python files as `example.py`. Python files are like other foles, and we simply name the file extensions as `.py` so that programmes know it's a Python file.
 
+1. Go to the editor tab on the right hand side
+2. Create a new file called week1.py by right clicking on the file explorer and click new file.
+3. Copy the code above over to the editor
+4. Type `python week1.py`{{exec}} into the terminal. You can also type that yourself via the Terminal (bottom right) and then press ENTER to execute it.
+
+
 <hr>
 
 # Online Python Editors

@@ -1,4 +1,4 @@
-# Python on Computers
+# (Optional) Python on Computers
 If you need help setting this up, don't hesistate to reach out to anyone at VCC, message the Support Channel on Teams, or join our monthly Support Session!
 <br><span style="color:red">*The newer 3.x versions of Python may not be widely supported just yet, as of November 2021. Ask a member of VCC for advice or download an older version such as 3.8.5.*</span> 
 <span style="color:red">*For work laptops, please install approved software via the company IT Shop. VCC does not support any installations that may be against company security rules.*</span>

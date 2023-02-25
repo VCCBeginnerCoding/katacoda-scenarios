@@ -5,7 +5,7 @@ Variables are containers for storing data values. You can store any value in a v
 You can store different types of data in variables as shown below. Text is stored as strings, numbers can be stored as integers (whole numbers) or floats (decimals). There is also boonleans that act as a true/false and can only store these values. 
 ![DataTypes](./assets/data-types.png)
 
-<pre class="file" data-filename="week1.py" data-target="replace">
+```
 # This is a comment
 # Python will not run this
 # Use comments so you remember what the code does
@@ -14,12 +14,7 @@ print(myCardPin)
 
 a = 2
 print(a)
-</pre>
-
-1. Go to the editor tab on the right hand side
-2. Create a new file called week1.py by right clicking on the file explorer and click new file.
-3. Copy the code above over to the editor
-4. Type `python week1.py`{{exec}} into the terminal. You can also type that yourself via the Terminal (bottom right) and then press ENTER to execute it.
+```{{exec}}
 
 Note: Variables in Python are case sensitive, so `myCardPin` and `MyCaRdPiN` are two separate variables.
 
