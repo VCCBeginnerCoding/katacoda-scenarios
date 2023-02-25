@@ -17,7 +17,7 @@ var6 = int(input())
 
 Of course not! There's where lists come in.
 
-Open new Python file: `lists.py`{{open}}
+Creat and open new Python file: `lists.py`
 
 <pre class="file" data-filename="lists.py" data-target="replace">
 myNumbers = [10, 5, 7, 2, 1]
@@ -28,7 +28,7 @@ print(myNumbers)
 
 # Counting from Zero
 
-That's right, we count from zero! If we want to change the first value ```10``` within ```myNumbers``` we do this:
+That's right, we count from zero! If we want to change the first value `10`{{}} within `myNumbers`{{}} we do this:
 
 <pre class="file" data-filename="lists.py" data-target="replace">
 myNumbers = [10, 5, 7, 2, 1]
@@ -45,16 +45,16 @@ print("New list content: ", myNumbers)
 
 Lists can contain a mix of data types.
 
-```my_list = [1, None, True, "I am a string", 256, 0]```
+`my_list = [1, None, True, "I am a string", 256, 0]`
 
 Lists can also be nested inside of lists.
 
 
-```my_list = [1, 'a', ["list", 64, [0, 1], False]]```
+`my_list = [1, 'a', ["list", 64, [0, 1], False]]`
 
 # len
 
-Want to know the length of this list? Use ```len```.
+Want to know the length of this list? Use `len`{{}}.
 
 <pre class="file" data-filename="lists.py" data-target="replace">
 myNumbers = [10, 5, 7, 2, 1]
@@ -145,4 +145,4 @@ print(fruits)
 `python lists.py`{{execute}}
 
 # Others
-[Read more](https://www.w3schools.com/python/python_ref_list.asp) about the list methods, including ```sort```, ```clear```, ```reverse``` and ```copy```. Also, [read more](https://www.w3schools.com/python/python_strings_slicing.asp) on ```slicing``` and try to use it for lists!
+[Read more](https://www.w3schools.com/python/python_ref_list.asp) about the list methods, including `sort`{{}}, `clear`{{}}, `reverse`{{}} and `copy`{{}}. Also, [read more](https://www.w3schools.com/python/python_strings_slicing.asp) on `slicing`{{}} and try to use it for lists!

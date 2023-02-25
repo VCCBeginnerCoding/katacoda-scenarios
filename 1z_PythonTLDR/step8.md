@@ -2,7 +2,7 @@
 
 As your project gets more and more complicated you may soon come across a need to reuse code in different parts of your project. That's where functions come in.
 
-Open new Python file: `functions.py`{{open}}
+Create and open new Python file: `functions.py`
 
 <pre class="file" data-filename="functions.py" data-target="replace">
 def my_function(): # creates a function called my_function()
@@ -15,7 +15,7 @@ my_function() # calls, or runs, the function my_function()
 
 # Arguments
 
-The function above isn't actually very useful, since it'd be faster to just type ```print("Hello from a function")``` whenever you need that to run. Luckily, we can pass information into functions, called ```arguments```.
+The function above isn't actually very useful, since it'd be faster to just type `print("Hello from a function")` whenever you need that to run. Luckily, we can pass information into functions, called `arguments`{{}}.
 
 <pre class="file" data-filename="functions.py" data-target="replace">
 def my_function(fname): # defines a function called my_function() where you pass in an argument called fname
@@ -41,4 +41,4 @@ my_function("Emil", "Refsnes")
 
 # Others
 
-[Read more](https://www.w3schools.com/python/python_functions.asp) about passing arguments into functions, such as ```*args``` and ```keyword arguments```.
+[Read more](https://www.w3schools.com/python/python_functions.asp) about passing arguments into functions, such as `*args`{{}} and `keyword arguments`{{}}.
