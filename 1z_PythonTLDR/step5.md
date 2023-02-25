@@ -4,9 +4,9 @@ while there is something to do
     do it
 ```
 
-As you can see, ```while``` and ```if``` work similarly.
+As you can see, `while`{{}} and `if`{{}} work similarly.
 
-Open new Python file: `loops.py`{{open}}
+Create and open new Python file: `loops.py` and for each example paste in the code to the file
 
 <pre class="file" data-filename="loops.py" data-target="replace">
 # Store the current largest number here.
@@ -30,7 +30,7 @@ print("The largest number is:", largest_number)
 
 `python loops.py`{{execute}}
 
-If you're stuck in an infinite loop and want it to stop you can press <kbd>CONTROL</kbd><kbd>C</kbd>, <kbd>CONTROL</kbd><kbd>BREAK</kbd> or <kbd>COMMAND</kbd><kbd>C</kbd> depending on your computer.
+If you're stuck in an infinite loop and want it to stop you can press <kbd>CONTROL</kbd> <kbd>C</kbd>, <kbd>CONTROL</kbd><kbd> BREAK</kbd> or <kbd>COMMAND</kbd> <kbd>C</kbd> depending on your computer.
 
 # for
 
@@ -61,7 +61,7 @@ for x in range(2, 30, 3):
 
 # break
 
-Once you've found what you're looking for you don't have to keep the function running. There's where ```break``` comes in.
+Once you've found what you're looking for you don't have to keep the function running. There's where `break`{{}} comes in.
 
 <pre class="file" data-filename="loops.py" data-target="replace">
 # Exit the loop when x is "banana":
@@ -76,7 +76,7 @@ for x in fruits:
 
 # continue
 
-With ```continue``` we can stop the current iteration of the loop, and continue with the next.
+With `continue` we can stop the current iteration of the loop, and continue with the next.
 
 <pre class="file" data-filename="loops.py" data-target="replace">
 # Do not print banana

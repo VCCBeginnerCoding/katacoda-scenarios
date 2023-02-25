@@ -23,7 +23,7 @@ Dictionaries are used to store data values in key:value pairs.
 
 A dictionary is a collection which is ordered, changeable and does not allow duplicates.
 
-Open new Python file: `dictionaries.py`{{open}}
+Create and open new Python file: `dictionaries.py`
 
 <pre class="file" data-filename="dictionaries.py" data-target="replace">
 thisdict = {
