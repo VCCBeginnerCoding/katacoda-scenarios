@@ -58,10 +58,25 @@ print(round(0.1 + 0.2)) # rounds to no decimal place
 print(round(0.1 + 0.2, 1)) # rounds to 1 decimal place
 ```{{exec}}
 
-# Quick Exercise
+# Exercises
+## Exercise 1
 - Use `input` to ask a user for their age.
 - Subtract 1 from that and print it.
 - There's a chance that it results in an error.
 - So let's convert the input into an integer before subtracting 1 and printing.
+
+## Exercise 2
+Ask user for a number and print out the square.
+* Added challenge to print out in a sentence, eg if 5 is entered, print “The square of 5 is 25”
+
+## Exercise 3
+Ask user for the length and height of a rectangle and print out the area.
+
+## Exercise 4
+Ask user for 3 different numbers and print out the sum of the 3 numbers.
+* Can you print out the average?
+
+## Exercise 5
+Ask user for a number and print out the previous and next number.
 
 [Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md)
