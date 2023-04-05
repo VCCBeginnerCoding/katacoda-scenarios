@@ -35,16 +35,6 @@
         "text": "step6.md",
         "foreground": "clear.sh"
       },
-      {
-        "title": "So how does this actually work?",
-        "text": "step7.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Optional Reading: Installing and Running Python",
-        "text": "step8.md",
-        "foreground": "clear.sh"
-      }
     ],
     "intro": {
       "text": "intro.md"

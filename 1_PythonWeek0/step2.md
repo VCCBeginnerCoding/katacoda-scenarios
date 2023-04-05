@@ -1,7 +1,7 @@
 # (Optional) Installing Python Locally
 You don't need to install python locally for this course but if you would like to then you can follow these steps.
 
-If you need help setting this up, don't hesistate to reach out to anyone at VCC, message the Support Channel on Teams, or join our monthly Support Session!
+If you need help setting this up, don't hesistate to reach out to a mentor, message the Support Channel on Teams, or join our monthly Support Session!
 <hr>
 
 **1. Installing on Windows**<br>
@@ -20,7 +20,7 @@ Simply head over to [Python.org](https://www.python.org/) and download Python. A
 <hr>
 
 **2. Editing**<br>
-You can edit Python code using anything ranging from the pre-installed *Notepad* on Windows or *TextEdit* on MacOS to code editors such as [Visual Studio Code](https://code.visualstudio.com) or [Sublime Text](https://www.sublimetext.com/download). It's ultimately down to personal preference, so ask VCC!
+You can edit Python code using anything ranging from the pre-installed *Notepad* on Windows or *TextEdit* on MacOS to code editors such as [Visual Studio Code](https://code.visualstudio.com) or [Sublime Text](https://www.sublimetext.com/download). It's ultimately down to personal preference!
 
 <hr>
 
