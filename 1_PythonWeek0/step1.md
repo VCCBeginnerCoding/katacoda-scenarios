@@ -9,7 +9,7 @@ The File Editor is a bit like your computer. You can have folders and then files
 
 1. Go to the editor tab on the right hand side
 2. Create a new file called hello.py by right-clicking on the file explorer and click new file.
-3. Copy the code above over to the editor
+3. Copy the code over to the editor: `print("Hello World")`
 4. Type `python hello.py`{{exec}} into the terminal. You can also type that yourself via the Terminal (bottom right) and then press ENTER to execute it.
 
 ![Terminal](./assets/HelloWorld.png)
