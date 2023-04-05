@@ -34,7 +34,7 @@
         "title": "Why am I doing this?",
         "text": "step6.md",
         "foreground": "clear.sh"
-      },
+      }
     ],
     "intro": {
       "text": "intro.md"
