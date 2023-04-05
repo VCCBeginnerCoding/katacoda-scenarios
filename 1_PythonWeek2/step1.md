@@ -8,7 +8,7 @@ An if/else statement is an example of a conditional statement in Python.
 
 You can see an example of the if/else statement below which checks if a statement is True or False: 
 
-Open new Python file: `ifelseexample.py`{{open}}
+Create and open new Python file in the editor: `ifelseexample.py`
 
 <pre class="file" data-filename="ifelseexample.py" data-target="replace">
 colour = "Green"
@@ -42,7 +42,7 @@ There are also **Else If** statements to check for secondary conditions. In Pyth
 
 An example of this is checking if the colour is yellow after you have checked if it is green, as shown below:
 
-Replace the old code in the colour.py file with this code
+Replace the old code in the ifelseexample.py file with this code
 
 <pre class="file" data-filename="ifelseexample.py" data-target="replace">
 colour = "Yellow"
@@ -67,4 +67,5 @@ else:
 
 `python ifelseexample.py`{{execute}}
 
-This code checks to see if the **colour variable** is set to the string Green, then it moves to the 'elif colour == "Yellow"' line, which checks if the colour is yellow instead. If it is then it executes the print statement "The Colour is Yellow!". Again, if the colour is not green or yellow, it will move to the else statement and print "The Colour is not Green or Yellow!". 
+This code checks to see if the **colour variable** is set to the string Green, then it moves to the `elif colour == "Yellow"` line, which checks if the colour is yellow instead. If it is then it executes the print statement "The Colour is Yellow!". Again, if the colour is not green or yellow, it will move to the else statement and print "The Colour is not Green or Yellow!".
+

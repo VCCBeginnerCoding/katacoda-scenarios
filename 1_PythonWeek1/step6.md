@@ -13,4 +13,4 @@ From VCC side, here are some of our own examples:
 - Perry's Pong Game via Pygame
 
 If you haven't already, you can also watch this 4 minute video to find out why Python is important.
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y8Tko2YC5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Why python is important](https://www.youtube-nocookie.com/embed/Y8Tko2YC5hA)
