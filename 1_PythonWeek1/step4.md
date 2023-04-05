@@ -26,8 +26,17 @@ Other operators include `>` greater than, `>=` greater than or equal to, `<` les
 
 ```
 print(100 > 100)
+```{{exec}}
+
+```
 print(100 >= 100)
+```{{exec}}
+
+```
 print(100 < 100)
+```{{exec}}
+
+```
 print(100 <= 100)
 ```{{exec}}
 
@@ -59,10 +68,6 @@ print(not(x < 5 and x < 10))
 ```{{exec}}
 
 <hr>
-
-# Quick Exercise
-- You have made it half way lets see how much you have learnt 
-- Go back to teams and answer the questions on the screen!
 
 <hr>
 

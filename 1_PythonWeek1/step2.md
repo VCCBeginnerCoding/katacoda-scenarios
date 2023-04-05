@@ -57,8 +57,6 @@ print("Hello " + username + ", nice to meet you!")
 - Print that variable.
 - Optional: Chain it by putting `input()` inside of a print statement so you only need 1 line of code
 
-[Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step2.md)
-
 # Practical Uses
 A lot of software require user input of some sort, be it a mouse click, a finger tap, via your keyboard or something else entirely. Instagram can only load your feed if you login and tell Instagram what your username/password is. Minecraft can only move your character if you tell it to, via mouse and keyboard. (Again, there's a few more steps involved in real life, but you get the idea.)
 
@@ -72,3 +70,5 @@ Ask the user for a name (eg Tom) and ask user for an emotion (eg happy).  Print 
 * Write a program to ask user for a name and ask user what pronouns to use (ie he/him/she/her).  Print your story using the users names and pronouns so that it makes sense.
 
 Ask for help and where to find the example answers when you are done.
+
+[Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step2.md)

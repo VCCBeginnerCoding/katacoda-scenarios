@@ -24,11 +24,12 @@ emotion = input("How are you feeling? ")
 print(name + " is feeling " + emotion + ".")
 ```
 
-### 1.1 Extend your program to print out 2 lines – “Pleased to meet you Tom./n Tom is feeling happy today!”
+### 1.1 Extend your program to print out 2 lines:
+“Pleased to meet you Tom./n Tom is feeling happy today!”
 ```
 name = input("What is your name? ")
 emotion = input("How are you feeling? ")
-print("Please meet " + name + ".\n" + name + " is feeling " + emotion + " today!")
+print("Pleased to meet " + name + ".\n" + name + " is feeling " + emotion + " today!")
 ```
 
 ## 2. Extra challenge

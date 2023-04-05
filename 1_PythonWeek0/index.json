@@ -1,17 +1,17 @@
 {
-  "title": "Python Week 0",
+  "title": "Python Extra Resources",
   "description": "Introduction",
   "difficulty": "Beginner",
   "time": "20 minutes",
   "details": {
     "steps": [
       {
-        "title": "Hello World",
+        "title": "Using Killercoda",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Writing Your Own Code",
+        "title": "(Optional) Installing Python Locally",
         "text": "step2.md",
         "foreground": "clear.sh"
       }

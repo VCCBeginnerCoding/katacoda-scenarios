@@ -52,6 +52,7 @@ print(0.1 + 0.2)
 -> 0.30000000000000004
 ```
 This is obviously not entirely correct. That's where integers or number rounding can come in handy in certain scenarios.
+
 ```
 print(0.1 + 0.2)
 print(round(0.1 + 0.2)) # rounds to no decimal place
@@ -79,4 +80,7 @@ Ask user for 3 different numbers and print out the sum of the 3 numbers.
 ## Exercise 5
 Ask user for a number and print out the previous and next number.
 
-[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Python%20Solutions/Week%201.md)
+[Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step3.md)
+
+
+# You Finished Part 1!

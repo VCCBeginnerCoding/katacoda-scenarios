@@ -1,6 +1,6 @@
 {
-  "title": "Python Week 1",
-  "description": "Variables • Input • Comparision",
+  "title": "Python Module 1",
+  "description": "Variables • Input • Comparison",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
@@ -21,7 +21,7 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Comparision",
+        "title": "Comparison",
         "text": "step4.md",
         "foreground": "clear.sh"
       },
