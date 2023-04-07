@@ -1,33 +1,23 @@
 {
-  "title": "Python Module 1",
-  "description": "Variables • Input & Strings",
+  "title": "Python Module 2",
+  "description": "Selection / If Statements",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Variables",
+        "title": "Comparison",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Strings & Input",
+        "title": "If Else",
         "text": "step2.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Variable Types",
+        "title": "Elif",
         "text": "step3.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Comparison",
-        "text": "step4.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "If Statements",
-        "text": "step5.md",
         "foreground": "clear.sh"
       },
       {

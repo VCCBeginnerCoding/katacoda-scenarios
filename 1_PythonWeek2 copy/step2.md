@@ -1,6 +1,6 @@
-# Using Comparisons & Conditions
+# Using Comparisons & Conditions (If, Else)
 
-![Variables](./assets/ifelse.png)<br>
+![if-else](./assets/ifelse.png)<br>
 
 You don't have to understand `if` statements right now - we'll cover those in the next module. But here's why comparisons can come in handy, and why Python can be a versatile language.
 
@@ -11,6 +11,7 @@ if age < 18:
     print("You're too young to buy scissors.")
 else:
     print("You are old enough to buy scissors")
+print("I have finished checking your age")
 ```{{exec}}
 
 ```
@@ -35,12 +36,15 @@ To indent a line, you have a few options. Choose one and then start a fight with
 
 Indentation is very important. While other programming languages allow you to write horrifyingly unindented code and wrap them in ```{}``` brackets, Python relies on your indentation to know when to run what code. Remember this!
 
-# Exercises
-## Exercise 1:
-Ask user to enter a number, if the number is less than 10, print “Number is too high!”. Otherwise print "Valid Number"
+# Exercises:
+1. Ask user to enter a number, if the number is less than 10, print “Number is too high!”. Otherwise print "Valid Number"
+2. Ask user to enter a password.  If the password is “PASSWORD”, print “Login successful”.  If not, print “Incorrect password!”
+3. Ask user to enter a name.  If name is “Tom”, print “Welcome Tom!”, if not, print “Sorry <name>, we are expecting Tom.”
+
+
 [Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step5.md)
 
 # Kahoot Time!!!
 Once we reach this point, lets see who can get the highest kahoot score based on what we have learnt so far!
 
-# You have finished part 2!
+# You have finished part 1 of this module!

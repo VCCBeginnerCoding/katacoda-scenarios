@@ -3,7 +3,7 @@
 
 `=` is an assignment operator. `a = 2` assigns `a` with the value of `2`.
 
-`==` instead asks the question *are the values equal*?
+`==` instead asks *are the values equal*?
 
 ```
 print(100 == 100)
@@ -73,3 +73,10 @@ print(not(x < 5 and x < 10))
 
 # Practical Uses
 Is the password that you typed the same as the password that's associated with your account? Comparisions can help. If a project deadline on your database has been missed, we can use comparisions to identify that and then sound the alarm. (Again, there's a few more steps involved in real life, but you get the idea.)
+
+# Quick Exercises
+1. Is 100 == "100" true or false?
+2. Ask the user to enter a number, print true or false if the number is less than 100 but also greater than 50
+
+Challenge:
+3. Ask the user to enter two numbers, print true or false if the two numbers are equal to each other and both are less than 100
