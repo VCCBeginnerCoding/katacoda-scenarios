@@ -1,7 +1,4 @@
-# Week 1 Step 2 Strings & Input Answers:
-* Ask the user for their favourite colour.
-* Print that variable.
-* Optional: Chain it by putting input() inside of a print statement so you only need 1 line of code
+# Module 1 Step 2 Strings & Input Answers:
 
 # Quick Exercise
 ## 1.

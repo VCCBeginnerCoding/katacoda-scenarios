@@ -83,4 +83,5 @@ Ask user for a number and print out the previous and next number.
 [Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step3.md)
 
 
-# You Finished Part 1!
+# You Finished Part 2!
+Kahoot Time!!!

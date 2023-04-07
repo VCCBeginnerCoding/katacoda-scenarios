@@ -83,4 +83,3 @@ print(2%3)
 # Practical Uses
 The calculator app on your phone remembers every number as you type it, as well as your previous calculations, thanks to variables. Microsoft Teams remembers your user settings and stores them as variables. Your phone stores your password as a variable too. (Okay, there's a few more steps involved in real life, but you get the idea.)
 
-<marquee style='color: blue;'><b>Yay you've completed part 1!</b></marquee>

@@ -16,8 +16,23 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Variable Types & Numbers",
+        "title": "Variable Types",
         "text": "step3.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Comparison",
+        "text": "step4.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "If Statements",
+        "text": "step5.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Why am I doing this?",
+        "text": "step6.md",
         "foreground": "clear.sh"
       }
     ],

@@ -52,10 +52,6 @@ username = input("What is your name?")
 print("Hello " + username + ", nice to meet you!")
 ```{{exec}}
 
-# Quick Exercise
-- Ask the user for their favourite colour.
-- Print that variable.
-- Optional: Chain it by putting `input()` inside of a print statement so you only need 1 line of code
 
 # Practical Uses
 A lot of software require user input of some sort, be it a mouse click, a finger tap, via your keyboard or something else entirely. Instagram can only load your feed if you login and tell Instagram what your username/password is. Minecraft can only move your character if you tell it to, via mouse and keyboard. (Again, there's a few more steps involved in real life, but you get the idea.)
@@ -72,3 +68,6 @@ Ask the user for a name (eg Tom) and ask user for an emotion (eg happy).  Print 
 Ask for help and where to find the example answers when you are done.
 
 [Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step2.md)
+
+You have completed part 1!
+Kahoot Time!!!
