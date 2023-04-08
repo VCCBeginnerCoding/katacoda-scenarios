@@ -59,7 +59,8 @@ A lot of software require user input of some sort, be it a mouse click, a finger
 # Test your knowledge:
 ## 1.
 Ask the user for a name (eg Tom) and ask user for an emotion (eg happy).  Print out “<name> is feeling <emotion>.”  Eg “Tom is feeling happy.”.
-### 1.1 Extend your program to print out 2 lines – “Pleased to meet you Tom./n Tom is feeling happy today!”
+### 1.1 
+Extend your program to print out 2 lines – “Pleased to meet you Tom./n Tom is feeling happy today!”
 
 ## 2. Extra challenge
 * Write a short story (just 1 paragraph) about a character learning how to code. Write it out on paper first.

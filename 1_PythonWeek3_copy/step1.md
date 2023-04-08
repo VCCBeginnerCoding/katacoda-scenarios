@@ -10,7 +10,7 @@ Now let's move onto something new, Lists. Lists are a new type of Data Type whic
 
 ## Initialising Lists
 
-Lists are multi-value variables which can have variables within them all of the same type or of different types. Some of them may be integers, strings, booleans or even other lists (this is called nested listing). Below is an example of how to declare a list, in this instance we are declaring a list of strings and a list of strings and numbers:
+Lists are multi-value variables which can have variables within them all the same types or of different types. Some of them may be integers, strings, booleans or even other lists (this is called nested listing). Below is an example of how to declare a list, in this instance we are declaring a list of strings and a list of strings and numbers:
 
 
 ```python
