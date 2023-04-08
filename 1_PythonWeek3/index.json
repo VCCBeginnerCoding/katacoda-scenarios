@@ -1,33 +1,18 @@
 {
-  "title": "Python Week 3",
-  "description": "Loops • Functions",
+  "title": "Python Module 3",
+  "description": "Lists",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Loops",
+        "title": "Accessing and Creating Lists",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Functions",
+        "title": "List Operations",
         "text": "step2.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Try it yourself!",
-        "text": "step3.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Solutions to Step 3",
-        "text": "step3Solutions.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Read further",
-        "text": "step6.md",
         "foreground": "clear.sh"
       }
     ],

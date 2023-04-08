@@ -1,18 +1,28 @@
 {
-  "title": "Python Module 3",
-  "description": "Lists",
+  "title": "Python Extras: Module 6",
+  "description": "Functions, Tuples & Recursion",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Accessing and Creating Lists",
+        "title": "Functions",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "List Operations",
+        "title": "Try it yourself!",
         "text": "step2.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Solutions to Step 2",
+        "text": "step2Solutions.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Read further",
+        "text": "step6.md",
         "foreground": "clear.sh"
       }
     ],

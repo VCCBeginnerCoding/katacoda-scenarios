@@ -1,0 +1,15 @@
+{
+  "title": "Python Module 7",
+  "description": "Working with spreadsheet data in Python",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "type": "jupyter@0.1",
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}

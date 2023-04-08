@@ -1,14 +1,32 @@
 {
-  "title": "Python Week 4",
-  "description": "Working with spreadsheet data in Python",
+  "title": "Python Module 4",
+  "description": "Loops",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
+    "steps": [
+      {
+        "title": "While Loops",
+        "text": "step1.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "For Loops",
+        "text": "step2.md",
+        "foreground": "clear.sh"
+      }
+    ],
     "intro": {
       "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
     }
   },
-  "type": "jupyter@0.1",
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uisettings": "python"
+  },
   "backend": {
     "imageid": "python:3.8"
   }

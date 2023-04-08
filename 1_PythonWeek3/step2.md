@@ -1,168 +1,131 @@
+# List operations
+We are going to cover the most common list operations:
+ * Length
+ * Append
+ * Insert
+ * Remove
+ * Pop
+
 Messy Terminal? `clear`{{execute}} it.
 <hr>
 
-## Defining and calling a function
+Lists can grow to any length you wish them to be (have as many elements as you want), can be added to at any point and any element can be changed at any point in time, as you saw earlier in this session. Methods for adding elements to a list are important to know as you will be using them regularly. Below we will explore some different methods you can use to do so.
+## **Length of a list**
+Like with strings we can use the `len()` method to get the number of items in a list:
+```python
+fruit = ["orange", "apple", "banana"]
+print(len(fruit))
+```{{exec}}
 
-A function is a named section of a code that performs a specific task. 
-This typically involves taking some input, manipulating the input and returning an output.
+## **Append**
+The append method is the default method most people use when adding an element to a list. It is simple and easy to understand and quite efficient, as it just adds the element to the end of the list and increases the lists length by one, as shown below:
 
-To call a function, use the name of the function and add parenthesis () at the end.
+```python
+names = ["Ellie", "Dan", "Perry", "Justin"]
+names.append("Max")
+print(names)
+print(len(names))
+```{{exec}}
 
-You will see how there are indentations (tabs or spaces - up to the programmer!) underneath any colons (functions, loops, if statements...).
-This tells Python that the code underneath is part of the same block, and without the correct indents Python will not work.
-
-In calling a function at the bottom, there are no indents as this is considered the 'main' function, where the code runs outside of a function 
-and executes the rest of our script.
-
-<pre class="file" data-filename="functionCall.py" data-target="replace">
-# Creating a function called my_function()
-def my_function(): 
-  # The function will then print this string
-  print("Hello from a function") 
-
-# calling my_function()
-my_function() 
-</pre>
-
-`python functionCall.py`{{execute}}
-
-## Passing data to the function
-
-We can also pass data to the function, by adding it inside the parentheses as <mark>arguments</mark>:
-
-<pre class="file" data-filename="passingData.py" data-target="replace">
-def print_name(name):
-  print("My name is " + name)
-
-print_name("Aymen")
-print_name("Emma")
-print_name("Sandra")
-print_name("Yasmin")
-</pre>
-
-`python passingData.py`{{execute}}
-
-Functions can take more than one argument, and when you call them you must pass in the amount specified:
-
-<pre class="file" data-filename="moreArugments.py" data-target="replace">
-def print_car_details(make, model):
-  print("The car is " + make + " " + model)
-
-print_car_details("ford", "fiesta")
-print_car_details("Skoda", "Octavia")
-print_car_details("Citroen", "C1")
-</pre>
-
-`python moreArugments.py`{{execute}}
-
-## Tuples
-In python, tuples are used to store multiple items in a single variable. 
-
-For example:
-
-<pre class="file" data-filename="tuples.py" data-target="replace">
-thistuple = ("apple", "banana", "cherry")
-print(thistuple)
-</pre>
-
-`python tuples.py`{{execute}}
-
-If you have varying lengths of variables to pass, you can use the <mark>*args</mark> annotation to pass in your arguments.
-
-This denotes a tuple.
-
-<pre class="file" data-filename="tupleAnnotation.py" data-target="replace">
-def my_dog_tuple(*dogs):
-  print("The youngest dog is " + dogs[2])
-
-my_dog_tuple("Toby", "Max", "Bob")
-</pre>
-
-`python tupleAnnotation.py`{{execute}}
-
-## Keyword arguments
-
-Arguments can also be sent with the <mark>key = value syntax</mark>. The order it is passed in does not matter in this case.
-
-<pre class="file" data-filename="keywordArguments.py" data-target="replace">
-def my_cat_values(cat3, cat1, cat2):
-  print("The smallest cat is " + cat3)
-
-# Note that the order of the variables is different to the arguments in the function
-my_cat_values(cat1="fido", cat2="sophie", cat3="felix")
-</pre>
-
-`python keywordArguments.py`{{execute}}
-
-If the argument passed in has <mark>**args</mark> these are known as 'kwargs' (keyword arguments), and allow us to pass in varying lengths of key-value pairs.
-We can then access each argument based on its key.
-
-<pre class="file" data-filename="keywordAnnotation.py" data-target="replace">
-def kwargs(**kid):
-  print("His last name is " + kid["lname"])
-
-kwargs(fname = "Tobias", lname = "Refsnes")
-</pre>
-
-`python keywordAnnotation.py`{{execute}}
-
-## Default values
-A default value can be set, which will be used if no value is passed:
-
-<pre class="file" data-filename="defaultValues.py" data-target="replace">
-def favourite_show(show = "Lucifer"):
-  print(show)
-
-favourite_show("American horror story")
-favourite_show()
-</pre>
-
-`python defaultValues.py`{{execute}}
-
-## Passing in different data types
-Python allows for different data types (Strings, Lists, Tuples...) to be passed in and treated as that data type.
-
-This means a function could accept different data types:
-
-<pre class="file" data-filename="passingDifferentData.py" data-target="replace">
-def print_argument(data):
-  for x in data:
-    print(x)
-
-fruits = ["apple", "banana", "cherry"]
-sentance = "Hello world"
-
-print_argument(fruits)
-print_argument(sentance)
-</pre>
-
-`python passingDifferentData.py`{{execute}}
-
-## Return
-We can use the <mark>return</mark> keyword to return a value:
-
-<pre class="file" data-filename="return.py" data-target="replace">
-def calculator(value):
-  return value * 10
-
-print(calculator(3))
-print(calculator(5))
-print(calculator(9))
-</pre>
-
-`python return.py`{{execute}}
-
-## The Pass statement
-You cannot have a blank function, but if you need to have a function as a placeholder (eg. for future code), you can use the <mark>pass</mark> keyword
-
-<pre class="file" data-filename="pass.py" data-target="replace">
-def placeholder():
-  pass
-    
-placeholder()
-</pre>
-
-`python pass.py`{{execute}}
+When you run the code you should see that the variable "Max" has now been added to the end of the list and the list length is now 5.
 
 
-<marquee style='color: blue;'><b>Yay you've completed part 2!</b></marquee>
+## **Insert**
+The insert method allows you to state where in the list you would like the new element to be placed, by providing the method with an index. For this example the names list has already been sorted and we assume that the program knows the name "Max" fits between "Justin" and "Perry" in alphabetical order:
+
+```python
+names = ["Dan", "Ellie", "Justin", "Perry"]
+names.insert(3, "Max")
+print(names)
+```{{exec}}
+
+As you can see the insert method is provided two arguments, the index which it has to insert the element before and the element it is inserting.
+
+When you run the code you should be able to see that the element "Max" has been inserted in the list between "Justin" and "Perry" as expected. This method also increases the length of the list just as the previous did, since we are adding another element.
+
+## **Remove**
+The remove method allows you to specify the value you want to remove from the list rather than using the index of the variable. Below is an exmample of us removing a number from the same list using the remove() method:
+
+What is the output?
+```python
+numbers = [10, 90, 23, 46, -20]
+numbers.remove(90)
+print(numbers)
+print(len(numbers))
+```{{exec}}
+
+```python
+numbers = [10, 90, 23, 90, 46, -20]
+numbers.remove(90)
+print(numbers)
+print(len(numbers))
+```{{exec}}
+
+```python
+numbers = [10, 90, 23, 46, -20]
+numbers.remove(100)
+print(numbers)
+print(len(numbers))
+```{{exec}}
+
+As you can see it removes the element 90 from the list and reduces the length of the list by one. An issue with this method is if there are multiple instances of 90, what will happen? Try and run some code with two 90s in the list and see.
+
+
+## **Pop**
+Finally, there is the pop method. This method does not require you to know the index of the element either (though the method does allow you to pass in an element's index if you wish to remove a specific element). By default, this method removes (pops) the last element in the list and reduces the list length by one. However it also returns the removed element so that you can then use that element elsewhere if you wish, without losing it. Below is an example of the pop method being used:
+
+What is the output?
+```python
+numbers = [10, 90, 23, 46, -20]
+removed_number = numbers.pop()
+print(numbers)
+print(len(numbers))
+print(removed_number)
+```{{exec}}
+
+```python
+numbers = [10, 90, 23, 46, -20]
+removed_number = numbers.pop(-2)
+print(numbers)
+print(len(numbers))
+print(removed_number)
+```{{exec}}
+
+As you can see when running the code, the numbers list is updated and no longer has the -20 element, the length is also down to 4 now. However, the removed number variable contains the -20 variable rather than it just being lost.
+
+As you may have noticed when removing any element from a list, all the other elements that come after that element in the list change position, therefore have different indexes. This is important as it means you could accidentally delete the wrong element if you try and delete elements concurrently (one after the other), or you may end up retrieving the wrong element as its index may have changed. This is something that you should always keep in mind and adjust your code to. The same issue can occur when you add elements to a list via insertion, since all the elements after the inserted element will have a different index.
+
+# Exercises:
+## 1.
+Create a list of fruits and print the last item
+
+## 2.
+Start with an empty list, then ask the user to add three items to their shopping list
+* Once the user has added their 3 items print it back to them
+* On the next line print the length of the list
+
+## 3.
+Starting with a list of countries, ask the user if they want to remove the first item or last item of the list
+* Carry out the correct operation on the list based on the user's input
+* Print the new list
+
+## 4.
+Create a list containing 5 shopping list items
+* Ask the user which item they would like to remove
+* Print the final list once the item is removed
+* Challenge - prevent a possible value error if the user enters an item that is not in the list using if statements.
+
+## Challenge:
+### 5.
+Create a program that has a list of movies
+* Ask the user if they want to add or remove a movie
+  * If the user wants to add a movie, also ask where the movie should go in the list.
+    * Insert this movie at the correct position in the list
+  * If the user wants to remove a move
+    * Ask which movie they want to remove
+* Print the new length of the list
+* Challenge - Prevent any possible errors by making sure the user can't insert the movie into an invalid position and that the user can't remove a movie that doesn't exist
+
+## You have completed part 2
+
+Kahoot time!!!
