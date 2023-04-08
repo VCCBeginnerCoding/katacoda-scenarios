@@ -2,7 +2,7 @@
 
 ![if-else](./assets/ifelse.png)<br>
 
-You don't have to understand `if` statements right now - we'll cover those in the next module. But here's why comparisons can come in handy, and why Python can be a versatile language.
+You don't have to understand `if` statements right now - we'll cover those in the next section. But here's why comparisons can come in handy, and why Python can be a versatile language.
 
 ```
 age = 17
@@ -12,7 +12,7 @@ if age < 18:
 else:
     print("You are old enough to buy scissors")
 print("I have finished checking your age")
-```{{exec}}
+```{{copy}}
 
 ```
 age = 17
@@ -20,7 +20,7 @@ if age < 0:
     print("You haven't been born yet.")
 else:
     print("You are born")
-```{{exec}}
+```{{copy}}
 
 <hr>
 
@@ -41,8 +41,6 @@ Indentation is very important. While other programming languages allow you to wr
 2. Ask user to enter a password.  If the password is “PASSWORD”, print “Login successful”.  If not, print “Incorrect password!”
 3. Ask user to enter a name.  If name is “Tom”, print “Welcome Tom!”, if not, print “Sorry <name>, we are expecting Tom.”
 
-
-[Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step5.md)
 
 # Kahoot Time!!!
 Once we reach this point, lets see who can get the highest kahoot score based on what we have learnt so far!

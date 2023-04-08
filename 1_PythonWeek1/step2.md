@@ -36,21 +36,21 @@ username = input("What is your name?")
 ```
 username = input("What is your name?")
 print("Your name is " + username)
-```{{exec}}
+```{{copy}}
 
 In the above code, we are combining the text *'Your name is '* with the string stored in `username`. This is known as String Concatenation; joining two strings together.
 
 ```
 greeting = "Good morning!"
 question = input(greeting + " What's your name?")
-```{{exec}}
+```{{copy}}
 
 `output: Good morning! What's your name?`
 
 ```
 username = input("What is your name?")
 print("Hello " + username + ", nice to meet you!")
-```{{exec}}
+```{{copy}}
 
 
 # Practical Uses
@@ -67,8 +67,6 @@ Extend your program to print out 2 lines – “Pleased to meet you Tom./n Tom i
 * Write a program to ask user for a name and ask user what pronouns to use (ie he/him/she/her).  Print your story using the users names and pronouns so that it makes sense.
 
 Ask for help and where to find the example answers when you are done.
-
-[Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step2.md)
 
 You have completed part 1!
 Kahoot Time!!!

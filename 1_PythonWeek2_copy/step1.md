@@ -7,8 +7,11 @@
 
 ```
 print(100 == 100)
+```{{exec}}
+
+```
 print(100 == 200)
-```{{copy}}
+```{{exec}}
 
 ```
 a = 100
@@ -19,6 +22,9 @@ You can also use the `!=` not equal to operator.
 
 ```
 print(100 != 100)
+```{{exec}}
+
+```
 print(100 != 200)
 ```{{exec}}
 

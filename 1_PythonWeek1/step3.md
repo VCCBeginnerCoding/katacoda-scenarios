@@ -29,9 +29,14 @@ If you want a user to enter a number that you can then manipulate in Python (for
 `input()` will return what Python "thinks" is best, but you can tell Python exactly what variable type you want by doing the following:
 
 ```
+number = input("Enter a number")
+print(number + 5)
+```{{copy}}
+
+```
 number = int(input("Enter a number"))
 print(number)
-```{{exec}}
+```{{copy}}
 
 <hr>
 
@@ -79,8 +84,6 @@ Ask user for 3 different numbers and print out the sum of the 3 numbers.
 
 ## Exercise 5
 Ask user for a number and print out the previous and next number.
-
-[Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step3.md)
 
 
 # You Finished Part 2!

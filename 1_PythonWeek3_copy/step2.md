@@ -15,7 +15,7 @@ Like with strings we can use the `len()` method to get the number of items in a 
 ```python
 fruit = ["orange", "apple", "banana"]
 print(len(fruit))
-```
+```{{exec}}
 
 ## **Append**
 The append method is the default method most people use when adding an element to a list. It is simple and easy to understand and quite efficient, as it just adds the element to the end of the list and increases the lists length by one, as shown below:
@@ -25,7 +25,7 @@ names = ["Ellie", "Dan", "Perry", "Justin"]
 names.append("Max")
 print(names)
 print(len(names))
-```
+```{{exec}}
 
 When you run the code you should see that the variable "Max" has now been added to the end of the list and the list length is now 5.
 
@@ -37,7 +37,7 @@ The insert method allows you to state where in the list you would like the new e
 names = ["Dan", "Ellie", "Justin", "Perry"]
 names.insert(3, "Max")
 print(names)
-```
+```{{exec}}
 
 As you can see the insert method is provided two arguments, the index which it has to insert the element before and the element it is inserting.
 
@@ -52,21 +52,21 @@ numbers = [10, 90, 23, 46, -20]
 numbers.remove(90)
 print(numbers)
 print(len(numbers))
-```
+```{{exec}}
 
 ```python
 numbers = [10, 90, 23, 90, 46, -20]
 numbers.remove(90)
 print(numbers)
 print(len(numbers))
-```
+```{{exec}}
 
 ```python
 numbers = [10, 90, 23, 46, -20]
 numbers.remove(100)
 print(numbers)
 print(len(numbers))
-```
+```{{exec}}
 
 As you can see it removes the element 90 from the list and reduces the length of the list by one. An issue with this method is if there are multiple instances of 90, what will happen? Try and run some code with two 90s in the list and see.
 
@@ -81,7 +81,7 @@ removed_number = numbers.pop()
 print(numbers)
 print(len(numbers))
 print(removed_number)
-```
+```{{exec}}
 
 ```python
 numbers = [10, 90, 23, 46, -20]
@@ -89,7 +89,7 @@ removed_number = numbers.pop(-2)
 print(numbers)
 print(len(numbers))
 print(removed_number)
-```
+```{{exec}}
 
 As you can see when running the code, the numbers list is updated and no longer has the -20 element, the length is also down to 4 now. However, the removed number variable contains the -20 variable rather than it just being lost.
 

@@ -18,7 +18,7 @@ names = ["Ellie", "Dan", "Perry", "Justin"]
 food = ["Apple", 3, "Chocolate", 3, "Sandwich", 4, "Cake", 1]
 print(names)
 print(food)
-```
+```{{exec}}
 
 *Hint: Lower and Upper case matters in string equality*
 
@@ -36,7 +36,7 @@ name1 = "Ellie"
 name2 = "Dan"
 names = [name1, name2]
 print(names)
-```
+```{{exec}}
 
 ## Accessing list items (indexing):
 * How do we print the last item in a list?
@@ -47,7 +47,7 @@ First we need to understand list indexing. Python assigns an index to each item 
 
 *It is important to remember that elements in a list are always **numbered starting from zero**, so in our first 'names' example "Ellie" is the first element and is in position 0 of the list. The final element is "Justin" and is in position 3 of the list.*
 
-![list indexing](assets/Python-Negative-List-Indexing.png)
+![list indexing](./assets/Python-Negative-List-Indexing.png)
 
 * We can also see that python provides "negative indexing" which can be helpful to get the last item in a list or the second to last item in a list and so on.
 
@@ -55,22 +55,22 @@ What will these print?
 ```python
 myList = ["apple", "orange", "banana"]
 print(myList[1])
-```
+```{{exec}}
 
 ```python
 myList = ["apple", "orange", "banana"]
 print(myList[-1])
-```
+```{{exec}}
 
 ```python
 myList = ["apple", "orange", "banana"]
 print(myList[3])
-```
+```{{exec}}
 
 ```python
 myList = ["apple", "orange", "banana"]
 print(myList[0:2])
-```
+```{{exec}}
 
 # Exercises:
 1. Create a list of your favourite movies and print it out.

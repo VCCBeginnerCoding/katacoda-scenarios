@@ -20,7 +20,7 @@ else:
     print ("You can only book a maximum of 2 rooms")
     
 print("cake?")
-```
+```{{copy}}
 
 * We can use as many elif statements as we want. The only rule is that the else statement must come after all the else and if statements
 
@@ -52,7 +52,7 @@ if answer.lower() == "yes":
     print("you have continued")
 else:
     print("you have quit")
-```
+```{{copy}}
 
 ## Nested if statements:
 This is where we have an if statement within another if statement and so on:
@@ -71,7 +71,7 @@ elif bookedRooms == 2:
         print("You have booked breakfast each morning")
 else:
     print ("You can only book a maximum of 2 rooms")
-```
+```{{copy}}
 
 # Exercises:
 1. Ask user to enter 2 numbers.  If the number is the same, print “SNAP”. 

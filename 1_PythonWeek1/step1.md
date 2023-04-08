@@ -10,8 +10,13 @@ You can store different types of data in variables as shown below. Text is store
 # Python will not run this
 # Use comments so you remember what the code does
 myCardPin = 1234
-print(myCardPin)
+```{{exec}}
 
+```
+print(myCardPin)
+```{{exec}}
+
+```
 a = 2
 print(a)
 ```{{exec}}
@@ -77,8 +82,6 @@ print(2%3)
 - Subtract the current year by your age (using the variables) and save that as a third variable
 - Print out the third variable
 - You've found your birth year! (We're assuming you were born on 1st January to keep this task simple.)
-
-[Click here for solutions.](https://github.com/VCCBeginnerCoding/katacoda-scenarios/blob/main/1_PythonWeek1/answers/step1.md)
 
 # Practical Uses
 The calculator app on your phone remembers every number as you type it, as well as your previous calculations, thanks to variables. Microsoft Teams remembers your user settings and stores them as variables. Your phone stores your password as a variable too. (Okay, there's a few more steps involved in real life, but you get the idea.)
