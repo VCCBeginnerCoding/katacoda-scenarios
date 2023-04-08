@@ -51,65 +51,9 @@ while True:
         break
     else:
         print("Sorry, that's not correct. Try again.")
-
 ```
 
 ## 2.
-Hangman
-* Choose a random word from a list of words
-* Show the user a series of underscores, one for each letter in the word
-* Ask the user to guess a letter
-* If the letter is in the word, reveal the position(s) of the letter in the underscores
-* If the letter is not in the word, deduct one life from the user's total lives
-* Repeat until the user guesses the word or runs out of lives
-```python
-import random
-
-# Define a list of words to choose from
-word_list = ["python", "java", "javascript", "ruby", "php"]
-
-# Choose a random word from the list
-word = random.choice(word_list)
-
-# Create a list of underscores, one for each letter in the word
-underscores = ["_"] * len(word)
-
-# Set the number of lives for the player
-lives = 6
-
-# Play the game until the player guesses the word or runs out of lives
-while lives > 0:
-    # Print the current state of the underscores
-    print(" ".join(underscores))
-
-    # Ask the player to guess a letter
-    guess = input("Guess a letter: ")
-
-    # Check if the guessed letter is in the word
-    found_letter = False
-    for i in range(len(word)):
-        if word[i] == guess:
-            # If the guessed letter is in the word, reveal the position(s) of the letter in the underscores
-            underscores[i] = guess
-            found_letter = True
-
-    if not found_letter:
-        # If the guessed letter is not in the word, deduct one life from the player's total lives
-        lives -= 1
-        print("Sorry, that letter is not in the word. You have", lives, "lives left.")
-
-    # Check if the player has guessed all the letters in the word
-    if "_" not in underscores:
-        print("You win! The word was", word)
-        break
-
-# If the player runs out of lives, they lose the game
-if lives == 0:
-    print("You lose! The word was", word)
-
-```
-
-## 3.
 Rock Paper Scissors
 * Ask the user to choose rock, paper, or scissors
 * Generate a random choice for the computer
@@ -181,78 +125,57 @@ while True:
 
 ```
 
-Challenge:
-```python
-total = 0
-count = 0
-highest = 0
-lowest = 10
-
-while True:
-    score = int(input("Enter a score between 1 and 10 (or 0 to finish): "))
-    
-    if score == 0:
-        break
-    elif score < 1 or score > 10:
-        print("Invalid score, please enter a score between 1 and 10.")
-        continue
-    total += score
-    count += 1
-    if score > highest:
-        highest = score
-    if score < lowest:
-        lowest = score
-
-if count > 0:
-    average = total / count
-    print("Total score:", total)
-    print("Number of scores entered:", count)
-    print("Average score:", average)
-    print("Highest score:", highest)
-    print("Lowest score:", lowest)
-else:
-    print("No scores entered.")
-```
-
 ## 3.
-Copy this code to the start of your program. This will set the variable `random_number` to a random number between 1 and 100
-```
-import random
-random_number = random.randint(1, 100)
-```{{copy}}
-* Use a WHILE loop to create a number guessing game where the user will try to guess the `random_number`.
-* Exit the loop when the number entered is the same as the random number generated.
-* Added Challenge:
-    * Print out the number of tires the user needed to guess the number at the end of the game.
-    * Help the user guess the random number by printing too high or too low depending on their guess.
-
+Hangman
+* Choose a random word from a list of words
+* Show the user a series of underscores, one for each letter in the word
+* Ask the user to guess a letter
+* If the letter is in the word, reveal the position(s) of the letter in the underscores
+* If the letter is not in the word, deduct one life from the user's total lives
+* Repeat until the user guesses the word or runs out of lives
 ```python
 import random
 
-random_number = random.randint(1, 100)
-guess = 0
+# Define a list of words to choose from
+word_list = ["python", "java", "javascript", "ruby", "php"]
 
-while guess != random_number:
-    guess = int(input("Guess the random number (between 1 and 100): "))
-    
-print("Congratulations! You guessed the random bnumber
-```
+# Choose a random word from the list
+word = random.choice(word_list)
 
-Challenge:
-```python
-import random
-random_number = random.randint(1, 100)
+# Create a list of underscores, one for each letter in the word
+underscores = ["_"] * len(word)
 
-guess = 0
-count = 0
+# Set the number of lives for the player
+lives = 6
 
-while guess != random_number:
-    guess = int(input("Guess the random number (between 1 and 100): "))
-    count += 1
-    if guess < random_number:
-        print("Too low, try again!")
-    elif guess > random_number:
-        print("Too high, try again!")
+# Play the game until the player guesses the word or runs out of lives
+while lives > 0:
+    # Print the current state of the underscores
+    print(" ".join(underscores))
 
-print("Congratulations! You guessed the random number: " + str(random_number) + " in: " + str(count) + " tries!")
+    # Ask the player to guess a letter
+    guess = input("Guess a letter: ")
+
+    # Check if the guessed letter is in the word
+    found_letter = False
+    for i in range(len(word)):
+        if word[i] == guess:
+            # If the guessed letter is in the word, reveal the position(s) of the letter in the underscores
+            underscores[i] = guess
+            found_letter = True
+
+    if not found_letter:
+        # If the guessed letter is not in the word, deduct one life from the player's total lives
+        lives -= 1
+        print("Sorry, that letter is not in the word. You have", lives, "lives left.")
+
+    # Check if the player has guessed all the letters in the word
+    if "_" not in underscores:
+        print("You win! The word was", word)
+        break
+
+# If the player runs out of lives, they lose the game
+if lives == 0:
+    print("You lose! The word was", word)
+
 ```

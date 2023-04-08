@@ -27,19 +27,7 @@ while word:
     word = word[:position] + word[(position + 1):]
 ```
 
-
 ## 2.
-Hangman
-* Choose a random word from a list of words
-* Show the user a series of underscores, one for each letter in the word
-* Ask the user to guess a letter
-* If the letter is in the word, reveal the position(s) of the letter in the underscores
-* If the letter is not in the word, deduct one life from the user's total lives
-* Repeat until the user guesses the word or runs out of lives
-* Hint: `["_"] * len(word)` use this to generate the number of underscores for a word
-* 
-
-## 3.
 Rock Paper Scissors
 * Ask the user to choose rock, paper, or scissors
 * Generate a random choice for the computer
@@ -52,3 +40,22 @@ game_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(game_options)
 ```
 
+## 3.
+Hangman
+* Choose a random word from a list of words
+* Show the user a series of underscores, one for each letter in the word
+* Ask the user to guess a letter
+* If the letter is in the word, reveal the position(s) of the letter in the underscores
+* If the letter is not in the word, deduct one life from the user's total lives
+* Repeat until the user guesses the word or runs out of lives
+* Hint: `["_"] * len(word)` use this to generate the number of underscores for a word
+* Use this code to check if the user's guess is in the word they're trying to guess
+```python
+# Check if the guessed letter is in the word
+found_letter = False
+for i in range(len(word)):
+    if word[i] == guess:
+        # If the guessed letter is in the word, reveal the position(s) of the letter in the underscores
+        underscores[i] = guess
+        found_letter = True
+```
