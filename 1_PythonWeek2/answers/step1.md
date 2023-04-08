@@ -11,6 +11,13 @@ result = num > 50 and num < 100
 print(result)
 ```
 
+Can also be simplified to:
+```python
+num = int(input("Enter a number: "))
+result = 50 < num < 100
+print(result)
+```
+
 ## 3.
 Ask the user to enter two numbers, print true or false if the two numbers are equal to each other and both are less than 100
 ```python

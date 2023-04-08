@@ -1,6 +1,6 @@
 # Complex Selection (If, Else if, Else)
 
-![arduino-if-else-and-else-if2.png](assets/arduino-if-else-and-else-if2.png)
+![arduino-if-else-and-else-if2.png](./assets/arduino-if-else-and-else-if2.png)
 
 There are also **Else If** statements to check for secondary conditions. In Python Else If statements are abbreviated to 'elif'. Multiple Elif statements after each other are sometimes called a **cascade**.
 
