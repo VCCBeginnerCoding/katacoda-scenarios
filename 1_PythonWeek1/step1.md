@@ -1,3 +1,6 @@
+## Scan here to join the platform:
+![platform link](./assets/platformQRCode.png)
+
 # Basics
 
 Variables are containers for storing data values. You can store any value in a variable, then use it or change its value later on in the program. We can also print out the variables using `print()`.
