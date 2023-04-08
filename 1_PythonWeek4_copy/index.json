@@ -1,28 +1,18 @@
 {
-  "title": "Python Module 2",
-  "description": "Selection / If Statements",
+  "title": "Python Module 3",
+  "description": "Lists",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Comparison",
+        "title": "Accessing and Creating Lists",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "If Else",
+        "title": "List Operations",
         "text": "step2.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Elif",
-        "text": "step3.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Why am I doing this?",
-        "text": "step6.md",
         "foreground": "clear.sh"
       }
     ],

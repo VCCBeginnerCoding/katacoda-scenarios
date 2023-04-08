@@ -1,71 +1,88 @@
-<p align="center">
-    <img src="./assets/ifelse.png" alt="If-else Statement" width="250" class="center"/>
-</p>
+# Comparison
+<hr>
 
-Conditional statements check if a specified condition is met before carrying out an action.  
+`=` is an assignment operator. `a = 2` assigns `a` with the value of `2`.
 
-An if/else statement is an example of a conditional statement in Python.
+`==` instead asks *are the values equal*?
 
-You can see an example of the if/else statement below which checks if a statement is True or False: 
+```
+print(100 == 100)
+```{{exec}}
 
-Create and open new Python file in the editor: `ifelseexample.py`
+```
+print(100 == 200)
+```{{exec}}
 
-<pre class="file" data-filename="ifelseexample.py" data-target="replace">
-colour = "Green"
+```
+a = 100
+print(a == 100)
+```{{exec}}
 
-if colour == "Green":
-    print("The Colour is Green!")
-else:
-    print("The Colour is not Green!")
+You can also use the `!=` not equal to operator.
 
+```
+print(100 != 100)
+```{{exec}}
 
-colour = "Yellow"
+```
+print(100 != 200)
+```{{exec}}
 
-if colour == "Green":
-    print("The Colour is Green!")
-else:
-    print("The Colour is not Green!")
-</pre>
+Other operators include `>` greater than, `>=` greater than or equal to, `<` less than, and `<=` less than or equal to.
 
-Copy the code above over to the editor and then press
-`python ifelseexample.py`{{execute}}
+```
+print(100 > 100)
+```{{exec}}
 
-*__Note:__ Sometimes for the code blocks to execute you may have to press this button more than once*
+```
+print(100 >= 100)
+```{{exec}}
 
-This code checks if the **colour variable** is set to the string Green. If the statement is True then the code prints "The Colour is Green!". Otherwise the code executes the else statement printing "The colour is not Green" 
+```
+print(100 < 100)
+```{{exec}}
 
-In the future if the terminal gets messy clear it with `clear`{{execute}}.
+```
+print(100 <= 100)
+```{{exec}}
 
-</br>
+# and
 
-There are also **Else If** statements to check for secondary conditions. In Python Else If statements are abbreviated to 'elif'. Multiple Elif statements after each other are sometimes called a **cascade**. 
+Returns `True` if both statements are true.
 
-An example of this is checking if the colour is yellow after you have checked if it is green, as shown below:
+```
+x = 5
+print(x < 5 and x < 10)
+```{{exec}}
 
-Replace the old code in the ifelseexample.py file with this code
+# or
 
-<pre class="file" data-filename="ifelseexample.py" data-target="replace">
-colour = "Yellow"
+Returns `True` if one of the statements is true.
 
-if colour == "Green":
-    print("The Colour is Green!")
-elif colour == "Yellow":
-    print("The Colour is Yellow!")
-else:
-    print("The Colour is not Green or Yellow!")
+```
+x = 4
+print(x < 5 or x < 4)
+```{{exec}}
 
+# not
 
-colour = "Blue"
+Reverse the result, returns `False` if the result is true.
 
-if colour == "Green":
-    print("The Colour is Green!")
-elif colour == "Yellow":
-    print("The Colour is Yellow!")
-else:
-    print("The Colour is not Green or Yellow!")
-</pre>
+```
+x = 999
+print(not(x < 5 and x < 10))
+```{{exec}}
 
-`python ifelseexample.py`{{execute}}
+<hr>
 
-This code checks to see if the **colour variable** is set to the string Green, then it moves to the `elif colour == "Yellow"` line, which checks if the colour is yellow instead. If it is then it executes the print statement "The Colour is Yellow!". Again, if the colour is not green or yellow, it will move to the else statement and print "The Colour is not Green or Yellow!".
+<hr>
 
+# Practical Uses
+Is the password that you typed the same as the password that's associated with your account? Comparisions can help. If a project deadline on your database has been missed, we can use comparisions to identify that and then sound the alarm. (Again, there's a few more steps involved in real life, but you get the idea.)
+
+# Quick Exercises
+1. Is 100 == "100" true or false?
+2. Ask the user to enter a number, print true or false if the number is less than 100 but also greater than 50
+
+Challenge:
+3. Ask the user to enter two numbers, print true or false if the two numbers are equal to each other and both are less than 100

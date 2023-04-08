@@ -1,53 +1,28 @@
 {
   "title": "Python Module 2",
-  "description": "Conditional Statements • Lists",
+  "description": "Selection / If Statements",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Conditional Statements",
+        "title": "Comparison",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "If/Else Statements with Operators",
+        "title": "If Else",
         "text": "step2.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "If/Else Exercises",
+        "title": "Elif",
         "text": "step3.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Lists",
-        "text": "step4.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Adding to a List",
-        "text": "step5.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Removing from a List",
+        "title": "Why am I doing this?",
         "text": "step6.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Nested Lists",
-        "text": "step7.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "List Exercises",
-        "text": "step8.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Solutions to Step 8",
-        "text": "step8Solutions.md",
         "foreground": "clear.sh"
       }
     ],

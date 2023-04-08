@@ -6,8 +6,6 @@ Now let's move onto something new, Lists. Lists are a new type of Data Type whic
 
 **Why do we need to store multiple variables?** In some programs there are many variables that the program has to work with, sometimes up to the hundreds or thousands, having a list to store these in and handle them saves a lot of time and makes the code a lot more efficient.
 
-
-
 ## Initialising Lists
 
 Lists are multi-value variables which can have variables within them all the same types or of different types. Some of them may be integers, strings, booleans or even other lists (this is called nested listing). Below is an example of how to declare a list, in this instance we are declaring a list of strings and a list of strings and numbers:
@@ -19,9 +17,6 @@ food = ["Apple", 3, "Chocolate", 3, "Sandwich", 4, "Cake", 1]
 print(names)
 print(food)
 ```{{exec}}
-
-*Hint: Lower and Upper case matters in string equality*
-
 
 As you can see, there are some similarities to how you declare a variable, you need to:
 - Give a name for the list
@@ -73,19 +68,30 @@ print(myList[0:2])
 ```{{exec}}
 
 # Exercises:
-1. Create a list of your favourite movies and print it out.
-2. Create a list of your 3 favourite holiday destinations and print it out in this format:
-   * "My favourite holiday destinations are: list_goes_here"
-3. Write a program that creates a list containing 5 fruits:
-   * Ask the user for an index position
-   * Print the fruit that corresponds with the index position
-   * Challenge: Validate the user's input before accessing the list to prevent the index out of bounds error.
-4. Write a program that creates a list of 5 movies:
-   * Ask the user how many movies they would like to be recommended.
-   * Print out the number of movies the user requested
-   * E.g. If the list was: "one", "two", "three" and the user wanted 2 items, the program should print:
-     * "one", "two"
-   * Challenge: Validate the user's input to prevent an index out of bounds error
+## 1.
+Create a list of your favourite movies and print it out.
+
+## 2.
+Create a list of your 3 favourite holiday destinations and print it out in this format:
+* "My favourite holiday destinations are: item1, item2, item3"
+* Hint (you need to use the .join() command which you can research here: [.join()](https://www.programiz.com/python-programming/methods/string/join))
+
+
+## 3.
+Write a program that creates a list containing 5 fruits:
+* Ask the user for an index position
+* Print the fruit that corresponds with the index position
+* Challenge:
+  * Validate the user's input before accessing the list to prevent the index out of bounds error.
+
+## 4.
+Write a program that creates a list of 5 movies:
+* Ask the user how many movies they would like to be recommended.
+* Print out the number of movies the user requested
+* E.g. If the list was: "one", "two", "three" and the user wanted 2 items, the program should print:
+  * "one", "two"
+* Challenge:
+  * Validate the user's input to prevent an index out of bounds error
 
 # You have completed part 1!
 Kahoot time!!!!

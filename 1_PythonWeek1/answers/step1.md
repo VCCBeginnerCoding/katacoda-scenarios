@@ -8,6 +8,6 @@
 ```python
 age = 2
 year = 2023
-birthYear = year-age
+birthYear = year - age
 print(birthYear)
 ```

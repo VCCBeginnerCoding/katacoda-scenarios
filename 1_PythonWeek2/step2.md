@@ -1,79 +1,48 @@
-Messy Terminal? `clear`{{execute}} it.
+# Using Comparisons & Conditions (If, Else)
+
+![if-else](./assets/ifelse.png)<br>
+
+You don't have to understand `if` statements right now - we'll cover those in the next section. But here's why comparisons can come in handy, and why Python can be a versatile language.
+
+```
+age = 17
+
+if age < 18: 
+    print("You're too young to buy scissors.")
+else:
+    print("You are old enough to buy scissors")
+print("I have finished checking your age")
+```{{copy}}
+
+```
+age = 17
+if age < 0: 
+    print("You haven't been born yet.")
+else:
+    print("You are born")
+```{{copy}}
+
 <hr>
 
-In the previous step you may have noticed we used the **equal to** operator as part of the conditional checks, you can use all of the other Comparison operators we learnt last week as well to ensure your conditional is only executing when you want it to. 
+# Indentation
 
-Below are a few examples of Comparison operators being used in Python to have different bits of code run, can you guess what will be printed?
+See how the `print` statement above is indented? It means it sits under the `if` statement, and will only run if the conditions of that `if` statement is true.
 
-</br>
+To indent a line, you have a few options. Choose one and then start a fight with the others over which one is superior:
 
-### **Example 1:**
+- press <kbd>SPACE</kbd> 4 times
+- press <kbd>SPACE</kbd> 2 times
+- press <kbd>TAB</kbd> once
 
-<pre class="file" data-filename="ifelseexample.py" data-target="replace">
-a = "Lisa"
-b = "Sandy"
-c = "lisa"
-d = "Sandy"
+Indentation is very important. While other programming languages allow you to write horrifyingly unindented code and wrap them in ```{}``` brackets, Python relies on your indentation to know when to run what code. Remember this!
 
-if(a == b):
-    print("Lisa is equal to Sandy")
-elif(a == c):
-    print("Lisa is equal to lisa")
-elif(b == d):
-    print("Sandy is equal to Sandy")
-else:
-    print("None of the above are equal")
-
-if a != b:
-    print("Lisa is not equal to Sandy")
-</pre>
-
-*Hint: Lower and Upper case matters in string equality*
-
-</br>
-
-**Now try running the code and seeing which print statement is executed.**
-
-Copy the code above over to the editor and then press
-`python ifelseexample.py`{{execute}}
-
-</br>
-</br>
-
-### **Example 2:**
-
-<pre class="file" data-filename="ifelseexample.py" data-target="replace">
-x = 3
-y = 20
-
-if x > y:
-    print("x is a bigger number than y")
-elif x >= y:
-    print("x is the same number as y or bigger")
-elif y < x:
-    print("Y is a smaller number than x")
-elif x <= y:
-    print("x is the same number as y or smaller than it")
-else:
-    print("x is an unknown number")
-</pre>
-
-*Hint: Remember how the greater than/less than and equal to operators work in combination and pay attention to which side of the operators x and y are on.*
-
-</br>
-
-**Now try running the code and seeing which print statement is executed.**
-
-Copy the code above over to the editor and then press
-`python ifelseexample.py`{{execute}}
-
-</br>
-</br>
-
-### **Answers:**
-
-For the first set of code, you should have seen the statement **"Sandy is equal to Sandy"** printed. You may have thought the statement "Lisa is equal to to lisa" would print, but in fact you would be incorrect in that assumption, since the strings have different capatilisation on the 'L' in them, so they are not seen as equal in Python. However the two versions of 'Sandy' both have the same capitalisation and spelling so are treated as equal. The string **"Lisa is not equal to Sandy"** should also have been printed due to the final not equals to operator check.
-
-Now for the final set of code, the statement **"x is the same number as y or smaller than it"** should have been printed. This is simply because all the other statements relied on x being larger than y, which it is not, whereas the final statement checked if x was lesser than or equal to y, which  it is, so a condition was finally met. 
+# Exercises:
+1. Ask user to enter a number, if the number is less than 10, print “Number is too high!”. Otherwise print "Valid Number"
+2. Ask user to enter a password.  If the password is “PASSWORD”, print “Login successful”.  If not, print “Incorrect password!”
+3. Ask user to enter a name.  If name is “Tom”, print “Welcome Tom!”, if not, print “Sorry <name>, we are expecting Tom.”
 
 
+# Kahoot Time!!!
+Once we reach this point, lets see who can get the highest kahoot score based on what we have learnt so far!
+
+# You have finished part 1 of this module!

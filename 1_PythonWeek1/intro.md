@@ -4,16 +4,13 @@
 * Variables, Inputs & Comparisons
 
 ### Module 2:
-* Conditional Statements & Lists
+* Conditional Statements
 
 ### Module 3: 
-* Loops & Functions
+* Lists
 
 ### Module 4:
-* Working with data & spreadsheets
-
-### Module 5:
-* Classes
+* Loops
 
 ## Python Module 1
 Why have we chosen python to learn? Python's easy syntax (i.e. its readability) doesn't only make it easy to learn; it also makes Python an excellent 'gateway' language. As a highly abstract language, it is very intuitive for new learners as it allows you to focus less on the code and more on the programming concepts themselves.

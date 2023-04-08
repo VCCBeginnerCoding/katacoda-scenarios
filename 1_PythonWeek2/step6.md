@@ -1,60 +1,16 @@
-Messy Terminal? `clear`{{execute}} it.
-<hr>
+# Practical Uses for Python
+Now you might be wondering: *What can I do with this knowledge?*
 
-Elements can also be removed from a list at any point in time, we will explore some of the apporaches you can use to remove elements from a list below.
+In future lessons, we'll be using the knowledge from this session to work on practical day to day problems.
 
-</br>
+Need to process and analyse lots of financial data? Python. Want to merge and manipulate multiple spreadsheets at the same time? Python. Looking to make video games? You can do that in Python! Always forget when bin day is? Create [bin day indicators](https://www.youtube.com/watch?v=YSBioki_03g) that light up with corresponding colours on the day! Build [your own robot](https://thepihut.com/collections/raspberry-pi-kits-and-bundles/products/camjam-edukit-3-robotics)! Create a super cool [smart mirror](https://www.youtube.com/watch?v=WQR0fv9C5dU)! Make a [burglar alarm](https://thepihut.com/products/camjam-edukit-2-sensors) for your bedroom! Switch on an LED when it gets dark!
 
-## **The delete instruction**
-The delete instruction **del** is an instruction, not a function, which takes the index of the element being removed in the list and removes that element completely. When this method is used the element will vanish from the list and the lists length will be reduced by one, as shown below:
+From VCC side, here are some of our own examples:
+- [Justin's Map Visualisation via Jupyter Notebook](https://colab.research.google.com/drive/1gUeDDBZOztwLgDDhdVjHhRXwhE2MAdEI?usp=sharing)
+- Ellie's Settings Pannel via Python Tkinter
+- [Perry's/ Alex's Spotify Timer Web App via Python Flask](https://github.com/perryliuofficial/MusicTimerForSpotify)
+- [Perry's Motion Activated Light via Raspberry Pi](https://cdn.discordapp.com/attachments/895696933958590506/904125440908734494/VID_20211030_213502.mp4)
+- Perry's Pong Game via Pygame
 
-<pre class="file" data-filename="del.py" data-target="replace">
-numbers = [10, 90, 23, 46, -20]
-del numbers[1]
-print(numbers)
-print(len(numbers))
-</pre>
-
-Copy the code above over to the editor and then press
-`python del.py`{{execute}}
-
-When you run the code you will see that the number 90 (the element with an index of 1 in the original numbers list) is no longer in the list and that the length of the list has now decreased by one. 
-
-</br>
-
-## **Remove**
-The remove method allows you to specify the value you want to remove from the list rather than using the index of the variable. Below is an exmample of us removing a number from the same list using the remove() method:
-
-<pre class="file" data-filename="remove.py" data-target="replace">
-numbers = [10, 90, 23, 46, -20]
-numbers.remove(90)
-print(numbers)
-print(len(numbers))
-</pre>
-
-Copy the code above over to the editor and then press
-`python remove.py`{{execute}}
-
-As you can see it removes the element 90 from the list and reduces the length of the list by one. An issue with this method is if there are multiple instances of 90, what will happen? Try and run some code with two 90s in the list and see. 
-
-</br>
-
-## **Pop**
-Finally, there is the pop method. This method does not require you to know the index of the element either (though the method does allow you to pass in an element's index if you wish to remove a specific element). By default, this method removes (pops) the last element in the list and reduces the list length by one. However it also returns the removed element so that you can then use that element elsewhere if you wish, without losing it. Below is an example of the pop method being used: 
-
-<pre class="file" data-filename="pop.py" data-target="replace">
-numbers = [10, 90, 23, 46, -20]
-removed_number = numbers.pop()
-print(numbers)
-print(len(numbers))
-print(removed_number)
-</pre>
-
-Copy the code above over to the editor and then press
-`python pop.py`{{execute}}
-
-As you can see when running the code, the numbers list is updated and no longer has the -20 element, the length is also down to 4 now. However, the removed number variable contains the -20 variable rather than it just being lost. 
-
-</br>
-
-As you  may have noticed when removing any element from a list, all the other elements that come after that element in the list change position, therefore have different indexes. This is important as it means you could accidentally delete the wrong element if you try and delete elements concurrently (one after the other), or you may end up retrieving the wrong element as its index may have changed. This is something that you should always keep in mind and adjust your code to. The same issue can occur when you add elements to a list via insertion, since all the elements after the inserted element will have a different index.
+If you haven't already, you can also watch this 4 minute video to find out why Python is important.
+[Why python is important](https://www.youtube-nocookie.com/embed/Y8Tko2YC5hA)

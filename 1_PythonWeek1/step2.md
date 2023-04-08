@@ -66,7 +66,7 @@ Extend your program to print out 2 lines – “Pleased to meet you Tom./n Tom i
 * Write a short story (just 1 paragraph) about a character learning how to code. Write it out on paper first.
 * Write a program to ask user for a name and ask user what pronouns to use (ie he/him/she/her).  Print your story using the users names and pronouns so that it makes sense.
 
-Ask for help and where to find the example answers when you are done.
+Ask for help if you get stuck!
 
 You have completed part 1!
 Kahoot Time!!!

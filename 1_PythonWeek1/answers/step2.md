@@ -1,21 +1,9 @@
 # Module 1 Step 2 Strings & Input Answers:
 
-# Quick Exercise
-## 1.
-```python
-colour = input("What is your favourite colour? ")
-print("You answered: " + colour)
-```
-
-## 1. Optional
-```python
-print("You answered: " + input("What is your favourite colour? "))
-```
-
 # Test your knowledge:
 ## 1.
 Ask the user for a name (eg Tom) and ask user for an emotion (eg happy).  Print out “<name> is feeling <emotion>.”  Eg “Tom is feeling happy.”.
-```
+```python
 name = input("What is your name? ")
 emotion = input("How are you feeling? ")
 print(name + " is feeling " + emotion + ".")
@@ -23,7 +11,7 @@ print(name + " is feeling " + emotion + ".")
 
 ### 1.1 Extend your program to print out 2 lines:
 “Pleased to meet you Tom./n Tom is feeling happy today!”
-```
+```python
 name = input("What is your name? ")
 emotion = input("How are you feeling? ")
 print("Pleased to meet " + name + ".\n" + name + " is feeling " + emotion + " today!")
