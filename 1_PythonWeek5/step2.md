@@ -3,17 +3,14 @@
 Attributes are the variables you define for every obeject. In other words, ever object that you create from a class will adopt those variables. The values for the variables are not constant for each object.
 
 **For example:**
-<pre class="file" data-filename="classEx1.py" data-target="replace">
-
+```
 # defining code for a class
 class className():
   # variables associated for this class
   name = "default"
   number = 0
-
-</pre>
-
-`python classEx1.py`{{execute}}
+  
+```{{copy}}
 
 <br>
 
