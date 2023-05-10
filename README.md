@@ -13,5 +13,5 @@ Visit https://killercoda.com/examples/scenario/code-actions to learn more about 
 For examples, visit https://github.com/killercoda/scenario-examples/tree/main/code-actions
 
 # Demos of how to create/edit Killercoda courses
-Part 1: https://vodafone-my.sharepoint.com/:v:/p/kiera_moreno/EV2lyCaW74NJsJOoHBPXtpUBE6h5G5R44GrbhTNAZ0sHSw?e=7QPoIz
+Part 1: https://vodafone-my.sharepoint.com/:v:/p/kiera_moreno/EV2lyCaW74NJsJOoHBPXtpUBE6h5G5R44GrbhTNAZ0sHSw?e=7QPoIz  
 Part 2: https://vodafone-my.sharepoint.com/:v:/p/kiera_moreno/EfBqMIaYQDhCpGk8MY_e4uwBtnOmzMuIVjqAZvPKIUvBTg?e=t28RgJ
