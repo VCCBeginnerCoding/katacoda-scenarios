@@ -1,43 +1,28 @@
-## Pokemon! Gotta Catch Em All!
-Who here is a pokemon fan???
+## Reading Excel File
+_Note: all code used in this section should be included INSIDE the IF statement_
 
-<img width="209" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158644283-b76d6cbf-fd34-4768-b1ef-c6753355936b.png">
-
-**If you are:** you're awesome. <br>
-**If you aren't:** tough because I am.
-
-<img width="210" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158645120-488f50c3-3d06-477c-a1e5-a30b9e2aaf50.png">
-<img width="210" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158645318-0e381115-ac28-4ebb-a433-1b5cbd7480fc.png">
-
+**See Code Below**
 <br>
+Read comments to underst line purpose.
+```python
+ExcelFile = Excel.name.replace(".xlsx", ".csv")           #  Convert file type from .xlsx to .csv (this is to use a simpler coding format)
+data = []                                                 #  List to store the row of information wanted from the Excel File
 
-**Pokemon:**
-<ul>
-  <li>Pikachu</li>
-  <li>Lucario</li>
-  <li>Bulbasaur</li>
-  <li>Charmander</li>
-  <li>Eevee</li>
-</ul>
+try:
+    for r in csv.reader(open(ExcelFile, 'r')):            #  FOR loop to read through each row in the Excel file
+        if r[0] != "Group" and r[0] != "":                #  IF the first item in the list is not the title or empty then...
+            data = r                                      #  Store the list in the variable named 'data'
 
-<img width="200" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158645552-288a5ca1-8339-40f2-aef9-4e66cb812903.png">
+except Exception:
+    print()
 
-<br>
-
-_Feel free to add more. These are just to start you off._
-
-<img width="180" align = "right" alt="image" src="https://user-images.githubusercontent.com/60058170/158644727-08e26840-b106-4238-9ca2-de1d643876be.png">
-
-<br>
-
-You are going to create classes for a pokedex. Once your code is finished the user should be able to view details of a pokemon that they choose. They should also be able to pick a pokemon to be their partner (they are only allowed one). At any point they can also view who their partner is, any previous partners that they have had and the number of times they've released a pokemon.
-
-**Note:** Every the user picks a new partner. If they already have one, that partner is released.
-
-Are you up for the challenge?
-
-<pre class="file" data-filename="pokemon.py" data-target="replace">
-</pre>
-
-`python pokemon.py`{{execute}}
-
+# Store excel content in variable names
+# Column Headers: Group, Presenter, Date, Name, Hobby, Job/School 
+group = data[0]
+presenter = data[1]
+date = datetime.strptime(data[2], "%Y-%m-%d")
+date = date.strftime("%d %B %Y")
+name = data[3]
+hobby = data[4]
+jobSchool = data[5]
+```{{copy}}
