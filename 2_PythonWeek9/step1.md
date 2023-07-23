@@ -1,59 +1,35 @@
-# Intro to Classes
-This section will introduce you to what a class is, why they are used and how they are structured. <br>
-Also see below for the skills that you will obtain at the end of this course.
-<br><br>
+# Installing Python Locally
+If you need help setting this up, don't hesistate to reach out to a mentor, message the Support Channel on Teams, or join our monthly Support Session!
+<hr>
 
-## What Are Classes?
-<b>Definition:</b> In object-oriented programming, a class is a blueprint for creating objects, providing initial values, and implementations of behavior. The user-defined objects are created using the class keyword.
-<br><br>
-There are many examples to what an object can be, your imagination is the limit! To help better understad, see the image below.
+**1. Installing on Windows**<br>
+Simply head over to [Python.org](https://www.python.org/) and download Python. Afterwards, open up *Command Prompt* and enter the following to see if Python has been installed: `python --version`, in which case it will tell you the current version of Python installed, such as `Python 3.8.5`.
 
-<p align="center">
-  <img width="308"  alt="image" src="https://user-images.githubusercontent.com/60058170/158226471-755f3f6e-e094-4c00-be40-584975cd070e.png">
-</p>
+**1. Installing on Windows without Admin Access**<br>
+Option A: Go through the same process as above, but when the installer reaches the relevant step uncheck the *install for all users* option. This should install without requiring admin access.
 
-<br>
+Option B: Install [Anaconda](https://www.anaconda.com/), which by default should install without requiring admin access.
 
-## Why Use Classes?
-<img width="308"  align="right" alt="image" src="https://user-images.githubusercontent.com/60058170/158228047-221b9b1b-2bfc-4ecf-83b9-e4f15d9b1782.png">
-Classes are useful because they allow you too keep track of objects you create.<br>You can easily store the basic components and adjust them; this ultimately reduces 
-the amount of code you have to write and allows other people to better understand your code. This is absolutely vital in a working environment. <br>Even 
-outside of work, when creating certain applications/games, using classes makes your code cleaner and easier to understand when returning to it after a longer period
-of time. 
-<br><br>
+Option C: Go to the download page for a specific version of Python such as [3.8.5](https://www.python.org/downloads/release/python-385/), download the binary/zip file, unzip the folder, open up *edit environmental variables for your account* through the Windows search bar, edit PATH and add a new entry for where your unzipped folder is.
 
-# Overall Structure
-The basic components to a class are its attributes and methods.
-<p align="center">
-  <img width="400" alt="image" src="https://user-images.githubusercontent.com/60058170/158230630-108a4267-3757-4dab-939e-70cd10e5fee2.png">
-</p>
+**1. Installing on MacOS**<br>
+Simply head over to [Python.org](https://www.python.org/) and download Python. Afterwards, open up *Terminal* and enter the following to see if Python has been installed: `python --version`, in which case it will tell you the current version of Python installed, such as `Python 3.8.5`.
 
-<br>
+<hr>
 
-## What Will Be Covered:
-<ul>
-  <li>Creating Classes</li>
-  <ul>
-    <li>Classes and attributes</li>
-    <li>Classes and methods</li>
-    <li>TASK: Create your own class</li>
-  </ul>
-  <li>Creating Objects From A Class</li>
-  <ul>
-    <li>Create an object</li>
-    <li>Set an object's attributes</li>
-    <li>Call a method using an object</li>
-    <li>TASK: Do it yourself!</li>
-  </ul>
-  <li>DIY Task Using Our New Skills</li>
-  <li>Extensions</li>
-  <ul>
-    <li>Learning Inheritance</li>
-    <ul>
-      <li>What Is Inheritance?</li>
-      <li>Code Example</li>
-    </ul>
-    <li>DIY Extension Task</li>
-  </ul>
-</ul>
+**2. Editing**<br>
+You can edit Python code using anything ranging from the pre-installed *Notepad* on Windows or *TextEdit* on MacOS to code editors such as [Visual Studio Code](https://code.visualstudio.com) or [Sublime Text](https://www.sublimetext.com/download). It's ultimately down to personal preference!
+
+<hr>
+
+**3. Running on Windows**<br>
+Open up *Command Prompt*, [navigate to the folder](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10/) where your Python code is stored, and then type `python filename.py`.
+
+Alternatively, simply type `python` to run Python directly from *Command Prompt*, just like Katacoda's Terminal we have set up to the right.
+
+**3. Running on MacOS**<br>
+Open up *Terminal*, [navigate to the folder](https://www.maketecheasier.com/run-python-script-in-mac/) where your Python code is stored, and then type `python filename.py`.
+
+Alternatively, simply type `python` to run Python directly from *Terminal*, just like Katacoda's Terminal we have set up to the right.
+
 
