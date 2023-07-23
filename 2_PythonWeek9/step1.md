@@ -1,5 +1,8 @@
 # Installing Python Locally
 If you need help setting this up, don't hesistate to reach out to a mentor, message the Support Channel on Teams, or join our monthly Support Session!
+
+We recommend installing [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/?section=windows).
+
 <hr>
 
 **1. Installing on Windows**<br>
