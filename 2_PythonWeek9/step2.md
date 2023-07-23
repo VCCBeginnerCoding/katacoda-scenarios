@@ -14,7 +14,8 @@ Alternatively, you can see one of the mentors who can share a preprepared file.
 
 <img width="412" alt="image" src="https://github.com/VCCBeginnerCoding/katacoda-scenarios/assets/110603725/b73d3bfe-08a7-461e-821d-c4e429ffb4fb">
 
-## Introductions to Streamlit
+## Introduction to Streamlit
+Streamlit is a free, open-source, all-python framework that enables data scientists to quickly build interactive dashboards and machine learning web apps with no front-end web development experience required. We'll be using this tool to create a user-friendly interactive environment for our app.
 
 **Installation Packages**
 <br>
