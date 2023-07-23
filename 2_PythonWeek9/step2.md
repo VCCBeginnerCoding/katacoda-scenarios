@@ -1,51 +1,34 @@
 
-## Classes and attributes
-Attributes are the variables you define for every obeject. In other words, ever object that you create from a class will adopt those variables. The values for the variables are not constant for each object.
+## Task Description
+We will be developing an app that will edit an uploaded PowerPoint, using content from an uploaded Excel File. This section will be setting up the intial files we'll be uploading and introducing you to Streamlit. 
 
-**For example:**
-```
-# defining code for a class
-class className():
-  # variables associated for this class
-  name = "default"
-  number = 0
-  
+**PowerPoint File**
+<br>
+All you need is to save a blank PowerPoint on you local machine.
+Alternatively, you can see one of the mentors who can share a predone file. 
+
+**Excel File**
+<br>
+Copy the below headings. You can use the example data included or fill it with your own information.
+Alternatively, you can see one of the mentors who can share a preprepared file. 
+
+<img width="412" alt="image" src="https://github.com/VCCBeginnerCoding/katacoda-scenarios/assets/110603725/b73d3bfe-08a7-461e-821d-c4e429ffb4fb">
+
+## Introductions to Streamlit
+
+**Installation Packages**
+<br>
+You'll need to install the streamlit and python-pptx package available on PyCharm. 
+The below packages are also used:
+
+```python
+import streamlit as st                      
+from datetime import datetime
+import csv
+import pandas as pd
+from pptx import Presentation              
+from io import BytesIO                
+from pptx.enum.text import PP_PARAGRAPH_ALIGNMENT
+from pptx.util import Inches, Pt
+from pptx.dml.color import RGBColor
 ```{{copy}}
-
-<br>
-
-## Classes and methods
-Methods are functions you define for every obeject. In other words, ever object that you create from a class will adopt those functions. 
-
-**For example:**
-<pre class="file" data-filename="classEx2.py" data-target="replace">
-
-# defining code for a class
-class className():
-    # method for this class - self represents the object that is calling the method (this will be explored more in the next section)
-    def sum(self, int1, int2):
-        return int1 + int2
-
-</pre>
-
-`python classEx2.py`{{execute}}
-
-<br>
-
-# DIY: Create your own class
-Have a go at creating your own class with attributes and methods. If you like, you can use the scenario below for inspiration.
-
-**Scenario:**
-Define a class for a car. Think of all of the features a car has for the attributes (model, colour etc.) and any method calculations (accelaration, tax etc.) you could perform.
-
-[Click here for solutions.](https://gitlabce.tools.aws.vodafone.com/vodafonecodingclub/Crash-Course/-/blob/master/Week%205)
-
-<br>
-
-## Move on once you are confident with the following:
-<ol>
-  <li>Creating a class with attributes</li>
-  <li>Creating a class with methods</li>
-  <li>How a class works and what you could use it for</li>
-  <li>You are able to at least attempt the DIY challenge</li>
-</ol>
