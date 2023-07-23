@@ -25,4 +25,4 @@ date = date.strftime("%d %B %Y")
 name = data[3]
 hobby = data[4]
 jobSchool = data[5]
-```{{copy}}
+```
