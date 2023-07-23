@@ -24,6 +24,11 @@
         "title": "Read Excel File",
         "text": "step4.md",
         "foreground": "clear.sh"
+      },
+      {
+        "title": "Create Cover Page",
+        "text": "step5.md",
+        "foreground": "clear.sh"
       }
     ],
     "intro": {
