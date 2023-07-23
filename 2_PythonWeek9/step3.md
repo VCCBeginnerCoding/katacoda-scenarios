@@ -6,6 +6,7 @@
 st.title('Edit/Update PowerPoint(s)')
 ```{{copy}}
 
+<br>
 **Setup Upload Areas**
 <br>
 ```python
@@ -16,6 +17,7 @@ PowerPoint = st.file_uploader('Blank PowerPoint', type=['pptx'], key='PP')
 Excel = st.file_uploader('Character Details', type=['xlsx'], key='ExcelFile')
 ```{{copy}}
 
+<br>
 **IF Statement**
 <br>
 This section of code will only run when a powerpoint AND excel file have been uploaded.
