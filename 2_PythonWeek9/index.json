@@ -1,6 +1,6 @@
 {
   "title": "Python Module 9: Additional Challenge",
-  "description": "Using Stremlit",
+  "description": "Using Streamlit",
   "difficulty": "Hard",
   "time": "60 minutes",
   "details": {
@@ -18,6 +18,11 @@
       {
         "title": "Streamlit Code",
         "text": "step3.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Read Excel File",
+        "text": "step4.md",
         "foreground": "clear.sh"
       }
     ],
