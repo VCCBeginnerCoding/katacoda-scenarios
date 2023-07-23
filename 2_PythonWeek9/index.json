@@ -26,8 +26,18 @@
         "foreground": "clear.sh"
       },
       {
-        "title": "Create Cover Page",
+        "title": "PowerPoint - Cover Page",
         "text": "step5.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "PowerPoint - Slide 2",
+        "text": "step6.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "PowerPoint - Result",
+        "text": "step7.md",
         "foreground": "clear.sh"
       }
     ],
