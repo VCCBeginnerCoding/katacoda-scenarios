@@ -9,7 +9,7 @@
         "title": "Use Local Software",
         "text": "step1.md",
         "foreground": "clear.sh"
-      }
+      },
       {
         "title": "Using Streamlit & Task",
         "text": "step2.md",
