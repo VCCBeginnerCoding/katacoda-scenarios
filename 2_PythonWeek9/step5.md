@@ -1,70 +1,53 @@
-# What is Inheritance?
-Inheritance refers to defining a new class with little or no modification to an existing class. The descendant class is a child class which inherits the attributes/methods from the base and/or parent class. It's used in order to reduce repitition of code. See pre-reading for more details.
+## Create a PowerPoint Slide - Cover Page
+_Note: all code used in this section should be included INSIDE the IF statement_
 
-<pre class="file" data-filename="inheritExample.py" data-target="replace">
-class Parent(object):
-  pass
-  
-class Child(Parent):
-  pass
-</pre>
+**Create PowerPoint Variables**
+```python
+# Creating PowerPoint
+ppt = Presentation()
 
-`python inheritExample.py`{{execute}}
+# Set Slide Size
+ppt.slide_width = Inches(16)
+ppt.slide_height = Inches(9)
+```
 
-## How to Code Inheritance
+**Decorate Slide**
+```python
+# Create Slide
+title_slide_layout = ppt.slide_layouts[6]  # Slide Layout: Blank
+slide1 = ppt.slides.add_slide(title_slide_layout)  # Add layout to PowerPoint
 
-<br></br>
-<p align="center">
-  <img width="500"  alt="image" src="https://www.learnbyexample.org/wp-content/uploads/python/Python-Inheritance-Illustration.png">
-</p>
-<br></br>
+# Background Image
+left = top = Inches(0)  # Image Position
+background_img = "Cover Page.png"  # Background Image
+pic = slide1.shapes.add_picture(background_img, left, top, width=ppt.slide_width, height=ppt.slide_height)
 
-<pre class="file" data-filename="inheritEx1.py" data-target="replace">
-class Vehical(object):       # Parent/Super class
-  type = "vehical"
-  
-  def __init__(self, seats, colouring):
-    self.nb_of_seats = seats
-    self.colour = colouring
-      
-  def specs(self):
-    print("I am a " + self.type + ". I have " + str(self.nb_of_seats) + " seats and I am " + self.colour)
+# This moves it to the background
+slide1.shapes._spTree.remove(pic._element)
+slide1.shapes._spTree.insert(2, pic._element)
+```
+**Add Textbox with Presenter & Date**
+```python
+# Text for Presented by and Date
+textBox = slide1.shapes.add_textbox(Inches(0.5), Inches(7.2), Inches(4), Inches(1))  # left, top, width, height
+tf1 = textBox.text_frame  # creating text frame for editable text
+text1 = tf1.add_paragraph()
+text1.text = str("Presented by " + presenter + '\n' + date)  # setting text to be current "month year"
+text1.font.name = "Vodafone Rg"  # font to be Vodafone Rg
+text1.font.size = Pt(28)  # font size
+text1.font.color.rgb = RGBColor(255, 255, 255)  # white text
+# Alternative option for date: datetime.date.today().strftime("%d %B %Y")
+```
 
-class Car(Vehical):       # Child/Sub class to Parent
-    type = "car"
-    def description(self):
-        print("This description is only for cars")
-        
-    
-vehical = Vehical(4, "red")
-car = Car(2, "blue")
-vehical.specs()
-car.description()
-car.specs()
-
-</pre>
-
-`python inheritEx1.py`{{execute}}
-
-<br></br>
-
-## DIY Inheritance Scenario
-<img width="308"  align="right" alt="image" src="https://ds055uzetaobb.cloudfront.net/brioche/uploads/7vXgCqKOYV-lotr.png?width=2400">
-To the right is a class heirarchy diagram for you to practice from.<br></br>Note that dragons and orcs both have a colour, size and an enemies list.<br></br>However, they don't share all of the same characteristics. For instance, Orcs can carry a weapon(s).<br></br>The rest of the features are up to you. Also note that you do not have to include the suggestions above, they are to help you get an idea of what to do.
-<br></br>
-
-<pre class="file" data-filename="DIY_Inherit1.py" data-target="replace">
-</pre>
-
-`python DIY_Inherit1.py`{{execute}}
-
-**Terminology**
-<ul>
-  <li>Character = Base Class (this is also a parent class)</li>
-  <li>Monster = Child class to 'Character'. Parent class to 'Dragon' and 'Orc'</li>
-  <li>Hero = Child class to 'Character'</li>
-  <li>Dragon = Child class to 'Monster'</li>
-  <li>Orc = Child class to 'Monster'</li>
-</ul>
-
-
+**Add Textbox for Title**
+```python
+# Text for Title
+textBox = slide1.shapes.add_textbox(Inches(0.5), Inches(6), Inches(4), Inches(1))  # left, top, width, height
+tf2 = textBox.text_frame  # creating text frame for editable text
+text2 = tf2.add_paragraph()
+text2.text = group
+text2.font.name = "Vodafone Rg"  # font to be Vodafone Rg
+text2.font.size = Pt(66)  # font size
+text2.font.color.rgb = RGBColor(255, 255, 255)  # white text
+text2.font.bold = True
+```
