@@ -5,6 +5,7 @@ We are going to cover the most common list operations:
  * Insert
  * Remove
  * Pop
+ * Sort
 
 Messy Terminal? `clear`{{execute}} it.
 <hr>
@@ -94,6 +95,32 @@ print(removed_number)
 As you can see when running the code, the numbers list is updated and no longer has the -20 element, the length is also down to 4 now. However, the removed number variable contains the -20 variable rather than it just being lost.
 
 As you may have noticed when removing any element from a list, all the other elements that come after that element in the list change position, therefore have different indexes. This is important as it means you could accidentally delete the wrong element if you try and delete elements concurrently (one after the other), or you may end up retrieving the wrong element as its index may have changed. This is something that you should always keep in mind and adjust your code to. The same issue can occur when you add elements to a list via insertion, since all the elements after the inserted element will have a different index.
+
+## Sort
+The sort method is useful when you have an unordered list that needs to be sorted.
+
+```python
+numbers = [10, 90, 23, 46, -20]
+print(numbers)
+numbers.sort()
+print(numbers)
+```{{exec}}
+
+The sort function can also work with strings. BEWARE! The sort function will not work if strings and number datatypes are in the same list and will give an error message instead.
+
+```python
+names = ["sam", "mark", "lilly", "aiden"]
+names.sort()
+print(names)
+```{{exec}}
+
+Also note that the sort function will prioritise uppercase words over lower case.
+
+```python
+names = ["sam", "Mark", "Lilly", "aiden"]
+names.sort()
+print(names)
+```{{exec}}
 
 # Exercises:
 ## 1.
