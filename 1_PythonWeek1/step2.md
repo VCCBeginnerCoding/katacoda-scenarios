@@ -52,6 +52,7 @@ username = input("What is your name?")
 print("Hello " + username + ", nice to meet you!")
 ```{{copy}}
 
+# F-string Templating
 Another method for concatinating strings is to use f-string templating. F-string templating uses the letter 'f' just before the first speechmark of a string. Within the string, you can now type code inside of curly brackets; the output of the code will be stored in the string.
 
 ```
