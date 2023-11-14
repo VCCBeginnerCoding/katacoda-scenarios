@@ -52,6 +52,20 @@ username = input("What is your name?")
 print("Hello " + username + ", nice to meet you!")
 ```{{copy}}
 
+Another method for concatinating strings is to use f-string templating. F-string templating uses the letter 'f' just before the first speechmark of a string. Within the string, you can now type code inside of curly brackets; the output of the code will be stored in the string.
+
+```
+username = input("What is your username?)
+print(f"Hello {username}, nice to meet you!")
+```{{copy}}
+
+In the example above, f-string templating is used to concatinate the value of the `username` variable with the rest of the sentence.
+
+```
+print(f"5 + 3 = {5 + 3}")
+```{{copy}}
+
+With this example we can see that the curly brackets used inside f-strings not only display the value of variables can execute code such as a numerical calculation.
 
 # Practical Uses
 A lot of software require user input of some sort, be it a mouse click, a finger tap, via your keyboard or something else entirely. Instagram can only load your feed if you login and tell Instagram what your username/password is. Minecraft can only move your character if you tell it to, via mouse and keyboard. (Again, there's a few more steps involved in real life, but you get the idea.)
