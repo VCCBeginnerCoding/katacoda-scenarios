@@ -4,3 +4,6 @@
 
 ### Part 2:
 * List operations
+
+### Part 3:
+* Tuples
