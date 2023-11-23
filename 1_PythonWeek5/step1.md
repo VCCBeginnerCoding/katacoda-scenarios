@@ -2,7 +2,7 @@
 Dictionaries in python are used to store values using key:value pairs.
 
 ## Defining a Dictionary
-Dictionaries are defined using `{}` or the `dict` keyword.
+Dictionaries are defined using <b>{}</b> or the <b>dict</b> keyword.
 ```python
 example = {
     "key": "value"
