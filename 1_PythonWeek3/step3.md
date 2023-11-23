@@ -48,7 +48,7 @@ print(sorted(a))
 ## Exercises:
 
 # 1
-Create a tuple storing list of 5 names that is not in alphabetical order. Output the tuple in alphabetical order.
+Create a tuple a store 5 names in non-alphabetical order.. Output the tuple in alphabetical order.
 
 ## 1.2
 Ask the user for a number between 0 and 4 (inclusively). Output the name at the index specified by the user.
