@@ -6,8 +6,23 @@
   "details": {
     "steps": [
       {
-        "title": "Questions",
+        "title": "Dictionaries Basics",
         "text": "step1.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Nested Dictionaries and Iteration",
+        "text": "step2.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Sets Basics",
+        "text": "step3.md",
+        "foreground": "clear.sh"
+      },
+      {
+        "title": "Set Operations",
+        "text": "step4.md",
         "foreground": "clear.sh"
       }
     ],
@@ -15,7 +30,7 @@
       "text": "intro.md"
     },
     "finish": {
-      "text": "finish_old.md"
+      "text": "finish.md"
     }
   },
   "environment": {
