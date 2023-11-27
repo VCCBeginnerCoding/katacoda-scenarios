@@ -1,3 +1,2 @@
-exit()
 clear
 python
