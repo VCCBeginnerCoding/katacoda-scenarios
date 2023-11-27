@@ -13,17 +13,17 @@
       {
         "title": "Nested Dictionaries and Iteration",
         "text": "step2.md",
-        "foreground": "clear.sh"
+        "foreground": "clear_from_python.sh"
       },
       {
         "title": "Sets Basics",
         "text": "step3.md",
-        "foreground": "clear.sh"
+        "foreground": "clear_from_python.sh"
       },
       {
         "title": "Set Operations",
         "text": "step4.md",
-        "foreground": "clear.sh"
+        "foreground": "clear_from_python.sh"
       }
     ],
     "intro": {
