@@ -8,7 +8,7 @@ Sets are similar to lists as they are used to store multiple items in a single v
 * Cannot hold duplicates
 
 ## Defining a Set
-Sets defines similarly to dictionaries however, instead of key:value pairs, they are a list of items.
+Sets are defined similarly to dictionaries however, instead of key:value pairs, they are a list of items.
 ```python
 items = {2, 5, 7, 8, 3, 3, True, "Test"}
 print(items)
