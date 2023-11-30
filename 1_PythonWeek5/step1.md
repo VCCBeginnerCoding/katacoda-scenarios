@@ -2,12 +2,11 @@
 Dictionaries in python are used to store values using key:value pairs.
 
 ## Defining a Dictionary
-Dictionaries are defined using <b>{}</b> or the <b>dict</b> keyword.
+Dictionaries are defined using `{}` or the `dict` keyword.
 ```python
 example = {
     "key": "value"
 }
-
 cat = {
     "name": "Tom",
     "age": 4,
@@ -20,7 +19,7 @@ empty_dict_2 = dict()
 ```{{exec}}
 
 ## Accessing Dictionary Values
-You can access specific values inside a dictionary by writing the specific key you are looking for inside of `[]`.
+You can access specific values inside a dictionary by using the key associated to the value you are looking for. To aaccess the value associated tro a key you would type the key inside of `[]` after the dictionary variable's name.
 
 ```python
 cat = {
@@ -28,11 +27,8 @@ cat = {
     "age": 4,
     "is_chipped": True
 }
-
-print(cat["name"])
-
+print(cat["name"]
 # NOTE you need to use different speechmarks for in the inside and outside of a string
-
 print(f"{cat['name']} is {cat['name']} years old!")
 ```{{exec}}
 
@@ -43,13 +39,10 @@ Adding and updating values inside a list is achieved in the exact same way. Howe
 person = {
     "name": "Ben"
 }
-
 # adding a new key:value pair to person
 person["age"] = 5
-
 # updating an existing key:value pair in person
 person["age"] = 6
-
 print(person)
 ```{{exec}}
 
@@ -61,11 +54,11 @@ person = {
     "name": "Ben"
     "age": 5
 }
-
 del person["age"]
-
 print(person)
 ```{{exec}}
+
+## Dictionary Functions
 
 ## Viewing Dictioanry Keys and Values On their Own
 To view only the keys of a dictionary you can use the `.keys()` method. 
@@ -74,7 +67,6 @@ cat = {
     "name": "Tom",
     "age": 4
 }
-
 print(cat.keys())
 ```{{exec}}
 
@@ -84,7 +76,6 @@ cat = {
     "name": "Tom",
     "age": 4
 }
-
 print(cat.values())
 ```{{exec}}
 
@@ -94,9 +85,7 @@ To check if a key exists in a dictionary, you would use the conditional operator
 mouse = {
     "name": "Jerry"
 }
-
 print( "name" in mouse.keys() )
-
 print( "age" in mouse.keys() )
 ```{{exec}}
 You can also combine the `in` operator with an if condition.
@@ -104,10 +93,8 @@ You can also combine the `in` operator with an if condition.
 mouse = {
     "name": "Jerry"
 }
-
 if "name" in mouse.keys():
     print(f"Hi {mouse['name']}")
-
 if "age" in mouse.keys():
     print(f"You are {mouse['age']} years old!")
 ```{{exec}}
