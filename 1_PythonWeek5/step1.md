@@ -59,9 +59,12 @@ print(person)
 ```{{exec}}
 
 ## Dictionary Functions
+Here are some commonly using dictionary functions.
+* .keys()
+* .values()
+* .copy()
 
-## Viewing Dictioanry Keys and Values On their Own
-To view only the keys of a dictionary you can use the `.keys()` method. 
+The keys function is used to view all the keys in a dictionary. 
 ```python
 cat = {
     "name": "Tom",
@@ -78,6 +81,17 @@ cat = {
 }
 print(cat.values())
 ```{{exec}}
+
+The .copy() function is used to create a shallow copy of a dictionary.
+```python
+a = {
+    "val1": 4,
+    "val2": 3
+}
+b = a.copy()
+print(b)
+```{{exec}}
+Note! When using a shallow copy on nested dictionaries, the variable assigned to that copy does not actual hold a copy of the original dictioanry but instead a reference to it. This means if changes are made to the variable holding the copy, the same changes will apply to the original. To counter this problem you should use the deepcopy function that can be imported from the copy library. 
 
 ## Checking if a Key Exists
 To check if a key exists in a dictionary, you would use the conditional operator `in`.
