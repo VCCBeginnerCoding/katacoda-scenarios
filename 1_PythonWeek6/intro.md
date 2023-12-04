@@ -1,5 +1,11 @@
 # Welcome to Vodafone Coding Club - Crash Course
-## Python Extras
-This section will be talking about loops and functions! (No, not the roller coaster loop-the-loops.)
+## Functions
 
-Please note: The user needs to copy to editor and then press the python execute script button for each code block!
+### Part 1
+Defining functions
+
+### Part 2
+Handling functions with an unknown amount of arguments
+
+### Part 3
+Useful functions

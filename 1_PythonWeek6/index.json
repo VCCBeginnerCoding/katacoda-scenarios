@@ -1,28 +1,23 @@
 {
-  "title": "Python Module 6: Extras",
-  "description": "Functions, Tuples & Recursion",
+  "title": "Python Module 6: Functions",
+  "description": "Functions",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Functions",
+        "title": "Defining Functions",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Try it yourself!",
+        "title": "Handling Unlimited Arguments",
         "text": "step2.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Solutions to Step 2",
-        "text": "step2Solutions.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Read further",
-        "text": "step6.md",
+        "title": "Useful Functions",
+        "text": "step3.md",
         "foreground": "clear.sh"
       }
     ],
