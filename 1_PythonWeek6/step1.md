@@ -1,19 +1,11 @@
-Messy Terminal? `clear`{{execute}} it.
-<hr>
-
-## Defining and calling a function
-
+# Functions
 A function is a named section of a code that performs a specific task. 
 This typically involves taking some input, manipulating the input and returning an output.
+Functions are useful as they allow us to abstract complexity in our programs and allow us to reuse the same code multiple tyimes without copying and pasting.
 
-To call a function, use the name of the function and add parenthesis () at the end.
-
-You will see how there are indentations (tabs or spaces - up to the programmer!) underneath any colons (functions, loops, if statements...).
-This tells Python that the code underneath is part of the same block, and without the correct indents Python will not work.
-
-In calling a function at the bottom, there are no indents as this is considered the 'main' function, where the code runs outside of a function 
-and executes the rest of our script.
-
+## Defining and Calling Functions
+Functions are defined using the `def` keyword followed by the name you wish to give the function. The name of the function is then followed by `()` and then a colon.
+You can then call the function by using the name of the function followed by `()`.
 ```python
 # Creating a function called my_function()
 def my_function(): 
@@ -22,126 +14,92 @@ def my_function():
 
 # calling my_function()
 my_function() 
-```{{copy}}
+```{{exec}}
+Note! The code that should be ran by the function needs to be indented to tell python that the code belongs to the function.
 
-## Passing data to the function
-
-We can also pass data to the function, by adding it inside the parentheses as <mark>arguments</mark>:
-
-```python
-def print_name(name):
-  print("My name is " + name)
-
-print_name("Aymen")
-print_name("Emma")
-print_name("Sandra")
-print_name("Yasmin")
-```{{copy}}
-
-Functions can take more than one argument, and when you call them you must pass in the amount specified:
+## Parameter Functions
+You can also pass data to a function, the data you pass to a function is referred to as parameters or arguments.
 
 ```python
-def print_car_details(make, model):
-  print("The car is " + make + " " + model)
+def sayHi(name, fav_number):
+    print(f"Hi {name.title()}! I heard your favourite number is {fav_number}")
 
-print_car_details("ford", "fiesta")
-print_car_details("Skoda", "Octavia")
-print_car_details("Citroen", "C1")
-```{{copy}}
-
-## Tuples
-In python, tuples are used to store multiple items in a single variable. 
-
-For example:
-
-```python
-thistuple = ("apple", "banana", "cherry")
-print(thistuple)
-```{{copy}}
-
-
-If you have varying lengths of variables to pass, you can use the <mark>*args</mark> annotation to pass in your arguments.
-
-This denotes a tuple.
-
-```python
-def my_dog_tuple(*dogs):
-  print("The youngest dog is " + dogs[2])
-
-my_dog_tuple("Toby", "Max", "Bob")
-```{{copy}}
-
-## Keyword arguments
-
-Arguments can also be sent with the <mark>key = value syntax</mark>. The order it is passed in does not matter in this case.
-
-```python
-def my_cat_values(cat3, cat1, cat2):
-  print("The smallest cat is " + cat3)
-
-# Note that the order of the variables is different to the arguments in the function
-my_cat_values(cat1="fido", cat2="sophie", cat3="felix")
-```{{copy}}
-
-If the argument passed in has <mark>**args</mark> these are known as 'kwargs' (keyword arguments), and allow us to pass in varying lengths of key-value pairs.
-We can then access each argument based on its key.
-
-```python
-def kwargs(**kid):
-  print("His last name is " + kid["lname"])
-
-kwargs(fname = "Tobias", lname = "Refsnes")
-```{{copy}}
-
-## Default values
-A default value can be set, which will be used if no value is passed:
-
-```python
-def favourite_show(show = "Lucifer"):
-  print(show)
-
-favourite_show("American horror story")
-favourite_show()
-```{{copy}}
-
-## Passing in different data types
-Python allows for different data types (Strings, Lists, Tuples...) to be passed in and treated as that data type.
-
-This means a function could accept different data types:
-
-```python
-def print_argument(data):
-  for x in data:
-    print(x)
-
-fruits = ["apple", "banana", "cherry"]
-sentance = "Hello world"
-
-print_argument(fruits)
-print_argument(sentance)
-```{{copy}}
-
-## Return
-We can use the <mark>return</mark> keyword to return a value:
-
-```python
-def calculator(value):
-  return value * 10
-
-print(calculator(3))
-print(calculator(5))
-print(calculator(9))
+sayHi("james", 4)
 ```{{exec}}
 
-## The Pass statement
-You cannot have a blank function, but if you need to have a function as a placeholder (eg. for future code), you can use the <mark>pass</mark> keyword
+Note! It is good programming practice to specify the data type of your parameters. Here is an improved version of the code above.
+```python
+def sayHi(name: str, fav_number: int):
+    print(f"Hi {name.title()}! I heard your favourite number is {fav_number}")
+
+sayHi("james", 4)
+```{{exec}}
+
+The above example shows how you can provide the parameter values in the order they are expected by the function. You can also provide the parameters in any order you like, however, you must then use the name of the parameter.
 
 ```python
-def placeholder():
-  pass
-    
-placeholder()
-```{{copy}}
+def sayHi(name: str, fav_number: int):
+    print(f"Hi {name.title()}! I heard your favourite number is {fav_number}")
 
+sayHi("james", 4)
+sayHi(fav_number=4, name="james")
+```{{exec}}
 
-<marquee style='color: blue;'><b>Yay you've completed part 1!</b></marquee>
+## Default Parameter Values
+You can define default values for your parameters which can make those paramters optional.
+```python
+def sayHi(name: str, fav_number: int = None):
+    print(f"Hi {name.title()}!")
+
+    if fav_number is None:
+        print(f"I don't know you favourite number")
+    else:
+        print(f"I heard your favourite number is {fav_number}")
+```{{exec}}
+
+### Difference between Positional and Keyword Argurments
+NOTE! There are two types of arguments (parameters), positional and keyword. When you do not define a default value for an argument it is treated as a positional argument. While arguments with a default value are considered as keyword arguments.
+
+All your positional arguments must be defined before your keyword arguments.
+
+## Returning Data
+Functions can also return data; this is achieved using the `return` keyword followed by the data you weant to return.
+
+```python
+def get_is_even_number(number: int):
+    if number % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+print(f"The number 7 is {get_is_even_number(7)}")
+print(f"The number 10 is {get_is_even_number(10)}")
+print(f"The number 13 is {get_is_even_number(13)}")
+print(f"The number 16 is {get_is_even_number(16)}")
+```{{exec}}
+
+Note! It is good programming practice to also specify the return type of a function. Here is an improved version of the code above.
+
+```python
+def get_is_even_number(number: int) -> str:
+    if number % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+print(f"The number 7 is {get_is_even_number(7)}")
+print(f"The number 10 is {get_is_even_number(10)}")
+print(f"The number 13 is {get_is_even_number(13)}")
+print(f"The number 16 is {get_is_even_number(16)}")
+```{{exec}}
+
+Note! If your function does not return any value, you should specify the return type as `None`.
+
+# Exercises:
+## 1
+Build a function that takes a user's name and favourite colour. Ouput a greeting message stating their name and favourite colour.
+
+## 2
+* Build a function that askes the user for an integer input
+* The function should return True or False indicating if the number provided by the user is a multiple of 7 or not
+
