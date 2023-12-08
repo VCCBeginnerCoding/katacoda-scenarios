@@ -1,7 +1,7 @@
 # Welcome to Vodafone Coding Club Module 5 - Dictionaries and Sets
 
 ### Part 1
-Dictinary Basics
+Dictionary Basics
 
 ### Part 2
 Nested Dictionaries and Iteration

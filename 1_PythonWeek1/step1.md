@@ -5,7 +5,7 @@
 
 Variables are containers for storing data values. You can store any value in a variable, then use it or change its value later on in the program. We can also print out the variables using `print()`.
 
-You can store different types of data in variables as shown below. Text is stored as strings, numbers can be stored as integers (whole numbers) or floats (decimals). There is also boonleans that act as a true/false and can only store these values. 
+You can store different types of data in variables as shown below. Text is stored as strings, numbers can be stored as integers (whole numbers) or floats (decimals). There is also booleans that act as a true/false and can only store these values. 
 ![DataTypes](./assets/data-types.png)
 
 ```

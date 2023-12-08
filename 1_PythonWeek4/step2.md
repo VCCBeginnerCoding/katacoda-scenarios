@@ -21,7 +21,9 @@ for x in "banana":
   print(x)
 ```{{copy}}
 
-Just like with while loops we can use the keywords **continue** and **break** in our loop to help with the program flow that we require
+Just like with while loops we can use the keyword `break` in oour loop. `break` stops the loop at that point. 
+
+We can also use `continue` command to execute the loop again from the top without running the remaining code in the loop body that is below the `continue` command.
 
 ```
 fruits = ["apple", "banana", "cherry"]
@@ -31,19 +33,19 @@ for x in fruits:
     break
 ```{{copy}}
 
-## Excercises:
-### 1.
+# Exercises:
+## 1.
 * Write a Python program that asks the user to enter an integer and counts the number of digits in the integer.
 * Use a for loop to iterate through each digit in the integer.
 * Print the total count of digits in the integer.
 
-### 2.
+## 2.
 * Write a Python program that asks the user to enter a string and prints the reverse of the string.
 * Use a for loop to iterate through each character in the string.
 * Challenge, can you detect a palindrome? This is where the word is the same when reversed e.g. noon
   * If the word entered is a palindrome, let the user know!
 
-### 3.
+## 3.
 Copy the code below to the start of your python program to generate a random number between 1 and 20:
 ```
 import random
@@ -57,6 +59,6 @@ random_number = random.randint(1, 20)
   * Ask the user how many guesses they would like to have, only let them enter this number of guesses
   
 
-## You have completed part 2
+# You have completed part 2
 
 Kahoot time!!!
