@@ -2,7 +2,7 @@
 Dictionaries in python are used to store values using key:value pairs.
 
 ## Defining a Dictionary
-Dictionaries are defined using `{}` or the `dict` keyword.
+Dictionaries are defined using `{}` or the "dict" keyword.
 ```python
 example = {
     "key": "value"
@@ -19,7 +19,7 @@ empty_dict_2 = dict()
 ```{{exec}}
 
 ## Accessing Dictionary Values
-You can access specific values inside a dictionary by using the key associated to the value you are looking for. To aaccess the value associated tro a key you would type the key inside of `[]` after the dictionary variable's name.
+You can access specific values inside a dictionary by using the key associated to the value you are looking for. To access the value associated with a key you would type the key inside of `[]` after the dictionary variable's name. 
 
 ```python
 cat = {

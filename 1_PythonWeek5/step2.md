@@ -48,10 +48,10 @@ for customer_id in customers.keys():
 * Loop through the items in the shopping list and output the item followed by the quantity
 
 ## 2.1
-Define a dictionary called animals and store 5 animal species as the keys of the dictionary. For each key, the value should be another dictionary with the keys "number_of_legs" and "number_of_eyes". Populate these values for each animal.
+Define a dictionary called "animals" and store 5 animal species as the keys of the dictionary. For each key, the value should be another dictionary with the keys "number_of_legs" and "number_of_eyes". Populate these values for each animal.
 
 ## 2.2
 * Ask the user for an animal
 * If the animal is not present, output the message "I do not know about that animal"
-* If the animal is present, output a message stating the animal's specie, it's number of legs and it's number of eyes.
+* If the animal is present, output a message stating the animal's species, its number of legs and its number of eyes.
 

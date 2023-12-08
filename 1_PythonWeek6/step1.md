@@ -7,9 +7,7 @@ Functions are useful as they allow us to abstract complexity in our programs and
 Functions are defined using the `def` keyword followed by the name you wish to give the function. The name of the function is then followed by `()` and then a colon.
 You can then call the function by using the name of the function followed by `()`.
 ```python
-# Creating a function called my_function()
 def my_function(): 
-  # The function will then print this string
   print("Hello from a function") 
 
 # calling my_function()
@@ -58,7 +56,7 @@ def sayHi(name: str, fav_number: int = None):
 ```{{exec}}
 
 ### Difference between Positional and Keyword Argurments
-NOTE! There are two types of arguments (parameters), positional and keyword. When you do not define a default value for an argument it is treated as a positional argument. While arguments with a default value are considered as keyword arguments.
+Note! There are two types of arguments (parameters), positional and keyword. When you do not define a default value for an argument it is treated as a positional argument. While arguments with a default value are considered as keyword arguments.
 
 All your positional arguments must be defined before your keyword arguments.
 
@@ -102,4 +100,7 @@ Build a function that takes a user's name and favourite colour. Ouput a greeting
 ## 2
 * Build a function that askes the user for an integer input
 * The function should return True or False indicating if the number provided by the user is a multiple of 7 or not
+
+## 3
+Build a function that takes two numbers and returns the average.
 
