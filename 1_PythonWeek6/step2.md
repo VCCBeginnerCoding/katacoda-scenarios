@@ -75,3 +75,6 @@ print(numbers)
 Build a function that calculates the average of all the arguments passed to the function.
 
 ## 2
+* Create a function that accepts kwargs arguments.
+* If the argument "name" is provided, output the message "Hello <name>".
+* If the argument "age" is provided, output the message "You are <age> years old" 
