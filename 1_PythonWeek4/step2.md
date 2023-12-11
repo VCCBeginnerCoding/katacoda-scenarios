@@ -5,8 +5,10 @@ A for loop is used to iterate over a sequence. It has the following characterist
 * The keyword "**in**"
 * The sequence to iterate over 
 
-The sequence can be a string or a list
+Where while loops are useful when you need to loop other code an unknown number of times. For loops are useful for repeating code a specified number of times or to iterate over a sequence.
 
+A sequence can be a string or a list.
+## Iterating Over a Sequence
 ```
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -21,7 +23,15 @@ for x in "banana":
   print(x)
 ```{{copy}}
 
-Just like with while loops we can use the keyword `break` in oour loop. `break` stops the loop at that point. 
+## Range
+When can use the `range()` function to loop through our code a specified number of times.
+```python
+for i in range(5):
+  print(i)
+```{{exec}}
+The code above will output the value of `i` for each iteration of the loop. The range function has 3 different variations that take up to 3 parameters. You can find out more about the range function [here](https://www.w3schools.com/python/ref_func_range.asp)
+
+Just like with while loops we can use the keyword `break` in our loop. `break` stops the loop at that point. 
 
 We can also use `continue` command to execute the loop again from the top without running the remaining code in the loop body that is below the `continue` command.
 
@@ -32,6 +42,25 @@ for x in fruits:
   if x == "banana":
     break
 ```{{copy}}
+
+## Looping through Multiple Sequences at the Same Time
+You can use the `zip()` function to iterate over multiple sequences at the same time.
+```python
+items = ["apples", "bananas", "carrots"]
+quantities = [3, 7, 2]
+
+for item, quantity in zip(items, quantities):
+  print(f"{item}: {quantity}")
+```{{exec}}
+Note! If one of the sequences has more items than the other, the for loop will only iterate until all the items in the smaller sequence has been iterated.
+
+## Enumerate
+The enumerate function is useful when you need to iterate over code that requires both the value of the item and it's index position in the sequence.
+```python
+fruits = ["apple", "banana", "cherry"]
+for index, item in enumerate(fruits):
+  print(f"Fruit: {item} at index: {index}")
+```{{exec}}
 
 # Exercises:
 ## 1.
@@ -46,6 +75,10 @@ for x in fruits:
   * If the word entered is a palindrome, let the user know!
 
 ## 3.
+* Define a list with 5 fruit.
+* By looping over the first list, create a new list that only has the items from the first list that have an even index position.
+
+## 4.
 Copy the code below to the start of your python program to generate a random number between 1 and 20:
 ```
 import random
