@@ -11,7 +11,7 @@ file.close()
 Note! It is important to close the file after using it, otherwise it may leave the file open as a background process which will prevent you from accessing the file again.
 
 ## With Statement
-The `with` statement used with special objects known as context managers; these objects perform setup and teardown functions automatically. With the use of the `with` statement, we do not need to close the file as that is handeled automatically in the teardown of the context manager object that is returned by the `open()` function.
+The `with` statement is used with special objects known as context managers; these objects perform setup and teardown functions automatically. With the use of the `with` statement, we do not need to close the file as that is handeled automatically in the teardown of the context manager object that is returned given to us by the `open()` function.
 Note! The `with` statement is the recommended approach for file handling in python.
 ```python
 with open("./file1.txt", "r") as file:
@@ -43,6 +43,14 @@ with open("./file2.txt", "r") as file:
     print(line_2_content)
 ```{{exec}}
 
+### Looping Throught a File
+You can use a for loop to loop through each line of a file.
+```python
+with opem("./file2.txt", "r") as file:
+    for line in file:
+        print(line)
+```{{exec}}
+
 ### readlines() Function
 To store the contents of each line of a file in a list you can use the `.readlines()` functiom.
 ```python
@@ -58,4 +66,11 @@ with open("file1.txt", "rb") as file:
     content = file.read()
     print(content)
 ```{{exec}}
+
+# Exercises:
+## 1
+Display the contents of 'file3.txt' line by line.
+
+## 2
+Get the contents of 'file4.txt' and sort the numbers from largest to smallest Then print them out.
 
