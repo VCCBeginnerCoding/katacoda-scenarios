@@ -11,7 +11,7 @@ while not (1 <= number >= 10):
   number = float(input("Please try again the number must be between 1 - 10 inclusively"))
 
 print(f"The valid number provided is {number}")
-```{{exec}}
+```{{copy}}
 
 ## For Loops
 For loops are useful when you need to iterate through code a known number of times, such as a fixed number or a sequence.
@@ -37,7 +37,7 @@ for index, number in enumerate(numbers):
 print("Name\tIQ")
 for iq, name in zip(numbers, names):
   print(f"{name}\t{iq}")
-```{{exec}}
+```{{copy}}
 
 # Exercise
 ## 1
@@ -57,4 +57,4 @@ Adapt exercise 2 so that instead of using a range it will use a list of numbers 
 ### 3.1 Bonus Challenge
 * Ask the user to enter a number and store that number in a list.
 * Continue to keep asking the user to enter a number until they have entered the word "STOP"
-* Adapt exercise 3 so that the FizzBuzz program runs on the list of numbers provided by the user.
+* Adapt exercise 3.0 so that the FizzBuzz program runs on the list of numbers provided by the user.
