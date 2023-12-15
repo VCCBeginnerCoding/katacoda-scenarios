@@ -26,7 +26,7 @@ print("5 ** 3 = ", 5 ** 3)
 * Less than or equal: <=
 * Greater than or equal: >=
 * is None
-* in list
+* in sequence
 ```python
 print("5 == 5 = ", 5 == 5)
 print("5 == 3 = ", 5 == 3)
@@ -64,7 +64,7 @@ elif test_score == 1:
   print("You have the lowest test score")
 else:
   print("Something weird happended you should not have got a number above 5 or lower than 1")
-```{{exec}}
+```{{copy}}
 
 # Exercise
 * Ask the user for a number.

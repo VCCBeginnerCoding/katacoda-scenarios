@@ -12,6 +12,7 @@
 ## Composite Data Types
 * list
 * tuple
+
 With sequences such as lists, tuples, and strings, you can use the `len()` function to find the total number of items in the sequence.
 ```python
 a = [1,2,3,4,5,6,7]
@@ -64,4 +65,4 @@ print(f"Hello {name}! You said you are {age} years old!")
 
 # Exercise
 * Ask the user for their age.
-* Using their age, display the message "You were born in the year <year they were born>"
+* Using their age, display the message "You were born in the year YEAR_BORN"
