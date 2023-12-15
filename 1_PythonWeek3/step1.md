@@ -74,22 +74,22 @@ Create a list of your favourite movies and print it out.
 ## 2.
 Create a list of your 3 favourite holiday destinations and print it out in this format:
 * "My favourite holiday destinations are: item1, item2, item3"
-* Hint (you need to use the .join() command which you can research here: [.join()](https://www.programiz.com/python-programming/methods/string/join))
+* Hint you could try using the .join() command which you can research here: [.join()](https://www.programiz.com/python-programming/methods/string/join))
 
 
 ## 3.
-Write a program that creates a list containing 5 fruits:
+* Create a list containing 5 fruit
 * Ask the user for an index position
 * Print the fruit that corresponds with the index position
 * Challenge:
   * Validate the user's input before accessing the list to prevent the index out of bounds error.
 
 ## 4.
-Write a program that creates a list of 5 movies:
+* Create a list containing 5 movies
 * Ask the user how many movies they would like to be recommended.
 * Print out the number of movies the user requested
-* E.g. If the list was: "one", "two", "three" and the user wanted 2 items, the program should print:
-  * "one", "two"
+* E.g. If the list was: "Die Hard", "Finding Nemo", "Frozen" and the user wanted 2 items, the program should print: 
+"Die Hard", "Finding Nemo" 
 * Challenge:
   * Validate the user's input to prevent an index out of bounds error
 

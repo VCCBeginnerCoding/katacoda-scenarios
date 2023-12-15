@@ -1,29 +1,29 @@
 {
-  "title": "Python Module 5",
-  "description": "Dictionaries",
+  "title": "Python Module 8: Recap & Challenges",
+  "description": "Recap of modules 1 - 4 followed by challenges",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Dictionaries Basics",
+        "title": "Data Types, Casting, Input & Output",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Nested Dictionaries and Iteration",
+        "title": "Number Operators, Boolean, Conditions & IF Conditions",
         "text": "step2.md",
-        "foreground": "clear_from_python.sh"
+        "foreground": "clear.sh"
       },
       {
-        "title": "Sets Basics",
+        "title": "While Loops & For Loops",
         "text": "step3.md",
-        "foreground": "clear_from_python.sh"
+        "foreground": "clear.sh"
       },
       {
-        "title": "Set Operations",
+        "title": "Advanced Challenge",
         "text": "step4.md",
-        "foreground": "clear_from_python.sh"
+        "foreground": "clear.sh"
       }
     ],
     "intro": {

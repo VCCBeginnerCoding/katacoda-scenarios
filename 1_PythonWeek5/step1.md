@@ -59,7 +59,7 @@ print(person)
 ```{{exec}}
 
 ## Dictionary Functions
-Here are some commonly using dictionary functions.
+Here are some commonly used dictionary functions.
 * .keys()
 * .values()
 * .copy()
@@ -91,7 +91,7 @@ a = {
 b = a.copy()
 print(b)
 ```{{exec}}
-Note! When using a shallow copy on nested dictionaries, the variable assigned to that copy does not actual hold a copy of the original dictioanry but instead a reference to it. This means if changes are made to the variable holding the copy, the same changes will apply to the original. To counter this problem you should use the deepcopy function that can be imported from the copy library. 
+Note! When using a shallow copy on nested dictionaries, the variable assigned to that copy does not actually hold a copy of the original dictioanry but instead a reference to it. This means if changes are made to the variable holding the copy, the same changes will apply to the original. To counter this problem you should use the "deepcopy" function that can be imported from the "copy" library. 
 
 ## Checking if a Key Exists
 To check if a key exists in a dictionary, you would use the conditional operator `in`.

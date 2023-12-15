@@ -1,14 +1,24 @@
 {
   "title": "Python Module 7",
-  "description": "Answers Link",
+  "description": "File Manipulation",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Answers",
+        "title": "Reading Files",
         "text": "step1.md",
-        "foreground": "clear.sh"
+        "foreground": "create_files.sh"
+      },
+      {
+        "title": "Create Files",
+        "text": "step2.md",
+        "foreground": "create_files.sh"
+      },
+      {
+        "title": "JSON Files",
+        "text": "step3.md",
+        "foreground": "create_files.sh"
       }
     ],
     "intro": {
