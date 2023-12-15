@@ -1,43 +1,28 @@
 {
-  "title": "Python Module 8: Additional Challenge",
-  "description": "Classes",
-  "difficulty": "Intermediate",
+  "title": "Python Module 8: Recap & Challenges",
+  "description": "Recap of modules 1 - 4 followed by challenges",
+  "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Classes and OOP",
+        "title": "Data Types, Casting, Input & Output",
         "text": "step1.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Creating Classes",
+        "title": "Number Operators, Boolean, Conditions & IF Conditions",
         "text": "step2.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "Creating Objects From A Class",
+        "title": "While Loops & For Loops",
         "text": "step3.md",
         "foreground": "clear.sh"
       },
       {
-        "title": "DIY Task Using Our New Skills",
+        "title": "Advanced Challenge",
         "text": "step4.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Extension: Learning Inheritance",
-        "text": "step5.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Extension Task: Coding the Eevee Evolutions",
-        "text": "step6.md",
-        "foreground": "clear.sh"
-      },
-      {
-        "title": "Python Week 5 Solutions",
-        "text": "step7.md",
         "foreground": "clear.sh"
       }
     ],
