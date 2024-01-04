@@ -25,6 +25,7 @@ print("5 ** 3 = ", 5 ** 3)
 * Greater than: >
 * Less than or equal: <=
 * Greater than or equal: >=
+* not
 * is None
 * in sequence
 ```python
@@ -36,6 +37,7 @@ print("5 < 3 = ", 5 < 3)
 print("5 > 3 = ", 5 > 3)
 print("5 <= 3 = ", 5 <= 3)
 print("5 >= 3 = ", 5 >= 3)
+print("not 5 >= 3 = ", not 5 >= 3)
 print("5 is None = ", 5 is None)
 print("5 in [1,2,3,4,5] = ", 5 in [1,2,3,4,5])
 ```{{exec}}

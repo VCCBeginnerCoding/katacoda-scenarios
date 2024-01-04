@@ -5,7 +5,7 @@
 * float
 * str
   * string concatination using + and f-strings
-* chr
+  * .lower() .upper()
 * bool
 * None
 
