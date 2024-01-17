@@ -31,11 +31,11 @@ for number in numbers:
   print(number)
 
 names = ["Jerry", "Rick", "Morty", "Summer", "Beth"]
-for index, number in enumerate(numbers):
-  print(index, names)
+for index, name in enumerate(names):
+  print(index, name)
 
 print("Name\tIQ")
-for iq, name in zip(numbers, names):
+for iq, name in zip(numbers, name):
   print(f"{name}\t{iq}")
 ```{{copy}}
 
@@ -48,7 +48,7 @@ for iq, name in zip(numbers, names):
 * Using a for loop iterate through the range 1 - 21.
 * If the number is a multiple of 5 and 3, print the message "FizzBuzz"
 * If the number is only a multiple of 3, print the message "Fizz"
-* If the number is only a multiple of 7, print the message "Buzz"
+* If the number is only a multiple of 5, print the message "Buzz"
 * Otherwise, print the number
 
 ## 3.0

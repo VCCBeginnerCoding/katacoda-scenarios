@@ -11,12 +11,14 @@
 
 ## Composite Data Types
 * list
+  * append
+  * remove
 * tuple
 
 With sequences such as lists, tuples, and strings, you can use the `len()` function to find the total number of items in the sequence.
 ```python
 a = [1,2,3,4,5,6,7]
-print(len(s))
+print(len(a))
 ```{{exec}}
 
 You can also access specific items in the sequence by using its index position.
