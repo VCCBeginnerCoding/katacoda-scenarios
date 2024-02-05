@@ -13,7 +13,7 @@ print(multiples_of_3)
 ```{{exec}}
 
 ## Map
-The `map()` function will create a new list by apply a function on each item in another list.
+The `map()` function will create a new list by applying a function on each item in another list.
 
 Note! Similarly to the filter function, the map function returns a map object and needs to be casted to a list to turn it back into a list.
 ```python
@@ -74,6 +74,6 @@ E.g. the list ["James", "amy", "jack"] should become ["amy", "Jack", "James"].
 ## 4
 * Ask the user for 5 fruit and store them in a list.
 * Using the join function output the sentence "The fruit you have provided are " followed by all the fruit stored in the list. The fruit should be seperated by commas.
-E.g if the fruit picked were ["apples", "cherries", "bananas", "pineapples", "pears"] the sence should be:
+E.g if the fruit picked were ["apples", "cherries", "bananas", "pineapples", "pears"] the sentence should be:
 The fruit you have provided are apples, cherries, bananas, pineapples, pear.
 * Bonus! Can you make the last item in the list follwed by the word "and" instead of a comma?

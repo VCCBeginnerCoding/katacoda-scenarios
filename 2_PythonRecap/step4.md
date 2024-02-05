@@ -9,7 +9,7 @@ For this challenge you are tasked with building a calculator with a rolling tota
 ## Basic Example Inputs
 * User: 5
 * User: +
-* User: 3
+* User: 2
 * Comp: 7
 * User: -
 * User: 2
