@@ -1,7 +1,7 @@
 # Functions
 A function is a named section of a code that performs a specific task. 
 This typically involves taking some input, manipulating the input and returning an output.
-Functions are useful as they allow us to abstract complexity in our programs and allow us to reuse the same code multiple tyimes without copying and pasting.
+Functions are useful as they allow us to abstract complexity in our programs and allow us to reuse the same code multiple times without copying and pasting.
 
 ## Defining and Calling Functions
 Functions are defined using the `def` keyword followed by the name you wish to give the function. The name of the function is then followed by `()` and then a colon.

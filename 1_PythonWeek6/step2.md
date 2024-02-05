@@ -58,7 +58,7 @@ def add_one_alternative(x):
 ```{{exec}}
 
 ### Real Use Case for Lambda Functions
-A real scenrario for using lambda functions is to alter the sorting algorithm using by the .sort() function.
+A real scenario for using lambda functions is to alter the sorting algorithm used by the .sort() function.
 ```python
 numbers = [3, 5, 8, 9]
 # this will sort numbers from lowest to highest
@@ -76,5 +76,5 @@ Build a function that calculates the average of all the arguments passed to the 
 
 ## 2
 * Create a function that accepts kwargs arguments.
-* If the argument "name" is provided, output the message "Hello <name>".
-* If the argument "age" is provided, output the message "You are <age> years old" 
+* If the argument "name" is provided, output the message "Hello " followed by the value of "name".
+* If the argument "age" is provided, output the message "You are _AGE_ years old" where "_AGE_" is the value of the "age" parameter 
