@@ -12,7 +12,7 @@ def my_function():
 
 # calling my_function()
 my_function() 
-```{{exec}}
+```{{copy}}
 Note! The code that should be ran by the function needs to be indented to tell python that the code belongs to the function.
 
 ## Parameter Functions
@@ -23,7 +23,7 @@ def sayHi(name, fav_number):
     print(f"Hi {name.title()}! I heard your favourite number is {fav_number}")
 
 sayHi("james", 4)
-```{{exec}}
+```{{copy}}
 
 Note! It is good programming practice to specify the data type of your parameters. Here is an improved version of the code above.
 ```python
@@ -31,7 +31,7 @@ def sayHi(name: str, fav_number: int):
     print(f"Hi {name.title()}! I heard your favourite number is {fav_number}")
 
 sayHi("james", 4)
-```{{exec}}
+```{{copy}}
 
 The above example shows how you can provide the parameter values in the order they are expected by the function. You can also provide the parameters in any order you like, however, you must then use the name of the parameter.
 
@@ -41,7 +41,7 @@ def sayHi(name: str, fav_number: int):
 
 sayHi("james", 4)
 sayHi(fav_number=4, name="james")
-```{{exec}}
+```{{copy}}
 
 ## Default Parameter Values
 You can define default values for your parameters which can make those paramters optional.
@@ -53,7 +53,7 @@ def sayHi(name: str, fav_number: int = None):
         print(f"I don't know you favourite number")
     else:
         print(f"I heard your favourite number is {fav_number}")
-```{{exec}}
+```{{copy}}
 
 ### Difference between Positional and Keyword Argurments
 Note! There are two types of arguments (parameters), positional and keyword. When you do not define a default value for an argument it is treated as a positional argument. While arguments with a default value are considered as keyword arguments.
@@ -74,7 +74,7 @@ print(f"The number 7 is {get_is_even_number(7)}")
 print(f"The number 10 is {get_is_even_number(10)}")
 print(f"The number 13 is {get_is_even_number(13)}")
 print(f"The number 16 is {get_is_even_number(16)}")
-```{{exec}}
+```{{copy}}
 
 Note! It is good programming practice to also specify the return type of a function. Here is an improved version of the code above.
 
@@ -89,7 +89,7 @@ print(f"The number 7 is {get_is_even_number(7)}")
 print(f"The number 10 is {get_is_even_number(10)}")
 print(f"The number 13 is {get_is_even_number(13)}")
 print(f"The number 16 is {get_is_even_number(16)}")
-```{{exec}}
+```{{copy}}
 
 Note! If your function does not return any value, you should specify the return type as `None`.
 
