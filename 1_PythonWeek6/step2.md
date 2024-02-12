@@ -14,7 +14,7 @@ print(add())
 print(add(1))
 print(add(1, 3))
 print(add(1, 3, 6, 8, 10))
-```{{exec}}
+```{{copy}}
 Notice that the numbers parameter is treated as a tuple.
 
 ## Kwargs
@@ -25,7 +25,7 @@ def display_info(**info) -> None:
     print(info)
 
 display_info(name="james", age=25, fav_colour="green")
- ```{{exec}}
+ ```{{copy}}
 Notice that the info parameter is treated as a dictionary.
 
 ### Checking if a Parameter is Defined Within kwargs
@@ -41,7 +41,7 @@ def display_info(**info) -> None:
 display_info(name="james", age=25, fav_colour="green")
 print() # Print an empty line to create visual seperation
 display_info(age=54, fav_colour="blue")
-```{{exec}}
+```{{copy}}
 
 ## Lambda Functions
 Lambda functions also referred to as anonymous functions are functions that do not have a name assigned to them. They are mostly used for simple 1-line functions that are part of a larger function.
@@ -55,7 +55,7 @@ print(num)
 # The code above is similar to writing
 def add_one_alternative(x):
     return x + 1
-```{{exec}}
+```{{copy}}
 
 ### Real Use Case for Lambda Functions
 A real scenario for using lambda functions is to alter the sorting algorithm used by the .sort() function.
@@ -68,7 +68,7 @@ print(numbers)
 # this will sort numbers from largest to lowest
 numbers.sort(key=lambda x: x * -1)
 print(numbers)
-```{{exec}}
+```{{copy}}
 
 # Exercises:
 ## 1
