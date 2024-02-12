@@ -10,7 +10,7 @@ Note! The filter function returns a filter object, if you wish to keep the items
 nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 multiples_of_3 = list( filter( lambda x: x % 3 == 0, nums ) )
 print(multiples_of_3)
-```{{exec}}
+```{{copy}}
 
 ## Map
 The `map()` function will create a new list by applying a function on each item in another list.
@@ -20,7 +20,7 @@ Note! Similarly to the filter function, the map function returns a map object an
 nums = [1,2,3,4,5,6,7,8,9,10]
 nums_squared = list( map( lambda x: x ** 2, nums ) )
 print(nums_squared)
-```{{exec}}
+```{{copy}}
 
 ## Sorted
 The `sorted()` function returns a sorted copy of the list provided. Similar to the `.sort()` function, lambda functions can be used to alter the sorting function used.
@@ -28,7 +28,7 @@ The `sorted()` function returns a sorted copy of the list provided. Similar to t
 nums = [5, 7, 29, 95, -6, 4, 7, 11, 9]
 nums_largest_to_smallest = sorted( nums, key = lambda x: x * -1 )
 print(nums_largest_to_smallest)
-```{{exec}}
+```{{copy}}
 
 ## Join
 The `.join()` function turns a list into a string.
@@ -43,7 +43,7 @@ print(colours_with_commas)
 print(colours_with_spaces)
 print(colours_with_dashes)
 print(colours_with_words)
-```{{exec}}
+```{{copy}}
 
 ### Using Join on non-string datatypes
 The join function requires all items in the list to be strings. If you have a list with non-string elements, you must first cast them into stings.
@@ -52,7 +52,7 @@ nums = [7, 4, 2, 5, 11, 8, 9]
 string_nums = list( map(str, nums) )
 print(string_nums)
 print( ', '.join(string_nums) )
-```{{exec}}
+```{{copy}}
 
 # Exercises:
 ## 1
