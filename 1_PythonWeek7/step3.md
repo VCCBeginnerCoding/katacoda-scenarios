@@ -30,7 +30,7 @@ Note! If you would like the json string to be indented you can pass the optional
 
 # Exercises
 ## 1
-* Ask the user for their name, favourite colour and favoruite number. Store their answers in a dictionary.
+* Ask the user for their name, favourite colour and favourite number. Store their answers in a dictionary.
 * Store the dictionary as a json file.
 
 ## 2

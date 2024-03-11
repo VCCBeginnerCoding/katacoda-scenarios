@@ -24,7 +24,7 @@ with open("./file2.txt", "a") as file:
 
 ## Creating a New File
 If you want to write to file but only if the file does not already exist you can use the create mode; to do this we set the file mode to `x`.
-Note! You should always use a try-catch statment when opening a file in create mode.
+Note! You should always use a try-catch statement when opening a file in create mode.
 ```python
 try:
     with open("./new_file2.txt", "x") as file:
@@ -49,7 +49,7 @@ To delete a file we need to import the `os` library, from their we can use the `
 ## 1.1
 Create a file using create mode that has 5 lines and each line has a random word.
 ## 1.2
-After closing the file or exiting the with statment. Using the append mode, ask the user for 3 random words 1 by 1 and append them to the file.
+After closing the file or exiting the with statement. Using the append mode, ask the user for 3 random words 1 by 1 and append them to the file.
 ## 1.3
 Display the contents of the file line by line.
 ## 1.4

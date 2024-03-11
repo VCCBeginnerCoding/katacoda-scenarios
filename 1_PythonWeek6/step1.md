@@ -61,7 +61,7 @@ Note! There are two types of arguments (parameters), positional and keyword. Whe
 All your positional arguments must be defined before your keyword arguments.
 
 ## Returning Data
-Functions can also return data; this is achieved using the `return` keyword followed by the data you weant to return.
+Functions can also return data; this is achieved using the `return` keyword followed by the data you want to return.
 
 ```python
 def get_is_even_number(number: int):
