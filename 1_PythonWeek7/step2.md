@@ -47,7 +47,7 @@ To delete a file we need to import the `os` library, from their we can use the `
 
 # Exercises
 ## 1.1
-Create a file using create mode that has 5 lines and each line has a random word.
+Create a file using create mode that has 5 lines and add a random word to each line.
 ## 1.2
 After closing the file or exiting the with statement. Using the append mode, ask the user for 3 random words 1 by 1 and append them to the file.
 ## 1.3
@@ -57,5 +57,5 @@ Ask the user if they want to delete the file, if they say yes, delete the file.
 
 ## 2
 * Create two files, one to store usernames and the other to store passwords.
-* Build a program that allows the user to create an account with a username and password. Make sure thee username does not already exist.
+* Build a program that allows the user to create an account with a username and password. Make sure the username does not already exist.
 * Allow the user to login using their username and password.
