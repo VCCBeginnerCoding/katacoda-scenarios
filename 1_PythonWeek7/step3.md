@@ -7,7 +7,7 @@ In python, if we wish to load the contents of a json file into our program, we c
 import json
 
 with open("./file5.json", "r") as file:
-    json_data = json.load(file.read())
+    json_data = json.load(file)
     print(json_data)
 ```{{exec}}
 
@@ -23,7 +23,7 @@ data = {
 }
 
 with open("./my_json_file.json", "w") as file:
-    json_data = json.dumps(data)]
+    json_data = json.dumps(data)
     file.write(json_data)
 ```{{exec}}
 Note! If you would like the json string to be indented you can pass the optional argument `indent=4` to the "json.dumps()" function.
