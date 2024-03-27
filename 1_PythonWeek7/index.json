@@ -12,13 +12,11 @@
       },
       {
         "title": "Create Files",
-        "text": "step2.md",
-        "foreground": "create_files.sh"
+        "text": "step2.md"
       },
       {
         "title": "JSON Files",
-        "text": "step3.md",
-        "foreground": "create_files.sh"
+        "text": "step3.md"
       }
     ],
     "intro": {
